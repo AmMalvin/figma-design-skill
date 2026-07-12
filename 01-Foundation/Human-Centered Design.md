@@ -383,3 +383,208 @@ Do not design without evidence.
 □ Accessibility needs documented
 
 □ Evidence linked to every major design decision
+
+---
+
+# User Research
+
+## Definition
+
+User research is the systematic process of understanding users, their behaviors, motivations, goals, environments, and challenges through evidence.
+
+Research reduces uncertainty and improves design decisions.
+
+Every significant design decision should be supported by research whenever practical.
+
+---
+
+# Research Principles
+
+Always:
+
+- Research before designing.
+- Validate assumptions.
+- Seek evidence over opinions.
+- Include diverse participants.
+- Document findings.
+- Share insights with stakeholders.
+
+Never:
+
+- Design from assumptions alone.
+- Ignore conflicting evidence.
+- Cherry-pick research findings.
+- Generalize from one participant.
+
+---
+
+# Research Objectives
+
+Research should answer:
+
+- Who are the users?
+- What are they trying to accomplish?
+- Why are they doing it?
+- What prevents success?
+- What motivates them?
+- Which accessibility needs exist?
+- Which business goals are affected?
+
+---
+
+# Research Methods
+
+## User Interviews
+
+Purpose:
+
+Understand goals, motivations, expectations, and frustrations through structured conversations.
+
+Best Practices:
+
+- Ask open-ended questions.
+- Encourage storytelling.
+- Listen more than you speak.
+- Avoid leading questions.
+- Explore root causes.
+
+Outputs:
+
+- Quotes
+- Themes
+- Pain points
+- User needs
+- Opportunities
+
+---
+
+## Observation
+
+Purpose:
+
+Study what users do instead of relying only on what they say.
+
+Observe:
+
+- Behaviors
+- Workflows
+- Interruptions
+- Workarounds
+- Environmental factors
+
+Behavior often reveals problems users cannot clearly explain.
+
+---
+
+## Contextual Inquiry
+
+Purpose:
+
+Observe users while they complete real tasks in their natural environment.
+
+Document:
+
+- Goals
+- Context
+- Tools
+- Interruptions
+- Collaboration
+- Constraints
+
+Context often explains why seemingly good designs fail.
+
+---
+
+## Surveys
+
+Purpose:
+
+Collect structured feedback from larger groups.
+
+Use surveys to:
+
+- Measure satisfaction
+- Validate findings
+- Prioritize problems
+- Discover trends
+
+Do not rely on surveys alone to understand complex behaviors.
+
+---
+
+## Usability Testing
+
+Purpose:
+
+Evaluate whether users can successfully complete realistic tasks.
+
+Measure:
+
+- Task success
+- Task completion time
+- Errors
+- Confidence
+- Satisfaction
+
+Test the design, not the participant.
+
+---
+
+# Research Synthesis
+
+After research, organize findings into:
+
+- Themes
+- Insights
+- Opportunities
+- Risks
+- Recommendations
+
+Evidence should be grouped by patterns rather than isolated comments.
+
+---
+
+# Assumptions
+
+Classify assumptions as:
+
+- Validated
+- Unvalidated
+- Invalidated
+
+Design decisions should prioritize validated knowledge.
+
+---
+
+# AI Decision Rules
+
+Before beginning interface design, answer:
+
+- Which research methods informed this work?
+- Which findings support the decision?
+- Which assumptions remain unvalidated?
+- Which user groups were included?
+- Which accessibility considerations emerged?
+- Which opportunities deserve further exploration?
+
+If research is missing, recommend appropriate research activities before finalizing major design decisions.
+
+---
+
+# Validation Checklist
+
+□ Research objectives defined
+
+□ Appropriate methods selected
+
+□ Findings documented
+
+□ Insights synthesized
+
+□ Assumptions reviewed
+
+□ Accessibility considerations identified
+
+□ Opportunities prioritized
+
+□ Recommendations supported by evidence
