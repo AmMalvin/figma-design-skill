@@ -218,3 +218,208 @@ Do not advance until each stage is complete.
 □ Insights documented
 
 □ Iteration planned
+
+
+---
+
+# Problem Framing
+
+## Definition
+
+Problem framing is the process of identifying the real problem before attempting to solve it.
+
+Poorly framed problems produce poor solutions.
+
+Well-framed problems produce better design outcomes.
+
+---
+
+# Problem Statements
+
+Every problem statement should answer:
+
+- Who experiences the problem?
+- What problem exists?
+- Where does it occur?
+- When does it occur?
+- Why does it matter?
+- What evidence supports it?
+
+Use facts instead of opinions.
+
+---
+
+# Root Cause Analysis
+
+Never solve symptoms.
+
+Always identify root causes.
+
+Methods include:
+
+- Five Whys
+- Cause and Effect Analysis
+- Journey Analysis
+- Behavioral Analysis
+- Data Analysis
+
+The AI must continue investigating until the underlying cause is identified.
+
+---
+
+# Five Whys
+
+Purpose:
+
+Reveal the underlying cause of a problem through repeated questioning.
+
+Workflow
+
+Problem
+
+↓
+
+Why?
+
+↓
+
+Answer
+
+↓
+
+Why?
+
+↓
+
+Answer
+
+↓
+
+Why?
+
+↓
+
+Answer
+
+↓
+
+Root Cause
+
+Stop when additional "Why" questions no longer reveal meaningful insights.
+
+---
+
+# How Might We Statements
+
+Purpose
+
+Transform problems into opportunities.
+
+Structure
+
+How might we...
+
+- Reduce...
+- Improve...
+- Simplify...
+- Encourage...
+- Enable...
+- Prevent...
+
+Good statements are:
+
+- Human-centered
+- Open-ended
+- Actionable
+- Specific
+
+Avoid suggesting solutions within the statement.
+
+---
+
+# Assumption Mapping
+
+Every project contains assumptions.
+
+Classify each assumption as:
+
+### Known
+
+Supported by evidence.
+
+### Unknown
+
+Requires research.
+
+### Risky
+
+Could significantly affect the outcome if incorrect.
+
+High-risk assumptions should be validated first.
+
+---
+
+# Constraints
+
+Identify:
+
+- Business constraints
+- Technical constraints
+- Accessibility constraints
+- Legal constraints
+- Time constraints
+- Budget constraints
+- Platform constraints
+
+Constraints guide design decisions rather than limiting creativity.
+
+---
+
+# Opportunity Framing
+
+Every validated problem should produce one or more opportunities.
+
+Document:
+
+- User benefit
+- Business benefit
+- System impact
+- Engineering impact
+- Accessibility impact
+
+Prioritize opportunities with the highest combined value.
+
+---
+
+# AI Decision Rules
+
+Before generating solutions, answer:
+
+- Is the problem clearly defined?
+- Is the root cause understood?
+- Are assumptions documented?
+- Are constraints identified?
+- Has the opportunity been validated?
+- Is there evidence supporting the problem?
+
+Never begin ideation until these questions are answered.
+
+---
+
+# Validation Checklist
+
+□ Problem statement written
+
+□ Root cause identified
+
+□ Five Whys completed where appropriate
+
+□ How Might We statement created
+
+□ Assumptions classified
+
+□ Constraints documented
+
+□ Opportunities identified
+
+□ Evidence linked
