@@ -190,3 +190,253 @@ If any answer is negative, revise the solution.
 □ Error prevention reviewed
 
 □ User confidence improved
+
+
+---
+
+# Attention
+
+## Definition
+
+Attention is the brain's ability to selectively process information while ignoring irrelevant stimuli.
+
+Attention is limited.
+
+Every interface competes for the user's attention.
+
+Good design guides attention.
+
+Poor design scatters it.
+
+---
+
+# Types of Attention
+
+## Selective Attention
+
+The ability to focus on one item while ignoring distractions.
+
+Design should:
+
+- Highlight important actions.
+- Reduce visual clutter.
+- Establish clear hierarchy.
+- Remove unnecessary elements.
+
+---
+
+## Sustained Attention
+
+The ability to maintain focus over time.
+
+Support sustained attention by:
+
+- Breaking long tasks into smaller steps.
+- Showing progress.
+- Providing feedback.
+- Reducing interruptions.
+
+---
+
+## Divided Attention
+
+Attempting multiple tasks simultaneously.
+
+Interfaces should avoid requiring divided attention.
+
+Never force users to:
+
+- Read while navigating.
+- Compare distant information.
+- Monitor several unrelated elements simultaneously.
+
+---
+
+# Perception
+
+## Definition
+
+Perception is how the brain interprets sensory information.
+
+Users do not experience interfaces exactly as they are designed.
+
+Users experience what they perceive.
+
+Design must optimize perception instead of decoration.
+
+---
+
+# Pattern Recognition
+
+Humans naturally search for familiar patterns.
+
+The AI should:
+
+- Reuse established UI patterns.
+- Maintain consistency.
+- Respect platform conventions.
+- Avoid unnecessary novelty.
+
+Recognition is faster than interpretation.
+
+---
+
+# Working Memory
+
+## Definition
+
+Working memory temporarily stores information required to complete a task.
+
+Working memory is limited.
+
+Interfaces should reduce reliance on memory.
+
+---
+
+## Design Rules
+
+Never require users to remember:
+
+- Previous screens
+- Hidden information
+- Long instructions
+- Temporary codes
+- Multiple values
+
+Instead:
+
+- Display important information.
+- Use progressive disclosure.
+- Provide contextual reminders.
+- Keep related information together.
+
+---
+
+# Long-Term Memory
+
+Long-term memory stores learned knowledge.
+
+Good interfaces build familiarity over time.
+
+Support long-term memory through:
+
+- Consistent layouts
+- Familiar navigation
+- Repeated interaction patterns
+- Predictable terminology
+
+Consistency strengthens learning.
+
+---
+
+# Recognition vs Recall
+
+Recognition means users identify information that is visible.
+
+Recall means users retrieve information from memory.
+
+Recognition always has higher priority.
+
+Examples:
+
+Prefer:
+
+- Menus
+- Suggestions
+- Search results
+- Icons with labels
+- Auto-complete
+
+Avoid requiring:
+
+- Memorized commands
+- Hidden gestures
+- Complex navigation paths
+- Long command sequences
+
+---
+
+# Information Chunking
+
+People understand grouped information more easily than isolated items.
+
+Organize content into logical chunks.
+
+Group by:
+
+- Meaning
+- Function
+- Priority
+- Workflow
+- Context
+
+Avoid overwhelming users with large blocks of unrelated information.
+
+---
+
+# Learning
+
+Interfaces should become easier with repeated use.
+
+Support learning through:
+
+- Consistency
+- Immediate feedback
+- Clear terminology
+- Progressive disclosure
+- Helpful defaults
+
+Every interaction should improve future interactions.
+
+---
+
+# Cognitive Effort
+
+Every screen introduces cognitive cost.
+
+The AI should reduce effort by:
+
+- Removing unnecessary choices.
+- Reducing visual clutter.
+- Simplifying navigation.
+- Prioritizing important information.
+- Using familiar language.
+- Eliminating duplicate actions.
+
+Every unnecessary decision increases cognitive effort.
+
+---
+
+# AI Decision Rules
+
+Before approving any interface, answer:
+
+- Is attention focused?
+- Is perception clear?
+- Is memory supported?
+- Is recognition prioritized?
+- Is information grouped logically?
+- Does the interface reduce thinking?
+- Can new users understand it immediately?
+
+Revise until every answer is positive.
+
+---
+
+# Validation Checklist
+
+□ Attention guided
+
+□ Visual distractions removed
+
+□ Working memory supported
+
+□ Recognition prioritized
+
+□ Recall minimized
+
+□ Information chunked
+
+□ Learning supported
+
+□ Cognitive effort minimized
