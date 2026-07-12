@@ -692,3 +692,266 @@ If any answer is unknown, investigate before proceeding.
 □ Experiment plan identified
 
 □ Existing system assets reviewed
+
+---
+
+# Product Lifecycle
+
+## Definition
+
+Every feature progresses through a lifecycle.
+
+The AI must identify the current lifecycle stage before making design decisions.
+
+The stages are:
+
+- Discovery
+- Validation
+- Planning
+- Design
+- Development
+- Testing
+- Release
+- Measurement
+- Optimization
+- Deprecation
+
+Every stage has different objectives.
+
+---
+
+# Feature Lifecycle
+
+Every feature should move through the following sequence:
+
+Problem
+
+↓
+
+Research
+
+↓
+
+Opportunity
+
+↓
+
+Hypothesis
+
+↓
+
+Prototype
+
+↓
+
+Validation
+
+↓
+
+Implementation
+
+↓
+
+Measurement
+
+↓
+
+Iteration
+
+↓
+
+Retirement
+
+The AI must never skip stages without documented justification.
+
+---
+
+# North Star Metric
+
+## Definition
+
+A North Star Metric represents the single most important measurement of long-term product success.
+
+Examples include:
+
+- Weekly active users
+- Successful transactions
+- Completed bookings
+- Messages sent
+- Learning sessions completed
+
+Every feature should contribute toward improving the North Star Metric.
+
+---
+
+# Supporting Metrics
+
+Track supporting metrics alongside the North Star.
+
+Examples:
+
+- Activation Rate
+- Conversion Rate
+- Feature Adoption
+- Retention Rate
+- Task Success Rate
+- Error Rate
+- Customer Satisfaction
+- Net Promoter Score
+
+Supporting metrics explain why the North Star changes.
+
+---
+
+# HEART Framework
+
+Evaluate user experience using:
+
+- Happiness
+- Engagement
+- Adoption
+- Retention
+- Task Success
+
+The AI should recommend HEART metrics for every major feature.
+
+---
+
+# Pirate Metrics (AARRR)
+
+For growth-focused products evaluate:
+
+- Acquisition
+- Activation
+- Retention
+- Referral
+- Revenue
+
+Every product feature should influence at least one stage.
+
+---
+
+# Continuous Discovery
+
+Discovery does not end after launch.
+
+Continuously collect:
+
+- User interviews
+- Support tickets
+- Analytics
+- Session recordings
+- Usability studies
+- Customer feedback
+- Developer feedback
+
+Design decisions should evolve with new evidence.
+
+---
+
+# Product Health
+
+A healthy product demonstrates:
+
+- High usability
+- Strong accessibility
+- Stable performance
+- Low support volume
+- High adoption
+- Strong retention
+- Consistent design
+- Reliable documentation
+
+Weakness in one area often affects the others.
+
+---
+
+# Product Reviews
+
+Review every significant feature after release.
+
+Evaluate:
+
+- Business impact
+- User impact
+- Accessibility
+- Engineering quality
+- Analytics
+- Documentation
+- Design system compliance
+
+Use findings to improve future work.
+
+---
+
+# AI Product Decision Engine
+
+Before recommending any feature, answer:
+
+- Does it solve a validated problem?
+- Does it align with product strategy?
+- Does it support business goals?
+- Does it improve user outcomes?
+- Can existing system assets be reused?
+- Is it technically feasible?
+- Is it accessible?
+- Is it measurable?
+- Is it maintainable?
+- Is it scalable?
+
+If any answer is "No" or "Unknown", revisit the proposal before continuing.
+
+---
+
+# Product Thinking Checklist
+
+Before completing any feature:
+
+□ Problem validated
+
+□ User research reviewed
+
+□ Business objective defined
+
+□ Product objective defined
+
+□ Success metrics documented
+
+□ Constraints identified
+
+□ Existing components reviewed
+
+□ Existing patterns reviewed
+
+□ Existing tokens reviewed
+
+□ Accessibility reviewed
+
+□ Analytics plan defined
+
+□ Documentation updated
+
+□ Validation completed
+
+□ Long-term maintenance considered
+
+□ Scalability reviewed
+
+---
+
+# Key Takeaways
+
+The AI must never optimize for visual appearance alone.
+
+Every recommendation must balance:
+
+- User value
+- Business value
+- Technical feasibility
+- Accessibility
+- Scalability
+- Maintainability
+- Design system consistency
+- Measurable outcomes
+
+Product Thinking is the decision-making framework that guides every design activity within this repository.
