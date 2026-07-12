@@ -1761,11 +1761,300 @@ Changes must be made at the source rather than copied into multiple locations.
 
 Reference shared modules instead of duplicating their content.
 
-# Conflict Resolution
 
-When two principles conflict, always resolve them in this order.
+---
 
+# Validation Principles
 
-Universal Checklist
+## Principle 66. Validate Continuously
+
+### Statement
+
+Validation is an ongoing activity performed throughout the design lifecycle, not a single event before release.
+
+### Intent
+
+Issues identified early reduce rework, improve quality, and increase confidence in the design system.
+
+### Rules
+
+- Validate after every major decision.
+- Review before publishing.
+- Validate components independently and within patterns.
+- Document all findings.
+
+### AI Instructions
+
+Run validation after every completed phase before moving to the next.
+
+---
+
+## Principle 67. Evidence Over Opinion
+
+### Statement
+
+Design decisions shall be supported by evidence whenever practical.
+
+### Intent
+
+Objective evidence produces stronger products than personal preference.
+
+### Rules
+
+Accept evidence from:
+
+- User research
+- Usability testing
+- Accessibility testing
+- Analytics
+- Product metrics
+- Engineering constraints
+
+Avoid subjective reasoning when measurable evidence exists.
+
+### AI Instructions
+
+Always explain decisions using evidence instead of personal preference.
+
+---
+
+## Principle 68. Test Before Release
+
+### Statement
+
+No reusable asset should be published without validation.
+
+### Intent
+
+Testing reduces defects and improves adoption.
+
+### Rules
+
+Every release must include:
+
+- Functional review
+- Accessibility review
+- Visual review
+- Documentation review
+- Engineering review
+
+### AI Instructions
+
+Do not mark an asset as complete until all review gates pass.
+
+---
+
+## Principle 69. Learn From Every Release
+
+### Statement
+
+Every release should improve the design system.
+
+### Intent
+
+Design systems evolve through observation and continuous improvement.
+
+### Rules
+
+Collect:
+
+- Adoption metrics
+- User feedback
+- Bug reports
+- Accessibility issues
+- Developer feedback
+
+### AI Instructions
+
+Record improvements for the next release cycle.
+
+---
+
+## Principle 70. Quality Is Never Finished
+
+### Statement
+
+A design system requires continuous maintenance.
+
+### Intent
+
+Quality should improve over time rather than remain static.
+
+### Rules
+
+Review assets regularly.
+
+Retire outdated guidance.
+
+Improve documentation continuously.
+
+### AI Instructions
+
+Treat every published asset as a living artifact.
+
+---
+
+# Repository Enforcement Rules
+
+These rules apply to every module in the repository.
+
+The AI must never:
+
+- Skip user research when required.
+- Skip accessibility validation.
+- Skip documentation.
+- Create duplicate components.
+- Create duplicate variables.
+- Hardcode reusable design values.
+- Ignore platform conventions.
+- Introduce inconsistent naming.
+- Publish undocumented assets.
+- Remove reusable assets without a migration strategy.
+
+The AI must always:
+
+- Think before designing.
+- Reuse before creating.
+- Validate before publishing.
+- Document while building.
+- Use semantic variables.
+- Follow repository naming conventions.
+- Maintain a single source of truth.
+- Consider scalability.
+- Consider maintainability.
+- Protect system integrity.
+
+---
+
+# Principle Conflict Resolution
+
+When two principles conflict, resolve them in the following order:
+
+1. User safety
+2. Accessibility
+3. User needs
+4. Business objectives
+5. Product strategy
+6. System integrity
+7. Consistency
+8. Scalability
+9. Maintainability
+10. Visual refinement
+
+Higher priorities always override lower priorities.
+
+---
+
+# Universal Design Review Checklist
+
+Every design must answer "Yes" to the following questions before it is considered complete.
+
+## User
+
+□ Does this solve a real user problem?
+
+□ Is the workflow understandable?
+
+□ Is the experience efficient?
+
+□ Is the interface predictable?
+
+---
+
+## Accessibility
+
+□ Is WCAG compliance satisfied?
+
+□ Is contrast sufficient?
+
+□ Can keyboard users complete the task?
+
+□ Are touch targets appropriate?
+
+□ Does the interface support assistive technologies?
+
+---
+
+## Visual Design
+
+□ Is hierarchy clear?
+
+□ Is spacing consistent?
+
+□ Is typography consistent?
+
+□ Is alignment correct?
+
+□ Is color meaningful?
+
+---
+
+## Design System
+
+□ Are semantic tokens used?
+
+□ Are variables used correctly?
+
+□ Are existing components reused?
+
+□ Are naming conventions followed?
+
+□ Are patterns consistent?
+
+---
+
+## Documentation
+
+□ Is the purpose documented?
+
+□ Is usage documented?
+
+□ Are variants documented?
+
+□ Are accessibility notes included?
+
+□ Are engineering notes included?
+
+---
+
+## Governance
+
+□ Has the change been reviewed?
+
+□ Has version history been updated?
+
+□ Has the changelog been updated?
+
+□ Has ownership been assigned?
+
+---
+
+# Definition of Compliance
+
+A design artifact is considered compliant only when:
+
+- Every applicable principle has been satisfied.
+- Required documentation is complete.
+- Validation has passed.
+- Accessibility requirements are met.
+- Engineering feasibility has been confirmed.
+- The design strengthens, rather than weakens, the design system.
+
+Failure to satisfy any mandatory requirement prevents publication.
+
+---
+
+# Closing Statement
+
+These Universal Design Principles form the governing constitution of this Design System Skill.
+
+Every module, workflow, component, pattern, variable, token, documentation page, and future contribution inherits these principles by default.
+
+No module may contradict these principles.
+
+Where a module introduces additional rules, those rules extend these principles and never replace them.
+
+The integrity of the design system depends on consistent application of these principles across every stage of discovery, design, validation, documentation, implementation, maintenance, and governance.
+
 
 References
