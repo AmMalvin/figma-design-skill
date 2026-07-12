@@ -670,3 +670,278 @@ Reject solutions that were never compared with alternatives.
 □ Alternatives compared
 
 □ Final concept justified
+
+
+---
+
+# Concept Evaluation
+
+## Definition
+
+Concept evaluation is the structured process of comparing multiple solution concepts before selecting one for implementation.
+
+The AI must never choose a concept based on aesthetics alone.
+
+Every concept should be evaluated using objective criteria.
+
+---
+
+# Evaluation Criteria
+
+Evaluate every concept using:
+
+- User Value
+- Business Value
+- Technical Feasibility
+- Accessibility
+- Scalability
+- Maintainability
+- Design System Alignment
+- Implementation Cost
+- Risk
+- Long-term Sustainability
+
+---
+
+# Decision Matrix
+
+Purpose:
+
+Compare multiple concepts objectively.
+
+Score every concept using weighted criteria.
+
+Typical Criteria:
+
+- User Impact
+- Business Impact
+- Engineering Complexity
+- Accessibility
+- Performance
+- Cost
+- Scalability
+- Confidence
+
+Select the highest overall value rather than the most visually attractive solution.
+
+---
+
+# Trade-off Analysis
+
+Every selected concept should include documented trade-offs.
+
+Examples:
+
+- Simplicity vs Flexibility
+- Speed vs Accuracy
+- Performance vs Rich Features
+- Consistency vs Innovation
+- Customization vs Maintainability
+
+Every trade-off should explain why it was accepted.
+
+---
+
+# Prototype Strategy
+
+Prototype only what needs validation.
+
+Choose the appropriate fidelity.
+
+---
+
+## Low Fidelity
+
+Purpose:
+
+Validate:
+
+- Structure
+- Information Architecture
+- User Flows
+- Navigation
+- Task Completion
+
+Use:
+
+- Sketches
+- Wireframes
+- Paper Prototypes
+
+---
+
+## Mid Fidelity
+
+Purpose:
+
+Validate:
+
+- Layout
+- Component Structure
+- Interaction Flow
+- Hierarchy
+
+---
+
+## High Fidelity
+
+Purpose:
+
+Validate:
+
+- Visual Design
+- Motion
+- Branding
+- Microinteractions
+- Accessibility
+- Realistic User Experience
+
+High-fidelity prototypes should closely represent production quality.
+
+---
+
+# Prototype Principles
+
+Every prototype should:
+
+- Test a hypothesis.
+- Answer specific questions.
+- Minimize unnecessary work.
+- Be easy to revise.
+- Support usability testing.
+
+Avoid building high-fidelity prototypes before validating fundamental concepts.
+
+---
+
+# Testing Strategy
+
+Test:
+
+- Early
+- Frequently
+- With real users
+- Against realistic tasks
+
+Collect both qualitative and quantitative feedback.
+
+---
+
+# Design Critique
+
+Every critique should evaluate:
+
+- Problem alignment
+- User needs
+- Business goals
+- Accessibility
+- Visual hierarchy
+- Consistency
+- Component usage
+- Interaction quality
+- Documentation
+- Scalability
+
+Feedback should focus on the work, never the designer.
+
+---
+
+# Iteration
+
+Iteration is continuous.
+
+Each cycle should improve:
+
+- Usability
+- Accessibility
+- Clarity
+- Performance
+- Consistency
+- User Satisfaction
+
+Every iteration should be supported by evidence.
+
+---
+
+# Innovation Principles
+
+Encourage innovation by:
+
+- Challenging assumptions
+- Exploring alternatives
+- Combining ideas
+- Learning from adjacent industries
+- Experimenting safely
+- Validating continuously
+
+Innovation should improve outcomes rather than introduce unnecessary novelty.
+
+---
+
+# AI Design Thinking Engine
+
+Before approving any solution, answer:
+
+- Was the problem validated?
+- Were multiple concepts explored?
+- Was objective evaluation completed?
+- Was a prototype created?
+- Was user testing performed?
+- Were findings documented?
+- Were iterations completed?
+- Does the final solution outperform the alternatives?
+- Does it align with the design system?
+- Is it ready for implementation?
+
+Do not finalize a solution until every answer supports the decision.
+
+---
+
+# Design Thinking Checklist
+
+Before completing any design challenge:
+
+□ Problem framed
+
+□ Root cause identified
+
+□ User research reviewed
+
+□ Multiple ideas explored
+
+□ Concepts compared
+
+□ Decision matrix completed
+
+□ Prototype created
+
+□ Testing completed
+
+□ Feedback documented
+
+□ Iteration completed
+
+□ Accessibility reviewed
+
+□ Design system compliance confirmed
+
+□ Documentation updated
+
+□ Final solution validated
+
+---
+
+# Key Takeaways
+
+Design Thinking is a continuous learning process.
+
+The AI must:
+
+- Understand before solving.
+- Explore before deciding.
+- Prototype before building.
+- Test before releasing.
+- Measure before celebrating.
+- Iterate continuously.
+
+Every solution should be evidence-based, human-centered, measurable, scalable, and aligned with the design system.
