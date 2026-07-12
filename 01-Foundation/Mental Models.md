@@ -201,3 +201,197 @@ If the answer is unclear, prefer established patterns.
 □ Confidence increased
 
 □ Documentation updated
+
+
+---
+
+# Jakob's Law
+
+## Definition
+
+Users spend most of their time using other digital products.
+
+They expect your product to work similarly to products they already know.
+
+The AI should leverage existing mental models whenever practical.
+
+Innovation should improve user outcomes, not increase learning effort.
+
+---
+
+# Applying Jakob's Law
+
+Always:
+
+- Follow platform conventions.
+- Reuse familiar interaction patterns.
+- Maintain predictable navigation.
+- Keep common actions where users expect them.
+- Preserve established terminology.
+
+Avoid changing familiar interactions unless there is measurable evidence that the new approach is superior.
+
+---
+
+# Recognition vs Recall
+
+Recognition requires users to identify visible information.
+
+Recall requires users to retrieve information from memory.
+
+Recognition should always be preferred.
+
+Examples:
+
+Prefer:
+
+- Visible navigation
+- Search suggestions
+- Auto-complete
+- Saved history
+- Labeled icons
+
+Avoid:
+
+- Hidden commands
+- Memorized shortcuts
+- Invisible gestures
+- Complex navigation paths
+
+Recognition reduces learning effort.
+
+---
+
+# Transfer Learning
+
+## Definition
+
+Transfer learning occurs when knowledge gained from one product helps users understand another.
+
+Examples:
+
+- Shopping carts
+- Search icons
+- Profile avatars
+- Settings pages
+- Bottom navigation
+- Breadcrumb navigation
+
+Support transfer learning by maintaining familiar patterns.
+
+---
+
+# Platform Conventions
+
+Users expect different conventions on different platforms.
+
+Respect conventions for:
+
+- Web
+- iOS
+- Android
+- Desktop
+- Tablet
+- Wearables
+
+Never force one platform to imitate another without strong evidence.
+
+---
+
+# Conceptual Models
+
+A conceptual model explains how a system works.
+
+Users build conceptual models from:
+
+- Navigation
+- Labels
+- Visual hierarchy
+- Feedback
+- States
+- Documentation
+
+Strong conceptual models allow users to predict outcomes before taking action.
+
+---
+
+# Discoverability
+
+Features should be easy to find.
+
+Improve discoverability through:
+
+- Clear navigation
+- Visible controls
+- Logical grouping
+- Progressive disclosure
+- Familiar labels
+- Strong hierarchy
+
+Hidden functionality should remain the exception.
+
+---
+
+# Learnability
+
+Interfaces should become easier over time.
+
+Improve learnability through:
+
+- Consistency
+- Familiar workflows
+- Repetition
+- Immediate feedback
+- Predictable behavior
+
+Every interaction should reinforce future understanding.
+
+---
+
+# Predictability
+
+Users should accurately predict the result of every action.
+
+Predictability requires:
+
+- Consistent layouts
+- Consistent interactions
+- Stable navigation
+- Clear labels
+- Reliable feedback
+
+Unexpected behavior reduces trust.
+
+---
+
+# AI Decision Rules
+
+Before approving any interaction, answer:
+
+- Will users immediately recognize this?
+- Does it match established conventions?
+- Does it reduce learning effort?
+- Does it strengthen the user's mental model?
+- Can users predict the outcome?
+
+If not, redesign the interaction.
+
+---
+
+# Validation Checklist
+
+□ Jakob's Law respected
+
+□ Recognition prioritized
+
+□ Transfer learning supported
+
+□ Platform conventions followed
+
+□ Conceptual model strengthened
+
+□ Discoverability improved
+
+□ Learnability improved
+
+□ Predictability maintained
