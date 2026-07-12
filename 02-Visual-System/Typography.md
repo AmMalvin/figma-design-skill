@@ -451,3 +451,304 @@ Revise until every answer is positive.
 □ Performance reviewed
 
 □ Documentation updated
+
+---
+
+# Typography Anatomy
+
+## Definition
+
+Typography anatomy describes the structural parts of individual letterforms.
+
+Understanding typography anatomy helps the AI evaluate readability, accessibility, and visual consistency.
+
+Typography decisions should be based on structure rather than appearance.
+
+---
+
+# Baseline
+
+## Definition
+
+The baseline is the invisible line on which most letters rest.
+
+A consistent baseline creates:
+
+- Alignment
+- Rhythm
+- Readability
+
+Text should align to a common baseline whenever possible.
+
+---
+
+# Cap Height
+
+Cap height is the height of uppercase letters measured from the baseline.
+
+Cap height influences:
+
+- Visual balance
+- Heading appearance
+- Alignment
+
+Cap height should remain consistent within a typeface.
+
+---
+
+# X-Height
+
+## Definition
+
+X-height is the height of lowercase letters excluding ascenders and descenders.
+
+Large x-heights improve:
+
+- Small text readability
+- Interface legibility
+- Mobile usability
+
+For UI design, prefer typefaces with generous x-heights.
+
+---
+
+# Ascenders
+
+Ascenders extend above the x-height.
+
+Examples:
+
+- b
+- d
+- h
+- k
+- l
+
+Ascenders improve character recognition.
+
+---
+
+# Descenders
+
+Descenders extend below the baseline.
+
+Examples:
+
+- g
+- j
+- p
+- q
+- y
+
+Ensure sufficient line height so descenders never collide with adjacent text.
+
+---
+
+# Stem
+
+A stem is the primary vertical stroke of a character.
+
+Stem thickness contributes to:
+
+- Font weight
+- Readability
+- Visual personality
+
+---
+
+# Stroke
+
+A stroke is any line forming part of a letter.
+
+Stroke consistency improves:
+
+- Legibility
+- Recognition
+- Visual harmony
+
+---
+
+# Counter
+
+Counters are enclosed or partially enclosed spaces inside letters.
+
+Examples:
+
+- o
+- e
+- a
+- d
+- p
+
+Large counters improve readability at smaller sizes.
+
+---
+
+# Aperture
+
+An aperture is the opening of partially enclosed letters.
+
+Examples:
+
+- c
+- e
+- s
+
+Open apertures improve clarity on digital screens.
+
+---
+
+# Bowl
+
+A bowl is the curved enclosed portion of a letter.
+
+Examples:
+
+- b
+- d
+- o
+- p
+
+Bowls should remain visually balanced.
+
+---
+
+# Terminal
+
+A terminal is the end of a stroke without a serif.
+
+Terminal shape contributes to the overall personality of the typeface.
+
+---
+
+# Serif
+
+Serifs are decorative finishing strokes.
+
+They influence:
+
+- Tone
+- Tradition
+- Reading experience
+
+Serifs should match the product context.
+
+---
+
+# Glyph
+
+A glyph is the visual representation of a character.
+
+One character may have multiple glyphs.
+
+Support complete glyph sets for:
+
+- Localization
+- Accessibility
+- Internationalization
+
+---
+
+# Stroke Contrast
+
+Stroke contrast is the difference between thick and thin strokes.
+
+High contrast creates:
+
+- Elegant appearance
+- Editorial feel
+
+Low contrast creates:
+
+- Better screen readability
+- Modern interfaces
+
+UI typography generally benefits from moderate to low stroke contrast.
+
+---
+
+# Legibility
+
+Legibility measures how easily individual characters can be distinguished.
+
+Improve legibility through:
+
+- Open counters
+- Large x-height
+- Clear apertures
+- Consistent strokes
+- Appropriate font size
+
+Legibility is a property of the typeface.
+
+---
+
+# Readability
+
+Readability measures how easily larger blocks of text can be understood.
+
+Improve readability through:
+
+- Proper line length
+- Appropriate line height
+- Clear hierarchy
+- Consistent spacing
+- Logical structure
+
+Readability is a property of the overall layout.
+
+---
+
+# Character Recognition
+
+Every character should remain distinguishable.
+
+Avoid confusing pairs such as:
+
+- I and l
+- O and 0
+- 1 and l
+
+Choose fonts with clear differentiation for interface text.
+
+---
+
+# AI Typography Analysis Engine
+
+Before selecting a typeface, answer:
+
+- Is the x-height suitable?
+- Are counters sufficiently open?
+- Are apertures clear?
+- Is stroke contrast appropriate?
+- Are glyphs complete?
+- Is legibility maintained at small sizes?
+- Is readability preserved across long content?
+
+Revise until every answer is positive.
+
+---
+
+# Validation Checklist
+
+□ Baseline reviewed
+
+□ Cap height evaluated
+
+□ X-height reviewed
+
+□ Ascenders and descenders validated
+
+□ Counters reviewed
+
+□ Apertures reviewed
+
+□ Stroke contrast evaluated
+
+□ Glyph coverage verified
+
+□ Legibility confirmed
+
+□ Readability validated
+
+□ Documentation updated
