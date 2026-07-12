@@ -554,3 +554,277 @@ Revise until every answer is positive.
 □ Temperature evaluated
 
 □ Palette documented
+
+
+---
+
+# Color Psychology
+
+## Definition
+
+Color influences perception, attention, trust, urgency, and emotion.
+
+Color should reinforce communication.
+
+Color should never replace clear content.
+
+Psychological effects vary across cultures and contexts.
+
+Always validate color choices against the product's audience.
+
+---
+
+# Brand Color Strategy
+
+Brand colors represent identity.
+
+Brand colors should:
+
+- Strengthen recognition
+- Differentiate the product
+- Build trust
+- Support consistency
+
+Brand colors should not dominate every interface.
+
+Use them intentionally.
+
+---
+
+# Semantic Color System
+
+Semantic colors describe purpose instead of appearance.
+
+Examples:
+
+- Primary
+- Secondary
+- Success
+- Warning
+- Error
+- Info
+- Background
+- Surface
+- Border
+- Text
+- Link
+- Focus
+
+Semantic tokens should reference primitive tokens.
+
+Never assign raw color values directly to components.
+
+---
+
+# Functional Colors
+
+Functional colors communicate system behavior.
+
+Examples:
+
+Success
+
+- Completed actions
+- Confirmations
+- Positive status
+
+Warning
+
+- Caution
+- Pending issues
+- Temporary risks
+
+Error
+
+- Failures
+- Validation problems
+- Critical alerts
+
+Info
+
+- Guidance
+- Neutral notifications
+- Helpful information
+
+Every functional color should have a single purpose.
+
+---
+
+# Neutral Color System
+
+Neutral colors form the majority of the interface.
+
+Use neutrals for:
+
+- Backgrounds
+- Surfaces
+- Cards
+- Containers
+- Borders
+- Text
+- Dividers
+
+Most interfaces should contain more neutral colors than accent colors.
+
+---
+
+# Surface Colors
+
+Surface colors define layers.
+
+Examples:
+
+- Page Background
+- Card
+- Modal
+- Sidebar
+- Navigation
+- Tooltip
+- Popover
+
+Adjacent surfaces should remain visually distinguishable.
+
+---
+
+# Text Colors
+
+Text colors should define hierarchy.
+
+Common semantic roles:
+
+- Text Primary
+- Text Secondary
+- Text Tertiary
+- Text Disabled
+- Text Inverse
+- Text Link
+
+Never rely on low contrast for hierarchy.
+
+---
+
+# Border Colors
+
+Border colors communicate:
+
+- Separation
+- Focus
+- Active state
+- Validation
+- Structure
+
+Borders should support layout, not dominate it.
+
+---
+
+# Interactive Colors
+
+Interactive colors define user actions.
+
+Examples:
+
+- Primary Button
+- Secondary Button
+- Hover
+- Active
+- Pressed
+- Focus
+- Selected
+
+Interactive colors should remain consistent across all components.
+
+---
+
+# Status Colors
+
+Status colors communicate application state.
+
+Examples:
+
+- Online
+- Offline
+- Active
+- Inactive
+- Processing
+- Completed
+- Failed
+- Paused
+
+Status should never depend on color alone.
+
+Always pair color with text, icons, or other indicators.
+
+---
+
+# Feedback Colors
+
+Feedback colors reinforce system responses.
+
+Use for:
+
+- Success messages
+- Warning banners
+- Error messages
+- Informational notices
+- Toasts
+- Inline validation
+
+Feedback should remain visible and understandable for every user.
+
+---
+
+# Color Hierarchy
+
+Establish hierarchy through color.
+
+Priority order:
+
+1. Primary Actions
+2. Interactive Elements
+3. Important Information
+4. Supporting Information
+5. Decorative Elements
+
+Color should reinforce existing hierarchy rather than create competing emphasis.
+
+---
+
+# AI Semantic Color Engine
+
+Before approving any color usage, answer:
+
+- Does the color communicate a defined purpose?
+- Is the semantic role correct?
+- Is the color reusable?
+- Does it support accessibility?
+- Is the hierarchy clear?
+- Can this semantic token work in light and dark themes?
+- Can developers reuse this token consistently?
+
+Revise until every answer is positive.
+
+---
+
+# Validation Checklist
+
+□ Brand colors documented
+
+□ Semantic colors defined
+
+□ Functional colors assigned
+
+□ Neutral palette completed
+
+□ Surface colors reviewed
+
+□ Text colors documented
+
+□ Border colors defined
+
+□ Interactive colors validated
+
+□ Status colors documented
+
+□ Feedback colors reviewed
+
+□ Semantic token structure completed
