@@ -755,3 +755,312 @@ Revise until every answer is positive.
 □ Visual flow optimized
 
 □ Documentation updated
+
+---
+
+# Gestalt Principles
+
+## Definition
+
+Gestalt principles explain how humans naturally organize visual information into meaningful groups.
+
+Users perceive the whole before individual elements.
+
+The AI should use these principles to create interfaces that feel organized, predictable, and intuitive.
+
+---
+
+# Law of Proximity
+
+Elements placed close together are perceived as related.
+
+Use proximity to:
+
+- Group related controls
+- Separate unrelated content
+- Improve readability
+- Create sections
+- Build layouts
+
+Spacing communicates relationships.
+
+---
+
+# Law of Similarity
+
+Elements sharing similar characteristics are perceived as belonging together.
+
+Similarity includes:
+
+- Color
+- Shape
+- Size
+- Typography
+- Border
+- Iconography
+- Motion
+
+Consistency strengthens recognition.
+
+---
+
+# Law of Continuity
+
+The eye naturally follows smooth paths.
+
+Design layouts that encourage continuous visual movement.
+
+Support continuity through:
+
+- Alignment
+- Grid systems
+- Lines
+- Cards
+- Sections
+- Reading order
+
+Avoid abrupt interruptions.
+
+---
+
+# Law of Closure
+
+People mentally complete incomplete shapes.
+
+Use closure for:
+
+- Icons
+- Illustrations
+- Logos
+- Loading indicators
+
+Do not rely on closure where clarity is critical.
+
+---
+
+# Figure-Ground
+
+Users distinguish foreground elements from the background.
+
+Important content should clearly separate from surrounding surfaces.
+
+Improve figure-ground through:
+
+- Contrast
+- Elevation
+- Shadows
+- Borders
+- Background color
+- Spacing
+
+Foreground should always be identifiable.
+
+---
+
+# Common Region
+
+Elements inside the same container are perceived as related.
+
+Examples:
+
+- Cards
+- Panels
+- Tables
+- Sections
+- Forms
+
+Containers should communicate relationships.
+
+---
+
+# Connectedness
+
+Visually connected elements appear related.
+
+Examples:
+
+- Timelines
+- Progress indicators
+- Stepper components
+- Flow diagrams
+- Navigation paths
+
+Connections should represent meaningful relationships.
+
+---
+
+# Symmetry
+
+Symmetrical arrangements communicate:
+
+- Stability
+- Order
+- Trust
+- Balance
+
+Use symmetry where predictability is important.
+
+---
+
+# Prägnanz
+
+The human brain prefers the simplest interpretation.
+
+The AI should:
+
+- Remove unnecessary decoration.
+- Simplify layouts.
+- Reduce complexity.
+- Increase clarity.
+- Remove duplicate information.
+
+Simple interfaces are easier to understand.
+
+---
+
+# Visual Noise
+
+Visual noise is any element that competes for attention without adding value.
+
+Sources include:
+
+- Excessive colors
+- Decorative icons
+- Too many shadows
+- Excessive borders
+- Dense layouts
+- Inconsistent spacing
+- Competing typography
+
+Reduce visual noise aggressively.
+
+---
+
+# Attention Management
+
+Direct attention intentionally.
+
+The hierarchy should answer:
+
+1. What should users notice first?
+2. What should they understand next?
+3. What action should they perform?
+
+Every visual decision should support this sequence.
+
+---
+
+# Hero Sections
+
+Hero sections should communicate:
+
+- Purpose
+- Value
+- Primary action
+
+Limit hero sections to:
+
+- One headline
+- One supporting message
+- One primary CTA
+- One supporting visual
+
+Avoid unnecessary distractions.
+
+---
+
+# Dashboard Hierarchy
+
+Dashboards should prioritize:
+
+1. Critical metrics
+2. Alerts
+3. Primary actions
+4. Trends
+5. Supporting information
+
+Important information belongs above secondary information.
+
+---
+
+# Mobile Hierarchy
+
+Mobile interfaces require stronger hierarchy because of limited screen space.
+
+Prioritize:
+
+- Primary content
+- Primary action
+- Essential navigation
+- Progressive disclosure
+
+Remove unnecessary visual elements.
+
+---
+
+# AI Visual Hierarchy Engine
+
+Before approving any screen, answer:
+
+- Is visual grouping obvious?
+- Do Gestalt principles strengthen understanding?
+- Is figure-ground clear?
+- Is visual noise minimized?
+- Is attention directed intentionally?
+- Does the hierarchy support scanning?
+- Is the primary action immediately visible?
+- Does every element justify its visual weight?
+
+If any answer is negative, redesign the screen.
+
+---
+
+# Visual Hierarchy Checklist
+
+Before publishing any interface:
+
+□ Gestalt principles applied
+
+□ Visual grouping validated
+
+□ Figure-ground optimized
+
+□ Similarity maintained
+
+□ Proximity reviewed
+
+□ Continuity preserved
+
+□ Common regions defined
+
+□ Connectedness evaluated
+
+□ Visual noise minimized
+
+□ Hero hierarchy validated
+
+□ Dashboard hierarchy reviewed
+
+□ Mobile hierarchy optimized
+
+□ Documentation updated
+
+---
+
+# Key Takeaways
+
+Visual hierarchy determines how users understand an interface before reading its content.
+
+The AI must:
+
+- Direct attention intentionally.
+- Build clear focal points.
+- Use Gestalt principles consistently.
+- Reduce visual noise.
+- Maintain rhythm and balance.
+- Support natural scanning.
+- Reinforce hierarchy through typography, color, spacing, and layout.
+- Optimize for desktop and mobile.
+- Keep interfaces simple, predictable, and scalable.
+
+Visual Hierarchy transforms layouts into communication systems that guide users naturally toward understanding and action.
