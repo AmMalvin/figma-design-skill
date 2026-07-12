@@ -933,3 +933,282 @@ Revise until every answer is positive.
 □ Grid math validated
 
 □ Documentation updated
+
+---
+
+# Responsive Design
+
+## Definition
+
+Responsive design allows interfaces to adapt to different screen sizes without sacrificing usability.
+
+Every layout should respond gracefully to changes in viewport size.
+
+Users should receive a consistent experience across all supported devices.
+
+---
+
+# Responsive Design Principles
+
+Always:
+
+- Design for flexibility.
+- Prioritize content.
+- Use responsive layouts.
+- Build reusable patterns.
+- Maintain readability.
+- Preserve usability.
+
+Never:
+
+- Design for one screen size only.
+- Depend on fixed widths.
+- Hide important functionality on smaller devices.
+
+---
+
+# Breakpoints
+
+## Definition
+
+Breakpoints define the screen widths where layouts change to better fit available space.
+
+Breakpoints should be based on content requirements rather than specific devices.
+
+Typical layout ranges:
+
+- Mobile
+- Tablet
+- Desktop
+- Large Desktop
+
+Adjust layouts only when content requires it.
+
+---
+
+# Desktop Layout Rules
+
+Desktop layouts should:
+
+- Use multiple columns.
+- Maximize available space.
+- Maintain readable content widths.
+- Avoid excessively wide text lines.
+- Support efficient workflows.
+
+Large displays should improve productivity, not increase clutter.
+
+---
+
+# Tablet Layout Rules
+
+Tablet layouts should:
+
+- Reduce column count.
+- Increase touch target spacing.
+- Simplify navigation where necessary.
+- Preserve desktop functionality whenever practical.
+
+Tablet layouts bridge desktop and mobile experiences.
+
+---
+
+# Mobile Layout Rules
+
+Mobile layouts should prioritize:
+
+- Primary content
+- Primary action
+- Essential navigation
+
+Use:
+
+- Vertical stacking
+- Progressive disclosure
+- Touch-friendly spacing
+- Larger interaction targets
+
+Remove unnecessary visual complexity.
+
+---
+
+# Large Display Rules
+
+Large displays should:
+
+- Increase whitespace.
+- Limit content width.
+- Preserve readable line lengths.
+- Use additional columns only when meaningful.
+
+Do not stretch content simply because space is available.
+
+---
+
+# Safe Areas
+
+Safe areas prevent important content from being hidden by:
+
+- Device notches
+- Rounded corners
+- System navigation
+- Floating controls
+
+Critical UI should always remain inside safe areas.
+
+---
+
+# Adaptive Layouts
+
+Adaptive layouts adjust structure when necessary.
+
+Examples:
+
+- Navigation changes
+- Sidebar collapse
+- Grid changes
+- Component resizing
+- Toolbar simplification
+
+Adapt behavior without changing the product's core experience.
+
+---
+
+# Fluid Layouts
+
+Fluid layouts resize continuously with available space.
+
+Use fluid layouts for:
+
+- Containers
+- Sections
+- Dashboards
+- Content areas
+
+Fluid layouts improve responsiveness.
+
+---
+
+# Fixed Layouts
+
+Use fixed layouts only when precision is essential.
+
+Examples:
+
+- Logos
+- Icons
+- Brand marks
+- Small illustrations
+
+Avoid fixed layouts for dynamic content.
+
+---
+
+# Content Width
+
+Readable content should have reasonable line lengths.
+
+Avoid:
+
+- Extremely narrow text blocks.
+- Extremely wide paragraphs.
+
+Content width should prioritize readability over filling available space.
+
+---
+
+# Responsive Images
+
+Images should:
+
+- Scale proportionally.
+- Maintain aspect ratio.
+- Avoid distortion.
+- Support different resolutions.
+- Load appropriate sizes.
+
+Images should never reduce usability.
+
+---
+
+# Responsive Typography
+
+Typography should adapt to screen size.
+
+Maintain:
+
+- Readability
+- Hierarchy
+- Consistent spacing
+- Accessible line height
+
+Do not reduce font sizes below accessible levels.
+
+---
+
+# AI Layout Decision Engine
+
+Before approving any layout, answer:
+
+- Does the layout adapt across screen sizes?
+- Are breakpoints meaningful?
+- Is content prioritized?
+- Are touch targets accessible?
+- Is readability preserved?
+- Are safe areas respected?
+- Does the layout remain consistent?
+- Can developers implement the behavior predictably?
+
+If any answer is negative, redesign the layout.
+
+---
+
+# Layout Systems Checklist
+
+Before publishing:
+
+□ Responsive behavior defined
+
+□ Breakpoints reviewed
+
+□ Desktop layout validated
+
+□ Tablet layout validated
+
+□ Mobile layout validated
+
+□ Large display behavior reviewed
+
+□ Safe areas considered
+
+□ Adaptive behavior documented
+
+□ Fluid layouts reviewed
+
+□ Fixed layouts justified
+
+□ Responsive typography validated
+
+□ Responsive images reviewed
+
+□ Documentation updated
+
+---
+
+# Key Takeaways
+
+Layout Systems define how interfaces are structured, resized, and adapted across every supported screen size.
+
+The AI must:
+
+- Build layouts using Auto Layout.
+- Apply consistent spacing systems.
+- Align every element to a grid.
+- Design responsive containers.
+- Define predictable resizing behavior.
+- Respect breakpoints.
+- Support accessibility.
+- Optimize for developer implementation.
+- Maintain consistency across every product.
+
+Every layout should be scalable, responsive, maintainable, and ready for production.
