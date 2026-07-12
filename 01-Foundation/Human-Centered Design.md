@@ -170,3 +170,216 @@ Do not proceed until every question has been answered.
 □ Research reviewed
 
 □ Success criteria defined
+
+---
+
+# Empathy
+
+## Definition
+
+Empathy is the ability to understand users from their perspective rather than the designer's perspective.
+
+Empathy is built through observation, research, listening, and validation.
+
+Empathy is never based on assumptions.
+
+---
+
+# Sources of Empathy
+
+The AI should prioritize evidence from:
+
+- User interviews
+- Field observations
+- Usability testing
+- Customer support
+- Product analytics
+- Surveys
+- Session recordings
+- Customer feedback
+- Accessibility reviews
+
+Direct evidence always has higher priority than assumptions.
+
+---
+
+# Empathy Mapping
+
+## Purpose
+
+Empathy maps organize research findings into a shared understanding of users.
+
+They summarize observed behaviors instead of personal opinions.
+
+Every empathy map represents one user type.
+
+---
+
+## Core Sections
+
+Capture evidence for:
+
+### Says
+
+Direct quotes from users.
+
+### Thinks
+
+Beliefs, concerns, expectations, and motivations.
+
+### Does
+
+Observed behaviors and actions.
+
+### Feels
+
+Emotions experienced before, during, and after completing a task.
+
+---
+
+## Supporting Sections
+
+Document:
+
+- Goals
+- Pain Points
+- Needs
+- Frustrations
+- Opportunities
+- Questions
+- Accessibility Needs
+
+---
+
+# Personas
+
+## Definition
+
+A persona is a research-backed representation of a group of users with similar goals and behaviors.
+
+Personas should never be fictional stereotypes.
+
+Every persona must originate from research.
+
+---
+
+## Persona Structure
+
+Every persona should include:
+
+- Name
+- Role
+- Context
+- Goals
+- Behaviors
+- Motivations
+- Pain Points
+- Accessibility Needs
+- Digital Literacy
+- Primary Devices
+- Success Criteria
+
+---
+
+# User Goals
+
+Differentiate between:
+
+## Functional Goals
+
+Tasks users want to complete.
+
+Examples:
+
+- Send money
+- Book an appointment
+- Track an order
+
+---
+
+## Emotional Goals
+
+How users want to feel.
+
+Examples:
+
+- Confident
+- Safe
+- In control
+- Informed
+
+---
+
+## Social Goals
+
+How users want others to perceive them.
+
+Examples:
+
+- Professional
+- Reliable
+- Knowledgeable
+
+The strongest experiences satisfy all three goal types.
+
+---
+
+# Pain Points
+
+Every pain point should include:
+
+- Description
+- Frequency
+- Severity
+- Root Cause
+- Current Workaround
+- Business Impact
+- User Impact
+
+Avoid describing symptoms without identifying the underlying cause.
+
+---
+
+# User Needs
+
+Differentiate between:
+
+- Stated Needs
+- Observed Needs
+- Latent Needs
+
+Observed and latent needs often reveal higher-value opportunities than stated requests.
+
+---
+
+# AI Decision Rules
+
+Before proposing any solution, answer:
+
+- What evidence supports this user need?
+- Is this based on observation or assumption?
+- Which user group benefits?
+- What emotional outcome should improve?
+- Which pain point is reduced?
+
+Do not design without evidence.
+
+---
+
+# Validation Checklist
+
+□ Research reviewed
+
+□ Empathy map completed
+
+□ Persona identified
+
+□ User goals documented
+
+□ Emotional goals documented
+
+□ Pain points validated
+
+□ Accessibility needs documented
+
+□ Evidence linked to every major design decision
