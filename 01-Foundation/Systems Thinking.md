@@ -442,3 +442,244 @@ Before implementing any system change:
 □ Documentation updated
 
 □ Validation completed
+
+---
+
+# Feedback Loops
+
+## Definition
+
+A feedback loop is a cycle where the output of a system influences its future behavior.
+
+The AI must identify feedback loops before introducing changes because small improvements or failures can compound over time.
+
+---
+
+## Positive Feedback Loops
+
+### Definition
+
+Positive feedback amplifies change.
+
+It accelerates growth, adoption, or decline.
+
+### Examples
+
+- Better onboarding increases activation.
+- Higher activation increases retention.
+- Higher retention increases referrals.
+- More referrals increase user acquisition.
+
+### AI Instructions
+
+Identify opportunities where a single improvement can create long-term value across the product ecosystem.
+
+---
+
+## Negative Feedback Loops
+
+### Definition
+
+Negative feedback stabilizes a system by preventing undesirable outcomes.
+
+### Examples
+
+- Form validation prevents invalid submissions.
+- Rate limiting reduces abuse.
+- Permission checks prevent unauthorized actions.
+- Character limits improve readability.
+
+### AI Instructions
+
+Introduce constraints only when they improve stability, safety, or usability.
+
+---
+
+# Emergent Behavior
+
+## Definition
+
+Emergent behavior occurs when multiple simple components interact to create outcomes that were not explicitly designed.
+
+### Examples
+
+- Combining search, filters, and sorting creates powerful product discovery.
+- Combining notifications, reminders, and analytics improves engagement.
+- Combining reusable components creates scalable product experiences.
+
+### AI Instructions
+
+Evaluate how combinations of components create new behaviors beyond their individual functions.
+
+---
+
+# Leverage Points
+
+## Definition
+
+Leverage points are small changes that produce disproportionately large improvements across the system.
+
+### High-Impact Examples
+
+- Improving spacing tokens updates hundreds of components.
+- Improving typography scales enhances readability across every screen.
+- Improving button accessibility improves every workflow using that component.
+- Improving semantic color tokens enables consistent theming.
+
+### AI Instructions
+
+Prioritize improvements that benefit the greatest number of users, components, or products.
+
+---
+
+# Design Debt
+
+## Definition
+
+Design debt is the accumulated cost of design decisions that reduce consistency, scalability, or usability over time.
+
+### Common Causes
+
+- Duplicate components
+- Inconsistent spacing
+- Hardcoded colors
+- One-off layouts
+- Missing documentation
+- Inconsistent naming
+- Accessibility ignored
+
+### Prevention
+
+- Reuse before creating.
+- Document while designing.
+- Validate continuously.
+- Follow system standards.
+- Review existing assets first.
+
+### AI Instructions
+
+Avoid introducing design debt, even when a shortcut appears faster.
+
+---
+
+# Technical Debt Awareness
+
+## Definition
+
+Technical debt represents engineering compromises that influence design decisions.
+
+### AI Responsibilities
+
+Consider:
+
+- Development complexity
+- Performance
+- Maintainability
+- API limitations
+- Platform capabilities
+
+Never propose solutions that are impossible or unnecessarily expensive to implement.
+
+---
+
+# Scalability
+
+## Definition
+
+A scalable system continues to perform effectively as products, users, and teams grow.
+
+### Characteristics
+
+A scalable design system supports:
+
+- Multiple products
+- Multiple brands
+- Multiple themes
+- Multiple languages
+- Responsive layouts
+- New platforms
+- Future features
+
+### AI Instructions
+
+Every design decision should answer:
+
+"Will this still work two years from now?"
+
+---
+
+# Maintainability
+
+## Definition
+
+Maintainability measures how easily a system can evolve without introducing defects.
+
+### Maintainable Systems
+
+Have:
+
+- Clear naming
+- Reusable components
+- Semantic tokens
+- Comprehensive documentation
+- Predictable architecture
+- Version history
+
+### AI Instructions
+
+Prefer maintainable solutions over quick solutions.
+
+---
+
+# Systems Thinking Checklist
+
+Before designing any feature, verify:
+
+□ System boundaries understood
+
+□ User goals identified
+
+□ Business goals identified
+
+□ Dependencies mapped
+
+□ Existing components reviewed
+
+□ Existing variables reviewed
+
+□ Existing tokens reviewed
+
+□ Existing patterns reviewed
+
+□ Accessibility considered
+
+□ Documentation impact identified
+
+□ Engineering impact evaluated
+
+□ Long-term scalability reviewed
+
+□ Potential design debt assessed
+
+□ Validation plan defined
+
+---
+
+# Key Takeaways
+
+The AI must never think in isolated screens.
+
+Instead, every design decision must consider:
+
+- The complete product ecosystem.
+- Existing design system assets.
+- User impact.
+- Business impact.
+- Engineering impact.
+- Accessibility.
+- Documentation.
+- Governance.
+- Long-term maintainability.
+- Future scalability.
+
+Systems Thinking is the foundation upon which every other module in this repository is built.
