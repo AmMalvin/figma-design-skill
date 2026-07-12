@@ -169,3 +169,285 @@ If any answer is negative, redesign the typography system.
 □ Consistency maintained
 
 □ Documentation updated
+
+---
+
+# Typeface
+
+## Definition
+
+A typeface is the overall design of a set of characters.
+
+Examples:
+
+- Inter
+- Roboto
+- SF Pro
+- Helvetica
+- Geist
+
+A typeface defines the visual personality of text.
+
+---
+
+# Font
+
+A font is a specific implementation of a typeface.
+
+Examples:
+
+Inter Regular
+
+Inter Medium
+
+Inter Bold
+
+Inter Black
+
+One typeface contains multiple fonts.
+
+---
+
+# Font Family
+
+A font family is a collection of related fonts sharing the same visual design.
+
+A family typically contains:
+
+- Thin
+- Extra Light
+- Light
+- Regular
+- Medium
+- Semi Bold
+- Bold
+- Extra Bold
+- Black
+
+Prefer complete font families for scalable design systems.
+
+---
+
+# Font Classification
+
+Digital interfaces commonly use four categories.
+
+- Sans Serif
+- Serif
+- Monospace
+- Display
+
+Each category serves a different purpose.
+
+---
+
+# Sans Serif
+
+Sans serif fonts do not have decorative strokes.
+
+Characteristics:
+
+- Clean
+- Modern
+- Readable
+- Neutral
+
+Recommended for:
+
+- User interfaces
+- Dashboards
+- Mobile apps
+- SaaS products
+- Enterprise software
+
+Sans serif should be the default choice for most digital products.
+
+---
+
+# Serif
+
+Serif fonts include small finishing strokes.
+
+Characteristics:
+
+- Traditional
+- Formal
+- Editorial
+- Trustworthy
+
+Recommended for:
+
+- Articles
+- Publications
+- Long-form reading
+- Luxury brands
+
+Avoid serif fonts for dense interface controls.
+
+---
+
+# Monospace
+
+Every character occupies equal horizontal space.
+
+Recommended for:
+
+- Code
+- Technical documentation
+- Terminal interfaces
+- Data tables
+
+Do not use monospace for general body copy.
+
+---
+
+# Display Fonts
+
+Display fonts are designed for large sizes.
+
+Recommended for:
+
+- Hero headlines
+- Campaigns
+- Marketing
+- Branding
+
+Never use display fonts for long paragraphs.
+
+---
+
+# Font Pairing
+
+Limit products to:
+
+- One font family
+
+or
+
+- Two complementary font families
+
+Avoid introducing unnecessary font combinations.
+
+Consistency improves usability.
+
+---
+
+# Brand Typography
+
+Typography contributes to brand recognition.
+
+A typography system should communicate:
+
+- Personality
+- Trust
+- Professionalism
+- Consistency
+
+Typography should reinforce the product identity.
+
+---
+
+# Font Personality
+
+Every typeface communicates characteristics.
+
+Examples include:
+
+- Technical
+- Friendly
+- Professional
+- Elegant
+- Playful
+- Minimal
+- Premium
+
+Choose a personality that aligns with the product.
+
+Avoid conflicting visual messages.
+
+---
+
+# Variable Fonts
+
+## Definition
+
+Variable fonts provide multiple font variations within a single font file.
+
+Common adjustable properties include:
+
+- Weight
+- Width
+- Optical Size
+- Slant
+- Italic
+
+Variable fonts improve flexibility while reducing the number of font files required.
+
+---
+
+# Font Licensing
+
+Every font should have an appropriate license.
+
+Before adopting a font, verify:
+
+- Commercial usage
+- Distribution rights
+- Embedding rights
+- Web licensing
+- App licensing
+
+Never assume a font is free for commercial use.
+
+---
+
+# Font Performance
+
+Typography affects application performance.
+
+Prefer:
+
+- Variable fonts when appropriate
+- Limited font families
+- Limited font weights
+- Optimized font loading
+
+Reduce unnecessary font assets.
+
+---
+
+# AI Typeface Selection Engine
+
+Before selecting a typeface, answer:
+
+- Is readability the priority?
+- Does the typeface match the product?
+- Is the font family complete?
+- Is the license appropriate?
+- Will it scale across platforms?
+- Does it support localization?
+- Can developers implement it consistently?
+
+Revise until every answer is positive.
+
+---
+
+# Validation Checklist
+
+□ Typeface selected
+
+□ Font family documented
+
+□ Font classification defined
+
+□ Font pairing reviewed
+
+□ Brand typography aligned
+
+□ Variable font evaluated
+
+□ Licensing verified
+
+□ Performance reviewed
+
+□ Documentation updated
