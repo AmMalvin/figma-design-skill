@@ -1480,6 +1480,287 @@ Every major decision must include:
 
 Assume future contributors will rely on written documentation rather than conversations.
 
+
+---
+
+# AI Behavior Principles
+
+## Principle 55. Think Before Designing
+
+### Statement
+
+Design begins with reasoning, not drawing.
+
+### Intent
+
+Every interface should be the result of deliberate analysis rather than visual experimentation.
+
+### Rules
+
+- Understand the problem.
+- Understand the users.
+- Understand the business.
+- Understand the constraints.
+- Understand existing system assets.
+
+### AI Instructions
+
+Never generate layouts before completing analysis.
+
+---
+
+## Principle 56. Ask Before Assuming
+
+### Statement
+
+Missing information should be clarified before design begins.
+
+### Intent
+
+Assumptions introduce unnecessary risk.
+
+### Rules
+
+Request clarification whenever requirements are incomplete or conflicting.
+
+### AI Instructions
+
+Never invent business rules, user needs, technical constraints, or accessibility requirements.
+
+---
+
+## Principle 57. Justify Every Decision
+
+### Statement
+
+Every significant design decision must have documented reasoning.
+
+### Intent
+
+Design should be explainable.
+
+### Rules
+
+Document:
+
+- Why
+- Alternatives
+- Trade-offs
+- Expected outcome
+
+### AI Instructions
+
+Avoid subjective explanations.
+
+Support decisions using usability, accessibility, research, or system standards.
+
+---
+
+## Principle 58. Explore Multiple Solutions
+
+### Statement
+
+The first solution is rarely the strongest solution.
+
+### Intent
+
+Explore alternatives before selecting an approach.
+
+### Rules
+
+Produce multiple approaches for complex problems.
+
+Compare:
+
+- Usability
+- Accessibility
+- Scalability
+- Maintainability
+- Engineering effort
+
+### AI Instructions
+
+Evaluate options before selecting one.
+
+---
+
+## Principle 59. Protect System Integrity
+
+### Statement
+
+Individual screens must never weaken the overall design system.
+
+### Intent
+
+Long-term consistency has higher priority than short-term convenience.
+
+### Rules
+
+Reject decisions that introduce:
+
+- Duplicate components
+- Duplicate variables
+- Inconsistent naming
+- Conflicting behaviors
+
+### AI Instructions
+
+Always evaluate repository impact before introducing changes.
+
+---
+
+## Principle 60. Improve Continuously
+
+### Statement
+
+The design system should improve through evidence and feedback.
+
+### Intent
+
+Design systems are living products.
+
+### Rules
+
+Use:
+
+- Analytics
+- Research
+- Feedback
+- QA reports
+- Accessibility audits
+
+to guide future improvements.
+
+### AI Instructions
+
+Record opportunities for improvement instead of ignoring them.
+
+---
+
+# Governance Principles
+
+## Principle 61. Every Asset Has Ownership
+
+### Statement
+
+Each reusable asset must have a clearly defined owner.
+
+### Intent
+
+Ownership improves accountability and maintenance.
+
+### Rules
+
+Assign ownership for:
+
+- Components
+- Tokens
+- Variables
+- Documentation
+- Libraries
+
+### AI Instructions
+
+Every new asset must identify its owner.
+
+---
+
+## Principle 62. Version Every Change
+
+### Statement
+
+All design system changes must be versioned.
+
+### Intent
+
+Versioning creates traceability and supports safe evolution.
+
+### Rules
+
+Maintain:
+
+- Version number
+- Change summary
+- Author
+- Date
+- Impact assessment
+
+### AI Instructions
+
+Never publish undocumented revisions.
+
+---
+
+## Principle 63. Deprecate Responsibly
+
+### Statement
+
+Removing assets should follow a controlled process.
+
+### Intent
+
+Deprecation should minimize disruption.
+
+### Rules
+
+Provide:
+
+- Deprecation notice
+- Migration guidance
+- Replacement asset
+- Sunset timeline
+
+### AI Instructions
+
+Never remove reusable assets without an approved migration strategy.
+
+---
+
+## Principle 64. Measure System Health
+
+### Statement
+
+The health of the design system should be measured continuously.
+
+### Intent
+
+Use objective indicators to identify maintenance priorities.
+
+### Rules
+
+Track:
+
+- Component adoption
+- Token usage
+- Documentation coverage
+- Accessibility compliance
+- Duplicate assets
+- Open issues
+
+### AI Instructions
+
+Include health metrics in governance reviews.
+
+---
+
+## Principle 65. Protect the Single Source of Truth
+
+### Statement
+
+The repository is the authoritative source for design standards.
+
+### Intent
+
+Conflicting guidance weakens consistency.
+
+### Rules
+
+Changes must be made at the source rather than copied into multiple locations.
+
+### AI Instructions
+
+Reference shared modules instead of duplicating their content.
+
 # Conflict Resolution
 
 When two principles conflict, always resolve them in this order.
