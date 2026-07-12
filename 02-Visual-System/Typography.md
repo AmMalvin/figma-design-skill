@@ -1050,3 +1050,274 @@ Revise until every answer is positive.
 □ Responsive typography validated
 
 □ Typography tokens documented
+
+
+---
+
+# Typography Accessibility
+
+## Definition
+
+Typography accessibility ensures text is readable, understandable, and usable by everyone.
+
+Readable typography is essential for usability.
+
+Accessibility takes priority over aesthetics.
+
+---
+
+# Accessible Typography Principles
+
+Always:
+
+- Prioritize readability.
+- Maintain sufficient text size.
+- Use appropriate line height.
+- Maintain strong contrast.
+- Support text scaling.
+- Use clear hierarchy.
+
+Never:
+
+- Depend on tiny text.
+- Compress line spacing.
+- Use decorative fonts for interface content.
+- Reduce readability for visual style.
+
+---
+
+# Responsive Typography
+
+Typography should adapt across screen sizes.
+
+Adjust when necessary:
+
+- Font size
+- Line height
+- Letter spacing
+- Layout width
+
+Hierarchy should remain consistent regardless of device.
+
+---
+
+# Localization
+
+Typography should support multiple languages.
+
+Consider:
+
+- Character width
+- Word length
+- Reading direction
+- Font availability
+- Line expansion
+
+Design layouts that accommodate translated content.
+
+---
+
+# Internationalization
+
+Typography systems should support:
+
+- Latin
+- Arabic
+- Cyrillic
+- CJK
+- Indic
+- Other supported writing systems
+
+Avoid assumptions that every language behaves like English.
+
+---
+
+# Writing Systems
+
+Different writing systems require different typography behavior.
+
+Support:
+
+- Left-to-right
+- Right-to-left
+- Vertical writing where applicable
+
+Typography should adapt without breaking layout consistency.
+
+---
+
+# Numeric Typography
+
+Numbers require dedicated attention.
+
+Support:
+
+- Tabular figures
+- Proportional figures
+- Currency
+- Percentages
+- Dates
+- Time
+- Financial values
+
+Use tabular figures for dashboards, tables, and analytics.
+
+---
+
+# Code Typography
+
+Code requires different typography rules.
+
+Use:
+
+- Monospace fonts
+- Consistent indentation
+- Distinguishable characters
+- Appropriate line height
+
+Never display code using proportional body fonts.
+
+---
+
+# OpenType Features
+
+OpenType features improve typography when supported by the chosen font.
+
+Examples include:
+
+- Ligatures
+- Small Caps
+- Stylistic Sets
+- Character Variants
+- Tabular Figures
+- Old Style Figures
+
+Only enable features that improve readability or support the intended design. :contentReference[oaicite:1]{index=1}
+
+---
+
+# Typography Tokens
+
+Typography should use semantic tokens.
+
+Example structure:
+
+Primitive
+
+↓
+
+Semantic
+
+↓
+
+Component
+
+↓
+
+Screen
+
+Examples:
+
+type.display.large
+
+type.heading.h1
+
+type.heading.h2
+
+type.body.default
+
+type.caption
+
+type.label
+
+Components should reference typography tokens rather than raw values.
+
+---
+
+# Typography Quality Assurance
+
+Review every typography system for:
+
+- Readability
+- Accessibility
+- Hierarchy
+- Consistency
+- Responsiveness
+- Localization support
+- Token usage
+- Performance
+
+Typography should remain predictable throughout the product.
+
+---
+
+# AI Typography Decision Engine
+
+Before approving typography, answer:
+
+- Is every text style purposeful?
+- Is hierarchy obvious?
+- Is accessibility maintained?
+- Does typography support localization?
+- Are semantic typography tokens used?
+- Is responsive behavior defined?
+- Are OpenType features used appropriately?
+- Can developers implement the system consistently?
+
+If any answer is negative, redesign the typography system.
+
+---
+
+# Typography Checklist
+
+Before publishing:
+
+□ Typography roles documented
+
+□ Typeface selected
+
+□ Typography scale completed
+
+□ Hierarchy validated
+
+□ Font weights reviewed
+
+□ Line height optimized
+
+□ Letter spacing reviewed
+
+□ Accessibility verified
+
+□ Localization supported
+
+□ Responsive typography validated
+
+□ OpenType features reviewed
+
+□ Numeric typography documented
+
+□ Code typography documented
+
+□ Typography tokens completed
+
+□ Documentation updated
+
+---
+
+# Key Takeaways
+
+Typography is the foundation of digital communication.
+
+The AI must:
+
+- Build semantic typography systems.
+- Maintain clear hierarchy.
+- Prioritize readability.
+- Support accessibility.
+- Create responsive typography.
+- Design for localization.
+- Use reusable typography tokens.
+- Keep typography consistent across every product.
+- Optimize for implementation by developers.
+
+Every typography decision should improve communication, comprehension, and usability.
