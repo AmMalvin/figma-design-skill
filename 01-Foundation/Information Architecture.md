@@ -721,3 +721,264 @@ Revise until every answer is positive.
 □ Navigation patterns documented
 
 □ Documentation updated
+
+---
+
+# Sitemap Design
+
+## Definition
+
+A sitemap is the visual representation of the product's information hierarchy.
+
+Every digital product should have a sitemap before UI design begins.
+
+A sitemap should communicate:
+
+- Structure
+- Relationships
+- Navigation hierarchy
+- Content ownership
+- User entry points
+
+The sitemap is the blueprint of the product.
+
+---
+
+# Sitemap Principles
+
+A sitemap should be:
+
+- Simple
+- Scalable
+- Hierarchical
+- User-centered
+- Easy to maintain
+
+Avoid unnecessary nesting.
+
+Keep navigation depth as shallow as possible.
+
+---
+
+# User Flows
+
+## Definition
+
+A user flow represents the path a user follows to accomplish a goal.
+
+User flows focus on user objectives.
+
+Examples:
+
+- Register account
+- Purchase product
+- Book appointment
+- Reset password
+- Submit application
+
+Every primary task should have a documented user flow.
+
+---
+
+# Task Flows
+
+Task flows describe the exact sequence of actions required to complete one task.
+
+Unlike user flows, task flows assume a single successful path.
+
+Document:
+
+- Start
+- User actions
+- System actions
+- Decision points
+- Completion state
+
+---
+
+# Journey Mapping
+
+Journey maps describe the complete user experience.
+
+Include:
+
+- Goals
+- Actions
+- Thoughts
+- Emotions
+- Pain points
+- Opportunities
+- Success metrics
+
+Journey maps connect Information Architecture with user experience.
+
+---
+
+# Card Sorting
+
+## Definition
+
+Card sorting is a research method used to understand how users naturally organize information.
+
+Use card sorting to:
+
+- Validate categories
+- Discover user language
+- Improve taxonomy
+- Improve labels
+- Improve grouping
+
+Card sorting informs Information Architecture.
+
+It does not replace design decisions.
+
+---
+
+# Tree Testing
+
+## Definition
+
+Tree testing evaluates whether users can successfully locate information within a proposed Information Architecture.
+
+Tree testing should validate:
+
+- Navigation
+- Labels
+- Hierarchy
+- Findability
+
+Run tree testing before visual design.
+
+---
+
+# Cross-linking
+
+Related content should connect naturally.
+
+Examples:
+
+- Related products
+- Related documentation
+- Similar articles
+- Connected workflows
+- Recommended actions
+
+Cross-linking improves discoverability.
+
+---
+
+# Content Relationships
+
+Every content type should define:
+
+- Parent relationships
+- Child relationships
+- Related content
+- Dependencies
+- Shared metadata
+
+Relationships should remain logical and scalable.
+
+---
+
+# Content Governance
+
+Information Architecture requires ongoing maintenance.
+
+Define:
+
+- Content owner
+- Review schedule
+- Approval workflow
+- Archive policy
+- Version history
+- Taxonomy maintenance
+
+Good IA evolves over time.
+
+---
+
+# IA Documentation
+
+Document:
+
+- Sitemap
+- Taxonomy
+- Metadata model
+- Navigation structure
+- Search strategy
+- Labeling rules
+- User flows
+- Task flows
+- Governance model
+
+Documentation ensures long-term consistency.
+
+---
+
+# AI Information Architecture Engine
+
+Before approving any Information Architecture, answer:
+
+- Is the hierarchy logical?
+- Can users predict where content exists?
+- Is navigation intuitive?
+- Are labels clear?
+- Does search support findability?
+- Is the taxonomy scalable?
+- Have user flows been validated?
+- Has the IA been tested through card sorting or tree testing?
+- Can future growth be supported?
+
+If any answer is negative, redesign the Information Architecture.
+
+---
+
+# Information Architecture Checklist
+
+Before publishing:
+
+□ Sitemap completed
+
+□ User flows documented
+
+□ Task flows documented
+
+□ Journey maps reviewed
+
+□ Taxonomy validated
+
+□ Labels reviewed
+
+□ Navigation validated
+
+□ Search strategy documented
+
+□ Card sorting completed
+
+□ Tree testing completed
+
+□ Content governance established
+
+□ Documentation completed
+
+---
+
+# Key Takeaways
+
+Information Architecture determines how users understand a product before they interact with individual screens.
+
+The AI must:
+
+- Organize information around user goals.
+- Build scalable hierarchies.
+- Create clear labeling systems.
+- Design predictable navigation.
+- Support effective search.
+- Improve findability.
+- Validate structures through research.
+- Document every architectural decision.
+- Design for long-term growth.
+- Keep Information Architecture independent from visual design.
+
+Information Architecture is the structural foundation upon which every screen, workflow, component, and interaction is built.
