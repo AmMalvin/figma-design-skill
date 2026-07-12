@@ -668,3 +668,268 @@ Revise until every answer is positive.
 □ Layout guides applied
 
 □ Frame behavior documented
+
+---
+
+# Grid Systems
+
+## Definition
+
+A grid system is a structural framework that organizes content into predictable columns and rows.
+
+Grids improve:
+
+- Consistency
+- Alignment
+- Readability
+- Scalability
+- Developer handoff
+
+Every screen should align to a defined grid.
+
+---
+
+# CSS Grid Principles
+
+CSS Grid is designed for two-dimensional layouts.
+
+Use CSS Grid for:
+
+- Dashboards
+- Analytics
+- Tables
+- Card collections
+- Marketing pages
+- Gallery layouts
+- Complex page structures
+
+Grid controls both rows and columns simultaneously.
+
+---
+
+# Flexbox Principles
+
+Flexbox is designed for one-dimensional layouts.
+
+Use Flexbox for:
+
+- Navigation
+- Forms
+- Toolbars
+- Lists
+- Button groups
+- Cards
+- Modals
+
+Flexbox controls either rows or columns.
+
+---
+
+# Choosing Between Grid and Flexbox
+
+Use Grid when:
+
+- Multiple rows and columns exist.
+- Content forms a matrix.
+- Layout structure is the priority.
+
+Use Flexbox when:
+
+- Content flows in one direction.
+- Components resize dynamically.
+- Distribution is the priority.
+
+---
+
+# Layout Grid
+
+Layout grids act as visual guides.
+
+They define:
+
+- Columns
+- Margins
+- Gutters
+- Alignment
+
+Layout grids guide placement.
+
+Auto Layout controls behavior.
+
+---
+
+# Four Point System
+
+Use the 4 pt grid for:
+
+- Small spacing
+- Icon spacing
+- Compact interfaces
+- Fine adjustments
+
+Common values:
+
+4
+8
+12
+16
+20
+24
+
+Avoid values that break the spacing scale.
+
+---
+
+# Eight Point System
+
+The 8 pt grid is the preferred spacing system.
+
+Common values:
+
+8
+16
+24
+32
+40
+48
+56
+64
+72
+80
+96
+120
+
+Use the 8 pt scale for:
+
+- Page spacing
+- Section spacing
+- Component spacing
+- Layout spacing
+
+Consistency is more important than mathematical perfection.
+
+---
+
+# Baseline Grid
+
+A baseline grid aligns typography vertically.
+
+Benefits:
+
+- Better readability
+- Consistent rhythm
+- Predictable spacing
+
+Text should align consistently across the interface.
+
+---
+
+# Modular Grid
+
+A modular grid combines:
+
+- Rows
+- Columns
+
+Use modular grids for:
+
+- Dashboards
+- Data-heavy interfaces
+- Enterprise software
+- Editorial layouts
+
+---
+
+# Columns
+
+Columns divide available width.
+
+Typical desktop layouts:
+
+- 12 columns
+
+Typical tablet layouts:
+
+- 8 columns
+
+Typical mobile layouts:
+
+- 4 columns
+
+Choose the grid based on product requirements.
+
+---
+
+# Gutters
+
+Gutters separate columns.
+
+Gutters should remain consistent.
+
+Do not change gutter widths randomly.
+
+---
+
+# Margins
+
+Margins separate content from screen edges.
+
+Margins create breathing room.
+
+Margins should remain consistent across layouts.
+
+---
+
+# Grid Math
+
+Every layout should follow predictable measurements.
+
+Avoid arbitrary dimensions.
+
+Components should align with:
+
+- Columns
+- Rows
+- Gutters
+- Margins
+- Spacing scale
+
+---
+
+# AI Decision Rules
+
+Before approving any layout:
+
+- Is the correct grid selected?
+- Does every element align to the grid?
+- Is the spacing scale consistent?
+- Are margins consistent?
+- Are gutters consistent?
+- Does the layout support responsive behavior?
+- Does Auto Layout complement the grid?
+
+Revise until every answer is positive.
+
+---
+
+# Validation Checklist
+
+□ Grid selected
+
+□ Columns defined
+
+□ Gutters reviewed
+
+□ Margins consistent
+
+□ 8 pt spacing applied
+
+□ Baseline grid considered
+
+□ Modular grid reviewed
+
+□ Auto Layout aligned with the grid
+
+□ Grid math validated
+
+□ Documentation updated
