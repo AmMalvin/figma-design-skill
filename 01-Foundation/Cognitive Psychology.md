@@ -440,3 +440,232 @@ Revise until every answer is positive.
 □ Learning supported
 
 □ Cognitive effort minimized
+
+---
+
+# Cognitive Load Theory
+
+## Definition
+
+Cognitive Load Theory explains how much mental effort users expend while processing information.
+
+Interfaces should minimize unnecessary cognitive effort while supporting learning and task completion.
+
+The AI must optimize every experience for mental efficiency.
+
+---
+
+# Types of Cognitive Load
+
+## Intrinsic Load
+
+Intrinsic load is the mental effort naturally required by the task.
+
+Examples:
+
+- Filing taxes
+- Managing investments
+- Configuring security settings
+
+The AI cannot eliminate intrinsic load but should simplify how information is presented.
+
+---
+
+## Extraneous Load
+
+Extraneous load is created by poor interface design.
+
+Examples:
+
+- Cluttered layouts
+- Confusing navigation
+- Inconsistent terminology
+- Poor hierarchy
+- Hidden actions
+- Unnecessary steps
+
+Extraneous load should always be minimized.
+
+---
+
+## Germane Load
+
+Germane load supports understanding and learning.
+
+Examples:
+
+- Helpful onboarding
+- Progressive disclosure
+- Contextual guidance
+- Interactive tutorials
+- Clear feedback
+
+Increase germane load when teaching users new concepts.
+
+---
+
+# Decision Fatigue
+
+## Definition
+
+Decision fatigue occurs when repeated choices reduce the quality of future decisions.
+
+Interfaces should reduce unnecessary decisions.
+
+---
+
+# Reducing Decision Fatigue
+
+The AI should:
+
+- Use intelligent defaults.
+- Highlight recommended actions.
+- Reduce unnecessary options.
+- Group related choices.
+- Delay advanced options until needed.
+- Automate repetitive tasks where appropriate.
+
+Never overwhelm users with avoidable decisions.
+
+---
+
+# Choice Architecture
+
+Choice architecture is the intentional organization of decisions.
+
+Every choice should be:
+
+- Clear
+- Relevant
+- Predictable
+- Easy to compare
+- Easy to reverse
+
+Poor choice architecture increases abandonment.
+
+---
+
+# Information Scent
+
+Users continuously look for signals indicating whether they are moving toward their goal.
+
+Strong information scent includes:
+
+- Clear navigation
+- Familiar labels
+- Descriptive buttons
+- Meaningful icons
+- Logical grouping
+
+Weak information scent causes hesitation and confusion.
+
+---
+
+# Human Error
+
+Errors are often caused by design rather than users.
+
+Common causes include:
+
+- Ambiguous labels
+- Similar actions
+- Hidden functionality
+- Poor feedback
+- Weak affordances
+- Inconsistent behavior
+
+The AI must design systems that prevent mistakes before they happen.
+
+---
+
+# Confidence
+
+Confidence influences speed, satisfaction, and trust.
+
+Increase confidence through:
+
+- Immediate feedback
+- Predictable interactions
+- Visible system status
+- Clear language
+- Helpful confirmations
+- Undo functionality
+- Error recovery
+
+Confident users complete tasks faster and make fewer mistakes.
+
+---
+
+# Learning and Expertise
+
+Different users require different support.
+
+### Beginner Users
+
+Need:
+
+- Guidance
+- Labels
+- Tutorials
+- Explanations
+- Progressive disclosure
+
+---
+
+### Intermediate Users
+
+Need:
+
+- Efficiency
+- Shortcuts
+- Consistency
+- Better navigation
+
+---
+
+### Expert Users
+
+Need:
+
+- Speed
+- Keyboard shortcuts
+- Automation
+- Customization
+- Batch actions
+
+Interfaces should scale with user expertise.
+
+---
+
+# AI Decision Rules
+
+Before approving any workflow, answer:
+
+- Does this reduce cognitive load?
+- Are unnecessary choices removed?
+- Is information scent strong?
+- Can users recover from mistakes?
+- Does the interface build confidence?
+- Does the experience support beginners and experts?
+
+Revise until every answer is positive.
+
+---
+
+# Validation Checklist
+
+□ Intrinsic load understood
+
+□ Extraneous load minimized
+
+□ Germane load supported
+
+□ Decision fatigue reduced
+
+□ Choice architecture reviewed
+
+□ Information scent evaluated
+
+□ Error prevention implemented
+
+□ User confidence increased
