@@ -658,3 +658,296 @@ Revise until every answer is positive.
 □ Error recovery supported
 
 □ System status always visible
+
+---
+
+# Microinteractions
+
+## Definition
+
+Microinteractions are small, focused interactions that communicate system behavior.
+
+Every microinteraction should have a purpose.
+
+Microinteractions should:
+
+- Provide feedback
+- Communicate status
+- Confirm actions
+- Prevent uncertainty
+- Improve usability
+- Build trust
+
+Never use animation purely for decoration.
+
+---
+
+# Components of a Microinteraction
+
+Every microinteraction consists of:
+
+Trigger
+
+↓
+
+Rules
+
+↓
+
+Feedback
+
+↓
+
+Loops and Modes
+
+Every component should be intentional.
+
+---
+
+# Triggers
+
+Triggers initiate interactions.
+
+Types:
+
+### User Trigger
+
+Examples:
+
+- Click
+- Tap
+- Drag
+- Hover
+- Keyboard input
+- Voice command
+
+---
+
+### System Trigger
+
+Examples:
+
+- Notification
+- Auto-save
+- Timeout
+- Synchronization
+- Connectivity change
+
+---
+
+# Motion Design
+
+Motion should communicate.
+
+Motion should never distract.
+
+Motion should explain:
+
+- State changes
+- Relationships
+- Navigation
+- Hierarchy
+- Cause and effect
+- Spatial transitions
+
+Animation without meaning should be removed.
+
+---
+
+# Motion Principles
+
+Motion should be:
+
+- Fast
+- Smooth
+- Predictable
+- Consistent
+- Accessible
+- Purposeful
+
+Avoid excessive duration.
+
+Avoid unnecessary bouncing.
+
+Avoid distracting motion.
+
+---
+
+# Interaction States
+
+Every interactive component should support:
+
+- Default
+- Hover
+- Focus
+- Active
+- Pressed
+- Selected
+- Disabled
+- Loading
+- Success
+- Error
+
+States should remain visually consistent across the design system.
+
+---
+
+# Keyboard Interaction
+
+Every interaction should support keyboard navigation.
+
+Support:
+
+- Tab navigation
+- Shift + Tab
+- Arrow keys where appropriate
+- Escape
+- Enter
+- Space
+- Visible focus indicators
+
+Keyboard users should have access to the same functionality as pointer users.
+
+---
+
+# Touch Interaction
+
+Touch interactions should:
+
+- Support comfortable finger targets.
+- Avoid accidental taps.
+- Support gestures consistently.
+- Respect reachability.
+- Provide immediate feedback.
+
+Touch should feel effortless.
+
+---
+
+# Gesture Design
+
+Use gestures only when:
+
+- They are discoverable.
+- They improve efficiency.
+- Alternatives remain available.
+- Accessibility is preserved.
+
+Never hide essential functionality behind gestures alone.
+
+---
+
+# Responsive Behavior
+
+Interactions should adapt across:
+
+- Mobile
+- Tablet
+- Desktop
+- Large Displays
+- Foldable Devices
+- Assistive Technologies
+
+Behavior should remain consistent even when layouts change.
+
+---
+
+# Accessibility
+
+Every interaction should be:
+
+- Keyboard accessible
+- Screen reader compatible
+- High contrast
+- Motion tolerant
+- Touch accessible
+- Understandable
+
+Users should never depend on color, animation, or hover alone to understand an interaction. :contentReference[oaicite:1]{index=1}
+
+---
+
+# Interaction Patterns
+
+Promote reusable patterns for:
+
+- Navigation
+- Search
+- Forms
+- Tables
+- Dialogs
+- Menus
+- Notifications
+- File Uploads
+- Authentication
+- Dashboards
+
+Reuse existing patterns before creating new ones.
+
+---
+
+# AI Interaction Engine
+
+Before approving any interaction, answer:
+
+- Is the interaction discoverable?
+- Does motion communicate meaning?
+- Are microinteractions purposeful?
+- Are all interaction states defined?
+- Does keyboard navigation work?
+- Is touch optimized?
+- Are gestures optional?
+- Is accessibility maintained?
+- Is feedback immediate?
+- Does this interaction strengthen the design system?
+
+If any answer is negative, revise the interaction.
+
+---
+
+# Interaction Design Checklist
+
+Before publishing any interaction:
+
+□ UX laws applied
+
+□ Feedback immediate
+
+□ Motion purposeful
+
+□ Microinteractions documented
+
+□ States defined
+
+□ Keyboard navigation supported
+
+□ Touch optimized
+
+□ Gestures accessible
+
+□ Responsive behavior validated
+
+□ Accessibility reviewed
+
+□ Documentation updated
+
+---
+
+# Key Takeaways
+
+Interaction Design defines how users communicate with a digital product.
+
+The AI must:
+
+- Minimize interaction cost.
+- Provide immediate feedback.
+- Design meaningful motion.
+- Build purposeful microinteractions.
+- Support every interaction state.
+- Respect accessibility.
+- Support multiple input methods.
+- Maintain consistency.
+- Prevent errors.
+- Strengthen user confidence.
+
+Every interaction should be predictable, efficient, inclusive, and reusable across the design system.
