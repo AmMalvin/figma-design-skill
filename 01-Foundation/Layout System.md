@@ -186,3 +186,224 @@ If any answer is negative, redesign the layout.
 □ Scalability validated
 
 □ Documentation updated
+
+---
+
+# Auto Layout
+
+## Definition
+
+Auto Layout is the primary layout system for building responsive interfaces in Figma.
+
+It automatically manages:
+
+- Position
+- Size
+- Alignment
+- Spacing
+- Padding
+- Distribution
+- Resizing
+
+Every production-ready component should use Auto Layout whenever appropriate.
+
+---
+
+# Benefits of Auto Layout
+
+Auto Layout improves:
+
+- Responsiveness
+- Scalability
+- Consistency
+- Component reuse
+- Design speed
+- Developer handoff
+
+Avoid manual positioning whenever possible.
+
+---
+
+# Auto Layout Direction
+
+Auto Layout supports:
+
+## Vertical
+
+Use for:
+
+- Forms
+- Lists
+- Sidebars
+- Cards
+- Settings pages
+
+Content flows vertically.
+
+---
+
+## Horizontal
+
+Use for:
+
+- Navigation bars
+- Button groups
+- Toolbars
+- Tags
+- Menus
+
+Content flows horizontally.
+
+---
+
+## Grid
+
+Use for:
+
+- Dashboards
+- Gallery layouts
+- Tables
+- Bento layouts
+- Card collections
+
+Choose the flow that best matches the content structure.
+
+---
+
+# Parent and Child Relationships
+
+Every Auto Layout contains:
+
+Parent Frame
+
+↓
+
+Child Elements
+
+The parent controls:
+
+- Padding
+- Direction
+- Gap
+- Alignment
+- Distribution
+
+Children inherit layout behavior.
+
+---
+
+# Nested Auto Layout
+
+Complex interfaces should combine multiple Auto Layout frames.
+
+Example:
+
+Page
+
+↓
+
+Section
+
+↓
+
+Card
+
+↓
+
+Header
+
+↓
+
+Button Group
+
+↓
+
+Buttons
+
+Each level manages its own spacing and alignment.
+
+---
+
+# Padding
+
+Padding creates internal spacing between the container and its content.
+
+Padding should remain consistent throughout the design system.
+
+Never substitute padding with manually positioned elements.
+
+---
+
+# Gap
+
+Gap controls spacing between child elements.
+
+Gap should:
+
+- Follow the spacing scale.
+- Remain consistent.
+- Reflect hierarchy.
+
+Avoid arbitrary gap values.
+
+---
+
+# Alignment
+
+Support alignment through:
+
+- Start
+- Center
+- End
+- Space Between
+- Stretch
+
+Alignment should reinforce hierarchy.
+
+---
+
+# Distribution
+
+Content should distribute intentionally.
+
+Common options:
+
+- Packed
+- Space Between
+
+Choose the option that best supports the layout goal.
+
+---
+
+# AI Decision Rules
+
+Before approving any Auto Layout:
+
+- Is Auto Layout appropriate?
+- Is the direction correct?
+- Is spacing consistent?
+- Is padding defined?
+- Are parent-child relationships clear?
+- Are nested layouts logical?
+
+Revise until every answer is positive.
+
+---
+
+# Validation Checklist
+
+□ Auto Layout applied
+
+□ Direction selected
+
+□ Parent-child hierarchy defined
+
+□ Padding consistent
+
+□ Gap consistent
+
+□ Alignment reviewed
+
+□ Nested layouts validated
+
+□ Documentation updated
