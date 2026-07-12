@@ -588,3 +588,238 @@ If research is missing, recommend appropriate research activities before finaliz
 □ Opportunities prioritized
 
 □ Recommendations supported by evidence
+
+---
+
+# Journey Mapping
+
+## Definition
+
+A journey map is a visual representation of the complete experience a user has while trying to accomplish a goal.
+
+The AI must evaluate the entire journey rather than individual screens.
+
+Every interface is one moment within a larger experience.
+
+---
+
+# Journey Mapping Principles
+
+Always:
+
+- Start with the user's goal.
+- Map the complete journey.
+- Identify pain points.
+- Identify emotions.
+- Identify opportunities.
+- Validate with research.
+
+Never optimize one touchpoint while degrading another.
+
+---
+
+# Journey Structure
+
+Every journey should document:
+
+### User
+
+Who is performing the journey?
+
+---
+
+### Goal
+
+What outcome is the user trying to achieve?
+
+---
+
+### Trigger
+
+What starts the journey?
+
+---
+
+### Stages
+
+Document each major step.
+
+Example:
+
+Discover
+
+↓
+
+Evaluate
+
+↓
+
+Start
+
+↓
+
+Complete
+
+↓
+
+Confirm
+
+↓
+
+Follow-up
+
+---
+
+### User Actions
+
+Record observable actions.
+
+Avoid assumptions.
+
+---
+
+### Thoughts
+
+Document likely thoughts supported by research.
+
+---
+
+### Emotions
+
+Identify emotional changes across the journey.
+
+Examples:
+
+- Curious
+- Confident
+- Confused
+- Frustrated
+- Relieved
+- Delighted
+
+---
+
+### Pain Points
+
+Document:
+
+- Friction
+- Delays
+- Confusion
+- Errors
+- Missing information
+- Accessibility barriers
+
+---
+
+### Opportunities
+
+Identify improvements that remove friction or increase value.
+
+Prioritize opportunities with the greatest user and business impact.
+
+---
+
+# Service Blueprint Thinking
+
+For complex products, evaluate both:
+
+## Frontstage
+
+Everything visible to users.
+
+Examples:
+
+- Screens
+- Notifications
+- Forms
+- Messages
+- Navigation
+
+---
+
+## Backstage
+
+Everything supporting the experience.
+
+Examples:
+
+- APIs
+- Authentication
+- Databases
+- Customer support
+- Analytics
+- Business processes
+
+Strong user experiences depend on both layers working together.
+
+---
+
+# Inclusive Design
+
+Every journey should work for people with different:
+
+- Abilities
+- Languages
+- Devices
+- Cultures
+- Digital literacy levels
+- Network conditions
+
+Avoid designing for a single "average" user.
+
+---
+
+# Emotional Design
+
+Evaluate emotional impact throughout the journey.
+
+Ask:
+
+- Does this reduce anxiety?
+- Does this build confidence?
+- Does this improve trust?
+- Does this reduce uncertainty?
+- Does this celebrate success appropriately?
+
+Positive emotional outcomes strengthen long-term engagement.
+
+---
+
+# AI Decision Rules
+
+Before finalizing any user flow, answer:
+
+- Does the journey begin with a clear trigger?
+- Can users complete the goal efficiently?
+- Where does friction occur?
+- Which emotions change throughout the experience?
+- Which accessibility barriers exist?
+- Which backstage systems influence this journey?
+- What opportunities provide the greatest improvement?
+
+Revise the design until the journey is coherent from start to finish.
+
+---
+
+# Validation Checklist
+
+□ Journey mapped
+
+□ User goal defined
+
+□ Trigger identified
+
+□ Stages documented
+
+□ Actions validated
+
+□ Emotions reviewed
+
+□ Pain points identified
+
+□ Opportunities prioritized
+
+□ Accessibility evaluated
+
+□ Frontstage and backstage dependencies reviewed
