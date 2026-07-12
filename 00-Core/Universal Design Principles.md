@@ -1201,6 +1201,285 @@ Update documentation whenever:
 
 Documentation updates are mandatory for every system change.
 
+
+---
+
+# Engineering Principles
+
+## Principle 45. Design for Implementation
+
+### Statement
+
+Every design must be feasible to implement using modern engineering practices.
+
+### Intent
+
+Design should reduce ambiguity and accelerate development.
+
+### Rationale
+
+A design system succeeds only when designers and developers share the same understanding of components, behaviors, and constraints.
+
+### Rules
+
+- Design with implementation in mind.
+- Prefer established patterns over custom solutions.
+- Minimize unnecessary complexity.
+- Consider engineering effort during decision making.
+- Validate feasibility before approval.
+
+### AI Instructions
+
+Before introducing a new pattern, evaluate implementation cost, maintainability, and long-term support.
+
+---
+
+## Principle 46. Semantic Tokens Before Raw Values
+
+### Statement
+
+Interfaces must use semantic design tokens instead of hardcoded values.
+
+### Intent
+
+Semantic tokens improve scalability, theming, and long-term maintenance.
+
+### Rules
+
+Never reference:
+
+- Hex colors
+- Pixel spacing
+- Radius values
+- Shadows
+- Font sizes
+
+Instead reference semantic tokens.
+
+### AI Instructions
+
+Whenever a raw value appears, replace it with the appropriate semantic token.
+
+---
+
+## Principle 47. Components Are Contracts
+
+### Statement
+
+Every component represents a reusable contract between design and engineering.
+
+### Intent
+
+Components must behave consistently regardless of where they appear.
+
+### Rules
+
+Every component must define:
+
+- Purpose
+- Anatomy
+- Properties
+- Variants
+- States
+- Behaviors
+- Accessibility
+- Usage
+- Limitations
+
+### AI Instructions
+
+Never publish undocumented components.
+
+---
+
+## Principle 48. Auto Layout Is the Default
+
+### Statement
+
+Every component and layout should support responsive behavior through Auto Layout.
+
+### Intent
+
+Responsive behavior should be built into the component rather than added later.
+
+### Rules
+
+Use:
+
+- Hug
+- Fill
+- Fixed sizing only when required
+
+Avoid manual positioning whenever possible.
+
+### AI Instructions
+
+Reject layouts that cannot adapt to changing content.
+
+---
+
+## Principle 49. Variables Drive Consistency
+
+### Statement
+
+Variables provide the single source of truth for reusable design values.
+
+### Intent
+
+Variables simplify theming, scaling, and maintenance.
+
+### Rules
+
+Store:
+
+- Colors
+- Spacing
+- Radius
+- Borders
+- Opacity
+- Motion
+- Elevation
+
+inside variables.
+
+### AI Instructions
+
+Do not create duplicate variables for identical purposes.
+
+---
+
+## Principle 50. Naming Must Be Predictable
+
+### Statement
+
+Every design asset requires a clear, scalable naming convention.
+
+### Intent
+
+Naming should improve discoverability and reduce ambiguity.
+
+### Rules
+
+Names must be:
+
+- Consistent
+- Descriptive
+- Hierarchical
+- Stable
+- Human-readable
+
+Avoid abbreviations unless standardized.
+
+### AI Instructions
+
+Follow repository naming conventions exactly.
+
+---
+
+# Collaboration Principles
+
+## Principle 51. Design Is a Team Activity
+
+### Statement
+
+Successful products emerge through collaboration across disciplines.
+
+### Intent
+
+Design decisions should include input from product, engineering, research, accessibility, and content teams.
+
+### Rules
+
+Encourage collaboration during:
+
+- Discovery
+- Planning
+- Design
+- Validation
+- Release
+
+### AI Instructions
+
+Identify stakeholders affected by every significant design decision.
+
+---
+
+## Principle 52. Shared Understanding Before Delivery
+
+### Statement
+
+All contributors should understand a design before implementation begins.
+
+### Intent
+
+Reduce misunderstandings between teams.
+
+### Rules
+
+Provide:
+
+- Documentation
+- Prototypes
+- Specifications
+- Acceptance criteria
+- Edge cases
+
+### AI Instructions
+
+Do not assume implementation details are obvious.
+
+---
+
+## Principle 53. Feedback Improves Systems
+
+### Statement
+
+Constructive feedback strengthens the design system.
+
+### Intent
+
+Treat feedback as evidence for improvement rather than criticism.
+
+### Rules
+
+Collect feedback from:
+
+- Designers
+- Developers
+- QA
+- Product Managers
+- End users
+
+### AI Instructions
+
+Record recurring feedback and evaluate whether it indicates a system issue.
+
+---
+
+## Principle 54. Communicate Decisions Clearly
+
+### Statement
+
+Design decisions should be understandable without verbal explanation.
+
+### Intent
+
+Documentation should reduce dependency on meetings.
+
+### Rules
+
+Every major decision must include:
+
+- Purpose
+- Context
+- Trade-offs
+- Impact
+- Related assets
+
+### AI Instructions
+
+Assume future contributors will rely on written documentation rather than conversations.
+
 # Conflict Resolution
 
 When two principles conflict, always resolve them in this order.
