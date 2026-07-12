@@ -752,3 +752,301 @@ Revise until every answer is positive.
 □ Readability validated
 
 □ Documentation updated
+
+---
+
+# Typography Scale
+
+## Definition
+
+A typography scale is a structured set of font sizes used throughout a product.
+
+A consistent scale creates:
+
+- Hierarchy
+- Rhythm
+- Predictability
+- Reusability
+
+Never create random font sizes.
+
+---
+
+# Base Font Size
+
+The base font size is the foundation of the typography system.
+
+Most digital products use:
+
+16 px
+
+as the default body text size.
+
+All other typography should scale from this foundation.
+
+---
+
+# Modular Scale
+
+A modular scale uses mathematical ratios to generate font sizes.
+
+Common ratios include:
+
+- Minor Second
+- Major Second
+- Minor Third
+- Major Third
+- Perfect Fourth
+
+Use modular scales as guidance rather than strict rules.
+
+Readability always takes priority.
+
+---
+
+# Display Text
+
+Display text is the largest typography in the system.
+
+Use for:
+
+- Hero headlines
+- Marketing pages
+- Landing pages
+
+Display text should never be used for body content.
+
+---
+
+# Heading Levels
+
+Every system should define consistent heading levels.
+
+Recommended hierarchy:
+
+- Display
+- Heading 1
+- Heading 2
+- Heading 3
+- Heading 4
+- Heading 5
+- Heading 6
+
+Each level should have a distinct purpose.
+
+---
+
+# Body Text
+
+Body text communicates primary information.
+
+Body text should prioritize:
+
+- Readability
+- Comfortable scanning
+- Accessibility
+
+Avoid excessively small body text.
+
+---
+
+# Supporting Text
+
+Supporting text includes:
+
+- Captions
+- Labels
+- Helper text
+- Metadata
+- Footnotes
+
+Supporting text should remain readable while carrying less visual emphasis.
+
+---
+
+# Font Weight
+
+Font weight creates hierarchy without changing size.
+
+Common weights:
+
+- Thin
+- Extra Light
+- Light
+- Regular
+- Medium
+- Semi Bold
+- Bold
+- Extra Bold
+- Black
+
+Avoid using every available weight.
+
+Limit products to a small, consistent set.
+
+---
+
+# Line Height
+
+## Definition
+
+Line height controls vertical spacing between lines of text.
+
+General guidance:
+
+Display Text
+
+- Tight spacing
+
+Headings
+
+- Moderate spacing
+
+Body Text
+
+- More generous spacing
+
+Supporting Text
+
+- Balanced spacing
+
+Line height should improve readability rather than maximize density.
+
+---
+
+# Letter Spacing
+
+Letter spacing adjusts the distance between characters.
+
+Use letter spacing to:
+
+- Improve readability
+- Support large headings
+- Improve uppercase text
+- Balance typography
+
+Avoid excessive tracking.
+
+---
+
+# Paragraph Spacing
+
+Paragraph spacing separates blocks of text.
+
+Paragraph spacing should communicate structure.
+
+Do not rely on empty lines alone.
+
+---
+
+# Line Length
+
+Readable paragraphs should maintain comfortable line lengths.
+
+Avoid:
+
+- Extremely short lines
+- Extremely long lines
+
+Long lines reduce reading efficiency.
+
+---
+
+# Text Alignment
+
+Supported alignments:
+
+- Left
+- Center
+- Right
+- Justified
+
+For left-to-right languages:
+
+Prefer left alignment for body content.
+
+Center alignment should be reserved for short content.
+
+Avoid justified text in user interfaces unless specifically required.
+
+---
+
+# Responsive Typography
+
+Typography should adapt across screen sizes.
+
+Responsive adjustments may include:
+
+- Font size
+- Line height
+- Letter spacing
+- Display scale
+
+Maintain hierarchy across every breakpoint.
+
+---
+
+# Typography Tokens
+
+Typography should use reusable semantic tokens.
+
+Examples:
+
+type.display.large
+
+type.heading.h1
+
+type.heading.h2
+
+type.body.large
+
+type.body.default
+
+type.body.small
+
+type.caption
+
+type.label
+
+Components should reference typography tokens instead of raw values.
+
+---
+
+# AI Typography Scale Engine
+
+Before approving typography, answer:
+
+- Is the scale consistent?
+- Does each size have a purpose?
+- Is hierarchy obvious?
+- Is body text readable?
+- Is line height appropriate?
+- Is letter spacing balanced?
+- Are typography tokens reusable?
+- Will the system scale across products?
+
+Revise until every answer is positive.
+
+---
+
+# Validation Checklist
+
+□ Base font size defined
+
+□ Typography scale completed
+
+□ Heading hierarchy documented
+
+□ Body text validated
+
+□ Font weights reviewed
+
+□ Line height optimized
+
+□ Letter spacing reviewed
+
+□ Paragraph spacing defined
+
+□ Responsive typography validated
+
+□ Typography tokens documented
