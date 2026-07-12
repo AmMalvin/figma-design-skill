@@ -194,3 +194,239 @@ If not, redesign the structure.
 □ Mental models respected
 
 □ Documentation updated
+
+---
+
+# Organization Systems
+
+## Definition
+
+Organization systems define how information is grouped, categorized, and structured.
+
+Every piece of content should belong to a logical organizational system.
+
+The chosen system should match user expectations rather than internal business structures.
+
+---
+
+# Types of Organization Systems
+
+## Hierarchical
+
+Content is arranged from broad categories to increasingly specific categories.
+
+Example:
+
+Home
+
+↓
+
+Products
+
+↓
+
+Electronics
+
+↓
+
+Laptops
+
+↓
+
+Gaming Laptops
+
+Use hierarchical organization for most websites and applications.
+
+---
+
+## Sequential
+
+Information follows a defined order.
+
+Examples:
+
+- Checkout
+- Registration
+- Onboarding
+- Surveys
+- Tutorials
+- Booking flows
+
+Sequential organization supports task completion.
+
+---
+
+## Matrix
+
+Users choose their own navigation path.
+
+Examples:
+
+- Dashboards
+- Knowledge bases
+- Analytics
+- Admin panels
+
+Provide multiple valid navigation routes.
+
+---
+
+## Faceted
+
+Content is classified using multiple independent attributes.
+
+Examples:
+
+Products filtered by:
+
+- Brand
+- Price
+- Size
+- Rating
+- Availability
+- Color
+
+Faceted organization scales well for large datasets.
+
+---
+
+# Taxonomy
+
+## Definition
+
+A taxonomy is the controlled structure used to classify information.
+
+Taxonomies should:
+
+- Be logical
+- Be scalable
+- Avoid duplication
+- Use consistent naming
+- Reflect user language
+
+Taxonomies support navigation, search, filtering, and metadata.
+
+---
+
+# Classification Principles
+
+Every item should have:
+
+- One clear purpose
+- Consistent placement
+- Clear ownership
+- Logical relationships
+
+Avoid overlapping categories.
+
+---
+
+# Metadata
+
+## Definition
+
+Metadata describes content.
+
+Examples:
+
+- Category
+- Tags
+- Author
+- Status
+- Date
+- Language
+- Product Type
+- Department
+
+Metadata improves:
+
+- Search
+- Filtering
+- Personalization
+- Automation
+- Analytics
+
+---
+
+# Content Modeling
+
+Every content type should define:
+
+- Purpose
+- Required fields
+- Optional fields
+- Relationships
+- Validation rules
+- Lifecycle
+- Ownership
+
+Content models should remain independent from presentation.
+
+---
+
+# Content Inventory
+
+Before creating an IA:
+
+Document:
+
+- Existing pages
+- Existing features
+- Existing files
+- Existing data
+- Existing workflows
+- Duplicate content
+- Missing content
+
+Never redesign without understanding current content.
+
+---
+
+# Content Audit
+
+Review every content item for:
+
+- Accuracy
+- Relevance
+- Quality
+- Duplication
+- Accessibility
+- Ownership
+- Maintenance status
+
+Remove obsolete content.
+
+---
+
+# AI Decision Rules
+
+Before approving any structure:
+
+- Is the organization logical?
+- Does the taxonomy scale?
+- Is metadata sufficient?
+- Are relationships clear?
+- Has duplicate content been removed?
+- Does every content type have a defined model?
+
+Revise until every answer is positive.
+
+---
+
+# Validation Checklist
+
+□ Organization system selected
+
+□ Taxonomy defined
+
+□ Classification rules documented
+
+□ Metadata model completed
+
+□ Content model documented
+
+□ Content inventory completed
+
+□ Content audit completed
+
+□ Scalability reviewed
