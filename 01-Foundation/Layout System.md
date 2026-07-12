@@ -407,3 +407,264 @@ Revise until every answer is positive.
 □ Nested layouts validated
 
 □ Documentation updated
+
+---
+
+# Resizing Behavior
+
+## Definition
+
+Resizing determines how frames and components respond when their parent, child, or content changes.
+
+Every component should define its resizing behavior.
+
+Never leave resizing to chance.
+
+---
+
+# Hug Contents
+
+## Definition
+
+A frame set to Hug Contents automatically resizes to fit its child elements.
+
+Use Hug Contents for:
+
+- Buttons
+- Tags
+- Chips
+- Badges
+- Labels
+- Tooltips
+- Small cards
+- Input fields with dynamic content
+
+Hug Contents should wrap tightly around its content while respecting padding.
+
+---
+
+# Fill Container
+
+## Definition
+
+Fill Container expands an element to occupy all available space inside its parent.
+
+Use Fill Container for:
+
+- Page content
+- Main sections
+- Text inputs
+- Tables
+- Dashboard panels
+- Lists
+- Cards inside responsive layouts
+
+Fill Container creates flexible layouts.
+
+---
+
+# Fixed Size
+
+## Definition
+
+Fixed Size maintains a constant width or height regardless of surrounding changes.
+
+Use Fixed Size for:
+
+- Logos
+- Icons
+- Avatars
+- Images with fixed ratios
+- Brand marks
+- Floating buttons
+
+Avoid Fixed Size for content that changes frequently.
+
+---
+
+# Minimum Dimensions
+
+Minimum dimensions prevent components from shrinking below a usable size.
+
+Use minimum values for:
+
+- Buttons
+- Inputs
+- Cards
+- Navigation
+- Dialogs
+
+Minimum dimensions protect usability.
+
+---
+
+# Maximum Dimensions
+
+Maximum dimensions prevent components from becoming excessively large.
+
+Apply maximum values to:
+
+- Text blocks
+- Containers
+- Cards
+- Dialogs
+- Images
+
+Maximum dimensions improve readability.
+
+---
+
+# Responsive Containers
+
+Containers should resize based on:
+
+- Screen size
+- Parent size
+- Content size
+- Available space
+
+Containers should never create unnecessary overflow.
+
+---
+
+# Layout Constraints
+
+Constraints determine how elements behave when a frame changes size.
+
+Common constraints include:
+
+- Left
+- Right
+- Top
+- Bottom
+- Center
+- Scale
+
+Choose constraints that match the intended responsive behavior.
+
+---
+
+# Auto Resizing
+
+Auto resizing allows layouts to adapt automatically as content changes.
+
+Support:
+
+- Dynamic text
+- Variable content
+- Localization
+- User-generated content
+- Accessibility settings
+
+Design for changing content, not fixed examples.
+
+---
+
+# Overflow Handling
+
+Overflow should be intentional.
+
+Use:
+
+- Scrolling
+- Clipping
+- Wrapping
+- Pagination
+- Progressive disclosure
+
+Never allow accidental overflow.
+
+---
+
+# Responsive Nesting
+
+Nested layouts should remain predictable.
+
+Each parent controls:
+
+- Direction
+- Padding
+- Gap
+- Alignment
+
+Each child defines:
+
+- Hug Contents
+- Fill Container
+- Fixed Size
+
+Avoid conflicting resizing rules.
+
+---
+
+# Layout Guides
+
+Layout guides improve consistency.
+
+Use guides for:
+
+- Margins
+- Columns
+- Gutters
+- Safe areas
+- Alignment
+
+Guides should be shared across the entire design system.
+
+---
+
+# Frame Behavior
+
+Every frame should define:
+
+- Width behavior
+- Height behavior
+- Alignment
+- Overflow
+- Padding
+- Gap
+- Constraints
+
+Frame behavior should remain predictable across every screen.
+
+---
+
+# AI Layout Engine
+
+Before approving any layout, answer:
+
+- Is the resizing behavior defined?
+- Should this element Hug Contents, Fill Container, or remain Fixed?
+- Are minimum and maximum dimensions appropriate?
+- Will the layout adapt to different screen sizes?
+- Is overflow handled correctly?
+- Do nested layouts behave predictably?
+- Can developers implement this easily?
+
+Revise until every answer is positive.
+
+---
+
+# Validation Checklist
+
+□ Hug Contents applied correctly
+
+□ Fill Container applied correctly
+
+□ Fixed Size reviewed
+
+□ Minimum dimensions defined
+
+□ Maximum dimensions defined
+
+□ Responsive containers validated
+
+□ Constraints documented
+
+□ Overflow handled
+
+□ Nested layouts reviewed
+
+□ Layout guides applied
+
+□ Frame behavior documented
