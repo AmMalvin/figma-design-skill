@@ -427,3 +427,331 @@ Revise until every answer is positive.
 □ Dominance established
 
 □ Focal point defined
+
+
+---
+
+# Eye Tracking
+
+## Definition
+
+Eye tracking studies how users visually scan interfaces before interacting with them.
+
+Users rarely read every element.
+
+Users scan for meaning.
+
+The AI should optimize layouts for scanning rather than reading.
+
+---
+
+# Eye Tracking Principles
+
+Users generally:
+
+- Scan before reading.
+- Look for headings first.
+- Notice high-contrast elements.
+- Focus on large objects.
+- Ignore repetitive content.
+- Follow predictable reading patterns.
+
+Hierarchy should support natural scanning behavior.
+
+---
+
+# F-Pattern
+
+## Definition
+
+The F-pattern is common on content-heavy interfaces.
+
+Typical examples:
+
+- Documentation
+- Blogs
+- News websites
+- Dashboards
+- Knowledge bases
+- Search results
+
+Users usually:
+
+1. Scan horizontally across the top.
+2. Scan a shorter horizontal section below.
+3. Scan vertically along the left side.
+
+---
+
+# Designing for the F-Pattern
+
+Place:
+
+- Primary heading at the top.
+- Important keywords near the left.
+- Strong section headings.
+- Important actions near scanning paths.
+
+Do not hide key information on the far right.
+
+---
+
+# Z-Pattern
+
+## Definition
+
+The Z-pattern works best on simple layouts with limited content.
+
+Typical examples:
+
+- Landing pages
+- Marketing websites
+- Product launches
+- Portfolio pages
+
+The eye typically moves:
+
+Top Left
+
+↓
+
+Top Right
+
+↓
+
+Diagonal
+
+↓
+
+Bottom Left
+
+↓
+
+Bottom Right
+
+---
+
+# Designing for the Z-Pattern
+
+Place:
+
+Top Left
+
+- Logo
+
+Top Right
+
+- Secondary navigation
+
+Center
+
+- Hero content
+- Value proposition
+
+Bottom Right
+
+- Primary CTA
+
+The Z-pattern naturally supports conversion-focused pages.
+
+---
+
+# Gutenberg Diagram
+
+## Definition
+
+The Gutenberg Diagram divides a page into four visual quadrants.
+
+These are:
+
+- Primary Optical Area
+- Strong Fallow Area
+- Weak Fallow Area
+- Terminal Area
+
+Users naturally begin in the Primary Optical Area and often finish in the Terminal Area.
+
+Use this model for pages with evenly distributed content.
+
+---
+
+# Reading Behavior
+
+Users do not read linearly.
+
+Reading depends on:
+
+- Task
+- Motivation
+- Content density
+- Familiarity
+- Time pressure
+
+Support both scanning and detailed reading.
+
+---
+
+# Scanning Behavior
+
+Improve scanning by using:
+
+- Headings
+- Subheadings
+- Lists
+- Icons
+- White space
+- Cards
+- Progressive disclosure
+- Strong typography hierarchy
+
+Large blocks of uninterrupted text reduce scanning efficiency.
+
+---
+
+# Typography Hierarchy
+
+Typography should communicate importance.
+
+Levels should include:
+
+- Display
+- Heading 1
+- Heading 2
+- Heading 3
+- Heading 4
+- Body Large
+- Body
+- Caption
+- Label
+- Helper Text
+
+Every level should have a distinct purpose.
+
+---
+
+# Color Hierarchy
+
+Use color to reinforce hierarchy.
+
+Primary colors:
+
+- Primary actions
+- Key metrics
+- Active states
+
+Secondary colors:
+
+- Supporting actions
+- Secondary information
+
+Neutral colors:
+
+- Backgrounds
+- Borders
+- Body content
+- Supporting UI
+
+Avoid assigning equal emphasis to every color.
+
+---
+
+# Layout Hierarchy
+
+Every layout should establish:
+
+- Primary region
+- Secondary region
+- Supporting region
+- Utility region
+
+Each region should have a clear purpose.
+
+---
+
+# Grid Influence
+
+Grids improve:
+
+- Alignment
+- Consistency
+- Rhythm
+- Predictability
+- Scalability
+
+Every layout should align with the design system grid.
+
+Never position elements arbitrarily.
+
+---
+
+# Rhythm
+
+Rhythm creates consistency through repetition.
+
+Maintain rhythm through:
+
+- Spacing
+- Columns
+- Typography
+- Cards
+- Sections
+- Components
+
+Consistent rhythm improves comprehension.
+
+---
+
+# Visual Flow
+
+Visual flow guides the eye through the interface.
+
+Flow should support:
+
+- Reading
+- Decision making
+- Task completion
+- Navigation
+- Calls to action
+
+Every screen should have an intentional visual path.
+
+---
+
+# AI Decision Rules
+
+Before approving any screen:
+
+- Does the layout support natural scanning?
+- Is the appropriate eye-tracking pattern used?
+- Is typography hierarchy clear?
+- Does color reinforce importance?
+- Does the layout follow the grid?
+- Is rhythm consistent?
+- Is visual flow intentional?
+- Can users identify the primary action within seconds?
+
+Revise until every answer is positive.
+
+---
+
+# Validation Checklist
+
+□ Eye-tracking pattern selected
+
+□ F-pattern or Z-pattern evaluated
+
+□ Gutenberg Diagram considered
+
+□ Typography hierarchy defined
+
+□ Color hierarchy reviewed
+
+□ Layout hierarchy established
+
+□ Grid alignment validated
+
+□ Rhythm maintained
+
+□ Visual flow optimized
+
+□ Documentation updated
