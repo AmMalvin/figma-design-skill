@@ -148,3 +148,282 @@ If any answer is negative, redesign the layout.
 □ Accessibility reviewed
 
 □ Documentation updated
+
+---
+
+# Visual Weight
+
+## Definition
+
+Visual weight determines how much attention an element attracts.
+
+Every element carries visual weight.
+
+The AI should intentionally distribute visual weight to guide user attention.
+
+---
+
+# Factors That Increase Visual Weight
+
+Visual weight increases with:
+
+- Larger size
+- Higher contrast
+- Stronger color
+- Bold typography
+- Unique shapes
+- Greater spacing
+- Isolation
+- Movement
+- Shadows
+- Depth
+- Position near the top
+- Position near the left in left-to-right languages
+
+Increase visual weight only when an element deserves more attention.
+
+---
+
+# Scale
+
+Scale communicates importance through relative size.
+
+Large elements communicate:
+
+- Importance
+- Priority
+- Entry points
+- Primary actions
+
+Small elements communicate:
+
+- Supporting information
+- Metadata
+- Secondary actions
+
+Scale should reflect importance.
+
+---
+
+# Size
+
+Size creates hierarchy.
+
+Rules:
+
+- Largest = Primary
+- Medium = Secondary
+- Small = Supporting
+
+Avoid making unrelated elements the same size.
+
+---
+
+# Contrast
+
+Contrast separates information.
+
+Use contrast through:
+
+- Color
+- Brightness
+- Typography
+- Size
+- Shape
+- Opacity
+- Space
+
+Higher contrast increases visibility.
+
+Do not rely on color alone.
+
+---
+
+# White Space
+
+## Definition
+
+White space is intentional empty space.
+
+White space improves:
+
+- Readability
+- Focus
+- Comprehension
+- Scanning
+- Grouping
+- Visual balance
+
+Empty space is an active design element.
+
+Never fill space unnecessarily.
+
+---
+
+# Proximity
+
+Elements placed close together are perceived as related.
+
+Group information based on:
+
+- Meaning
+- Function
+- Workflow
+- Context
+
+Separate unrelated information.
+
+Spacing communicates relationships before text is read.
+
+---
+
+# Alignment
+
+Alignment creates order.
+
+Every element should align intentionally.
+
+Support:
+
+- Grid alignment
+- Baseline alignment
+- Edge alignment
+- Component alignment
+
+Avoid random placement.
+
+---
+
+# Repetition
+
+Repeated visual patterns strengthen recognition.
+
+Repeat consistently:
+
+- Typography
+- Colors
+- Components
+- Icons
+- Layouts
+- Spacing
+- Borders
+- Shadows
+
+Repetition creates familiarity.
+
+---
+
+# Balance
+
+Balance distributes visual weight.
+
+Types:
+
+## Symmetrical
+
+Equal visual weight.
+
+Creates:
+
+- Stability
+- Formality
+- Calmness
+
+---
+
+## Asymmetrical
+
+Unequal visual weight balanced through composition.
+
+Creates:
+
+- Energy
+- Movement
+- Modern interfaces
+
+Choose the balance style intentionally.
+
+---
+
+# Dominance
+
+Every screen should have one dominant element.
+
+Dominance communicates:
+
+- Primary purpose
+- Main message
+- Primary action
+
+Avoid competing dominant elements.
+
+---
+
+# Emphasis
+
+Emphasis highlights what matters most.
+
+Create emphasis using:
+
+- Contrast
+- Size
+- Color
+- Position
+- Spacing
+- Typography
+- Motion
+
+Emphasis should reinforce hierarchy.
+
+---
+
+# Focal Points
+
+Every interface requires:
+
+- One primary focal point
+- Limited secondary focal points
+- Supporting elements
+
+Too many focal points reduce clarity.
+
+---
+
+# AI Decision Rules
+
+Before approving a layout:
+
+- Is visual weight intentional?
+- Does size reflect importance?
+- Is contrast sufficient?
+- Is whitespace purposeful?
+- Are related items grouped?
+- Is alignment consistent?
+- Is repetition maintained?
+- Is there one dominant focal point?
+
+Revise until every answer is positive.
+
+---
+
+# Validation Checklist
+
+□ Visual weight reviewed
+
+□ Scale reflects priority
+
+□ Contrast optimized
+
+□ White space intentional
+
+□ Proximity supports relationships
+
+□ Alignment consistent
+
+□ Repetition maintained
+
+□ Balance evaluated
+
+□ Dominance established
+
+□ Focal point defined
