@@ -423,3 +423,250 @@ Never begin ideation until these questions are answered.
 □ Opportunities identified
 
 □ Evidence linked
+
+
+---
+
+# Ideation
+
+## Definition
+
+Ideation is the structured process of generating, exploring, organizing, and refining possible solutions.
+
+The objective is not to find the first solution.
+
+The objective is to discover the strongest solution.
+
+---
+
+# Ideation Principles
+
+Always:
+
+- Explore broadly before narrowing.
+- Encourage diverse thinking.
+- Delay evaluation during idea generation.
+- Build upon existing ideas.
+- Document every promising concept.
+- Prioritize evidence over preference.
+
+Never:
+
+- Stop after the first idea.
+- Reject unconventional ideas too early.
+- Evaluate while brainstorming.
+- Limit exploration without justification.
+
+---
+
+# Brainstorming
+
+## Purpose
+
+Generate as many ideas as possible within a limited time.
+
+Rules:
+
+- Encourage quantity first.
+- Avoid criticism.
+- Build on others' ideas.
+- Capture every idea.
+- Evaluate later.
+
+---
+
+# Brainwriting
+
+Purpose:
+
+Generate ideas individually before group discussion.
+
+Advantages:
+
+- Reduces groupthink.
+- Encourages quieter contributors.
+- Produces more diverse ideas.
+- Improves participation.
+
+The AI should recommend Brainwriting when equal participation is important.
+
+---
+
+# Crazy 8s
+
+Purpose:
+
+Rapidly generate eight solution concepts.
+
+Process:
+
+- One problem
+- Eight ideas
+- Limited time
+- No evaluation
+
+Focus on exploration rather than perfection.
+
+---
+
+# SCAMPER
+
+Purpose:
+
+Improve an existing solution through structured prompts.
+
+Evaluate every concept using:
+
+- Substitute
+- Combine
+- Adapt
+- Modify
+- Put to another use
+- Eliminate
+- Reverse
+
+SCAMPER is most effective for improving existing products rather than starting from nothing.
+
+---
+
+# Mind Mapping
+
+Purpose:
+
+Explore relationships between ideas.
+
+Begin with a central problem.
+
+Expand into:
+
+- Causes
+- Opportunities
+- Users
+- Constraints
+- Solutions
+- Risks
+- Dependencies
+
+Mind maps help reveal connections that linear thinking often misses.
+
+---
+
+# Affinity Mapping
+
+Purpose:
+
+Group similar observations into meaningful themes.
+
+Cluster findings by:
+
+- Behaviors
+- Goals
+- Pain points
+- Opportunities
+- Risks
+- Research insights
+
+Name every cluster using clear, descriptive labels.
+
+---
+
+# Design Studio
+
+Purpose:
+
+Generate and refine concepts collaboratively.
+
+Typical workflow:
+
+Research
+
+↓
+
+Individual sketching
+
+↓
+
+Presentation
+
+↓
+
+Critique
+
+↓
+
+Iteration
+
+↓
+
+Selection
+
+Every participant contributes before evaluation begins.
+
+---
+
+# Reverse Brainstorming
+
+Purpose:
+
+Identify ways to create failure.
+
+Ask:
+
+"How could this experience become worse?"
+
+Then reverse every answer into an improvement opportunity.
+
+---
+
+# Lateral Thinking
+
+Purpose:
+
+Break habitual thinking patterns.
+
+Encourage:
+
+- Analogies
+- Random associations
+- Alternative perspectives
+- Cross-industry inspiration
+- Constraint removal
+
+Novel ideas should still be validated before implementation.
+
+---
+
+# AI Decision Rules
+
+Before selecting a solution, verify:
+
+- Were multiple ideas explored?
+- Were different ideation techniques used where appropriate?
+- Were unconventional ideas considered?
+- Were ideas grouped into themes?
+- Was evaluation delayed until exploration finished?
+- Does the selected idea outperform the alternatives?
+
+Reject solutions that were never compared with alternatives.
+
+---
+
+# Validation Checklist
+
+□ Brainstorm completed
+
+□ Multiple concepts generated
+
+□ Crazy 8s completed where appropriate
+
+□ SCAMPER reviewed
+
+□ Mind map created
+
+□ Affinity clusters documented
+
+□ Design Studio feedback reviewed
+
+□ Alternatives compared
+
+□ Final concept justified
