@@ -376,3 +376,285 @@ Revise until every answer is positive.
 □ Progressive disclosure implemented
 
 □ Efficiency improved
+
+
+---
+
+# Doherty Threshold
+
+## Definition
+
+Productivity increases when users receive system feedback within approximately 400 milliseconds.
+
+Users should never wonder whether the system received their action.
+
+Fast feedback maintains flow.
+
+---
+
+# Applying the Doherty Threshold
+
+The AI should:
+
+- Respond immediately to user input.
+- Display optimistic UI where appropriate.
+- Show loading indicators for longer operations.
+- Use skeleton screens instead of blank pages.
+- Preserve interaction momentum.
+
+Every interaction exceeding 400 milliseconds should communicate progress.
+
+---
+
+# Goal Gradient Effect
+
+## Definition
+
+People become increasingly motivated as they approach a goal.
+
+Visible progress encourages task completion.
+
+---
+
+# Applying the Goal Gradient Effect
+
+Support motivation through:
+
+- Progress bars
+- Step indicators
+- Completion percentages
+- Checklists
+- Milestone celebrations
+- Task counters
+
+Always communicate remaining effort.
+
+---
+
+# Peak-End Rule
+
+## Definition
+
+Users remember experiences primarily by:
+
+- The emotional peak
+- The ending
+
+The overall duration is less influential than these moments.
+
+---
+
+# Applying the Peak-End Rule
+
+Pay special attention to:
+
+- Onboarding completion
+- Successful purchases
+- Account creation
+- Achievement moments
+- Confirmation screens
+- Final checkout
+
+End important workflows positively.
+
+---
+
+# Von Restorff Effect
+
+## Definition
+
+Items that stand out are remembered more easily.
+
+Visual emphasis should communicate importance.
+
+---
+
+# Applying the Von Restorff Effect
+
+Highlight:
+
+- Primary actions
+- Critical notifications
+- Important status changes
+- Emergency alerts
+- Key metrics
+
+Avoid highlighting multiple competing elements.
+
+Only one primary focal point should exist within a given context.
+
+---
+
+# Serial Position Effect
+
+## Definition
+
+People remember the first and last items in a sequence better than those in the middle.
+
+---
+
+# Applying the Serial Position Effect
+
+Place the most important actions:
+
+- At the beginning
+- At the end
+
+Avoid hiding critical information in the middle of long lists.
+
+---
+
+# Zeigarnik Effect
+
+## Definition
+
+People naturally remember unfinished tasks.
+
+Visible incomplete work encourages completion.
+
+---
+
+# Applying the Zeigarnik Effect
+
+Use:
+
+- Draft indicators
+- Progress tracking
+- Resume functionality
+- Recently viewed items
+- Continue buttons
+
+Support users returning to unfinished work.
+
+---
+
+# Feedback Loops
+
+Every interaction should produce meaningful feedback.
+
+Feedback should communicate:
+
+- What happened
+- Why it happened
+- What happens next
+- Whether user action is required
+
+Feedback should never create uncertainty.
+
+---
+
+# System Status
+
+Users should always know the current system state.
+
+Display:
+
+- Loading
+- Saving
+- Syncing
+- Processing
+- Uploading
+- Downloading
+- Completed
+- Failed
+
+Never leave users wondering whether work is in progress.
+
+---
+
+# Loading States
+
+When operations require time:
+
+Display:
+
+- Skeleton screens
+- Progress indicators
+- Estimated completion when possible
+- Contextual messages
+
+Avoid blank screens.
+
+Avoid frozen interfaces.
+
+---
+
+# Empty States
+
+An empty state should explain:
+
+- Why nothing is shown
+- What users can do next
+- How to get started
+- What value exists
+
+Every empty state should guide action.
+
+---
+
+# Success States
+
+Successful actions should provide:
+
+- Confirmation
+- Positive reinforcement
+- Clear next steps
+- Updated system status
+
+Avoid interrupting users with unnecessary dialogs.
+
+---
+
+# Error States
+
+Every error message should include:
+
+- What happened
+- Why it happened
+- How to fix it
+- Recovery options
+
+Never blame the user.
+
+Never use vague messages.
+
+---
+
+# AI Decision Rules
+
+Before approving any interaction, answer:
+
+- Does feedback appear immediately?
+- Is progress visible?
+- Are important actions emphasized?
+- Are loading states informative?
+- Are empty states helpful?
+- Are success states meaningful?
+- Can users recover from every error?
+- Is the interaction memorable for the right reasons?
+
+Revise until every answer is positive.
+
+---
+
+# Validation Checklist
+
+□ Doherty Threshold considered
+
+□ Progress visible
+
+□ Feedback immediate
+
+□ Peak moments improved
+
+□ Primary actions emphasized
+
+□ Loading states implemented
+
+□ Empty states designed
+
+□ Success states designed
+
+□ Error recovery supported
+
+□ System status always visible
