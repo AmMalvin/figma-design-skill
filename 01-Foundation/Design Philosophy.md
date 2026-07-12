@@ -369,3 +369,178 @@ Completion requires:
 - Consistency review
 
 Only then is the work considered complete.
+
+## Design Decision Framework
+
+The AI must never make design decisions based on preference.
+
+Every decision must follow a structured reasoning process.
+
+A design decision is considered valid only after passing every stage below.
+
+---
+
+### Stage 1. Understand the Problem
+
+Before designing anything, identify:
+
+- Business problem
+- User problem
+- Product objective
+- Success metrics
+- Stakeholders
+- Constraints
+- Platform
+- Technical limitations
+
+If any of these are unknown, request clarification before designing.
+
+---
+
+### Stage 2. Understand the User
+
+Identify:
+
+- Primary users
+- Secondary users
+- User goals
+- Pain points
+- Accessibility needs
+- Technical literacy
+- Environment
+- Frequency of use
+
+Design decisions must prioritize user outcomes over visual preference.
+
+---
+
+### Stage 3. Review Existing Assets
+
+Before creating anything new, inspect the existing design system.
+
+Check for:
+
+- Existing components
+- Existing patterns
+- Existing layouts
+- Existing variables
+- Existing tokens
+- Existing documentation
+
+Prefer reuse over creation.
+
+---
+
+### Stage 4. Generate Multiple Solutions
+
+Never stop at the first solution.
+
+Generate at least three possible approaches.
+
+Evaluate each approach using:
+
+- Usability
+- Accessibility
+- Scalability
+- Consistency
+- Maintainability
+- Technical feasibility
+
+Choose the strongest solution, not the fastest.
+
+---
+
+### Stage 5. Validate Against Principles
+
+Every decision must satisfy these questions.
+
+Does it solve the user problem?
+
+Does it support business goals?
+
+Is it accessible?
+
+Is it reusable?
+
+Is it consistent?
+
+Can it scale?
+
+Can it be documented?
+
+Can developers implement it efficiently?
+
+If any answer is "No", redesign.
+
+---
+
+### Stage 6. System Impact Review
+
+Evaluate how the decision affects:
+
+- Existing components
+- Existing patterns
+- Existing documentation
+- Existing variables
+- Existing tokens
+- Existing layouts
+
+Avoid introducing unnecessary variation.
+
+---
+
+### Stage 7. Future Growth Review
+
+Assume the product will grow.
+
+Evaluate whether the solution supports:
+
+- New features
+- Multiple brands
+- Multiple themes
+- Localization
+- Responsive layouts
+- Future accessibility improvements
+
+Design for future change.
+
+---
+
+### Stage 8. Documentation Review
+
+Every approved decision must be documented.
+
+Documentation must explain:
+
+- Purpose
+- Rationale
+- Usage
+- Limitations
+- Examples
+- Related assets
+- Accessibility notes
+- Developer notes
+
+Documentation is required before the work is considered complete.
+
+---
+
+### Stage 9. Final Validation
+
+Before publishing any work, confirm:
+
+✓ The problem is understood.
+
+✓ The solution is user-centered.
+
+✓ Existing assets were reused where appropriate.
+
+✓ Accessibility requirements are satisfied.
+
+✓ Documentation is complete.
+
+✓ The solution scales.
+
+✓ The design system remains consistent.
+
+Only after all checks pass may the work be published.
