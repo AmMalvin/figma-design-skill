@@ -665,6 +665,221 @@ Every animation must answer:
 
 If not, remove it.
 
+
+---
+
+# Interaction Design Principles
+
+## Principle 25. Recognition Before Recall
+
+### Statement
+
+Interfaces shall minimize memory load by making available actions, options, and information visible whenever practical.
+
+### Intent
+
+Users should recognize available actions instead of remembering them.
+
+### Rationale
+
+Recognition reduces cognitive effort and improves task completion.
+
+### Rules
+
+- Prefer visible controls.
+- Display important information.
+- Keep navigation predictable.
+- Avoid hidden interactions.
+- Reveal advanced actions progressively.
+
+### AI Instructions
+
+Never require users to memorize workflows.
+
+Design interfaces that expose functionality naturally.
+
+---
+
+## Principle 26. Immediate Feedback
+
+### Statement
+
+Every user action must produce timely and meaningful feedback.
+
+### Intent
+
+Users should always understand the result of their actions.
+
+### Rationale
+
+Feedback builds confidence and reduces uncertainty.
+
+### Rules
+
+Provide feedback for:
+
+- Clicks
+- Taps
+- Keyboard actions
+- Loading
+- Success
+- Failure
+- Validation
+- Progress
+
+### AI Instructions
+
+Never leave users wondering whether the system received their action.
+
+---
+
+## Principle 27. Prevent Errors Before They Happen
+
+### Statement
+
+Preventing mistakes is better than helping users recover from them.
+
+### Intent
+
+Interfaces should reduce opportunities for human error.
+
+### Rules
+
+- Validate early.
+- Disable impossible actions.
+- Use smart defaults.
+- Confirm destructive actions.
+- Explain requirements before submission.
+
+### AI Instructions
+
+Identify potential mistakes before designing the interface.
+
+Design safeguards into the workflow.
+
+---
+
+## Principle 28. Recovery Must Be Easy
+
+### Statement
+
+Users should recover from mistakes quickly and confidently.
+
+### Intent
+
+Errors should never become dead ends.
+
+### Rules
+
+Provide:
+
+- Undo
+- Retry
+- Cancel
+- Restore
+- Clear guidance
+- Helpful messages
+
+### AI Instructions
+
+Every error state must include a recovery path.
+
+---
+
+## Principle 29. Progressive Disclosure
+
+### Statement
+
+Reveal information only when it becomes relevant.
+
+### Intent
+
+Reduce cognitive load by presenting complexity gradually.
+
+### Rules
+
+- Show essentials first.
+- Reveal advanced options when needed.
+- Avoid overwhelming first-time users.
+
+### AI Instructions
+
+Hide complexity without hiding capability.
+
+---
+
+## Principle 30. Predictable Behaviour
+
+### Statement
+
+Similar actions should always produce similar results.
+
+### Intent
+
+Users should build confidence through consistency.
+
+### Rules
+
+- Standardize interactions.
+- Standardize navigation.
+- Standardize terminology.
+- Standardize feedback.
+
+### AI Instructions
+
+Never create unique interaction models for similar tasks.
+
+---
+
+## Principle 31. Respect Platform Conventions
+
+### Statement
+
+Follow established interaction patterns for each platform.
+
+### Intent
+
+Users should benefit from familiar behavior.
+
+### Rules
+
+Respect:
+
+- iOS conventions
+- Android conventions
+- Web conventions
+- Desktop conventions
+
+Depart from platform standards only when measurable usability improvements exist.
+
+### AI Instructions
+
+Platform familiarity is preferred over novelty.
+
+---
+
+## Principle 32. Every Interaction Has a Purpose
+
+### Statement
+
+Every interaction must contribute directly to user success.
+
+### Intent
+
+Remove interactions that add effort without delivering value.
+
+### Rules
+
+Every tap, click, swipe, or gesture must have measurable purpose.
+
+Avoid unnecessary confirmations, transitions, or animations.
+
+### AI Instructions
+
+Question every interaction before adding it.
+
+If it does not improve usability, remove it.
+
 # Conflict Resolution
 
 When two principles conflict, always resolve them in this order.
