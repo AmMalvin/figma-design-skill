@@ -395,3 +395,246 @@ If not, redesign the interaction.
 □ Learnability improved
 
 □ Predictability maintained
+
+---
+
+# Affordances
+
+## Definition
+
+Affordances describe the actions an interface element makes possible.
+
+Every interactive element should clearly communicate what users can do.
+
+Good affordances reduce uncertainty.
+
+Poor affordances create hesitation.
+
+---
+
+# Perceived Affordances
+
+Users act based on what they believe is possible.
+
+Interactive elements should appear interactive.
+
+Examples:
+
+- Buttons should look clickable.
+- Input fields should look editable.
+- Links should look selectable.
+- Drag handles should suggest movement.
+
+Never rely on hidden interactions for primary functionality.
+
+---
+
+# Signifiers
+
+## Definition
+
+Signifiers communicate how users should interact with an interface.
+
+Examples include:
+
+- Labels
+- Icons
+- Colors
+- Shadows
+- Borders
+- Cursor changes
+- Animations
+- Tooltips
+
+Strong signifiers improve discoverability.
+
+---
+
+# Natural Mapping
+
+Controls should have an obvious relationship with their results.
+
+Examples:
+
+- Volume sliders increase upward or to the right.
+- Next buttons move forward.
+- Back buttons return to the previous step.
+- Dragging a card moves the card.
+
+Avoid mappings that contradict user expectations.
+
+---
+
+# Constraints
+
+Constraints prevent invalid actions.
+
+Types of constraints:
+
+### Physical
+
+Limit actions through physical properties.
+
+### Logical
+
+Limit actions through system rules.
+
+### Semantic
+
+Limit actions through meaning.
+
+### Cultural
+
+Limit actions through shared conventions.
+
+Use constraints to prevent mistakes rather than correcting them afterward.
+
+---
+
+# Feedback
+
+Every user action requires feedback.
+
+Feedback should be:
+
+- Immediate
+- Clear
+- Relevant
+- Understandable
+- Accessible
+
+Examples:
+
+- Loading indicators
+- Success messages
+- Error messages
+- Progress bars
+- Button state changes
+- Haptic feedback
+- Sound feedback where appropriate
+
+Lack of feedback creates uncertainty.
+
+---
+
+# Progressive Disclosure
+
+Reveal complexity gradually.
+
+Show:
+
+- Essential information first.
+- Advanced controls when needed.
+- Secondary actions after primary actions.
+- Additional settings on demand.
+
+Progressive disclosure reduces cognitive overload.
+
+---
+
+# Consistency Models
+
+Maintain consistency across:
+
+- Layouts
+- Navigation
+- Components
+- Terminology
+- Colors
+- Icons
+- Motion
+- Interactions
+- Feedback
+- Error handling
+
+Consistency strengthens mental models.
+
+---
+
+# Error Prevention
+
+Prevent mistakes before they occur.
+
+Methods include:
+
+- Intelligent defaults
+- Disabled invalid actions
+- Inline validation
+- Confirmation for destructive actions
+- Contextual guidance
+- Constraints
+- Clear labels
+
+Preventing errors is more effective than recovering from them.
+
+---
+
+# AI Mental Model Engine
+
+Before approving any interaction, answer:
+
+- Does the element clearly communicate its purpose?
+- Are affordances obvious?
+- Are signifiers visible?
+- Is mapping intuitive?
+- Do constraints prevent mistakes?
+- Is feedback immediate?
+- Is complexity revealed progressively?
+- Does this strengthen the user's mental model?
+- Does it follow platform conventions?
+- Can first-time users understand it without explanation?
+
+Revise the design until every answer is positive.
+
+---
+
+# Mental Models Checklist
+
+Before publishing any interface:
+
+□ Jakob's Law respected
+
+□ Recognition prioritized
+
+□ Platform conventions followed
+
+□ Affordances visible
+
+□ Signifiers clear
+
+□ Natural mapping maintained
+
+□ Constraints implemented
+
+□ Immediate feedback provided
+
+□ Progressive disclosure applied
+
+□ Consistency maintained
+
+□ Error prevention reviewed
+
+□ Mental models strengthened
+
+□ Documentation updated
+
+---
+
+# Key Takeaways
+
+Users understand new products through previous experiences.
+
+The AI must:
+
+- Respect familiar patterns.
+- Design for recognition.
+- Make actions obvious.
+- Communicate possibilities clearly.
+- Prevent avoidable mistakes.
+- Build predictable interactions.
+- Reinforce accurate mental models.
+- Reduce learning effort.
+- Maintain consistency.
+- Strengthen user confidence.
+
+Mental Models form the bridge between human cognition and interface design. Every interaction should reinforce what users already know while making new functionality easy to discover.
