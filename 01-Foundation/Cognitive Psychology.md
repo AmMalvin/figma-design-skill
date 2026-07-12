@@ -669,3 +669,282 @@ Revise until every answer is positive.
 □ Error prevention implemented
 
 □ User confidence increased
+
+---
+
+# Dual Process Thinking
+
+## Definition
+
+Human thinking operates through two complementary systems.
+
+The AI should design experiences that support both.
+
+---
+
+## System 1
+
+Characteristics:
+
+- Fast
+- Automatic
+- Intuitive
+- Emotional
+- Pattern-based
+- Low mental effort
+
+Examples:
+
+- Recognizing icons
+- Clicking familiar buttons
+- Reading navigation
+- Following common layouts
+
+Good interfaces maximize successful System 1 interactions.
+
+---
+
+## System 2
+
+Characteristics:
+
+- Slow
+- Deliberate
+- Logical
+- Analytical
+- High mental effort
+
+Examples:
+
+- Comparing pricing plans
+- Completing tax forms
+- Reviewing legal agreements
+- Configuring security settings
+
+Support System 2 with:
+
+- Clear hierarchy
+- Progressive disclosure
+- Helpful explanations
+- Logical grouping
+
+---
+
+# Processing Fluency
+
+## Definition
+
+Processing fluency is the ease with which users understand information.
+
+Higher fluency generally increases confidence, trust, and perceived quality.
+
+---
+
+## Increase Processing Fluency
+
+The AI should:
+
+- Use simple language.
+- Maintain strong hierarchy.
+- Keep layouts consistent.
+- Use familiar terminology.
+- Reduce clutter.
+- Increase readability.
+- Maintain predictable interactions.
+
+Interfaces that are easier to process feel easier to trust.
+
+---
+
+# Cognitive Biases
+
+Users are influenced by predictable mental shortcuts.
+
+The AI should understand these biases without exploiting them.
+
+Common biases include:
+
+- Familiarity Bias
+- Confirmation Bias
+- Anchoring
+- Availability Bias
+- Framing Effect
+- Loss Aversion
+- Default Effect
+
+Design should reduce harmful bias while improving decision quality.
+
+---
+
+# Trust Formation
+
+Trust develops through repeated positive experiences.
+
+Increase trust through:
+
+- Consistency
+- Transparency
+- Honest communication
+- Reliable feedback
+- Predictable interactions
+- Clear system status
+- Strong accessibility
+
+Trust is easier to lose than to gain.
+
+---
+
+# Habit Formation
+
+Habits develop through repeated actions performed in stable contexts.
+
+Strong habits require:
+
+Cue
+
+↓
+
+Action
+
+↓
+
+Reward
+
+Interfaces should encourage productive habits without manipulating users.
+
+---
+
+# Motivation
+
+Motivation changes over time.
+
+Support motivation by:
+
+- Showing progress
+- Celebrating achievements
+- Providing meaningful feedback
+- Reducing friction
+- Making goals visible
+- Supporting autonomy
+
+Motivation decreases when effort greatly exceeds perceived value.
+
+---
+
+# Cognitive Friction
+
+Not all friction is harmful.
+
+### Reduce Friction
+
+For:
+
+- Navigation
+- Forms
+- Search
+- Authentication
+- Payments
+
+---
+
+### Maintain Friction
+
+When users should slow down.
+
+Examples:
+
+- Deleting data
+- Closing accounts
+- Large financial transfers
+- Privacy permissions
+- Irreversible actions
+
+Intentional friction prevents costly mistakes.
+
+---
+
+# Flow State
+
+Support deep focus by:
+
+- Reducing interruptions
+- Maintaining consistency
+- Providing immediate feedback
+- Showing progress
+- Minimizing unnecessary choices
+
+Flow increases productivity and satisfaction.
+
+---
+
+# AI Cognitive Decision Engine
+
+Before approving any design, answer:
+
+- Does this reduce mental effort?
+- Does it support both intuitive and analytical thinking?
+- Is processing fluent?
+- Does it improve trust?
+- Does it reduce unnecessary friction?
+- Does it prevent avoidable errors?
+- Does it support long-term learning?
+- Does it encourage positive habits?
+- Does it improve confidence?
+- Does it remain accessible for every user?
+
+If any answer is negative, revise the design.
+
+---
+
+# Cognitive Psychology Checklist
+
+Before publishing any interface:
+
+□ Attention optimized
+
+□ Perception optimized
+
+□ Working memory supported
+
+□ Recognition prioritized
+
+□ Cognitive load minimized
+
+□ Decision fatigue reduced
+
+□ Processing fluency improved
+
+□ Trust evaluated
+
+□ Habits considered
+
+□ Motivation supported
+
+□ Appropriate friction applied
+
+□ Accessibility reviewed
+
+□ Error recovery implemented
+
+□ Documentation updated
+
+---
+
+# Key Takeaways
+
+Every interface interacts with the human brain before it interacts with the product.
+
+The AI must:
+
+- Design for perception.
+- Reduce unnecessary thinking.
+- Support memory.
+- Build trust.
+- Improve confidence.
+- Respect human limitations.
+- Encourage learning.
+- Prevent avoidable mistakes.
+- Create predictable experiences.
+- Balance efficiency with safety.
+
+Cognitive Psychology is the scientific foundation that supports every design decision made throughout this Design System repository.
