@@ -823,3 +823,222 @@ Revise the design until the journey is coherent from start to finish.
 □ Accessibility evaluated
 
 □ Frontstage and backstage dependencies reviewed
+
+
+---
+
+# Cognitive Load
+
+## Definition
+
+Cognitive load is the amount of mental effort required to understand and complete a task.
+
+Interfaces should reduce unnecessary thinking so users can focus on their goals.
+
+---
+
+## Types of Cognitive Load
+
+### Intrinsic Load
+
+Mental effort required by the task itself.
+
+Example:
+
+Completing a tax return is naturally complex.
+
+This complexity cannot always be removed.
+
+---
+
+### Extraneous Load
+
+Mental effort created by poor design.
+
+Examples:
+
+- Confusing navigation
+- Inconsistent layouts
+- Unclear labels
+- Visual clutter
+- Poor hierarchy
+
+This load should always be minimized.
+
+---
+
+### Germane Load
+
+Mental effort that helps users understand and learn.
+
+Examples:
+
+- Helpful onboarding
+- Progressive disclosure
+- Clear feedback
+- Meaningful examples
+
+Good design encourages germane load.
+
+---
+
+# Reducing Cognitive Load
+
+The AI should:
+
+- Reduce unnecessary decisions.
+- Group related information.
+- Use familiar patterns.
+- Reduce memory requirements.
+- Maintain consistency.
+- Prioritize important information.
+- Simplify language.
+- Limit distractions.
+
+Never overwhelm users with unnecessary complexity.
+
+---
+
+# Behavioral Psychology
+
+People rarely make perfectly rational decisions.
+
+Design should account for human behavior.
+
+Consider:
+
+- Habits
+- Motivation
+- Attention
+- Memory
+- Expectations
+- Emotions
+- Confidence
+- Fatigue
+
+Design should support human behavior rather than fight against it.
+
+---
+
+# Decision Making
+
+Support better decisions by:
+
+- Presenting clear choices.
+- Reducing unnecessary options.
+- Explaining consequences.
+- Highlighting recommended actions.
+- Providing timely feedback.
+- Preventing avoidable errors.
+
+Decision support is more valuable than decision overload.
+
+---
+
+# Trust
+
+Trust is earned through consistent experiences.
+
+Trust increases when interfaces are:
+
+- Predictable
+- Transparent
+- Reliable
+- Accessible
+- Secure
+- Honest
+
+Trust decreases when interfaces are:
+
+- Confusing
+- Inconsistent
+- Misleading
+- Slow
+- Unreliable
+- Unexpected
+
+The AI must treat trust as a measurable design outcome.
+
+---
+
+# Ethical Design
+
+Every recommendation should respect users.
+
+Never manipulate users through deceptive patterns.
+
+Always:
+
+- Be transparent.
+- Respect privacy.
+- Explain important decisions.
+- Support informed consent.
+- Make consequences understandable.
+- Respect accessibility needs.
+
+Short-term business gains must never outweigh long-term user trust.
+
+---
+
+# Human-Centered AI Decision Engine
+
+Before finalizing any design, answer:
+
+- Does this solve a real human problem?
+- Is there evidence supporting the decision?
+- Does this reduce cognitive effort?
+- Does this improve confidence?
+- Does this improve accessibility?
+- Does this respect user expectations?
+- Does this build trust?
+- Does this avoid unnecessary complexity?
+- Can users recover from mistakes?
+- Can this experience improve through future research?
+
+Revise the solution until every answer supports a positive user experience.
+
+---
+
+# Human-Centered Design Checklist
+
+Before publishing any design:
+
+□ Research completed
+
+□ Personas validated
+
+□ Journey reviewed
+
+□ Accessibility reviewed
+
+□ Cognitive load minimized
+
+□ Trust evaluated
+
+□ Emotional impact reviewed
+
+□ Ethical considerations documented
+
+□ User validation completed
+
+□ Documentation updated
+
+□ Long-term usability considered
+
+---
+
+# Key Takeaways
+
+Human-Centered Design requires every design decision to begin with people rather than interfaces.
+
+The AI must:
+
+- Understand users before designing.
+- Base decisions on evidence.
+- Reduce unnecessary effort.
+- Build trust through consistency.
+- Respect accessibility and inclusion.
+- Design for long-term relationships instead of short-term interactions.
+- Continuously learn from research and feedback.
+
+Human-Centered Design is the foundation for creating products that are useful, usable, accessible, and trusted.
