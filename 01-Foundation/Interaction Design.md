@@ -193,3 +193,186 @@ Revise until every answer is positive.
 □ Platform conventions respected
 
 □ Documentation updated
+
+
+---
+
+# Fitts's Law
+
+## Definition
+
+The time required to acquire a target depends on:
+
+- Distance to the target
+- Size of the target
+
+Large, nearby targets are faster and easier to select.
+
+---
+
+# Applying Fitts's Law
+
+Always:
+
+- Make primary actions large.
+- Place important controls close to the user's focus.
+- Increase touch target size.
+- Provide adequate spacing between controls.
+- Position frequently used actions in easily reachable areas.
+
+Never:
+
+- Use tiny buttons.
+- Place destructive actions close to primary actions.
+- Require long pointer movement for common tasks.
+
+---
+
+# Touch Target Guidelines
+
+Interactive elements should:
+
+- Be easy to tap.
+- Have sufficient spacing.
+- Support different finger sizes.
+- Support assistive technologies.
+
+Important actions deserve larger targets than secondary actions.
+
+---
+
+# Hick's Law
+
+## Definition
+
+Decision time increases as the number of choices increases.
+
+Too many options slow users down.
+
+---
+
+# Applying Hick's Law
+
+Reduce unnecessary choices.
+
+Group related options.
+
+Highlight recommended actions.
+
+Progressively reveal advanced functionality.
+
+Avoid presenting every option simultaneously.
+
+---
+
+# Tesler's Law
+
+## Definition
+
+Every system contains unavoidable complexity.
+
+The designer decides whether the complexity belongs to:
+
+- The system
+- The user
+
+Move complexity into the system whenever practical.
+
+---
+
+# Applying Tesler's Law
+
+Simplify workflows through:
+
+- Automation
+- Smart defaults
+- Auto-complete
+- Saved preferences
+- Templates
+- Intelligent recommendations
+
+Users should not perform repetitive work the system can perform.
+
+---
+
+# Interaction Cost
+
+Every interaction has a cost.
+
+Examples include:
+
+- Clicks
+- Taps
+- Typing
+- Scrolling
+- Dragging
+- Decision making
+- Waiting
+- Error recovery
+
+Reduce interaction cost whenever possible.
+
+---
+
+# Efficiency
+
+Efficient interfaces:
+
+- Minimize steps.
+- Eliminate repetition.
+- Preserve user context.
+- Reduce navigation.
+- Support shortcuts.
+- Remember previous choices.
+
+Efficiency should never reduce clarity.
+
+---
+
+# Progressive Disclosure
+
+Present only the information needed for the current task.
+
+Reveal advanced functionality when appropriate.
+
+Benefits include:
+
+- Reduced cognitive load
+- Faster decisions
+- Cleaner interfaces
+- Improved learnability
+
+---
+
+# AI Decision Rules
+
+Before approving any interaction:
+
+- Is the target easy to acquire?
+- Are unnecessary choices removed?
+- Has complexity been shifted to the system?
+- Is interaction cost minimized?
+- Can the workflow be completed more efficiently?
+- Is progressive disclosure applied where appropriate?
+
+Revise until every answer is positive.
+
+---
+
+# Validation Checklist
+
+□ Fitts's Law applied
+
+□ Hick's Law applied
+
+□ Tesler's Law applied
+
+□ Touch targets reviewed
+
+□ Interaction cost minimized
+
+□ Workflow simplified
+
+□ Progressive disclosure implemented
+
+□ Efficiency improved
