@@ -434,3 +434,261 @@ Do not proceed until every question has an answer.
 □ Trade-offs documented
 
 □ Existing design system assets reviewed
+
+---
+
+# Opportunity Assessment
+
+## Definition
+
+Opportunity assessment is the process of determining whether a problem is worth solving before investing design or engineering effort.
+
+Every feature request is an assumption until validated.
+
+The AI must evaluate opportunities objectively rather than accepting every request.
+
+---
+
+## Opportunity Evaluation Framework
+
+Evaluate every opportunity using the following dimensions:
+
+### User Impact
+
+Determine:
+
+- How many users are affected?
+- How frequently does the problem occur?
+- How severe is the problem?
+- How much effort does the problem create?
+
+Higher user impact increases priority.
+
+---
+
+### Business Impact
+
+Determine:
+
+- Revenue potential
+- Retention impact
+- Customer acquisition impact
+- Operational efficiency
+- Brand trust
+- Competitive advantage
+
+Business impact should be measurable whenever possible.
+
+---
+
+### Technical Feasibility
+
+Determine:
+
+- Engineering complexity
+- Existing infrastructure
+- Integration requirements
+- Security implications
+- Performance impact
+- Long-term maintenance
+
+Solutions with excessive implementation cost should be reconsidered.
+
+---
+
+### Strategic Alignment
+
+Every opportunity must align with:
+
+- Product vision
+- Business strategy
+- Design principles
+- Roadmap priorities
+- Design system standards
+
+Misaligned opportunities should not proceed.
+
+---
+
+# Prioritization Frameworks
+
+The AI should evaluate features using recognized prioritization models.
+
+## RICE
+
+Score opportunities using:
+
+- Reach
+- Impact
+- Confidence
+- Effort
+
+Higher RICE scores indicate stronger candidates for implementation.
+
+---
+
+## MoSCoW
+
+Classify work into:
+
+- Must Have
+- Should Have
+- Could Have
+- Won't Have (for now)
+
+This framework helps define release scope.
+
+---
+
+## Kano Model
+
+Evaluate whether a feature is:
+
+- Basic Expectation
+- Performance Feature
+- Delight Feature
+
+Basic expectations take priority over delight features.
+
+---
+
+## ICE
+
+Score opportunities using:
+
+- Impact
+- Confidence
+- Ease
+
+Useful for early-stage product decisions where data is limited.
+
+---
+
+# Opportunity Solution Tree
+
+Before proposing a solution, define:
+
+Outcome
+
+↓
+
+Opportunity
+
+↓
+
+Root Cause
+
+↓
+
+Possible Solutions
+
+↓
+
+Experiments
+
+↓
+
+Evidence
+
+↓
+
+Implementation
+
+The AI must avoid jumping directly from a problem to a single solution.
+
+Explore multiple solutions before selecting one.
+
+---
+
+# Hypothesis-Driven Design
+
+Every feature should begin with a hypothesis.
+
+Structure:
+
+"We believe that solving __________ for __________ will improve __________. We will know this is true when __________."
+
+Hypotheses must be measurable and testable.
+
+---
+
+# Experimentation
+
+When uncertainty exists, prefer experiments over assumptions.
+
+Possible experiments include:
+
+- Prototype testing
+- Usability testing
+- A/B testing
+- Feature flags
+- Beta releases
+- Pilot programs
+
+Design decisions should be informed by evidence.
+
+---
+
+# Outcome-Driven Design
+
+The AI must optimize for outcomes rather than outputs.
+
+Examples of outputs:
+
+- New screen
+- New button
+- New dashboard
+- New feature
+
+Examples of outcomes:
+
+- Increased activation
+- Reduced abandonment
+- Improved retention
+- Faster task completion
+- Higher customer satisfaction
+
+Outputs are deliverables.
+
+Outcomes are success.
+
+---
+
+# AI Decision Rules
+
+Before recommending implementation, answer:
+
+- Is the opportunity validated?
+- Is the problem significant?
+- Does the solution align with product strategy?
+- Is there measurable business value?
+- Is there measurable user value?
+- Is implementation feasible?
+- Can existing assets be reused?
+- How will success be measured?
+
+If any answer is unknown, investigate before proceeding.
+
+---
+
+# Validation Checklist
+
+□ Opportunity validated
+
+□ User impact assessed
+
+□ Business impact assessed
+
+□ Technical feasibility reviewed
+
+□ Strategic alignment confirmed
+
+□ Prioritization completed
+
+□ Hypothesis documented
+
+□ Success metrics defined
+
+□ Experiment plan identified
+
+□ Existing system assets reviewed
