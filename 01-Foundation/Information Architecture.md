@@ -430,3 +430,294 @@ Revise until every answer is positive.
 □ Content audit completed
 
 □ Scalability reviewed
+
+---
+
+# Labeling Systems
+
+## Definition
+
+A labeling system defines how information, navigation, features, actions, and content are named throughout a product.
+
+Labels communicate meaning.
+
+Good labels reduce thinking.
+
+Poor labels create confusion.
+
+---
+
+# Labeling Principles
+
+Every label should be:
+
+- Clear
+- Short
+- Descriptive
+- Familiar
+- Consistent
+- Unambiguous
+
+Use words users naturally understand.
+
+Avoid internal company terminology.
+
+---
+
+# Label Consistency
+
+Maintain consistency across:
+
+- Navigation
+- Buttons
+- Menus
+- Forms
+- Headings
+- Search
+- Empty states
+- Error messages
+- Documentation
+
+One concept should always use one label.
+
+Never rename the same feature across different screens.
+
+---
+
+# Navigation Systems
+
+## Definition
+
+Navigation systems allow users to move between information efficiently.
+
+Navigation should always support user goals.
+
+Navigation exists to reduce effort.
+
+---
+
+# Types of Navigation
+
+## Global Navigation
+
+Provides access to the product's primary sections.
+
+Examples:
+
+- Home
+- Dashboard
+- Products
+- Projects
+- Reports
+- Settings
+
+Global navigation should remain consistent throughout the product.
+
+---
+
+## Local Navigation
+
+Supports movement within a section.
+
+Examples:
+
+Dashboard
+
+↓
+
+Analytics
+
+↓
+
+Reports
+
+↓
+
+Exports
+
+Local navigation should reinforce hierarchy.
+
+---
+
+## Contextual Navigation
+
+Links users to related information.
+
+Examples:
+
+- Related Articles
+- Similar Products
+- Recommended Documents
+- Related Tasks
+
+Contextual navigation strengthens discoverability.
+
+---
+
+## Utility Navigation
+
+Supports secondary actions.
+
+Examples:
+
+- Help
+- Login
+- Notifications
+- Language
+- Theme
+- Profile
+
+Utility navigation should never compete with primary navigation.
+
+---
+
+# Breadcrumb Navigation
+
+Breadcrumbs communicate:
+
+- Current location
+- Parent hierarchy
+- Navigation history
+
+Use breadcrumbs for large information structures.
+
+Avoid breadcrumbs on shallow products.
+
+---
+
+# Search Systems
+
+## Definition
+
+Search allows users to locate information directly.
+
+Search complements navigation.
+
+Search does not replace Information Architecture.
+
+---
+
+# Effective Search
+
+Search should support:
+
+- Auto-complete
+- Suggestions
+- Typo tolerance
+- Synonyms
+- Recent searches
+- Popular searches
+- Search history
+- Filters
+- Sorting
+
+Search should help users find information, not force exact wording.
+
+---
+
+# Findability
+
+Users should locate information through:
+
+- Navigation
+- Search
+- Filters
+- Related content
+- Recommendations
+- Internal links
+
+Every important page should have multiple discovery paths.
+
+---
+
+# Information Scent
+
+Information scent refers to the clues users follow while searching for information.
+
+Strong information scent includes:
+
+- Clear labels
+- Familiar terminology
+- Logical categories
+- Predictable navigation
+- Descriptive links
+
+Weak information scent causes hesitation.
+
+---
+
+# Wayfinding
+
+Users should always know:
+
+- Where they are
+- How they got there
+- Where they can go next
+- How to return
+
+Wayfinding improves confidence.
+
+---
+
+# Navigation Patterns
+
+Use established navigation patterns.
+
+Examples:
+
+- Top Navigation
+- Side Navigation
+- Bottom Navigation
+- Mega Menu
+- Tabs
+- Accordion
+- Navigation Drawer
+- Floating Navigation
+
+Choose patterns based on product complexity.
+
+Do not invent navigation patterns without evidence.
+
+---
+
+# AI Navigation Engine
+
+Before approving any navigation system, answer:
+
+- Are labels clear?
+- Is navigation predictable?
+- Can users always find their location?
+- Does search complement navigation?
+- Are related items connected?
+- Can users reach important content quickly?
+- Does the structure scale?
+
+Revise until every answer is positive.
+
+---
+
+# Validation Checklist
+
+□ Labels consistent
+
+□ Global navigation defined
+
+□ Local navigation defined
+
+□ Contextual navigation connected
+
+□ Utility navigation separated
+
+□ Breadcrumbs evaluated
+
+□ Search system designed
+
+□ Findability validated
+
+□ Information scent reviewed
+
+□ Wayfinding supported
+
+□ Navigation patterns documented
+
+□ Documentation updated
