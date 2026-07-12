@@ -222,3 +222,335 @@ If any answer is negative, redesign the color system.
 □ Scalability reviewed
 
 □ Documentation updated
+
+---
+
+# Color Wheel
+
+## Definition
+
+The color wheel is the foundation of color relationships.
+
+It organizes colors by hue and helps designers create balanced and harmonious color systems.
+
+Every color decision should begin with an understanding of the color wheel.
+
+---
+
+# Primary Colors
+
+Primary colors cannot be created by mixing other colors.
+
+Digital interfaces commonly use RGB as the underlying color model.
+
+Primary RGB colors:
+
+- Red
+- Green
+- Blue
+
+These combine to create every display color.
+
+---
+
+# Secondary Colors
+
+Secondary colors are created by combining two primary colors.
+
+Examples:
+
+- Cyan
+- Magenta
+- Yellow
+
+Understanding relationships between hues helps create predictable palettes.
+
+---
+
+# Tertiary Colors
+
+Tertiary colors sit between primary and secondary colors.
+
+They create smoother transitions across palettes.
+
+Examples include:
+
+- Blue Green
+- Yellow Green
+- Red Orange
+- Blue Violet
+
+---
+
+# Hue
+
+## Definition
+
+Hue is the position of a color on the color wheel.
+
+Hue is measured from:
+
+0°
+
+↓
+
+360°
+
+Changing hue changes the perceived color without changing brightness or saturation.
+
+---
+
+# Saturation
+
+## Definition
+
+Saturation controls color intensity.
+
+High saturation creates:
+
+- Strong emphasis
+- Vibrant interfaces
+- Bold accents
+
+Low saturation creates:
+
+- Calm interfaces
+- Neutral surfaces
+- Supporting content
+
+Avoid excessive saturation throughout the interface.
+
+---
+
+# Value
+
+## Definition
+
+Value represents how light or dark a color appears.
+
+Higher value creates lighter colors.
+
+Lower value creates darker colors.
+
+Value strongly influences readability and contrast.
+
+---
+
+# Brightness
+
+Brightness controls perceived light intensity.
+
+Use brightness to:
+
+- Build color scales
+- Create elevation
+- Improve readability
+- Support dark mode
+
+Brightness should reinforce hierarchy.
+
+---
+
+# Tint
+
+A tint is created by adding white.
+
+Use tints for:
+
+- Backgrounds
+- Subtle highlights
+- Soft surfaces
+- Hover states
+
+---
+
+# Shade
+
+A shade is created by adding black.
+
+Use shades for:
+
+- Text
+- Borders
+- Active states
+- Strong emphasis
+
+---
+
+# Tone
+
+A tone is created by reducing color intensity with neutral gray.
+
+Tones improve:
+
+- Sophistication
+- Readability
+- Balance
+- Large interfaces
+
+Avoid using fully saturated colors for every UI element.
+
+---
+
+# Color Temperature
+
+Colors are generally perceived as:
+
+Warm
+
+- Red
+- Orange
+- Yellow
+
+Cool
+
+- Blue
+- Green
+- Purple
+
+Temperature influences emotional perception and hierarchy.
+
+Choose temperature intentionally.
+
+---
+
+# Color Harmony
+
+## Definition
+
+Color harmony describes combinations of colors that work well together.
+
+Harmony improves:
+
+- Readability
+- Balance
+- Recognition
+- Brand consistency
+
+Harmony should support communication rather than decoration.
+
+---
+
+# Monochromatic Harmony
+
+Uses different values and saturations of one hue.
+
+Benefits:
+
+- Consistency
+- Simplicity
+- Strong branding
+- Easy maintenance
+
+Recommended for enterprise applications.
+
+---
+
+# Analogous Harmony
+
+Uses neighboring hues on the color wheel.
+
+Benefits:
+
+- Smooth transitions
+- Natural appearance
+- Low visual tension
+
+Useful for illustrations and supporting interfaces.
+
+---
+
+# Complementary Harmony
+
+Uses colors opposite each other on the color wheel.
+
+Benefits:
+
+- High contrast
+- Strong emphasis
+- Clear focal points
+
+Use complementary colors carefully.
+
+Excessive use creates visual fatigue.
+
+---
+
+# Split Complementary
+
+Uses one base color and the two adjacent colors opposite it.
+
+Provides:
+
+- Strong contrast
+- Better balance
+- Greater flexibility
+
+Suitable for modern interfaces.
+
+---
+
+# Triadic Harmony
+
+Uses three evenly spaced hues.
+
+Benefits:
+
+- Balanced variety
+- Strong differentiation
+- Visual energy
+
+Maintain one dominant color.
+
+Use the others as supporting colors.
+
+---
+
+# Tetradic Harmony
+
+Uses four hues arranged as two complementary pairs.
+
+Suitable for:
+
+- Complex dashboards
+- Data visualization
+- Rich visual systems
+
+Maintain clear visual hierarchy.
+
+---
+
+# AI Color Selection Rules
+
+Before selecting colors, answer:
+
+- Does each color have a purpose?
+- Is the harmony appropriate?
+- Is saturation balanced?
+- Does value support readability?
+- Does temperature reinforce the intended experience?
+- Will the palette scale across themes?
+
+Revise until every answer is positive.
+
+---
+
+# Validation Checklist
+
+□ Hue relationships reviewed
+
+□ Saturation balanced
+
+□ Value hierarchy defined
+
+□ Tints created
+
+□ Shades created
+
+□ Tones created
+
+□ Color harmony selected
+
+□ Temperature evaluated
+
+□ Palette documented
