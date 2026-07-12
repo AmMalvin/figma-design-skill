@@ -828,3 +828,362 @@ Revise until every answer is positive.
 □ Feedback colors reviewed
 
 □ Semantic token structure completed
+
+---
+
+# Color Accessibility
+
+## Definition
+
+Color accessibility ensures that information remains understandable for every user, including users with visual impairments and color vision deficiencies.
+
+Accessibility is a requirement.
+
+It is not optional.
+
+---
+
+# WCAG Contrast
+
+Text should maintain sufficient contrast against its background.
+
+Minimum requirements:
+
+Normal Text
+
+- 4.5:1 or higher
+
+Large Text
+
+- 3:1 or higher
+
+User interface components should remain clearly distinguishable from surrounding elements.
+
+Never sacrifice readability for aesthetics.
+
+---
+
+# Color Is Never the Only Indicator
+
+Do not communicate information using color alone.
+
+Always combine color with one or more of:
+
+- Text
+- Icons
+- Labels
+- Patterns
+- Shapes
+- Borders
+
+Every status should remain understandable without color perception.
+
+---
+
+# Light Theme
+
+Light themes use light surfaces with dark content.
+
+Benefits:
+
+- Familiar appearance
+- Strong readability
+- Suitable for most productivity applications
+
+Maintain consistent semantic color meanings.
+
+---
+
+# Dark Theme
+
+Dark themes use dark surfaces with light content.
+
+Benefits:
+
+- Reduced perceived brightness
+- Comfortable viewing in darker environments
+- Modern visual appearance
+
+Do not simply invert colors.
+
+Each semantic token should have an optimized dark variant.
+
+---
+
+# High Contrast Theme
+
+High contrast themes improve visibility.
+
+Increase:
+
+- Text contrast
+- Border visibility
+- Focus indicators
+- Interactive states
+
+Avoid relying on subtle color differences.
+
+---
+
+# Color Tokens
+
+## Definition
+
+Color tokens provide reusable references for colors.
+
+Components should reference tokens.
+
+Tokens should reference primitive colors.
+
+Example structure:
+
+Primitive
+
+↓
+
+Semantic
+
+↓
+
+Component
+
+↓
+
+Screen
+
+Never reference primitive colors directly inside components.
+
+---
+
+# Primitive Tokens
+
+Examples:
+
+Gray 50
+
+Gray 100
+
+Gray 200
+
+Blue 500
+
+Blue 700
+
+Red 600
+
+Green 500
+
+Primitive tokens contain raw color values only.
+
+---
+
+# Semantic Tokens
+
+Examples:
+
+color.background.default
+
+color.background.surface
+
+color.text.primary
+
+color.text.secondary
+
+color.border.default
+
+color.border.focus
+
+color.action.primary
+
+color.action.secondary
+
+color.feedback.success
+
+color.feedback.warning
+
+color.feedback.error
+
+Semantic tokens communicate purpose.
+
+---
+
+# Component Tokens
+
+Component tokens specialize semantic tokens.
+
+Examples:
+
+button.primary.background
+
+button.primary.text
+
+button.primary.hover
+
+input.border.default
+
+input.border.focus
+
+card.background
+
+navigation.active
+
+Components should never own unique color values.
+
+---
+
+# Theme Variables
+
+Every semantic token should support:
+
+- Light
+- Dark
+- High Contrast
+
+Changing themes should require updating variables, not redesigning components.
+
+---
+
+# Color Scales
+
+Build scalable color ramps.
+
+Typical scale:
+
+50
+
+100
+
+200
+
+300
+
+400
+
+500
+
+600
+
+700
+
+800
+
+900
+
+Lighter values support surfaces.
+
+Middle values support interactive elements.
+
+Darker values support text and emphasis.
+
+---
+
+# State Colors
+
+Interactive elements should define colors for:
+
+- Default
+- Hover
+- Focus
+- Pressed
+- Selected
+- Disabled
+- Loading
+
+State transitions should remain consistent throughout the product.
+
+---
+
+# Elevation Colors
+
+Elevation communicates depth.
+
+Support elevation using:
+
+- Surface color
+- Shadow
+- Border
+- Overlay
+
+Higher elevation should remain visually distinguishable without overwhelming the interface.
+
+---
+
+# Overlay Colors
+
+Overlay colors support:
+
+- Modals
+- Drawers
+- Dialogs
+- Menus
+- Popovers
+
+Overlays should focus attention while preserving context.
+
+---
+
+# AI Color Decision Engine
+
+Before approving any color system, answer:
+
+- Does every color have a semantic purpose?
+- Does every token support all themes?
+- Is WCAG contrast maintained?
+- Can users understand status without color?
+- Are state colors consistent?
+- Are component tokens reusable?
+- Does the palette scale across products?
+- Can developers implement the token structure directly?
+
+If any answer is negative, redesign the color system.
+
+---
+
+# Color Theory Checklist
+
+Before publishing:
+
+□ Primitive palette completed
+
+□ Semantic palette completed
+
+□ Component tokens defined
+
+□ Light theme validated
+
+□ Dark theme validated
+
+□ High contrast theme reviewed
+
+□ WCAG contrast verified
+
+□ Color-only communication removed
+
+□ State colors documented
+
+□ Elevation colors reviewed
+
+□ Overlay colors reviewed
+
+□ Theme variables completed
+
+□ Documentation updated
+
+---
+
+# Key Takeaways
+
+Color is a communication system.
+
+The AI must:
+
+- Assign every color a purpose.
+- Build semantic token hierarchies.
+- Maintain accessible contrast.
+- Support light, dark, and high contrast themes.
+- Use scalable color ramps.
+- Keep component colors token-based.
+- Preserve consistency across every interface.
+- Ensure colors reinforce usability, hierarchy, and accessibility.
+
+Every color decision should improve understanding, not decoration.
