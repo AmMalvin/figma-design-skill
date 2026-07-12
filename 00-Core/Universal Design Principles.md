@@ -880,6 +880,327 @@ Question every interaction before adding it.
 
 If it does not improve usability, remove it.
 
+
+
+---
+
+# Accessibility Principles
+
+## Principle 33. Accessibility Is a Requirement, Not a Feature
+
+### Statement
+
+Accessibility is a mandatory quality requirement that must be integrated into every stage of the design process.
+
+### Intent
+
+Every product should be usable by the widest practical audience regardless of ability, environment, or technology.
+
+### Rationale
+
+Accessibility improves usability for everyone. It is not a separate mode of design but a core design responsibility.
+
+### Rules
+
+- Consider accessibility from project kickoff.
+- Never postpone accessibility until QA.
+- Meet WCAG AA or higher where applicable.
+- Include accessibility in every design review.
+
+### AI Instructions
+
+Accessibility must influence every design decision.
+
+Never treat accessibility as optional.
+
+---
+
+## Principle 34. Never Rely on Color Alone
+
+### Statement
+
+Information must never depend solely on color.
+
+### Intent
+
+Users with color vision deficiencies should receive the same information as everyone else.
+
+### Rationale
+
+Status, errors, warnings, and success indicators require multiple visual cues.
+
+### Rules
+
+Support color with:
+
+- Icons
+- Labels
+- Patterns
+- Helper text
+- Shape changes
+
+### AI Instructions
+
+Whenever color communicates meaning, provide at least one additional indicator.
+
+---
+
+## Principle 35. Design for Keyboard Navigation
+
+### Statement
+
+Every interactive experience must support efficient keyboard navigation.
+
+### Intent
+
+Users who cannot use a mouse should complete every primary task.
+
+### Rules
+
+Support:
+
+- Logical tab order
+- Visible focus states
+- Keyboard shortcuts where appropriate
+- Skip navigation
+- Focus trapping in dialogs
+
+### AI Instructions
+
+Every interactive component must define keyboard behavior.
+
+---
+
+## Principle 36. Design Readable Interfaces
+
+### Statement
+
+Content must remain readable across devices and user preferences.
+
+### Intent
+
+Typography should improve comprehension rather than decoration.
+
+### Rules
+
+Maintain:
+
+- Clear hierarchy
+- Comfortable line length
+- Appropriate spacing
+- Adequate contrast
+- Scalable text
+
+Avoid tiny text and cramped layouts.
+
+### AI Instructions
+
+Evaluate readability before visual styling.
+
+---
+
+## Principle 37. Respect User Preferences
+
+### Statement
+
+Interfaces must respect user accessibility and system preferences.
+
+### Intent
+
+Users should not lose functionality because they customize their devices.
+
+### Rules
+
+Support:
+
+- Dark mode
+- Reduced motion
+- Increased text size
+- High contrast
+- Platform accessibility settings
+
+### AI Instructions
+
+Never override user accessibility preferences.
+
+---
+
+## Principle 38. Design Inclusive Experiences
+
+### Statement
+
+Design should accommodate diverse users, cultures, abilities, and contexts.
+
+### Intent
+
+Products should welcome the broadest possible audience.
+
+### Rules
+
+Avoid assumptions based on:
+
+- Culture
+- Language
+- Physical ability
+- Technical expertise
+- Device ownership
+
+### AI Instructions
+
+Design for diversity rather than the average user.
+
+---
+
+## Principle 39. Design for Error Recovery
+
+### Statement
+
+Mistakes should be recoverable.
+
+### Intent
+
+Users should never feel trapped after making an error.
+
+### Rules
+
+Provide:
+
+- Undo
+- Retry
+- Restore
+- Clear guidance
+- Helpful validation
+
+### AI Instructions
+
+Every failure state must include a recovery path.
+
+---
+
+## Principle 40. Validate Accessibility Continuously
+
+### Statement
+
+Accessibility validation must occur throughout the project lifecycle.
+
+### Intent
+
+Accessibility should evolve alongside the product.
+
+### Rules
+
+Review accessibility during:
+
+- Research
+- Wireframing
+- UI design
+- Component creation
+- Documentation
+- QA
+- Release
+
+### AI Instructions
+
+Accessibility validation is continuous.
+
+Never postpone accessibility until the end of the project.
+
+---
+
+# Documentation Principles
+
+## Principle 41. Documentation Is Part of the Product
+
+### Statement
+
+Documentation is a required deliverable, not an optional artifact.
+
+### Intent
+
+Design systems remain valuable only when teams understand how to use them.
+
+### Rules
+
+Every reusable asset must include documentation.
+
+### AI Instructions
+
+Create documentation while designing, never afterward.
+
+---
+
+## Principle 42. Explain the Why
+
+### Statement
+
+Documentation must explain decisions, not only implementation.
+
+### Intent
+
+Future contributors should understand the reasoning behind every standard.
+
+### Rules
+
+Every document should include:
+
+- Purpose
+- Context
+- Rationale
+- Trade-offs
+- Examples
+
+### AI Instructions
+
+Record why every significant design decision exists.
+
+---
+
+## Principle 43. Maintain a Single Source of Truth
+
+### Statement
+
+Every design asset must have one authoritative definition.
+
+### Intent
+
+Duplicate documentation creates conflicting guidance.
+
+### Rules
+
+Avoid duplicated documentation.
+
+Reference shared assets instead of copying them.
+
+### AI Instructions
+
+Update the source instead of maintaining multiple versions.
+
+---
+
+## Principle 44. Documentation Must Stay Current
+
+### Statement
+
+Outdated documentation is worse than missing documentation.
+
+### Intent
+
+Documentation should evolve with the design system.
+
+### Rules
+
+Update documentation whenever:
+
+- Components change
+- Tokens change
+- Variables change
+- Naming changes
+- Behaviors change
+
+### AI Instructions
+
+Documentation updates are mandatory for every system change.
+
 # Conflict Resolution
 
 When two principles conflict, always resolve them in this order.
