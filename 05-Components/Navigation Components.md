@@ -789,3 +789,327 @@ If any answer is negative, redesign the interaction.
 □ Motion documented
 
 □ Responsive behavior validated
+
+
+---
+
+# Keyboard Interaction
+
+## Purpose
+
+Every navigation component should be fully operable using a keyboard.
+
+Minimum requirements:
+
+- Tab moves focus
+- Shift + Tab moves focus backward
+- Arrow keys navigate items when applicable
+- Enter activates the focused destination
+- Space activates controls when appropriate
+- Escape closes temporary navigation
+
+Keyboard behavior should remain predictable.
+
+---
+
+# Focus Management
+
+Focus should:
+
+- Always remain visible
+- Follow a logical order
+- Move into opened navigation
+- Return to the triggering element after closing temporary navigation
+
+Never lose keyboard focus.
+
+---
+
+# Skip Navigation
+
+Provide a skip navigation link for keyboard users.
+
+Requirements:
+
+- Visible when focused
+- Navigates directly to primary content
+- Available on every page
+
+Skip navigation improves efficiency.
+
+---
+
+# Navigation Landmarks
+
+Use clear navigation landmarks.
+
+Examples:
+
+- Header
+- Primary Navigation
+- Secondary Navigation
+- Footer Navigation
+
+Landmarks improve orientation for assistive technologies.
+
+---
+
+# Screen Reader Support
+
+Navigation should expose:
+
+- Navigation labels
+- Current location
+- Expanded state
+- Selected state
+- Available destinations
+
+Users should always understand where they are.
+
+---
+
+# Accessible Semantics
+
+Navigation should expose appropriate semantics.
+
+Examples:
+
+- Navigation
+- Menu
+- Tab List
+- Tab
+- Breadcrumb
+- List
+- Link
+
+Semantics should accurately represent behavior.
+
+---
+
+# Active Destination
+
+The current destination should always be announced.
+
+Communicate using:
+
+- Visual indicator
+- Text
+- Accessible state
+
+Never rely only on color.
+
+---
+
+# Responsive Adaptation
+
+Desktop
+
+- Sidebar
+- Top navigation
+- Navigation rail
+
+Tablet
+
+- Navigation rail
+- Drawer
+- Tabs
+
+Mobile
+
+- Bottom navigation
+- App bar
+- Bottom sheet navigation
+
+Navigation should remain efficient on every device.
+
+---
+
+# Design Token Integration
+
+Navigation should reference design tokens.
+
+Examples:
+
+navigation.background
+
+navigation.item.padding
+
+navigation.item.radius
+
+navigation.item.active.background
+
+navigation.item.hover.background
+
+navigation.focus.ring
+
+navigation.icon.size
+
+Avoid hardcoded values.
+
+---
+
+# Motion Guidelines
+
+Motion should reinforce orientation.
+
+Examples:
+
+- Active indicator movement
+- Drawer transition
+- Tab transition
+- Sidebar expansion
+- Breadcrumb transition
+
+Motion should communicate relationships.
+
+Avoid decorative animation.
+
+---
+
+# Documentation
+
+Every navigation component should document:
+
+- Purpose
+- Anatomy
+- Variants
+- States
+- Accessibility
+- Responsive behavior
+- Usage guidelines
+- Do
+- Don't
+- Examples
+
+Documentation should eliminate implementation ambiguity.
+
+---
+
+# Testing
+
+Every navigation component should be tested for:
+
+- Accessibility
+- Keyboard interaction
+- Screen readers
+- Responsive layouts
+- Navigation hierarchy
+- Motion
+- Performance
+
+Testing should occur before release.
+
+---
+
+# Quality Assurance
+
+Review every navigation component for:
+
+- Accessibility
+- Visual consistency
+- Responsive behavior
+- Design token usage
+- Documentation
+- Performance
+
+Only approved navigation belongs in the design system.
+
+---
+
+# Versioning
+
+Track changes for:
+
+- New navigation patterns
+- Accessibility improvements
+- Motion updates
+- Bug fixes
+- Breaking changes
+
+Maintain complete version history.
+
+---
+
+# Governance
+
+Navigation updates should include:
+
+- UX review
+- Accessibility review
+- Engineering review
+- QA approval
+- Documentation update
+
+Governance maintains long-term consistency.
+
+---
+
+# AI Navigation Review Engine
+
+Before publishing any navigation component, answer:
+
+- Is orientation obvious?
+- Is hierarchy preserved?
+- Is keyboard navigation complete?
+- Is focus managed correctly?
+- Is accessibility complete?
+- Are design tokens used?
+- Has testing been completed?
+- Does this scale across products?
+
+If any answer is negative, revise the component.
+
+---
+
+# Navigation Components Checklist
+
+Before publishing:
+
+□ Navigation anatomy documented
+
+□ Variants completed
+
+□ States documented
+
+□ Keyboard interaction verified
+
+□ Focus management documented
+
+□ Skip navigation documented
+
+□ Screen reader support completed
+
+□ Responsive behavior validated
+
+□ Design tokens integrated
+
+□ Motion documented
+
+□ Testing completed
+
+□ QA approved
+
+□ Version history updated
+
+□ Documentation completed
+
+---
+
+# Key Takeaways
+
+Navigation helps users understand where they are, where they can go, and how to move through an application.
+
+The AI must:
+
+- Choose the correct navigation pattern.
+- Preserve orientation.
+- Maintain hierarchy.
+- Support keyboard navigation.
+- Manage focus correctly.
+- Support screen readers.
+- Use design tokens.
+- Keep motion meaningful.
+- Test every interaction.
+- Document every behavior.
+
+Every navigation component should improve orientation, accessibility, consistency, and long-term maintainability.
