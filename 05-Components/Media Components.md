@@ -578,3 +578,291 @@ If any answer is negative, choose a more appropriate media component.
 □ Variant strategy documented
 
 □ Responsive behavior documented
+
+
+---
+
+# Media States
+
+## Philosophy
+
+Every media component should clearly communicate its current state.
+
+Users should immediately understand:
+
+- What media is available
+- Whether media is loading
+- Whether interaction is possible
+- What actions are available
+
+Interactions should always improve usability.
+
+---
+
+# Default State
+
+The media is ready for interaction.
+
+Requirements:
+
+- Complete media rendering
+- Visible controls when appropriate
+- Readable metadata
+- Consistent layout
+
+Default establishes the baseline presentation.
+
+---
+
+# Hover State
+
+Hover communicates available interactions.
+
+Examples:
+
+- Reveal controls
+- Display metadata
+- Show quick actions
+- Highlight media
+
+Hover should never hide essential information.
+
+---
+
+# Focus State
+
+Focus supports keyboard users.
+
+Requirements:
+
+- Visible focus ring
+- High contrast
+- Logical navigation order
+
+Never remove focus indicators.
+
+---
+
+# Selected State
+
+Selection should remain obvious.
+
+Visual indicators may include:
+
+- Border
+- Overlay
+- Checkmark
+- Highlight
+
+Selection should never rely only on color.
+
+---
+
+# Loading State
+
+Loading communicates media retrieval.
+
+Requirements:
+
+- Skeleton placeholder
+- Loading indicator
+- Stable layout
+- Preserved dimensions
+
+Avoid layout shifts.
+
+---
+
+# Empty State
+
+Empty states explain missing media.
+
+Examples:
+
+- No uploads
+- No gallery items
+- No recordings
+- No preview available
+
+Provide a useful next action.
+
+---
+
+# Error State
+
+Errors should explain:
+
+- What failed
+- Why when known
+- How users can recover
+
+Examples:
+
+- Retry
+- Refresh
+- Upload again
+- Contact support
+
+Avoid technical language.
+
+---
+
+# Upload Progress
+
+Upload components should communicate:
+
+- Progress percentage
+- Remaining time when available
+- Upload status
+- Completion
+- Failure
+
+Progress should update continuously.
+
+---
+
+# Playback Controls
+
+Media playback should support:
+
+- Play
+- Pause
+- Stop
+- Seek
+- Volume
+- Playback speed when appropriate
+
+Controls should remain easy to access.
+
+---
+
+# Zoom
+
+Images and documents may support zoom.
+
+Requirements:
+
+- Smooth scaling
+- Reset zoom
+- Preserve quality
+- Maintain orientation
+
+Users should never lose context.
+
+---
+
+# Full-screen Mode
+
+Large media should support focused viewing.
+
+Examples:
+
+- Video
+- Images
+- Presentations
+- Documents
+
+Provide an obvious exit.
+
+---
+
+# Captions and Subtitles
+
+Video and audio should support captions when available.
+
+Requirements:
+
+- Easy activation
+- Readable typography
+- Proper synchronization
+
+Captions improve accessibility.
+
+---
+
+# Animation
+
+Animation should communicate change.
+
+Examples:
+
+- Upload progress
+- Image loading
+- Gallery transitions
+- Carousel movement
+- Video controls
+
+Animation should reinforce interaction.
+
+Avoid decorative animation.
+
+---
+
+# Responsive Behavior
+
+Desktop
+
+- Large galleries
+- Rich previews
+- Advanced controls
+
+Tablet
+
+- Medium previews
+- Touch controls
+- Responsive layouts
+
+Mobile
+
+- Full-width media
+- Swipe gestures
+- Compact controls
+
+Media should remain usable across all devices.
+
+---
+
+# AI Media Interaction Engine
+
+Before approving media behavior, answer:
+
+- Is interaction obvious?
+- Are controls discoverable?
+- Is upload progress clear?
+- Is playback intuitive?
+- Is accessibility supported?
+- Does animation improve understanding?
+
+If any answer is negative, redesign the interaction.
+
+---
+
+# Validation Checklist
+
+□ Media states documented
+
+□ Hover state documented
+
+□ Focus state documented
+
+□ Selected state documented
+
+□ Loading state documented
+
+□ Empty state documented
+
+□ Error state documented
+
+□ Upload progress documented
+
+□ Playback controls documented
+
+□ Zoom documented
+
+□ Full-screen mode documented
+
+□ Captions documented
+
+□ Animation documented
+
+□ Responsive behavior validated
