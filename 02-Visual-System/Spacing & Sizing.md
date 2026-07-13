@@ -464,3 +464,288 @@ Revise until every answer is positive.
 □ White space evaluated
 
 □ Spatial rhythm maintained
+
+
+---
+
+# Component Sizing
+
+## Definition
+
+Component sizing defines standardized dimensions for reusable interface elements.
+
+Every component should have predictable sizing.
+
+Never size components arbitrarily.
+
+---
+
+# Sizing Philosophy
+
+Component sizes should:
+
+- Improve usability
+- Support accessibility
+- Follow the spacing scale
+- Scale consistently
+- Reduce implementation complexity
+
+Sizing should communicate purpose.
+
+---
+
+# Size Categories
+
+Most components should define:
+
+- Extra Small
+- Small
+- Medium
+- Large
+- Extra Large
+
+Not every component requires every size.
+
+Choose only the sizes that solve real product needs.
+
+---
+
+# Minimum Touch Targets
+
+Interactive elements should remain easy to touch.
+
+Recommended minimum touch target:
+
+44 × 44 px
+
+Larger targets improve accessibility on touch devices.
+
+Visual size and touch area do not need to be identical.
+
+---
+
+# Button Sizing
+
+Buttons should define:
+
+- Height
+- Horizontal padding
+- Vertical padding
+- Icon spacing
+- Border radius
+
+Recommended semantic sizes:
+
+- Small
+- Medium
+- Large
+
+Button height should remain consistent throughout the product.
+
+---
+
+# Input Sizing
+
+Inputs should define:
+
+- Height
+- Internal padding
+- Label spacing
+- Helper text spacing
+- Icon spacing
+
+Inputs belonging to the same family should share identical heights.
+
+---
+
+# Icon Sizing
+
+Icons should follow a fixed scale.
+
+Common sizes:
+
+- 16
+- 20
+- 24
+- 32
+- 40
+- 48
+- 64
+
+Avoid resizing icons to arbitrary dimensions.
+
+---
+
+# Avatar Sizing
+
+Avatar sizes should remain standardized.
+
+Example semantic sizes:
+
+- XS
+- SM
+- MD
+- LG
+- XL
+
+Avatar sizing should remain consistent across every feature.
+
+---
+
+# Image Sizing
+
+Images should:
+
+- Preserve aspect ratio
+- Scale proportionally
+- Avoid distortion
+- Support responsive layouts
+
+Never stretch images.
+
+---
+
+# Card Sizing
+
+Cards should define:
+
+- Minimum width
+- Maximum width
+- Internal padding
+- Media ratio
+- Content spacing
+
+Cards should grow naturally with their content.
+
+---
+
+# Container Sizing
+
+Containers define the available content area.
+
+Containers should support:
+
+- Fixed layouts
+- Fluid layouts
+- Responsive layouts
+
+Container widths should prioritize readability over filling available space.
+
+---
+
+# Aspect Ratios
+
+Maintain consistent aspect ratios where appropriate.
+
+Common ratios include:
+
+- 1:1
+- 3:2
+- 4:3
+- 16:9
+- 21:9
+
+Choose ratios based on content rather than preference.
+
+---
+
+# Corner Radius Scale
+
+Corner radius should follow reusable tokens.
+
+Example scale:
+
+radius.none
+
+radius.small
+
+radius.medium
+
+radius.large
+
+radius.xlarge
+
+radius.full
+
+Avoid creating unique corner radii for individual components.
+
+---
+
+# Shape Consistency
+
+Components with similar purposes should share similar shapes.
+
+Maintain consistency across:
+
+- Buttons
+- Inputs
+- Cards
+- Modals
+- Menus
+- Navigation
+
+Shape contributes to recognition.
+
+---
+
+# Size Tokens
+
+All sizing values should reference semantic tokens.
+
+Examples:
+
+size.icon.sm
+
+size.icon.md
+
+size.avatar.md
+
+size.button.lg
+
+size.input.md
+
+size.card.max
+
+Components should never contain hardcoded sizing values.
+
+---
+
+# AI Sizing Engine
+
+Before approving component sizing, answer:
+
+- Does the component use standard sizes?
+- Is the touch target accessible?
+- Does sizing follow the spacing scale?
+- Are aspect ratios preserved?
+- Are corner radius tokens reused?
+- Can developers implement these sizes consistently?
+- Will the sizing scale across products?
+
+Revise until every answer is positive.
+
+---
+
+# Validation Checklist
+
+□ Component sizes documented
+
+□ Button sizes reviewed
+
+□ Input sizes validated
+
+□ Icon sizes standardized
+
+□ Avatar sizes documented
+
+□ Image sizing reviewed
+
+□ Card sizing validated
+
+□ Container sizing documented
+
+□ Aspect ratios defined
+
+□ Corner radius scale completed
+
+□ Size tokens documented
