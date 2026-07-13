@@ -778,3 +778,351 @@ If any answer is negative, redesign the asset.
 □ Responsive behavior validated
 
 □ Asset naming standardized
+
+
+---
+
+# Image Accessibility
+
+## Definition
+
+Every visual asset should be accessible to all users.
+
+Accessibility applies to:
+
+- Photography
+- Illustrations
+- Icons
+- Graphics
+- Charts
+- Diagrams
+- Marketing assets
+
+Accessibility should be considered during design, not after implementation.
+
+---
+
+# Informative Images
+
+Informative images communicate essential information.
+
+Examples:
+
+- Product screenshots
+- Charts
+- Diagrams
+- Tutorials
+- Feature illustrations
+
+Informative images should always have meaningful alternative text.
+
+---
+
+# Decorative Images
+
+Decorative images do not communicate essential information.
+
+Examples:
+
+- Background textures
+- Decorative shapes
+- Visual ornaments
+- Abstract graphics
+
+Decorative images should not receive descriptive alternative text.
+
+They should be ignored by assistive technologies.
+
+---
+
+# Alternative Text
+
+Alternative text should describe the purpose of the image.
+
+Good alternative text should be:
+
+- Short
+- Accurate
+- Contextual
+- Functional
+
+Describe why the image exists.
+
+Do not describe unnecessary visual details.
+
+---
+
+# Charts And Diagrams
+
+Charts should never rely only on color.
+
+Always include:
+
+- Labels
+- Legends
+- Values
+- Patterns where appropriate
+
+Important insights should remain understandable without color perception.
+
+---
+
+# Image Copyright
+
+Every image should have a documented source.
+
+Approved sources include:
+
+- Internal assets
+- Licensed stock assets
+- Commissioned illustrations
+- Brand-owned photography
+
+Never use copyrighted assets without permission.
+
+---
+
+# Licensing
+
+Document licensing information for every reusable asset.
+
+Record:
+
+- License type
+- Source
+- Usage rights
+- Expiration date where applicable
+
+Licensing should remain traceable.
+
+---
+
+# AI Generated Images
+
+AI-generated assets should follow the same visual standards as human-created assets.
+
+Review every AI asset for:
+
+- Accuracy
+- Consistency
+- Accessibility
+- Brand alignment
+- Ethical concerns
+
+AI-generated imagery should support the product rather than define its identity.
+
+---
+
+# Asset Tokens
+
+Visual assets should reference semantic tokens where appropriate.
+
+Examples:
+
+image.hero
+
+image.thumbnail
+
+image.avatar
+
+image.empty-state
+
+illustration.onboarding
+
+illustration.success
+
+Avoid naming assets by file location or temporary project names.
+
+---
+
+# Asset Organization
+
+Organize assets into reusable categories.
+
+Recommended structure:
+
+Photography
+
+Illustrations
+
+Marketing
+
+Onboarding
+
+Product Graphics
+
+Avatars
+
+Backgrounds
+
+Icons
+
+Empty States
+
+Documentation Images
+
+Organization should improve discoverability.
+
+---
+
+# Version Control
+
+Track every asset revision.
+
+Record:
+
+- Added
+- Updated
+- Deprecated
+- Archived
+- Removed
+
+Version history improves maintenance.
+
+---
+
+# Export Standards
+
+Every exported asset should define:
+
+- File format
+- Resolution
+- Compression
+- Naming
+- Variant
+- Platform
+
+Export only optimized production assets.
+
+---
+
+# Supported Formats
+
+Choose formats based on purpose.
+
+Examples:
+
+SVG
+
+- Icons
+- Simple illustrations
+
+PNG
+
+- Transparent assets
+- Interface graphics
+
+JPG
+
+- Photography
+
+WebP
+
+- Optimized web imagery
+
+Use the most appropriate format for each asset.
+
+---
+
+# Performance
+
+Visual assets should be optimized.
+
+Reduce:
+
+- File size
+- Unused metadata
+- Excessive resolution
+- Duplicate assets
+
+Performance should never sacrifice meaningful quality.
+
+---
+
+# Quality Assurance
+
+Review every asset for:
+
+- Accessibility
+- Resolution
+- Consistency
+- Licensing
+- Brand alignment
+- Performance
+- Responsiveness
+- Reusability
+
+Every asset should meet production standards.
+
+---
+
+# AI Imagery Decision Engine
+
+Before approving any visual asset, answer:
+
+- Does the asset communicate clearly?
+- Is it accessible?
+- Is alternative text required?
+- Is licensing documented?
+- Is performance optimized?
+- Does the asset belong to the visual system?
+- Can it be reused across products?
+- Does it strengthen the brand?
+
+If any answer is negative, redesign or replace the asset.
+
+---
+
+# Imagery & Illustration Checklist
+
+Before publishing:
+
+□ Photography standards documented
+
+□ Illustration style completed
+
+□ Empty states reviewed
+
+□ Onboarding assets documented
+
+□ Marketing visuals reviewed
+
+□ Accessibility verified
+
+□ Alternative text guidance completed
+
+□ Copyright documented
+
+□ Licensing verified
+
+□ AI imagery guidelines documented
+
+□ Asset organization completed
+
+□ Version history maintained
+
+□ Export standards documented
+
+□ Performance optimized
+
+□ Documentation updated
+
+---
+
+# Key Takeaways
+
+Visual assets communicate before users read.
+
+The AI must:
+
+- Build one consistent visual language.
+- Use imagery with purpose.
+- Maintain accessibility.
+- Apply semantic asset organization.
+- Optimize every asset for performance.
+- Respect licensing and copyright.
+- Support responsive layouts.
+- Reuse assets across products.
+- Keep every visual aligned with the brand.
+
+Every image, illustration, and graphic should improve understanding, trust, and usability.
