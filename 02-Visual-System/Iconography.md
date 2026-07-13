@@ -707,3 +707,287 @@ If any answer is negative, redesign the icon.
 □ Icon tokens documented
 
 
+---
+
+# Icon Accessibility
+
+## Definition
+
+Icons should remain understandable and usable for every user.
+
+Accessibility is mandatory.
+
+Icons should improve communication without creating barriers.
+
+---
+
+# Icons Are Not Enough
+
+Icons should never communicate critical information alone.
+
+Pair important icons with:
+
+- Labels
+- Text
+- Tooltips
+- Status messages
+- Accessible names
+
+Users should understand the interface without relying only on icon recognition.
+
+---
+
+# Icon Labels
+
+Provide visible labels whenever icon meaning is not universally understood.
+
+Examples:
+
+- Share
+- Download
+- Delete
+- Settings
+- Notifications
+
+Labels improve discoverability.
+
+---
+
+# Tooltips
+
+Tooltips provide additional context for icon-only controls.
+
+Use tooltips for:
+
+- Toolbar actions
+- Navigation controls
+- Utility actions
+- Dense interfaces
+
+Tooltips should explain the action, not describe the icon.
+
+---
+
+# Interactive Icons
+
+Interactive icons should clearly communicate their state.
+
+Supported states:
+
+- Default
+- Hover
+- Focus
+- Pressed
+- Selected
+- Disabled
+
+Every state should remain visually distinguishable.
+
+---
+
+# Status Icons
+
+Status icons communicate application state.
+
+Examples:
+
+- Success
+- Warning
+- Error
+- Information
+- Loading
+- Offline
+- Online
+
+Status icons should always be paired with supporting text where meaning is important.
+
+---
+
+# Animated Icons
+
+Animation should reinforce meaning.
+
+Appropriate uses include:
+
+- Loading
+- Progress
+- State transition
+- Confirmation
+
+Avoid decorative animation that distracts from the interface.
+
+---
+
+# Brand Icons
+
+Brand icons represent products or organizations.
+
+Never modify:
+
+- Logos
+- Official brand marks
+- Protected trademarks
+
+Use official assets whenever available.
+
+---
+
+# Social Icons
+
+Social icons should follow official platform guidelines.
+
+Maintain:
+
+- Correct proportions
+- Approved artwork
+- Consistent sizing
+
+Avoid creating custom versions of recognizable social icons.
+
+---
+
+# Icon Naming
+
+Use descriptive, semantic names.
+
+Examples:
+
+icon/home
+
+icon/search
+
+icon/settings
+
+icon/download
+
+icon/arrow/right
+
+Avoid ambiguous names such as:
+
+icon1
+
+newicon
+
+shape
+
+vector
+
+Naming should describe purpose rather than appearance.
+
+---
+
+# Icon Organization
+
+Organize icons into logical categories.
+
+Examples:
+
+- Navigation
+- Actions
+- Media
+- Commerce
+- Communication
+- Devices
+- Files
+- Security
+- Status
+
+Consistent organization improves discoverability.
+
+---
+
+# Icon Versioning
+
+Changes to icons should be documented.
+
+Track:
+
+- Added icons
+- Updated icons
+- Deprecated icons
+- Removed icons
+
+Version history improves maintenance.
+
+---
+
+# Icon Quality Assurance
+
+Review every icon for:
+
+- Recognition
+- Consistency
+- Accessibility
+- Optical balance
+- Pixel alignment
+- Naming
+- Export quality
+- Reusability
+
+Every icon should meet the same quality standard.
+
+---
+
+# AI Icon Decision Engine
+
+Before approving any icon, answer:
+
+- Is the icon immediately recognizable?
+- Is accessibility supported?
+- Is the naming clear?
+- Does the icon belong to an existing family?
+- Are all interaction states defined?
+- Is the icon reusable?
+- Can developers implement it without modification?
+
+If any answer is negative, redesign the icon.
+
+---
+
+# Iconography Checklist
+
+Before publishing:
+
+□ Icon purpose documented
+
+□ Visual style standardized
+
+□ Grid system validated
+
+□ Accessibility reviewed
+
+□ Labels defined where necessary
+
+□ Tooltips reviewed
+
+□ Interaction states documented
+
+□ Naming convention completed
+
+□ Categories organized
+
+□ Version history updated
+
+□ Export quality verified
+
+□ Documentation updated
+
+---
+
+# Key Takeaways
+
+Icons are functional communication tools.
+
+The AI must:
+
+- Use familiar symbols.
+- Maintain one visual style.
+- Build icons on a consistent grid.
+- Support accessibility.
+- Pair icons with text when necessary.
+- Apply semantic naming.
+- Reuse icons across products.
+- Maintain production-quality exports.
+- Keep the library organized and scalable.
+
+Every icon should improve recognition, usability, and consistency.
