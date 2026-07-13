@@ -525,3 +525,335 @@ If any answer is negative, choose a more appropriate navigation pattern.
 □ Responsive behavior documented
 
 □ Variant strategy documented
+
+
+---
+
+# Navigation Components
+
+## Philosophy
+
+Navigation components help users understand structure, progress, and location.
+
+Each component should solve one navigation problem.
+
+Avoid using multiple components for the same purpose.
+
+---
+
+# Tabs
+
+## Purpose
+
+Tabs organize related content within the same page.
+
+Examples:
+
+- Overview
+- Analytics
+- Settings
+- Billing
+
+Rules:
+
+- Tabs switch content without changing the overall context.
+- Clearly indicate the active tab.
+- Keep labels concise.
+- Avoid more than seven visible tabs.
+
+---
+
+# Breadcrumbs
+
+## Purpose
+
+Breadcrumbs show the user's current location within a hierarchy.
+
+Example:
+
+Home
+
+>
+
+Products
+
+>
+
+Laptops
+
+>
+
+Gaming
+
+Requirements:
+
+- Display the current page.
+- Support navigation to previous levels.
+- Use concise labels.
+
+Do not use breadcrumbs as primary navigation.
+
+---
+
+# Pagination
+
+## Purpose
+
+Pagination divides large collections into manageable pages.
+
+Requirements:
+
+- Display the current page.
+- Allow previous and next navigation.
+- Support direct page selection when appropriate.
+
+Avoid pagination for small datasets.
+
+---
+
+# Stepper
+
+## Purpose
+
+Steppers communicate progress through sequential tasks.
+
+Examples:
+
+- Account Setup
+- Checkout
+- Onboarding
+- Verification
+
+Requirements:
+
+- Clearly indicate the current step.
+- Show completed steps.
+- Prevent confusion about progress.
+
+---
+
+# Tree Navigation
+
+## Purpose
+
+Tree navigation displays hierarchical information.
+
+Recommended for:
+
+- File explorers
+- Documentation
+- Category management
+- Organization charts
+
+Expandable nodes should clearly communicate their state.
+
+---
+
+# Accordion Navigation
+
+## Purpose
+
+Accordions reveal or hide related navigation items.
+
+Requirements:
+
+- Clear expand and collapse controls.
+- Preserve user context.
+- Avoid unnecessary nesting.
+
+---
+
+# Navigation States
+
+Every navigation component should define:
+
+- Default
+- Hover
+- Focus
+- Active
+- Selected
+- Expanded
+- Collapsed
+- Disabled
+
+Each state should communicate meaningful feedback.
+
+---
+
+# Default State
+
+The default state communicates availability.
+
+No destination should appear selected unless it represents the current location.
+
+---
+
+# Hover State
+
+Hover confirms interactivity.
+
+Visual changes may include:
+
+- Background
+- Text color
+- Underline
+- Elevation
+
+Avoid excessive visual changes.
+
+---
+
+# Focus State
+
+Focus supports keyboard navigation.
+
+Requirements:
+
+- Highly visible
+- High contrast
+- Consistent across all navigation components
+
+Never remove focus indicators.
+
+---
+
+# Active State
+
+The active state identifies the current destination.
+
+Users should immediately understand where they are.
+
+Only one destination should normally appear active within the same navigation level.
+
+---
+
+# Selected State
+
+Selected items indicate user choice.
+
+Examples:
+
+- Selected filter
+- Selected category
+- Selected workspace
+
+Selected differs from Active.
+
+---
+
+# Expanded State
+
+Expanded navigation reveals child destinations.
+
+Expanded groups should remain visually connected.
+
+---
+
+# Collapsed State
+
+Collapsed navigation hides secondary destinations.
+
+Users should understand additional content exists.
+
+---
+
+# Disabled State
+
+Disabled navigation communicates temporary unavailability.
+
+Requirements:
+
+- Clearly inactive
+- Still readable
+- Never misleading
+
+Whenever possible, explain why an item is unavailable.
+
+---
+
+# Responsive Navigation
+
+Navigation should adapt across devices.
+
+Examples:
+
+Desktop
+
+Top Navigation
+
++
+
+Side Navigation
+
+Tablet
+
+Navigation Rail
+
+Expandable Side Navigation
+
+Mobile
+
+Bottom Navigation
+
+Hamburger Menu
+
+Collapsible Sections
+
+Navigation should preserve discoverability.
+
+---
+
+# Motion
+
+Motion should reinforce navigation.
+
+Examples:
+
+- Expand
+- Collapse
+- Slide
+- Fade
+- Indicator movement
+
+Motion should improve understanding.
+
+Avoid decorative animation.
+
+---
+
+# AI Navigation Interaction Engine
+
+Before approving navigation behavior, answer:
+
+- Is the current location obvious?
+- Are interaction states complete?
+- Is keyboard navigation supported?
+- Does responsive behavior preserve usability?
+- Does motion improve understanding?
+- Can users recover if they navigate incorrectly?
+
+If any answer is negative, redesign the interaction.
+
+---
+
+# Validation Checklist
+
+□ Tabs documented
+
+□ Breadcrumbs documented
+
+□ Pagination documented
+
+□ Stepper documented
+
+□ Tree navigation documented
+
+□ Accordion documented
+
+□ Navigation states completed
+
+□ Responsive behavior documented
+
+□ Motion documented
+
+□ Accessibility reviewed
