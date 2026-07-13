@@ -828,3 +828,313 @@ If any answer is negative, redesign the interaction.
 □ Motion documented
 
 □ Responsive behavior validated
+
+---
+
+# Keyboard Interaction
+
+## Purpose
+
+Every interactive menu, list, and selection control should be fully operable using a keyboard.
+
+Minimum requirements:
+
+- Tab moves focus
+- Shift + Tab moves focus backward
+- Arrow keys navigate menu items
+- Enter activates the focused item
+- Space toggles selection when appropriate
+- Escape closes menus and returns focus
+
+Keyboard interaction should remain predictable.
+
+---
+
+# Focus Management
+
+Focus should:
+
+- Always remain visible
+- Follow a logical order
+- Move into opened menus
+- Return to the triggering element after closing
+
+Never lose keyboard focus.
+
+---
+
+# Typeahead Navigation
+
+Large menus and lists should support typeahead.
+
+Requirements:
+
+- Match typed characters
+- Jump to matching options
+- Continue matching while typing
+
+Typeahead should improve navigation speed.
+
+---
+
+# Screen Reader Support
+
+Menus and selection controls should expose:
+
+- Component role
+- Label
+- Current state
+- Available actions
+
+Users should understand every available option.
+
+---
+
+# Accessible Semantics
+
+Every component should expose appropriate semantics.
+
+Examples:
+
+- Menu
+- Menu item
+- List
+- List item
+- Checkbox
+- Radio button
+- Switch
+
+Semantics should accurately describe behavior.
+
+---
+
+# Selection Accessibility
+
+Selection should never rely only on color.
+
+Combine:
+
+- Checkmark
+- Active indicator
+- Label
+- Visual styling
+
+Every selected item should remain obvious.
+
+---
+
+# Responsive Adaptation
+
+Desktop
+
+- Dropdown menus
+- Context menus
+- Side navigation
+
+Tablet
+
+- Navigation drawer
+- Lists
+- Segmented controls
+
+Mobile
+
+- Bottom sheets
+- Full-screen selectors
+- Chips
+
+Interaction should remain comfortable on every device.
+
+---
+
+# Design Token Integration
+
+Components should reference design tokens.
+
+Examples:
+
+menu.background
+
+menu.padding
+
+menu.radius
+
+menu.shadow
+
+list.spacing
+
+selection.active.background
+
+selection.focus.ring
+
+chip.padding
+
+Avoid hardcoded values.
+
+---
+
+# Motion Guidelines
+
+Motion should reinforce interaction.
+
+Examples:
+
+- Menu expansion
+- Menu collapse
+- List animation
+- Chip removal
+- Switch transition
+
+Motion should communicate relationships.
+
+Avoid decorative animation.
+
+---
+
+# Documentation
+
+Every component should document:
+
+- Purpose
+- Anatomy
+- Variants
+- States
+- Accessibility
+- Responsive behavior
+- Usage guidelines
+- Do
+- Don't
+- Examples
+
+Documentation should remove implementation ambiguity.
+
+---
+
+# Testing
+
+Every component should be tested for:
+
+- Accessibility
+- Keyboard interaction
+- Screen readers
+- Responsive layouts
+- Selection behavior
+- Motion
+- Performance
+
+Testing should occur before release.
+
+---
+
+# Quality Assurance
+
+Review every component for:
+
+- Accessibility
+- Visual consistency
+- Responsive behavior
+- Design token usage
+- Documentation
+- Performance
+
+Only approved components belong in the design system.
+
+---
+
+# Versioning
+
+Track changes for:
+
+- New variants
+- Accessibility improvements
+- Motion updates
+- Bug fixes
+- Breaking changes
+
+Maintain complete version history.
+
+---
+
+# Governance
+
+Component updates should include:
+
+- UX review
+- Accessibility review
+- Engineering review
+- QA approval
+- Documentation update
+
+Governance maintains consistency.
+
+---
+
+# AI Selection Review Engine
+
+Before publishing any menu, list, or selection control, answer:
+
+- Is the correct interaction pattern used?
+- Is keyboard navigation complete?
+- Is focus managed correctly?
+- Is accessibility complete?
+- Are design tokens used?
+- Has testing been completed?
+- Does this scale across products?
+- Is the interaction predictable?
+
+If any answer is negative, revise the component.
+
+---
+
+# Menus, Lists & Selection Controls Checklist
+
+Before publishing:
+
+□ Component anatomy documented
+
+□ Variants completed
+
+□ States documented
+
+□ Keyboard interaction verified
+
+□ Focus management documented
+
+□ Typeahead navigation documented
+
+□ Screen reader support completed
+
+□ Responsive behavior validated
+
+□ Design tokens integrated
+
+□ Motion documented
+
+□ Testing completed
+
+□ QA approved
+
+□ Version history updated
+
+□ Documentation completed
+
+---
+
+# Key Takeaways
+
+Menus, lists, and selection controls help users discover options, navigate interfaces, and make decisions.
+
+The AI must:
+
+- Choose the correct interaction pattern.
+- Keep choices clear.
+- Support keyboard navigation.
+- Manage focus correctly.
+- Support screen readers.
+- Use design tokens.
+- Keep motion meaningful.
+- Test every interaction.
+- Document every behavior.
+- Govern changes through structured review.
+
+Every component should improve discoverability, accessibility, consistency, and long-term maintainability.
