@@ -488,3 +488,293 @@ If any answer is negative, redesign the visual system.
 □ Visual consistency validated
 
 □ Documentation updated
+
+
+---
+
+# Empty States
+
+## Definition
+
+Empty states communicate the absence of content while guiding users toward the next action.
+
+Every empty state should include:
+
+- A clear illustration or image
+- A descriptive title
+- Supporting text
+- A primary action when appropriate
+
+Empty states should reduce uncertainty.
+
+---
+
+# Empty State Principles
+
+Empty states should:
+
+- Explain why nothing appears
+- Suggest the next step
+- Reduce frustration
+- Maintain a positive tone
+
+Avoid decorative artwork without guidance.
+
+---
+
+# Onboarding Illustrations
+
+Onboarding illustrations introduce users to the product.
+
+They should:
+
+- Reinforce key concepts
+- Reduce cognitive load
+- Match the product's visual language
+- Support learning
+
+Illustrations should never replace clear explanations.
+
+---
+
+# Product Graphics
+
+Product graphics explain features and workflows.
+
+Examples include:
+
+- Feature diagrams
+- Workflow graphics
+- Product previews
+- Process illustrations
+
+Every graphic should communicate one primary idea.
+
+---
+
+# Marketing Visuals
+
+Marketing visuals should strengthen brand recognition.
+
+Maintain consistency in:
+
+- Composition
+- Typography
+- Color usage
+- Illustration style
+- Photography style
+
+Marketing assets should remain visually connected to the product.
+
+---
+
+# Hero Images
+
+Hero images introduce major pages.
+
+Hero images should:
+
+- Establish context
+- Highlight value
+- Support messaging
+- Avoid unnecessary complexity
+
+The subject should remain immediately recognizable.
+
+---
+
+# Background Graphics
+
+Background graphics provide visual support.
+
+Background graphics should:
+
+- Remain subtle
+- Never reduce readability
+- Avoid competing with interface elements
+
+Decorative backgrounds should have a supporting role.
+
+---
+
+# Avatars
+
+Avatars represent people, organizations, or entities.
+
+Avatar systems should define:
+
+- Shape
+- Sizes
+- Placeholder behavior
+- Fallback initials
+- Default imagery
+
+Avatar styles should remain consistent throughout the product.
+
+---
+
+# Thumbnails
+
+Thumbnails provide quick visual previews.
+
+Maintain consistency in:
+
+- Aspect ratio
+- Cropping
+- Border radius
+- Alignment
+- Resolution
+
+Every thumbnail should remain recognizable at small sizes.
+
+---
+
+# Image Placeholders
+
+Placeholders communicate that content is loading or unavailable.
+
+Placeholders should:
+
+- Match final image dimensions
+- Preserve layout stability
+- Minimize perceived loading time
+
+Avoid layout shifts when images load.
+
+---
+
+# Aspect Ratios
+
+Images should follow predefined aspect ratios.
+
+Common ratios include:
+
+- 1:1
+- 3:2
+- 4:3
+- 16:9
+- 9:16
+
+Select one ratio based on content requirements.
+
+Do not distort images.
+
+---
+
+# Image Optimization
+
+Optimize every image before publication.
+
+Optimize:
+
+- Resolution
+- File size
+- Compression
+- Export format
+
+Images should balance quality with performance.
+
+---
+
+# Responsive Images
+
+Images should adapt across devices.
+
+Responsive behavior should preserve:
+
+- Subject visibility
+- Aspect ratio
+- Composition
+- Readability
+
+Cropping should remain intentional across breakpoints.
+
+---
+
+# Asset Variants
+
+Visual assets may require multiple variants.
+
+Examples:
+
+- Light
+- Dark
+- High Contrast
+- Mobile
+- Desktop
+
+Variants should remain visually consistent.
+
+---
+
+# Asset Naming
+
+Use descriptive names.
+
+Examples:
+
+hero-dashboard
+
+empty-search
+
+illustration-onboarding-01
+
+avatar-default
+
+thumbnail-course
+
+Avoid names such as:
+
+image1
+
+graphic-final
+
+new-image
+
+Every asset name should describe its purpose.
+
+---
+
+# AI Asset Composition Engine
+
+Before approving a visual asset, answer:
+
+- Does the asset support the user task?
+- Is composition balanced?
+- Is the aspect ratio correct?
+- Is optimization complete?
+- Is accessibility maintained?
+- Does the asset belong to the visual system?
+- Can it be reused across products?
+
+If any answer is negative, redesign the asset.
+
+---
+
+# Validation Checklist
+
+□ Empty states documented
+
+□ Onboarding visuals reviewed
+
+□ Product graphics documented
+
+□ Marketing assets reviewed
+
+□ Hero images standardized
+
+□ Background graphics reviewed
+
+□ Avatar system documented
+
+□ Thumbnail rules completed
+
+□ Placeholder behavior defined
+
+□ Aspect ratios documented
+
+□ Image optimization reviewed
+
+□ Responsive behavior validated
+
+□ Asset naming standardized
