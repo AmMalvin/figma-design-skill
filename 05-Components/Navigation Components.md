@@ -189,3 +189,341 @@ If any answer is negative, redesign the navigation.
 □ Accessibility reviewed
 
 □ Documentation updated
+
+
+---
+
+# Navigation Types
+
+## Philosophy
+
+Every navigation pattern should belong to one reusable component family.
+
+Different navigation patterns solve different navigation problems while sharing the same design language.
+
+Avoid creating duplicate navigation components.
+
+---
+
+# App Bar
+
+## Purpose
+
+Provide global navigation and primary application actions.
+
+Typical content:
+
+- Logo
+- Page title
+- Search
+- Notifications
+- User profile
+- Primary actions
+
+The app bar should remain visible when appropriate.
+
+---
+
+# Top Navigation
+
+## Purpose
+
+Navigate between primary sections.
+
+Examples:
+
+- Marketing websites
+- SaaS dashboards
+- Documentation
+- Enterprise software
+
+Top navigation should contain only primary destinations.
+
+---
+
+# Bottom Navigation
+
+## Purpose
+
+Provide quick access to primary destinations on mobile.
+
+Recommended:
+
+- Three to five destinations
+
+Each destination should:
+
+- Include an icon
+- Include a label
+- Clearly indicate the active destination
+
+---
+
+# Sidebar
+
+## Purpose
+
+Display persistent navigation for complex applications.
+
+Examples:
+
+- Admin panels
+- CRM systems
+- Analytics platforms
+- Design tools
+
+Sidebars should support hierarchy.
+
+---
+
+# Navigation Rail
+
+## Purpose
+
+Provide compact navigation.
+
+Recommended for:
+
+- Tablet
+- Desktop
+- Large screens
+
+Navigation rails prioritize icons while preserving accessibility.
+
+---
+
+# Tabs
+
+## Purpose
+
+Switch between related views without changing context.
+
+Examples:
+
+- Profile sections
+- Settings
+- Dashboard pages
+- Product details
+
+Tabs should not navigate between unrelated pages.
+
+---
+
+# Breadcrumbs
+
+## Purpose
+
+Communicate location within a hierarchy.
+
+Examples:
+
+Home
+
+Products
+
+Laptops
+
+MacBook Pro
+
+Breadcrumbs should support upward navigation.
+
+---
+
+# Pagination
+
+## Purpose
+
+Navigate through paginated content.
+
+Examples:
+
+- Search results
+- Products
+- Reports
+- Tables
+
+Users should always understand their current page.
+
+---
+
+# Stepper
+
+## Purpose
+
+Guide users through sequential workflows.
+
+Examples:
+
+- Checkout
+- Registration
+- Onboarding
+- Multi-step forms
+
+Steppers should clearly indicate progress.
+
+---
+
+# Tree Navigation
+
+## Purpose
+
+Display hierarchical information.
+
+Examples:
+
+- File explorer
+- Documentation
+- Organization charts
+- Folder structures
+
+Tree navigation should support expansion and collapse.
+
+---
+
+# Navigation Selection Guide
+
+Use:
+
+App Bar
+
+For global application controls.
+
+Top Navigation
+
+For primary website sections.
+
+Bottom Navigation
+
+For mobile destinations.
+
+Sidebar
+
+For complex applications.
+
+Navigation Rail
+
+For compact desktop navigation.
+
+Tabs
+
+For switching between related content.
+
+Breadcrumbs
+
+For hierarchical location.
+
+Pagination
+
+For large collections.
+
+Stepper
+
+For sequential workflows.
+
+Tree Navigation
+
+For nested information.
+
+---
+
+# Navigation Variants
+
+Represent navigation as variants.
+
+Recommended properties:
+
+Type
+
+- App Bar
+- Top
+- Bottom
+- Sidebar
+- Rail
+- Tabs
+- Breadcrumbs
+- Pagination
+- Stepper
+- Tree
+
+State
+
+- Default
+- Hover
+- Focus
+- Active
+- Disabled
+
+Size
+
+- Small
+- Medium
+- Large
+
+Avoid creating duplicate navigation systems.
+
+---
+
+# Responsive Behavior
+
+Desktop
+
+- Sidebar
+- Top navigation
+- Navigation rail
+
+Tablet
+
+- Navigation rail
+- Sidebar
+- Tabs
+
+Mobile
+
+- Bottom navigation
+- App bar
+- Bottom sheet navigation
+
+Choose the navigation pattern that best fits the device.
+
+---
+
+# AI Navigation Selection Engine
+
+Before selecting a navigation pattern, answer:
+
+- Does the pattern match the information architecture?
+- Is navigation predictable?
+- Is hierarchy clear?
+- Is accessibility supported?
+- Is responsiveness supported?
+- Can this remain part of one reusable component family?
+
+If any answer is negative, choose a more appropriate navigation pattern.
+
+---
+
+# Validation Checklist
+
+□ App bar documented
+
+□ Top navigation documented
+
+□ Bottom navigation documented
+
+□ Sidebar documented
+
+□ Navigation rail documented
+
+□ Tabs documented
+
+□ Breadcrumbs documented
+
+□ Pagination documented
+
+□ Stepper documented
+
+□ Tree navigation documented
+
+□ Variant strategy documented
+
+□ Responsive behavior documented
