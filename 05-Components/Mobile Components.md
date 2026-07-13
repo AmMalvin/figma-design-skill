@@ -552,3 +552,305 @@ If any answer is negative, choose a more appropriate mobile pattern.
 
 □ Responsive behavior documented
 
+---
+
+# Mobile Component States
+
+## Philosophy
+
+Every mobile component should clearly communicate its current interaction state.
+
+Users should immediately understand:
+
+- What is interactive
+- What has changed
+- What action is available
+- What happens next
+
+Interactions should always improve usability.
+
+---
+
+# Default State
+
+The component is ready for interaction.
+
+Requirements:
+
+- Visible content
+- Clear actions
+- Readable labels
+- Stable layout
+
+Default establishes the baseline appearance.
+
+---
+
+# Pressed State
+
+Touch feedback should occur immediately.
+
+Examples:
+
+- Ripple
+- Scale animation
+- Opacity change
+- Background update
+
+Pressed feedback should confirm successful touch.
+
+---
+
+# Focus State
+
+External keyboards and assistive technologies require focus support.
+
+Requirements:
+
+- Visible focus indicator
+- Logical navigation order
+- High contrast
+
+Never remove focus indicators.
+
+---
+
+# Disabled State
+
+Disabled components communicate temporary unavailability.
+
+Requirements:
+
+- Reduced emphasis
+- Readable labels
+- No interaction
+
+Explain unavailable actions whenever appropriate.
+
+---
+
+# Expanded State
+
+Expandable components include:
+
+- Bottom sheets
+- Drawers
+- Pickers
+- Search
+
+Expansion should preserve user context.
+
+---
+
+# Collapsed State
+
+Collapsed components should:
+
+- Remain recognizable
+- Preserve primary information
+- Clearly indicate expandability
+
+Users should understand additional content exists.
+
+---
+
+# Touch Interaction
+
+Touch interactions should support:
+
+- Tap
+- Double tap when appropriate
+- Long press
+- Drag
+- Swipe
+- Pinch
+- Spread
+
+Avoid unnecessary gesture complexity.
+
+---
+
+# Long Press
+
+Long press should reveal secondary actions.
+
+Examples:
+
+- Context menu
+- Reorder mode
+- Selection mode
+
+Never hide essential actions behind long press.
+
+---
+
+# Drag and Drop
+
+Drag interactions should communicate:
+
+- Pickup
+- Movement
+- Drop target
+- Completion
+
+Provide continuous visual feedback.
+
+---
+
+# Swipe Thresholds
+
+Swipe actions should activate only after intentional movement.
+
+Requirements:
+
+- Clear activation point
+- Visual progress
+- Easy cancellation
+
+Avoid accidental activation.
+
+---
+
+# Gesture Conflicts
+
+When multiple gestures exist:
+
+- Prioritize primary interaction.
+- Avoid overlapping gestures.
+- Maintain predictable behavior.
+
+Users should never wonder which gesture will trigger.
+
+---
+
+# Orientation Changes
+
+Components should adapt to:
+
+- Portrait
+- Landscape
+- Foldable layouts
+
+Orientation changes should preserve user progress.
+
+---
+
+# Safe Areas
+
+Respect device safe areas.
+
+Examples:
+
+- Status bar
+- Camera cutout
+- Home indicator
+- Rounded corners
+
+Important content should remain accessible.
+
+---
+
+# Offline Behavior
+
+Components should communicate offline status.
+
+Examples:
+
+- Cached content
+- Pending uploads
+- Retry actions
+- Synchronization status
+
+Users should always understand connection status.
+
+---
+
+# Motion
+
+Motion should reinforce interaction.
+
+Examples:
+
+- Bottom sheet transition
+- FAB expansion
+- Swipe animation
+- Pull-to-refresh
+- Navigation transition
+
+Motion should communicate change.
+
+Avoid decorative animation.
+
+---
+
+# Responsive Behavior
+
+Phone
+
+- Thumb-first layouts
+- Gesture navigation
+- Compact spacing
+
+Foldable
+
+- Adaptive layouts
+- Multi-pane experiences
+
+Tablet
+
+- Larger touch targets
+- Expanded navigation
+- Multi-column layouts
+
+Interaction patterns should remain consistent across devices.
+
+---
+
+# AI Mobile Interaction Engine
+
+Before approving interaction behavior, answer:
+
+- Is touch interaction obvious?
+- Are gestures predictable?
+- Are safe areas respected?
+- Is accessibility supported?
+- Does motion improve understanding?
+- Is responsiveness maintained?
+
+If any answer is negative, redesign the interaction.
+
+---
+
+# Validation Checklist
+
+□ Mobile states documented
+
+□ Pressed state documented
+
+□ Focus state documented
+
+□ Disabled state documented
+
+□ Expanded state documented
+
+□ Collapsed state documented
+
+□ Touch interaction documented
+
+□ Long press documented
+
+□ Drag and drop documented
+
+□ Swipe thresholds documented
+
+□ Gesture conflicts documented
+
+□ Orientation changes documented
+
+□ Safe areas documented
+
+□ Offline behavior documented
+
+□ Motion documented
+
+□ Responsive behavior validated
