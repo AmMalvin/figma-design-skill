@@ -496,3 +496,343 @@ If any answer is negative, redesign the component architecture.
 □ Responsibilities separated
 
 □ Documentation updated
+
+
+---
+
+# Component Variants
+
+## Definition
+
+Variants are different versions of the same component.
+
+Variants represent predictable changes while preserving the component's purpose.
+
+A Button remains a Button regardless of its variant.
+
+---
+
+# Why Variants Exist
+
+Variants reduce duplication.
+
+Instead of creating multiple independent components, use one component with structured variations.
+
+Benefits:
+
+- Better organization
+- Easier maintenance
+- Faster updates
+- Better developer handoff
+
+---
+
+# Variant Principles
+
+Variants should only represent predictable changes.
+
+Examples:
+
+- Size
+- State
+- Style
+- Theme
+- Orientation
+
+Avoid creating variants for unrelated functionality.
+
+---
+
+# Component Properties
+
+## Definition
+
+Component properties define what users are allowed to customize.
+
+Properties should expose flexibility without breaking consistency.
+
+---
+
+# Property Types
+
+Every design system should support appropriate property types.
+
+Examples include:
+
+- Variant Property
+- Boolean Property
+- Text Property
+- Instance Swap Property
+- Slot Property
+
+Only expose properties users genuinely need.
+
+---
+
+# Variant Properties
+
+Variant properties define structured variations.
+
+Examples:
+
+Size
+
+- Small
+- Medium
+- Large
+
+State
+
+- Default
+- Hover
+- Focus
+- Pressed
+- Disabled
+
+Appearance
+
+- Primary
+- Secondary
+- Tertiary
+
+Each property should represent one concept.
+
+---
+
+# Boolean Properties
+
+Boolean properties control visibility.
+
+Examples:
+
+Has Icon
+
+True
+
+False
+
+Has Badge
+
+True
+
+False
+
+Loading
+
+True
+
+False
+
+Avoid creating separate variants for simple visibility changes.
+
+---
+
+# Text Properties
+
+Text properties allow content to change without detaching the component.
+
+Examples:
+
+- Button label
+- Input placeholder
+- Dialog title
+- Card heading
+
+Text should remain editable while preserving structure.
+
+---
+
+# Instance Swap Properties
+
+Instance swap properties allow nested components to be replaced.
+
+Examples:
+
+- Leading icon
+- Trailing icon
+- Avatar
+- Thumbnail
+
+Replacement components should belong to the same category.
+
+---
+
+# Slot Properties
+
+Slots define flexible content regions.
+
+Examples:
+
+- Header
+- Footer
+- Media
+- Actions
+- Supporting content
+
+Slots should preserve layout integrity regardless of inserted content.
+
+---
+
+# Default Values
+
+Every property should have a documented default value.
+
+Examples:
+
+Size
+
+Medium
+
+State
+
+Default
+
+Appearance
+
+Primary
+
+Defaults reduce ambiguity.
+
+---
+
+# Variant Naming
+
+Variant names should be semantic.
+
+Good examples:
+
+Primary
+
+Secondary
+
+Success
+
+Danger
+
+Large
+
+Small
+
+Avoid names such as:
+
+Version 2
+
+Blue Button
+
+Final
+
+New
+
+Names should describe purpose rather than appearance.
+
+---
+
+# Variant Combinations
+
+Every variant should represent one unique combination of properties.
+
+Example:
+
+Type = Primary
+
+Size = Medium
+
+State = Hover
+
+Avoid duplicate combinations.
+
+---
+
+# Interactive States
+
+Every interactive component should define states.
+
+Minimum states:
+
+- Default
+- Hover
+- Focus
+- Pressed
+- Disabled
+
+Additional states may include:
+
+- Loading
+- Selected
+- Active
+- Error
+- Success
+
+Every state should communicate a clear change.
+
+---
+
+# Responsive Behavior
+
+Variants should support responsive layouts.
+
+Examples:
+
+- Compact navigation
+- Mobile cards
+- Responsive tables
+
+Responsive behavior should preserve usability.
+
+---
+
+# Component API
+
+Treat every component like a public API.
+
+Document:
+
+- Properties
+- Variants
+- Slots
+- Defaults
+- Restrictions
+
+A predictable API improves adoption.
+
+---
+
+# AI Component Configuration Engine
+
+Before approving a component, answer:
+
+- Are variants necessary?
+- Are properties minimal?
+- Are defaults defined?
+- Are states documented?
+- Are variant names semantic?
+- Can developers implement the API consistently?
+- Will the component scale without duplication?
+
+If any answer is negative, redesign the configuration.
+
+---
+
+# Validation Checklist
+
+□ Variants documented
+
+□ Properties documented
+
+□ Boolean properties reviewed
+
+□ Text properties documented
+
+□ Instance swap properties reviewed
+
+□ Slot properties validated
+
+□ Default values defined
+
+□ Interactive states completed
+
+□ Responsive behavior documented
+
+□ Component API documented
+
+□ Documentation updated
