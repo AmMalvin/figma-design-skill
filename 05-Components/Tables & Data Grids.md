@@ -561,3 +561,363 @@ If any answer is negative, choose a more appropriate presentation.
 □ Responsive behavior documented
 
 □ Variant strategy documented
+
+
+---
+
+# Row Selection
+
+## Purpose
+
+Allow users to select one or multiple records.
+
+Selection enables:
+
+- Bulk actions
+- Comparison
+- Export
+- Batch editing
+
+Selection should always remain obvious.
+
+---
+
+# Selection Methods
+
+Supported methods:
+
+- Single selection
+- Multiple selection
+- Range selection
+- Select all
+
+Choose the simplest interaction for the task.
+
+---
+
+# Selection Checkbox
+
+Checkboxes should appear consistently.
+
+Requirements:
+
+- Header checkbox for Select All
+- Row checkbox
+- Visible selected state
+- Keyboard support
+
+Checkboxes should never overlap content.
+
+---
+
+# Inline Editing
+
+## Purpose
+
+Allow users to edit values directly inside the table.
+
+Recommended for:
+
+- Dashboards
+- Admin panels
+- Enterprise software
+
+Inline editing should reduce unnecessary navigation.
+
+---
+
+# Editable Cells
+
+Editable cells should clearly communicate:
+
+- Editable state
+- Current value
+- Validation
+- Save behavior
+
+Users should never wonder whether editing is available.
+
+---
+
+# Edit Modes
+
+Support:
+
+- Click to edit
+- Double-click to edit
+- Keyboard edit
+- Save
+- Cancel
+
+Editing should remain predictable.
+
+---
+
+# Expandable Rows
+
+Expandable rows reveal additional information.
+
+Examples:
+
+- Order details
+- User information
+- Activity history
+- Nested content
+
+Expanded rows should preserve table alignment.
+
+---
+
+# Nested Tables
+
+Nested tables display related datasets.
+
+Examples:
+
+- Orders inside Customers
+- Permissions inside Users
+- Tasks inside Projects
+
+Avoid excessive nesting.
+
+---
+
+# Density Options
+
+Tables should support multiple density modes.
+
+Recommended:
+
+- Compact
+- Comfortable
+- Spacious
+
+Density should adjust spacing without changing hierarchy.
+
+---
+
+# Column Resizing
+
+Users should resize columns when necessary.
+
+Requirements:
+
+- Visible resize handle
+- Minimum width
+- Maximum width
+- Smooth resizing
+
+Column resizing should preserve readability.
+
+---
+
+# Column Reordering
+
+Allow users to change column order when valuable.
+
+Examples:
+
+- Analytics
+- Reporting
+- Admin dashboards
+
+The new order should persist when appropriate.
+
+---
+
+# Column Visibility
+
+Users may hide secondary columns.
+
+Requirements:
+
+- Column picker
+- Restore defaults
+- Maintain essential columns
+
+Never allow critical columns to disappear.
+
+---
+
+# Empty State
+
+Empty tables should explain why no records exist.
+
+Examples:
+
+- No orders found
+- No matching users
+- No search results
+
+Provide a useful next action.
+
+---
+
+# Loading State
+
+Loading communicates pending data.
+
+Requirements:
+
+- Preserve layout
+- Prevent layout shifts
+- Display loading placeholders
+
+Avoid blank screens.
+
+---
+
+# Skeleton Table
+
+Skeleton tables improve perceived performance.
+
+Requirements:
+
+- Match final layout
+- Preserve row height
+- Preserve column width
+
+Replace skeletons immediately after loading.
+
+---
+
+# Hover State
+
+Hover should improve row discovery.
+
+Visual cues may include:
+
+- Background
+- Border
+- Elevation
+
+Hover should never reduce readability.
+
+---
+
+# Focus State
+
+Focus supports keyboard users.
+
+Requirements:
+
+- High visibility
+- Consistent appearance
+- Logical movement
+
+Never remove focus indicators.
+
+---
+
+# Selected State
+
+Selected rows should remain obvious.
+
+Visual indicators may include:
+
+- Background
+- Border
+- Checkbox
+- Accent indicator
+
+Selection should not rely only on color.
+
+---
+
+# Disabled State
+
+Disabled rows communicate temporary unavailability.
+
+Requirements:
+
+- Reduced emphasis
+- Readable content
+- Clear explanation when appropriate
+
+Avoid confusing disabled and selected states.
+
+---
+
+# Overflow Behavior
+
+Large values should remain manageable.
+
+Strategies:
+
+- Wrapping
+- Truncation
+- Tooltip
+- Expand on demand
+
+Avoid broken layouts.
+
+---
+
+# Responsive Behavior
+
+Large tables should adapt gracefully.
+
+Strategies include:
+
+- Horizontal scrolling
+- Priority columns
+- Responsive stacking
+- Column hiding
+
+Critical information should remain visible.
+
+---
+
+# AI Table Interaction Engine
+
+Before approving a table interaction, answer:
+
+- Is selection clear?
+- Is editing predictable?
+- Is resizing useful?
+- Is responsiveness maintained?
+- Is accessibility complete?
+- Can users recover from mistakes?
+
+If any answer is negative, redesign the interaction.
+
+---
+
+# Validation Checklist
+
+□ Row selection documented
+
+□ Selection behavior documented
+
+□ Inline editing documented
+
+□ Editable cells documented
+
+□ Expandable rows documented
+
+□ Nested tables documented
+
+□ Density options documented
+
+□ Column resizing documented
+
+□ Column reordering documented
+
+□ Column visibility documented
+
+□ Empty state documented
+
+□ Loading state documented
+
+□ Skeleton tables documented
+
+□ Hover state completed
+
+□ Focus state completed
+
+□ Selected state completed
+
+□ Disabled state documented
+
+□ Responsive behavior validated
+
