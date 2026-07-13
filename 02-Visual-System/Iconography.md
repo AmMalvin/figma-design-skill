@@ -179,3 +179,253 @@ If any answer is negative, redesign the icon.
 □ Reusability confirmed
 
 □ Documentation updated
+
+
+---
+
+# Icon Styles
+
+## Definition
+
+An icon style defines the visual appearance shared by every icon in the system.
+
+Every icon should follow the same style.
+
+Never mix styles without a documented reason.
+
+---
+
+# Filled Icons
+
+Filled icons use solid shapes.
+
+Characteristics:
+
+- Strong emphasis
+- High visibility
+- Bold appearance
+
+Recommended for:
+
+- Active states
+- Mobile applications
+- Navigation
+- Primary actions
+
+Filled icons should remain simple.
+
+---
+
+# Outlined Icons
+
+Outlined icons use strokes instead of filled shapes.
+
+Characteristics:
+
+- Lightweight
+- Minimal
+- Modern
+
+Recommended for:
+
+- Toolbars
+- Secondary actions
+- Enterprise products
+- Productivity software
+
+Outlined icons are the preferred default for most interface systems.
+
+---
+
+# Duotone Icons
+
+Duotone icons use two visual tones.
+
+Characteristics:
+
+- Increased visual richness
+- Better hierarchy
+- Brand expression
+
+Use sparingly.
+
+Avoid mixing duotone icons with single-color icons in the same interface.
+
+---
+
+# Sharp Icons
+
+Sharp icons use square edges and precise corners.
+
+Characteristics:
+
+- Technical
+- Structured
+- Mechanical
+
+Recommended for:
+
+- Enterprise software
+- Developer tools
+- Data products
+
+Maintain consistency across the entire icon library.
+
+---
+
+# Rounded Icons
+
+Rounded icons use curved corners.
+
+Characteristics:
+
+- Friendly
+- Approachable
+- Modern
+
+Recommended for:
+
+- Consumer products
+- Education
+- Healthcare
+- Social platforms
+
+Roundness should remain consistent across every icon.
+
+---
+
+# Stroke Icons
+
+Stroke icons rely on line weight rather than filled shapes.
+
+Rules:
+
+- Maintain one stroke width.
+- Keep stroke endings consistent.
+- Maintain uniform joins.
+- Avoid unnecessary detail.
+
+Stroke consistency improves recognition.
+
+---
+
+# Filled vs Outlined
+
+Choose one primary system.
+
+Filled icons should communicate:
+
+- Active
+- Selected
+- Important
+
+Outlined icons should communicate:
+
+- Default
+- Neutral
+- Secondary
+
+Avoid mixing both styles randomly.
+
+---
+
+# Icon Families
+
+Icons should belong to organized categories.
+
+Examples:
+
+- Navigation
+- Actions
+- Files
+- Devices
+- Media
+- Commerce
+- Communication
+- Security
+- Status
+- Social
+
+Every icon should have one logical location.
+
+---
+
+# Brand Icon Language
+
+The icon system should reinforce the brand.
+
+Maintain consistency in:
+
+- Shape
+- Stroke
+- Corner radius
+- Detail level
+- Perspective
+- Alignment
+
+Icons should feel like one family.
+
+---
+
+# Visual Complexity
+
+All icons should have a similar level of detail.
+
+Avoid combining:
+
+- Highly detailed icons
+- Extremely simplified icons
+
+Visual consistency improves recognition.
+
+---
+
+# Consistency Rules
+
+Every icon should maintain:
+
+- Similar proportions
+- Similar spacing
+- Similar stroke weight
+- Similar visual balance
+- Similar complexity
+
+Consistency is more important than originality.
+
+---
+
+# AI Icon Style Engine
+
+Before approving an icon style, answer:
+
+- Is one visual style used?
+- Are stroke widths consistent?
+- Are corner radii consistent?
+- Does every icon belong to one family?
+- Is visual complexity balanced?
+- Does the style reinforce the brand?
+- Can developers reuse every icon consistently?
+
+If any answer is negative, redesign the icon system.
+
+---
+
+# Validation Checklist
+
+□ Primary icon style selected
+
+□ Filled icon rules documented
+
+□ Outlined icon rules documented
+
+□ Stroke width standardized
+
+□ Corner radius standardized
+
+□ Icon families created
+
+□ Brand icon language defined
+
+□ Visual complexity reviewed
+
+□ Documentation updated
