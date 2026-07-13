@@ -243,3 +243,267 @@ If any answer is negative, redesign the overlay.
 
 □ Documentation updated
 
+
+---
+
+# Overlay Types
+
+## Philosophy
+
+Every overlay should belong to one reusable component family.
+
+Different overlay types solve different interaction problems while sharing the same foundation.
+
+Avoid building unrelated overlay components.
+
+---
+
+# Modal Dialog
+
+## Purpose
+
+Modal dialogs require users to complete or dismiss a focused task before returning to the interface.
+
+Examples:
+
+- Create Project
+- Edit Profile
+- Sign In
+- Settings
+
+Rules:
+
+- Block interaction with the background.
+- Keep content focused.
+- Provide clear dismissal.
+
+---
+
+# Alert Dialog
+
+## Purpose
+
+Alert dialogs communicate critical information.
+
+Examples:
+
+- Session expired
+- Connection lost
+- Unsaved changes
+- Permission required
+
+Users should immediately understand the message.
+
+---
+
+# Confirmation Dialog
+
+## Purpose
+
+Require confirmation before important actions.
+
+Examples:
+
+- Delete file
+- Archive project
+- Cancel subscription
+- Sign out
+
+The consequence should be obvious.
+
+---
+
+# Side Drawer
+
+## Purpose
+
+Display secondary content without navigating away.
+
+Examples:
+
+- Filters
+- Navigation
+- Shopping cart
+- User details
+
+Drawers should slide from the edge of the screen.
+
+---
+
+# Bottom Sheet
+
+## Purpose
+
+Present contextual actions on mobile devices.
+
+Examples:
+
+- Share
+- Sort
+- Select option
+- Quick actions
+
+Bottom sheets should remain thumb-friendly.
+
+---
+
+# Full-screen Dialog
+
+## Purpose
+
+Support complex tasks that require more space.
+
+Examples:
+
+- Multi-step forms
+- Document editing
+- Advanced settings
+
+Use only when a standard dialog is insufficient.
+
+---
+
+# Popover
+
+## Purpose
+
+Display contextual information near the triggering element.
+
+Examples:
+
+- Color picker
+- Emoji picker
+- User preview
+- Formatting options
+
+Popovers should remain anchored to their trigger.
+
+---
+
+# Tooltip
+
+## Purpose
+
+Provide brief supporting information.
+
+Examples:
+
+- Button description
+- Keyboard shortcut
+- Feature explanation
+
+Tooltips should never contain essential information.
+
+---
+
+# Overlay Sizes
+
+Recommended semantic sizes:
+
+- Small
+- Medium
+- Large
+- Extra Large
+- Full Screen
+
+Use design tokens for all dimensions.
+
+---
+
+# Overlay Variants
+
+Represent overlay types as variants.
+
+Recommended properties:
+
+Type
+
+- Modal
+- Alert
+- Confirmation
+- Drawer
+- Bottom Sheet
+- Full Screen
+- Popover
+- Tooltip
+
+Avoid creating unrelated overlay components.
+
+---
+
+# Dismissal Methods
+
+Supported dismissal methods:
+
+- Close button
+- Cancel action
+- Escape key
+- Outside click when appropriate
+- Swipe for mobile sheets
+
+Never trap users without a clear exit.
+
+---
+
+# Responsive Behavior
+
+Desktop
+
+- Modal
+- Drawer
+- Popover
+
+Tablet
+
+- Modal
+- Drawer
+- Bottom Sheet
+
+Mobile
+
+- Bottom Sheet
+- Full-screen Dialog
+- Drawer when appropriate
+
+Choose the overlay that best fits the device.
+
+---
+
+# AI Overlay Selection Engine
+
+Before selecting an overlay, answer:
+
+- Is interruption necessary?
+- Is the task short or complex?
+- Does the user need background context?
+- Is the overlay appropriate for the device?
+- Is accessibility supported?
+- Can this remain part of one component family?
+
+If any answer is negative, choose a more appropriate overlay.
+
+---
+
+# Validation Checklist
+
+□ Modal dialog documented
+
+□ Alert dialog documented
+
+□ Confirmation dialog documented
+
+□ Side drawer documented
+
+□ Bottom sheet documented
+
+□ Full-screen dialog documented
+
+□ Popover documented
+
+□ Tooltip documented
+
+□ Overlay sizes documented
+
+□ Responsive behavior documented
+
+□ Variant strategy documented
