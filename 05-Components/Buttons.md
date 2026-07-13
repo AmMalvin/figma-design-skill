@@ -637,3 +637,358 @@ If any answer is negative, redesign the button.
 □ Destructive button documented
 
 □ Variant strategy documented
+
+
+---
+
+# Button Sizes
+
+## Philosophy
+
+Button sizes should support different interface densities while remaining consistent across products.
+
+Never create arbitrary button dimensions.
+
+---
+
+# Standard Sizes
+
+Recommended semantic sizes:
+
+- Extra Small
+- Small
+- Medium
+- Large
+- Extra Large
+
+Every size should be defined using design tokens.
+
+---
+
+# Height
+
+Each size should have a fixed height.
+
+Example:
+
+Extra Small
+
+28 px
+
+Small
+
+36 px
+
+Medium
+
+44 px
+
+Large
+
+52 px
+
+Extra Large
+
+60 px
+
+Height should remain consistent for every button of the same size.
+
+---
+
+# Width
+
+Buttons may use:
+
+- Intrinsic width
+- Fixed width
+- Full width
+
+Choose the width based on layout requirements.
+
+Avoid fixed widths when button labels vary significantly.
+
+---
+
+# Padding
+
+Internal padding should scale with button size.
+
+Padding should provide sufficient breathing room around:
+
+- Labels
+- Icons
+- Loading indicators
+
+Never allow content to touch the button edge.
+
+---
+
+# Corner Radius
+
+Corner radius should reference design tokens.
+
+Examples:
+
+radius.sm
+
+radius.md
+
+radius.lg
+
+Avoid hardcoded radius values.
+
+---
+
+# Labels
+
+Labels should:
+
+- Begin with a verb
+- Be concise
+- Use sentence case unless brand guidelines differ
+- Describe the outcome
+
+Examples:
+
+Save Changes
+
+Create Account
+
+Continue
+
+Download Report
+
+Avoid generic labels.
+
+---
+
+# Icons
+
+Buttons may include:
+
+- Leading icon
+- Trailing icon
+
+Icons should reinforce the action.
+
+Do not use decorative icons.
+
+Maintain consistent spacing between icons and labels.
+
+---
+
+# Icon Only Buttons
+
+Icon-only buttons require:
+
+- Accessible name
+- Tooltip when appropriate
+- Minimum touch target
+- Universally recognized icon
+
+Never rely on the icon alone when the action is unclear.
+
+---
+
+# Button States
+
+Every interactive button should define states.
+
+Minimum states:
+
+- Default
+- Hover
+- Focus
+- Pressed
+- Disabled
+
+Optional states:
+
+- Loading
+- Success
+- Error
+- Selected
+- Active
+
+Each state should communicate a meaningful change.
+
+---
+
+# Default State
+
+The default state communicates availability.
+
+This should be the baseline appearance.
+
+---
+
+# Hover State
+
+Hover indicates that the button is interactive.
+
+Changes may include:
+
+- Background
+- Border
+- Shadow
+- Elevation
+
+Avoid excessive animation.
+
+---
+
+# Focus State
+
+Focus indicates keyboard navigation.
+
+Requirements:
+
+- Clearly visible
+- High contrast
+- Never rely only on color
+
+Focus indicators should remain visible until focus moves away.
+
+---
+
+# Pressed State
+
+Pressed confirms interaction.
+
+Visual feedback should occur immediately.
+
+Examples:
+
+- Reduced elevation
+- Darker background
+- Slight scale reduction
+
+Pressed feedback should feel responsive.
+
+---
+
+# Disabled State
+
+Disabled buttons communicate temporary unavailability.
+
+Requirements:
+
+- Reduced emphasis
+- No interaction
+- Still readable
+
+Whenever possible, explain why the action is unavailable.
+
+---
+
+# Loading State
+
+Loading prevents duplicate actions.
+
+Requirements:
+
+- Show loading indicator
+- Preserve button width
+- Disable repeated activation
+- Restore previous state after completion
+
+Users should understand that processing is underway.
+
+---
+
+# Success State
+
+Success confirms completion.
+
+Examples:
+
+- Check icon
+- Success color
+- Confirmation animation
+
+Use success states only when they improve clarity.
+
+---
+
+# Error State
+
+Error communicates failure.
+
+Requirements:
+
+- Explain the problem
+- Offer recovery
+- Preserve accessibility
+
+Do not rely only on color.
+
+---
+
+# State Transitions
+
+Transitions should feel natural.
+
+Recommended characteristics:
+
+- Fast
+- Consistent
+- Purposeful
+
+Avoid unnecessary motion.
+
+---
+
+# Responsive Behavior
+
+Buttons should adapt across devices.
+
+Maintain:
+
+- Touch target
+- Label readability
+- Padding
+- Alignment
+
+Do not reduce usability on smaller screens.
+
+---
+
+# AI Button Interaction Engine
+
+Before approving a button, answer:
+
+- Is the size appropriate?
+- Is spacing consistent?
+- Are all interaction states defined?
+- Is keyboard focus visible?
+- Is loading behavior documented?
+- Does the button remain accessible?
+- Can this scale across products?
+
+If any answer is negative, redesign the interaction.
+
+---
+
+# Validation Checklist
+
+□ Button sizes documented
+
+□ Heights standardized
+
+□ Width behavior documented
+
+□ Padding defined
+
+□ Radius tokens applied
+
+□ Labels reviewed
+
+□ Icon usage documented
+
+□ Button states completed
+
+□ Focus visibility verified
+
+□ Loading behavior documented
+
+□ Responsive behavior validated
