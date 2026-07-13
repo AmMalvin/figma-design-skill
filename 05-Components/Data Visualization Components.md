@@ -602,3 +602,286 @@ If any answer is negative, choose a more appropriate visualization.
 □ Variant strategy documented
 
 □ Responsive behavior documented
+
+---
+
+# Visualization States
+
+## Philosophy
+
+Every visualization should clearly communicate its current state.
+
+Users should immediately understand:
+
+- What data is displayed
+- What is interactive
+- What has changed
+- What actions are available
+
+Interactions should improve understanding.
+
+---
+
+# Default State
+
+The visualization is fully rendered.
+
+Requirements:
+
+- Complete dataset
+- Readable labels
+- Visible legend
+- Appropriate scaling
+
+Default should establish the baseline presentation.
+
+---
+
+# Hover State
+
+Hover reveals additional information.
+
+Examples:
+
+- Exact value
+- Category
+- Date
+- Percentage
+- Comparison
+
+Hover should never hide existing information.
+
+---
+
+# Focus State
+
+Focus supports keyboard navigation.
+
+Requirements:
+
+- Visible focus indicator
+- High contrast
+- Logical navigation order
+
+Never remove focus indicators.
+
+---
+
+# Selected State
+
+Selection highlights one or more data points.
+
+Visual indicators may include:
+
+- Accent outline
+- Fill change
+- Opacity adjustment
+- Persistent tooltip
+
+Selection should remain obvious.
+
+---
+
+# Loading State
+
+Loading communicates that data is being retrieved.
+
+Requirements:
+
+- Skeleton placeholders
+- Loading indicator
+- Stable layout
+
+Avoid unnecessary layout shifts.
+
+---
+
+# Empty State
+
+Empty states explain why data is unavailable.
+
+Examples:
+
+- No records
+- No matching filters
+- No activity
+- No results
+
+Offer a useful next step whenever possible.
+
+---
+
+# Error State
+
+Errors should explain:
+
+- What failed
+- Why when known
+- How to recover
+
+Provide actions such as:
+
+- Retry
+- Refresh
+- Contact support
+
+Avoid technical language.
+
+---
+
+# Tooltip Behavior
+
+Tooltips provide contextual information.
+
+Recommended content:
+
+- Label
+- Value
+- Unit
+- Percentage
+- Date
+- Comparison
+
+Tooltips should never obscure critical information.
+
+---
+
+# Drill-down Interaction
+
+Drill-down allows deeper exploration.
+
+Examples:
+
+- Year to month
+- Region to city
+- Category to product
+
+Always provide a clear path back.
+
+---
+
+# Filtering
+
+Filtering reduces visible data.
+
+Requirements:
+
+- Immediate feedback
+- Clear active filters
+- Easy reset
+
+Filters should never modify the original dataset.
+
+---
+
+# Zoom and Pan
+
+Large visualizations may support:
+
+- Zoom
+- Pan
+- Reset view
+
+Users should never lose orientation.
+
+---
+
+# Cross-highlighting
+
+Related visualizations should communicate together.
+
+Examples:
+
+- Selecting a bar highlights a table row.
+- Selecting a region updates KPI cards.
+- Selecting a category filters supporting charts.
+
+Relationships should remain obvious.
+
+---
+
+# Animation
+
+Animation should communicate change.
+
+Examples:
+
+- Chart updates
+- Filter transitions
+- Data refresh
+- Drill-down transitions
+
+Animation should improve comprehension.
+
+Avoid decorative animation.
+
+---
+
+# Responsive Behavior
+
+Desktop
+
+- Multi-chart dashboards
+- Interactive exploration
+- Detailed tooltips
+
+Tablet
+
+- Simplified dashboards
+- Medium-sized charts
+- Reduced labels
+
+Mobile
+
+- KPI cards
+- Compact charts
+- Horizontal scrolling when required
+
+Visualizations should remain understandable across devices.
+
+---
+
+# AI Visualization Interaction Engine
+
+Before approving visualization behavior, answer:
+
+- Is interaction meaningful?
+- Is exploration intuitive?
+- Are tooltips useful?
+- Is drill-down predictable?
+- Is accessibility supported?
+- Does animation improve understanding?
+
+If any answer is negative, redesign the interaction.
+
+---
+
+# Validation Checklist
+
+□ Visualization states documented
+
+□ Hover state documented
+
+□ Focus state documented
+
+□ Selected state documented
+
+□ Loading state documented
+
+□ Empty state documented
+
+□ Error state documented
+
+□ Tooltip behavior documented
+
+□ Drill-down documented
+
+□ Filtering documented
+
+□ Zoom and pan documented
+
+□ Cross-highlighting documented
+
+□ Animation documented
+
+□ Responsive behavior validated
