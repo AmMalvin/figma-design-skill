@@ -978,3 +978,323 @@ If any answer is negative, redesign the interaction.
 □ Skeleton cards documented
 
 □ Responsive behavior validated
+
+
+---
+
+# Keyboard Interaction
+
+## Purpose
+
+Interactive cards should be fully operable using a keyboard.
+
+Minimum requirements:
+
+- Tab moves focus
+- Shift + Tab moves focus backward
+- Enter activates clickable cards
+- Space activates controls when appropriate
+
+Keyboard interaction should match user expectations.
+
+---
+
+# Focus Management
+
+Focus should:
+
+- Always remain visible
+- Follow a logical order
+- Never become trapped
+- Return predictably after dialogs close
+
+Never remove focus indicators.
+
+---
+
+# Accessibility Requirements
+
+Every card should support:
+
+- Keyboard navigation
+- Screen readers
+- Sufficient color contrast
+- Visible focus
+- Meaningful headings
+- Accessible actions
+
+Accessibility is mandatory.
+
+---
+
+# Screen Reader Support
+
+Cards should expose meaningful information.
+
+Interactive cards should provide:
+
+- Accessible name
+- Role
+- State
+- Action
+
+Informational cards should maintain proper document structure.
+
+---
+
+# Card Collections
+
+Cards often appear in groups.
+
+Examples:
+
+- Product grids
+- Dashboards
+- News feeds
+- Search results
+- User directories
+
+Collections should maintain:
+
+- Consistent spacing
+- Predictable alignment
+- Responsive layouts
+
+---
+
+# Grid Behavior
+
+Cards should align to the layout grid.
+
+Requirements:
+
+- Consistent gutters
+- Equal spacing
+- Responsive columns
+- Predictable wrapping
+
+Avoid irregular alignment.
+
+---
+
+# Empty States
+
+Cards should communicate when content is unavailable.
+
+Examples:
+
+- No products
+- No messages
+- No notifications
+- No search results
+
+Provide a helpful next action whenever possible.
+
+---
+
+# Responsive Adaptation
+
+Cards should adapt across:
+
+- Mobile
+- Tablet
+- Desktop
+- Large displays
+
+Maintain:
+
+- Hierarchy
+- Readability
+- Touch targets
+- Media proportions
+
+Do not sacrifice usability.
+
+---
+
+# Design Token Integration
+
+Cards should reference design tokens.
+
+Examples:
+
+card.padding
+
+card.radius
+
+card.background
+
+card.border
+
+card.shadow
+
+card.spacing
+
+Avoid hardcoded values.
+
+---
+
+# Motion Guidelines
+
+Motion should support understanding.
+
+Appropriate uses:
+
+- Hover transitions
+- Card expansion
+- Selection feedback
+- Loading transitions
+
+Motion should remain subtle.
+
+Avoid decorative animation.
+
+---
+
+# Documentation
+
+Every card should document:
+
+- Purpose
+- Anatomy
+- Variants
+- States
+- Accessibility
+- Responsive behavior
+- Usage guidelines
+- Do
+- Don't
+- Examples
+
+Documentation should eliminate implementation ambiguity.
+
+---
+
+# Testing
+
+Every card should be tested for:
+
+- Accessibility
+- Keyboard interaction
+- Responsive layouts
+- Overflow behavior
+- State transitions
+- Loading behavior
+- Performance
+
+Testing should occur before release.
+
+---
+
+# Quality Assurance
+
+Review every card for:
+
+- Visual consistency
+- Accessibility
+- Responsive behavior
+- Design token usage
+- Documentation
+- Performance
+
+Only approved cards belong in the design system.
+
+---
+
+# Versioning
+
+Track changes for:
+
+- New variants
+- Layout improvements
+- Accessibility enhancements
+- Bug fixes
+- Breaking changes
+
+Maintain complete version history.
+
+---
+
+# Governance
+
+Card updates should follow a structured review process.
+
+Every update should include:
+
+- UX review
+- Accessibility review
+- Developer review
+- QA approval
+- Documentation update
+
+Governance maintains consistency.
+
+---
+
+# AI Card Review Engine
+
+Before publishing any card, answer:
+
+- Is the content grouped logically?
+- Is hierarchy immediately clear?
+- Is the card reusable?
+- Is accessibility complete?
+- Are interaction states documented?
+- Are design tokens used?
+- Has testing been completed?
+- Can this card scale across products?
+
+If any answer is negative, revise the card.
+
+---
+
+# Cards Checklist
+
+Before publishing:
+
+□ Card anatomy documented
+
+□ Variants completed
+
+□ States documented
+
+□ Keyboard interaction verified
+
+□ Accessibility completed
+
+□ Responsive behavior validated
+
+□ Empty states documented
+
+□ Design tokens integrated
+
+□ Motion documented
+
+□ Testing completed
+
+□ QA approved
+
+□ Version history updated
+
+□ Documentation completed
+
+---
+
+# Key Takeaways
+
+Cards organize related information into reusable containers.
+
+The AI must:
+
+- Group related content.
+- Maintain clear hierarchy.
+- Build reusable variants.
+- Support keyboard and screen readers.
+- Adapt cards across screen sizes.
+- Use design tokens.
+- Keep interactions predictable.
+- Test every interaction state.
+- Document every behavior.
+- Govern changes through structured review.
+
+Every card should improve readability, discoverability, accessibility, and long-term maintainability.
