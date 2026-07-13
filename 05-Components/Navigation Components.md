@@ -527,3 +527,265 @@ If any answer is negative, choose a more appropriate navigation pattern.
 □ Variant strategy documented
 
 □ Responsive behavior documented
+
+---
+
+# Navigation States
+
+## Philosophy
+
+Every navigation component should communicate its current interaction state.
+
+Users should immediately understand:
+
+- Where they are
+- Where they can go
+- What is interactive
+
+Navigation should always feel predictable.
+
+---
+
+# Default State
+
+The navigation item is available.
+
+Requirements:
+
+- Clear label
+- Readable icon
+- Consistent spacing
+
+Default establishes the baseline appearance.
+
+---
+
+# Hover State
+
+Hover indicates interactivity.
+
+Examples:
+
+- Background change
+- Text color change
+- Icon color change
+- Underline
+
+Hover should improve discoverability.
+
+---
+
+# Focus State
+
+Focus supports keyboard users.
+
+Requirements:
+
+- Visible focus ring
+- High contrast
+- Consistent appearance
+
+Never remove focus indicators.
+
+---
+
+# Active State
+
+The active state communicates the current destination.
+
+Visual indicators may include:
+
+- Accent bar
+- Filled background
+- Underline
+- Active icon
+- Bold label
+
+Only one primary destination should be active.
+
+---
+
+# Pressed State
+
+Pressed confirms interaction.
+
+Examples:
+
+- Reduced elevation
+- Temporary color change
+- Scale adjustment
+
+Pressed feedback should feel immediate.
+
+---
+
+# Disabled State
+
+Disabled navigation communicates temporary unavailability.
+
+Requirements:
+
+- Reduced emphasis
+- Readable labels
+- No interaction
+
+Explain unavailable destinations when appropriate.
+
+---
+
+# Expand and Collapse
+
+Expandable navigation should:
+
+- Clearly indicate expandable items
+- Animate smoothly
+- Preserve hierarchy
+- Remember state when appropriate
+
+Expansion should never confuse users.
+
+---
+
+# Nested Navigation
+
+Nested navigation supports hierarchical structures.
+
+Examples:
+
+- Documentation
+- File systems
+- Admin panels
+- Enterprise applications
+
+Hierarchy should remain obvious.
+
+---
+
+# Overflow Navigation
+
+Overflow handles limited space.
+
+Examples:
+
+- More menu
+- Overflow drawer
+- Horizontal scrolling
+- Secondary menu
+
+Keep primary destinations visible whenever possible.
+
+---
+
+# Scroll Behavior
+
+Scrolling should preserve orientation.
+
+Examples:
+
+- Sticky app bar
+- Sticky sidebar
+- Sticky tabs
+
+Avoid unexpected navigation movement.
+
+---
+
+# Keyboard Navigation
+
+Navigation should support:
+
+- Tab
+- Shift + Tab
+- Arrow keys
+- Enter
+- Escape
+- Home
+- End
+
+Keyboard interaction should remain predictable.
+
+---
+
+# Motion
+
+Motion should reinforce navigation.
+
+Examples:
+
+- Active indicator transition
+- Sidebar expansion
+- Tab transition
+- Drawer animation
+
+Motion should communicate relationships.
+
+Avoid decorative animation.
+
+---
+
+# Responsive Behavior
+
+Desktop
+
+- Sidebar
+- Top navigation
+- Navigation rail
+
+Tablet
+
+- Navigation rail
+- Sidebar
+- Tabs
+
+Mobile
+
+- Bottom navigation
+- Drawer
+- App bar
+
+Navigation should adapt without losing orientation.
+
+---
+
+# AI Navigation Interaction Engine
+
+Before approving navigation behavior, answer:
+
+- Is the active destination obvious?
+- Is hierarchy preserved?
+- Is keyboard navigation complete?
+- Is accessibility supported?
+- Does motion improve understanding?
+- Is responsiveness maintained?
+
+If any answer is negative, redesign the interaction.
+
+---
+
+# Validation Checklist
+
+□ Navigation states documented
+
+□ Hover state documented
+
+□ Focus state documented
+
+□ Active state documented
+
+□ Pressed state documented
+
+□ Disabled state documented
+
+□ Expand and collapse documented
+
+□ Nested navigation documented
+
+□ Overflow navigation documented
+
+□ Scroll behavior documented
+
+□ Keyboard navigation documented
+
+□ Motion documented
+
+□ Responsive behavior validated
