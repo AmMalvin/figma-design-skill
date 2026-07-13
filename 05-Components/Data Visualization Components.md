@@ -210,3 +210,395 @@ If any answer is negative, redesign the visualization.
 □ Accessibility reviewed
 
 □ Documentation updated
+
+
+---
+
+# Visualization Types
+
+## Philosophy
+
+Every visualization should belong to one reusable component family.
+
+Different visualization types solve different analytical problems while sharing the same design language.
+
+Avoid creating duplicate visualization components.
+
+---
+
+# KPI Card
+
+## Purpose
+
+Highlight important business metrics.
+
+Examples:
+
+- Revenue
+- Active users
+- Conversion rate
+- Monthly recurring revenue
+- Customer satisfaction
+
+KPI cards should emphasize one primary metric.
+
+---
+
+# Line Chart
+
+## Purpose
+
+Display trends over time.
+
+Examples:
+
+- Revenue growth
+- Daily users
+- Website traffic
+- Stock prices
+
+Line charts should clearly communicate direction and change.
+
+---
+
+# Bar Chart
+
+## Purpose
+
+Compare values across categories.
+
+Examples:
+
+- Sales by region
+- Product performance
+- Department budgets
+
+Bars should share a consistent baseline.
+
+---
+
+# Area Chart
+
+## Purpose
+
+Show trends while emphasizing volume.
+
+Examples:
+
+- Traffic over time
+- Revenue accumulation
+- Resource usage
+
+Area charts should avoid overlapping multiple filled areas.
+
+---
+
+# Pie Chart
+
+## Purpose
+
+Display proportions of a whole.
+
+Use only when:
+
+- Few categories exist
+- Total equals one hundred percent
+
+Avoid excessive slices.
+
+---
+
+# Donut Chart
+
+## Purpose
+
+Display proportions while reserving the center for summary information.
+
+Examples:
+
+- Budget allocation
+- Device distribution
+- Market share
+
+Center content should provide useful context.
+
+---
+
+# Scatter Plot
+
+## Purpose
+
+Display relationships between variables.
+
+Examples:
+
+- Revenue versus cost
+- Height versus weight
+- Age versus engagement
+
+Scatter plots help identify correlations and outliers.
+
+---
+
+# Heatmap
+
+## Purpose
+
+Represent values through intensity.
+
+Examples:
+
+- User activity
+- Calendar usage
+- Performance metrics
+- Geographic density
+
+Never rely only on color intensity.
+
+---
+
+# Gauge
+
+## Purpose
+
+Communicate progress toward a target.
+
+Examples:
+
+- Capacity
+- System health
+- Goal completion
+
+Use gauges sparingly.
+
+---
+
+# Progress Ring
+
+## Purpose
+
+Display completion of a measurable task.
+
+Examples:
+
+- Upload progress
+- Profile completion
+- Goal tracking
+
+Progress should remain easy to interpret.
+
+---
+
+# Timeline
+
+## Purpose
+
+Display events in chronological order.
+
+Examples:
+
+- Project milestones
+- Product roadmap
+- Activity history
+
+Timelines should clearly communicate sequence.
+
+---
+
+# Sparkline
+
+## Purpose
+
+Display compact trends alongside data.
+
+Examples:
+
+- KPI cards
+- Financial reports
+- Analytics tables
+
+Sparklines should supplement larger metrics.
+
+---
+
+# Legend
+
+## Purpose
+
+Explain visual encoding.
+
+Legends should include:
+
+- Category labels
+- Colors
+- Symbols
+- Patterns when required
+
+Place legends close to the visualization.
+
+---
+
+# Visualization Selection Guide
+
+Use:
+
+KPI Card
+
+For single metrics.
+
+Line Chart
+
+For trends over time.
+
+Bar Chart
+
+For comparisons.
+
+Area Chart
+
+For cumulative trends.
+
+Pie Chart
+
+For simple proportions.
+
+Donut Chart
+
+For proportions with summary information.
+
+Scatter Plot
+
+For relationships.
+
+Heatmap
+
+For density and intensity.
+
+Gauge
+
+For target progress.
+
+Progress Ring
+
+For completion.
+
+Timeline
+
+For chronological events.
+
+Sparkline
+
+For compact trend summaries.
+
+---
+
+# Visualization Variants
+
+Represent visualizations as variants.
+
+Recommended properties:
+
+Type
+
+- KPI
+- Line
+- Bar
+- Area
+- Pie
+- Donut
+- Scatter
+- Heatmap
+- Gauge
+- Progress Ring
+- Timeline
+- Sparkline
+
+State
+
+- Default
+- Hover
+- Focus
+- Selected
+- Loading
+- Empty
+
+Size
+
+- Small
+- Medium
+- Large
+
+Avoid creating duplicate visualization components.
+
+---
+
+# Responsive Behavior
+
+Desktop
+
+- Full dashboards
+- Multi-chart layouts
+- Complex analytics
+
+Tablet
+
+- Two-column dashboards
+- Medium charts
+- KPI grids
+
+Mobile
+
+- KPI cards
+- Compact charts
+- Horizontal scrolling when necessary
+
+Visualizations should remain readable across all devices.
+
+---
+
+# AI Visualization Selection Engine
+
+Before selecting a visualization, answer:
+
+- What relationship is being communicated?
+- Is comparison or trend more important?
+- Is the visualization easy to understand?
+- Is accessibility supported?
+- Is responsiveness supported?
+- Can this remain part of one reusable component family?
+
+If any answer is negative, choose a more appropriate visualization.
+
+---
+
+# Validation Checklist
+
+□ KPI card documented
+
+□ Line chart documented
+
+□ Bar chart documented
+
+□ Area chart documented
+
+□ Pie chart documented
+
+□ Donut chart documented
+
+□ Scatter plot documented
+
+□ Heatmap documented
+
+□ Gauge documented
+
+□ Progress ring documented
+
+□ Timeline documented
+
+□ Sparkline documented
+
+□ Legend documented
+
+□ Variant strategy documented
+
+□ Responsive behavior documented
