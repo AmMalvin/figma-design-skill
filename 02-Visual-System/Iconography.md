@@ -429,3 +429,281 @@ If any answer is negative, redesign the icon system.
 □ Visual complexity reviewed
 
 □ Documentation updated
+
+
+---
+
+# Icon Grid
+
+## Definition
+
+An icon grid is the geometric framework used to create consistent icons.
+
+Every icon should be designed inside the same grid.
+
+The grid defines:
+
+- Size
+- Alignment
+- Padding
+- Safe area
+- Visual balance
+
+Never create icons without a defined grid.
+
+---
+
+# Standard Icon Grid
+
+Use one standard icon canvas throughout the system.
+
+Recommended default:
+
+24 × 24 px
+
+The grid should remain consistent across the entire icon library.
+
+---
+
+# Safe Area
+
+The safe area is the drawable region inside the icon grid.
+
+It prevents icons from appearing crowded or visually inconsistent.
+
+Icons should remain inside the safe area unless intentional overshoot improves optical balance.
+
+---
+
+# Keylines
+
+Keylines are construction guides that help maintain consistent proportions.
+
+Use keylines to align:
+
+- Circles
+- Squares
+- Rectangles
+- Diagonal shapes
+
+Keylines improve consistency across the icon library.
+
+---
+
+# Optical Alignment
+
+Icons should appear visually centered.
+
+Visual balance is more important than mathematical centering.
+
+Adjust icons when necessary to achieve optical balance.
+
+Never rely solely on automatic alignment.
+
+---
+
+# Pixel Alignment
+
+Icons should align to the pixel grid.
+
+Benefits:
+
+- Sharper rendering
+- Cleaner edges
+- Better small-size readability
+
+Avoid half-pixel positioning unless required for stroke rendering.
+
+---
+
+# Stroke Width
+
+Stroke width should remain consistent throughout the icon system.
+
+Choose one standard weight.
+
+Every outlined icon should use the same stroke width unless a documented exception exists.
+
+---
+
+# Stroke Endings
+
+Define one stroke cap style.
+
+Options include:
+
+- Round
+- Square
+- Butt
+
+Use one style consistently.
+
+---
+
+# Stroke Joins
+
+Corners should use one join style.
+
+Options include:
+
+- Round
+- Miter
+- Bevel
+
+Maintain consistency across every icon.
+
+---
+
+# Corner Radius
+
+Rounded icons should use predefined radius tokens.
+
+Examples:
+
+radius.icon.none
+
+radius.icon.small
+
+radius.icon.medium
+
+Avoid assigning unique corner radii to individual icons.
+
+---
+
+# Internal Padding
+
+Every icon should maintain consistent internal padding.
+
+Padding creates balanced visual weight across icons with different shapes.
+
+Do not allow vectors to touch the grid boundary unless intentionally designed.
+
+---
+
+# Visual Weight
+
+Icons should appear equally heavy.
+
+Balance:
+
+- Filled areas
+- Stroke density
+- Empty space
+- Shape proportions
+
+Icons should feel equally prominent regardless of shape.
+
+---
+
+# Scaling Rules
+
+Icons should scale proportionally.
+
+Never stretch icons independently in the horizontal or vertical direction.
+
+Preserve:
+
+- Aspect ratio
+- Stroke appearance
+- Visual balance
+
+---
+
+# Standard Icon Sizes
+
+Supported icon sizes should use semantic tokens.
+
+Examples:
+
+- 16 px
+- 20 px
+- 24 px
+- 32 px
+- 40 px
+- 48 px
+- 64 px
+
+Avoid arbitrary icon dimensions.
+
+---
+
+# SVG Optimization
+
+Icons should be exported as optimized SVG files when supported.
+
+Optimize by:
+
+- Removing unnecessary points
+- Simplifying paths
+- Eliminating hidden geometry
+- Preserving scalability
+
+Optimized SVGs improve rendering performance.
+
+---
+
+# Icon Tokens
+
+Icons should reference reusable tokens.
+
+Examples:
+
+icon.size.sm
+
+icon.size.md
+
+icon.size.lg
+
+icon.stroke.default
+
+icon.radius.default
+
+Avoid hardcoded values inside components.
+
+---
+
+# AI Icon Construction Engine
+
+Before approving an icon, answer:
+
+- Does the icon use the standard grid?
+- Is optical alignment correct?
+- Is pixel alignment correct?
+- Is stroke width consistent?
+- Is internal padding balanced?
+- Does the icon scale correctly?
+- Can developers reuse the icon without modification?
+
+If any answer is negative, redesign the icon.
+
+---
+
+# Validation Checklist
+
+□ Standard grid defined
+
+□ Safe area documented
+
+□ Keylines reviewed
+
+□ Optical alignment validated
+
+□ Pixel alignment verified
+
+□ Stroke width standardized
+
+□ Stroke caps documented
+
+□ Stroke joins documented
+
+□ Corner radius tokens created
+
+□ Internal padding reviewed
+
+□ Icon sizes standardized
+
+□ SVG optimization reviewed
+
+□ Icon tokens documented
+
+
