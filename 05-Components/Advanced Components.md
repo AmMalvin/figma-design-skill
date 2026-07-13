@@ -571,3 +571,280 @@ If any answer is negative, choose a more appropriate pattern.
 □ Variant strategy documented
 
 □ Responsive behavior documented
+
+
+---
+
+# Advanced Component States
+
+## Philosophy
+
+Every advanced component should clearly communicate its current interaction state.
+
+Users should immediately understand:
+
+- What is happening
+- What is interactive
+- What has changed
+- What action is available
+
+Interactions should reduce cognitive effort.
+
+---
+
+# Default State
+
+The component is ready for interaction.
+
+Requirements:
+
+- Stable layout
+- Clear actions
+- Readable content
+- Visible navigation
+
+Default establishes the baseline experience.
+
+---
+
+# Loading State
+
+Loading communicates that work is in progress.
+
+Examples:
+
+- Loading workspace
+- Loading messages
+- Loading calendar events
+- Loading AI responses
+
+Provide skeleton screens whenever possible.
+
+Avoid layout shifts.
+
+---
+
+# Empty State
+
+Empty states explain why content is unavailable.
+
+Examples:
+
+- No conversations
+- No tasks
+- No calendar events
+- No search results
+
+Offer a clear next action.
+
+---
+
+# Error State
+
+Errors should explain:
+
+- What failed
+- Why when known
+- How users can recover
+
+Examples:
+
+- Retry
+- Refresh
+- Reconnect
+- Contact support
+
+Avoid technical language.
+
+---
+
+# Selection State
+
+Selection should remain obvious.
+
+Examples:
+
+- Selected task
+- Selected conversation
+- Selected event
+- Selected document
+
+Selection should never depend only on color.
+
+---
+
+# Collaboration State
+
+Collaborative components should communicate:
+
+- Active users
+- Editing status
+- Presence
+- Cursor position
+- Shared updates
+
+Users should understand when others are collaborating.
+
+---
+
+# Drag and Drop
+
+Advanced workflows may support drag interactions.
+
+Examples:
+
+- Kanban cards
+- Calendar events
+- Files
+- Dashboard widgets
+
+Provide continuous visual feedback.
+
+---
+
+# Keyboard Shortcuts
+
+Support productivity through shortcuts.
+
+Examples:
+
+- Search
+- Command palette
+- Save
+- Undo
+- Redo
+- Navigation
+
+Document every supported shortcut.
+
+---
+
+# Real-time Updates
+
+Components should communicate live changes.
+
+Examples:
+
+- Incoming messages
+- Calendar updates
+- Task assignments
+- AI responses
+
+Updates should avoid interrupting user workflows.
+
+---
+
+# Offline Behavior
+
+Communicate offline status clearly.
+
+Examples:
+
+- Cached content
+- Pending changes
+- Synchronization
+- Retry actions
+
+Users should understand what is available offline.
+
+---
+
+# Notifications
+
+Advanced workflows may surface contextual notifications.
+
+Examples:
+
+- Assignment completed
+- Collaboration request
+- Import completed
+- AI response available
+
+Notifications should remain relevant and actionable.
+
+---
+
+# Motion
+
+Motion should reinforce workflow changes.
+
+Examples:
+
+- Card movement
+- Panel transitions
+- AI response animation
+- Calendar updates
+- Wizard progression
+
+Motion should communicate change.
+
+Avoid decorative animation.
+
+---
+
+# Responsive Behavior
+
+Desktop
+
+- Multi-pane layouts
+- Rich editing
+- Collaboration
+
+Tablet
+
+- Adaptive panels
+- Split layouts
+- Responsive controls
+
+Mobile
+
+- Simplified workflows
+- Bottom sheets
+- Progressive disclosure
+
+Complex workflows should remain usable on every device.
+
+---
+
+# AI Advanced Interaction Engine
+
+Before approving interaction behavior, answer:
+
+- Is the workflow obvious?
+- Are state changes clear?
+- Is collaboration understandable?
+- Is accessibility supported?
+- Does motion improve understanding?
+- Is responsiveness maintained?
+
+If any answer is negative, redesign the interaction.
+
+---
+
+# Validation Checklist
+
+□ Component states documented
+
+□ Loading state documented
+
+□ Empty state documented
+
+□ Error state documented
+
+□ Selection state documented
+
+□ Collaboration state documented
+
+□ Drag and drop documented
+
+□ Keyboard shortcuts documented
+
+□ Real-time updates documented
+
+□ Offline behavior documented
+
+□ Notifications documented
+
+□ Motion documented
+
+□ Responsive behavior validated
