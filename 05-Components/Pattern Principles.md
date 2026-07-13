@@ -438,3 +438,234 @@ If any answer is negative, redesign the pattern.
 
 □ Pattern scalability documented
 
+---
+
+# Pattern States
+
+## Philosophy
+
+Every pattern should communicate its current workflow state.
+
+Users should immediately understand:
+
+- Where they are
+- What is happening
+- What action is required
+- What happens next
+
+Workflow states should reduce uncertainty.
+
+---
+
+# Loading Pattern
+
+Loading patterns communicate progress while preparing content.
+
+Examples:
+
+- Authentication
+- Dashboard loading
+- Search
+- Checkout
+- AI response generation
+
+Requirements:
+
+- Stable layout
+- Skeleton screens when possible
+- Progress indicators when appropriate
+
+Avoid unnecessary waiting.
+
+---
+
+# Empty Pattern
+
+Empty patterns explain the absence of content.
+
+Examples:
+
+- No notifications
+- No search results
+- No uploaded files
+- No scheduled events
+
+Every empty pattern should provide a meaningful next action.
+
+---
+
+# Error Pattern
+
+Every workflow should include recovery.
+
+Errors should communicate:
+
+- What happened
+- Why when known
+- How users recover
+
+Examples:
+
+- Retry
+- Edit input
+- Restore connection
+- Contact support
+
+Errors should never permanently block progress.
+
+---
+
+# Confirmation Pattern
+
+Confirmation patterns reassure users after important actions.
+
+Examples:
+
+- Purchase completed
+- Password updated
+- File uploaded
+- Booking confirmed
+
+Communicate:
+
+- What happened
+- What happens next
+- Available follow-up actions
+
+---
+
+# Undo Pattern
+
+Whenever possible, allow users to reverse recent actions.
+
+Examples:
+
+- Delete
+- Archive
+- Move
+- Remove
+- Dismiss
+
+Undo reduces the impact of mistakes.
+
+---
+
+# Multi-step Workflow
+
+Complex workflows should divide work into manageable steps.
+
+Examples:
+
+- Registration
+- Checkout
+- Tax filing
+- Product configuration
+
+Requirements:
+
+- Visible progress
+- Current step
+- Previous step
+- Next step
+
+Users should always know their progress.
+
+---
+
+# Conditional Flow
+
+Some workflows depend on user choices.
+
+Examples:
+
+- Payment method
+- Shipping option
+- Business account
+- Personal account
+
+Only reveal relevant steps.
+
+---
+
+# Interrupted Journey
+
+Users may leave before completion.
+
+Examples:
+
+- App closed
+- Connection lost
+- Incoming phone call
+- Browser refresh
+
+Patterns should preserve progress whenever possible.
+
+---
+
+# Resumable Journey
+
+Users should resume unfinished work.
+
+Examples:
+
+- Draft forms
+- Checkout
+- Onboarding
+- Applications
+
+Restore users to their previous step whenever possible.
+
+---
+
+# Pattern Consistency
+
+Every workflow should maintain:
+
+- Navigation
+- Feedback
+- Terminology
+- Interaction model
+- Component usage
+
+Consistency reduces learning effort.
+
+---
+
+# AI Workflow Evaluation Engine
+
+Before approving a workflow, answer:
+
+- Does every state exist?
+- Can users recover from errors?
+- Can users resume progress?
+- Are confirmations clear?
+- Does the workflow reuse existing components?
+- Can this scale across products?
+
+If any answer is negative, redesign the workflow.
+
+---
+
+# Pattern Quality Checklist
+
+□ Loading pattern documented
+
+□ Empty pattern documented
+
+□ Error pattern documented
+
+□ Confirmation pattern documented
+
+□ Undo pattern documented
+
+□ Multi-step workflow documented
+
+□ Conditional flow documented
+
+□ Interrupted journey documented
+
+□ Resumable journey documented
+
+□ Pattern consistency documented
+
+□ AI workflow evaluation documented
