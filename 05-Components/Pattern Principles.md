@@ -200,3 +200,241 @@ If any answer is negative, redesign the pattern.
 □ Responsive behavior reviewed
 
 □ Documentation updated
+
+
+---
+
+# Pattern Lifecycle
+
+## Philosophy
+
+Every pattern should guide users from beginning to completion.
+
+A complete pattern includes:
+
+- Entry
+- Progress
+- Decisions
+- Completion
+- Recovery
+- Exit
+
+Users should never feel lost during a workflow.
+
+---
+
+# User Journey
+
+Every pattern begins with a user goal.
+
+Examples:
+
+- Sign in
+- Purchase a product
+- Upload a file
+- Schedule a meeting
+- Complete onboarding
+
+Design around the user's objective rather than system requirements.
+
+---
+
+# Entry Points
+
+Entry points define how users begin a workflow.
+
+Examples:
+
+- Primary button
+- Navigation
+- Search result
+- Deep link
+- Notification
+- QR code
+
+Entry points should clearly communicate what happens next.
+
+---
+
+# Exit Points
+
+Exit points define how users leave a workflow.
+
+Examples:
+
+- Success
+- Cancel
+- Save and close
+- Back
+- Logout
+
+Users should always understand the result of leaving.
+
+---
+
+# Happy Path
+
+The happy path represents the simplest successful journey.
+
+Characteristics:
+
+- Minimum steps
+- No errors
+- Clear progression
+- Successful completion
+
+Optimize the happy path before edge cases.
+
+---
+
+# Alternate Paths
+
+Users do not always follow the expected route.
+
+Examples:
+
+- Skip onboarding
+- Return later
+- Change selections
+- Edit information
+- Repeat a step
+
+Alternate paths should remain predictable.
+
+---
+
+# Decision Points
+
+Decision points require user choice.
+
+Examples:
+
+- Select a payment method
+- Choose a subscription
+- Confirm deletion
+- Pick a delivery option
+
+Present only the information needed for the decision.
+
+---
+
+# Progressive Disclosure
+
+Reveal information only when needed.
+
+Examples:
+
+- Advanced settings
+- Optional fields
+- Additional filters
+- Expanded details
+
+Reduce cognitive load by avoiding unnecessary information.
+
+---
+
+# Error Recovery
+
+Every pattern should include recovery.
+
+Examples:
+
+- Retry
+- Undo
+- Reset
+- Edit input
+- Restore progress
+
+Errors should never block user progress permanently.
+
+---
+
+# Success State
+
+Success confirms completion.
+
+Examples:
+
+- Confirmation message
+- Receipt
+- Success screen
+- Updated dashboard
+
+Clearly communicate what happened and what users can do next.
+
+---
+
+# Pattern Composition
+
+Patterns should combine reusable components.
+
+Examples:
+
+- Navigation
+- Forms
+- Buttons
+- Dialogs
+- Cards
+- Tables
+- Feedback
+- Media
+
+Never recreate components inside a pattern.
+
+---
+
+# Pattern Scalability
+
+Patterns should adapt across:
+
+- Products
+- Teams
+- Platforms
+- Screen sizes
+- Languages
+
+Scalability should not change workflow logic.
+
+---
+
+# AI Pattern Evaluation Engine
+
+Before approving a pattern, answer:
+
+- Does this solve one user goal?
+- Is the workflow complete?
+- Are decision points obvious?
+- Is recovery possible?
+- Does it reuse existing components?
+- Can this scale across products?
+
+If any answer is negative, redesign the pattern.
+
+---
+
+# Validation Checklist
+
+□ Pattern lifecycle documented
+
+□ User journey documented
+
+□ Entry points documented
+
+□ Exit points documented
+
+□ Happy path documented
+
+□ Alternate paths documented
+
+□ Decision points documented
+
+□ Progressive disclosure documented
+
+□ Error recovery documented
+
+□ Success state documented
+
+□ Pattern composition documented
+
+□ Pattern scalability documented
+
