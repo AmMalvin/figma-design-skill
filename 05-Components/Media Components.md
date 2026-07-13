@@ -866,3 +866,334 @@ If any answer is negative, redesign the interaction.
 □ Animation documented
 
 □ Responsive behavior validated
+
+---
+
+# Keyboard Interaction
+
+## Purpose
+
+Every interactive media component should support keyboard navigation.
+
+Minimum requirements:
+
+- Tab moves focus
+- Shift + Tab moves focus backward
+- Enter activates the focused control
+- Space plays or pauses media when applicable
+- Arrow keys adjust playback or navigate galleries when appropriate
+- Escape closes temporary media views
+
+Keyboard interaction should remain predictable.
+
+---
+
+# Focus Management
+
+Focus should:
+
+- Always remain visible
+- Follow a logical order
+- Move into opened media viewers
+- Return to the triggering control after closing
+
+Never lose keyboard focus.
+
+---
+
+# Alternative Text
+
+Images should include meaningful alternative text.
+
+Alternative text should:
+
+- Describe important content
+- Explain functional images
+- Ignore purely decorative images
+
+Alternative text should communicate purpose rather than appearance.
+
+---
+
+# Screen Reader Support
+
+Media components should expose:
+
+- Media type
+- Title
+- Description
+- Current state
+- Duration when applicable
+- Playback status
+- Upload status
+
+Users should understand the media without relying on vision.
+
+---
+
+# Accessible Media Controls
+
+Controls should expose:
+
+- Play
+- Pause
+- Stop
+- Previous
+- Next
+- Volume
+- Mute
+- Full-screen
+- Download when available
+
+Every control should have an accessible name.
+
+---
+
+# Audio Descriptions
+
+Videos containing important visual information should support audio descriptions when appropriate.
+
+Audio descriptions should:
+
+- Explain essential visual events
+- Avoid interrupting dialogue
+- Remain synchronized
+
+Accessibility should extend beyond captions.
+
+---
+
+# Color Accessibility
+
+Media components should never rely only on color.
+
+Combine color with:
+
+- Icons
+- Labels
+- Borders
+- Patterns
+- Status indicators
+
+Every state should remain distinguishable.
+
+---
+
+# Responsive Adaptation
+
+Desktop
+
+- Rich media controls
+- Multi-column galleries
+- Advanced previews
+
+Tablet
+
+- Touch-friendly controls
+- Responsive galleries
+- Medium previews
+
+Mobile
+
+- Full-width media
+- Swipe interactions
+- Compact controls
+- Camera integration
+
+Media should remain usable on every screen size.
+
+---
+
+# Design Token Integration
+
+Media components should reference design tokens.
+
+Examples:
+
+media.radius
+
+media.shadow
+
+media.border
+
+media.placeholder.background
+
+media.caption.color
+
+media.overlay.background
+
+media.focus.ring
+
+media.spacing
+
+Avoid hardcoded values.
+
+---
+
+# Motion Guidelines
+
+Motion should reinforce interaction.
+
+Examples:
+
+- Image fade in
+- Upload progress
+- Gallery transition
+- Carousel movement
+- Video controls
+- Zoom transition
+
+Motion should communicate change.
+
+Avoid decorative animation.
+
+---
+
+# Documentation
+
+Every media component should document:
+
+- Purpose
+- Anatomy
+- Variants
+- States
+- Accessibility
+- Responsive behavior
+- Usage guidelines
+- Do
+- Don't
+- Examples
+
+Documentation should eliminate implementation ambiguity.
+
+---
+
+# Testing
+
+Every media component should be tested for:
+
+- Accessibility
+- Keyboard interaction
+- Screen reader support
+- Alternative text
+- Responsive layouts
+- Upload behavior
+- Playback controls
+- Motion
+- Performance
+
+Testing should occur before release.
+
+---
+
+# Quality Assurance
+
+Review every media component for:
+
+- Accessibility
+- Visual consistency
+- Responsive behavior
+- Design token usage
+- Documentation
+- Performance
+
+Only approved media components belong in the design system.
+
+---
+
+# Versioning
+
+Track changes for:
+
+- New media types
+- Accessibility improvements
+- Motion updates
+- Bug fixes
+- Breaking changes
+
+Maintain complete version history.
+
+---
+
+# Governance
+
+Media updates should include:
+
+- UX review
+- Accessibility review
+- Engineering review
+- QA approval
+- Documentation update
+
+Governance maintains long-term consistency.
+
+---
+
+# AI Media Review Engine
+
+Before publishing any media component, answer:
+
+- Is the media appropriate?
+- Is accessibility complete?
+- Are alternative text requirements documented?
+- Are design tokens used?
+- Is keyboard interaction supported?
+- Has testing been completed?
+- Does this scale across products?
+- Is interaction predictable?
+
+If any answer is negative, revise the component.
+
+---
+
+# Media Components Checklist
+
+Before publishing:
+
+□ Media anatomy documented
+
+□ Variants completed
+
+□ States documented
+
+□ Keyboard interaction verified
+
+□ Focus management documented
+
+□ Alternative text documented
+
+□ Screen reader support completed
+
+□ Responsive behavior validated
+
+□ Design tokens integrated
+
+□ Motion documented
+
+□ Testing completed
+
+□ QA approved
+
+□ Version history updated
+
+□ Documentation completed
+
+---
+
+# Key Takeaways
+
+Media components present images, video, audio, documents, and uploaded content in a consistent and accessible way.
+
+The AI must:
+
+- Choose the correct media component.
+- Preserve media quality.
+- Support keyboard navigation.
+- Support screen readers.
+- Provide alternative text.
+- Use design tokens.
+- Keep motion meaningful.
+- Test every interaction.
+- Document every behavior.
+
+Every media component should improve accessibility, consistency, performance, and long-term maintainability.
