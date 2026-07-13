@@ -669,3 +669,282 @@ If any answer is negative, redesign the workflow.
 □ Pattern consistency documented
 
 □ AI workflow evaluation documented
+
+
+---
+
+# Accessibility Across Workflows
+
+## Purpose
+
+Every pattern should remain accessible from beginning to completion.
+
+Accessibility should exist throughout the entire workflow rather than individual screens.
+
+---
+
+# Keyboard Navigation
+
+Patterns should support complete keyboard navigation.
+
+Requirements:
+
+- Logical tab order
+- Visible focus
+- Keyboard shortcuts when appropriate
+- Escape for temporary interfaces
+- Enter for primary actions
+
+Users should complete every workflow without a mouse.
+
+---
+
+# Focus Management
+
+Focus should:
+
+- Move logically
+- Remain visible
+- Enter temporary interfaces
+- Return after dismissal
+- Never become trapped unless intentionally contained
+
+Focus should always reflect user context.
+
+---
+
+# Screen Reader Guidance
+
+Patterns should expose:
+
+- Workflow purpose
+- Current step
+- Available actions
+- Progress
+- Errors
+- Success messages
+
+Users should understand where they are at every stage.
+
+---
+
+# Workflow Accessibility
+
+Every workflow should support:
+
+- Keyboard navigation
+- Screen readers
+- High contrast
+- Reduced motion
+- Responsive layouts
+- Zoom
+
+Accessibility should remain consistent across the entire journey.
+
+---
+
+# Responsive Workflows
+
+Patterns should adapt across:
+
+Desktop
+
+- Full workflows
+- Multi-panel layouts
+- Advanced productivity
+
+Tablet
+
+- Adaptive layouts
+- Split views
+- Touch optimization
+
+Mobile
+
+- Simplified flows
+- Progressive disclosure
+- Bottom sheets
+- Thumb-friendly interactions
+
+Workflow logic should remain unchanged across devices.
+
+---
+
+# Design Token Integration
+
+Patterns should reference design tokens instead of hardcoded values.
+
+Examples:
+
+pattern.spacing
+
+pattern.radius
+
+pattern.elevation
+
+pattern.motion.duration
+
+pattern.focus.ring
+
+pattern.success.color
+
+pattern.error.color
+
+pattern.warning.color
+
+Avoid hardcoded styling.
+
+---
+
+# Documentation Standards
+
+Every pattern should document:
+
+- Purpose
+- User goal
+- Entry point
+- Exit point
+- Workflow
+- Decision points
+- States
+- Accessibility
+- Responsive behavior
+- Components used
+- Usage guidelines
+- Do
+- Don't
+- Examples
+
+Documentation should remove implementation ambiguity.
+
+---
+
+# Testing Strategy
+
+Every pattern should be tested for:
+
+- Accessibility
+- Keyboard navigation
+- Screen reader compatibility
+- Responsive layouts
+- Error recovery
+- Alternate paths
+- Performance
+- User completion
+
+Testing should validate the complete workflow.
+
+---
+
+# Quality Assurance
+
+Review every pattern for:
+
+- User goal alignment
+- Workflow consistency
+- Accessibility
+- Component reuse
+- Responsive behavior
+- Documentation
+- Performance
+
+Only approved patterns belong in the design system.
+
+---
+
+# Versioning
+
+Track changes for:
+
+- New workflows
+- Accessibility improvements
+- Workflow refinements
+- Bug fixes
+- Breaking changes
+
+Maintain complete version history.
+
+---
+
+# Governance
+
+Pattern updates should include:
+
+- UX review
+- Accessibility review
+- Engineering review
+- QA approval
+- Documentation update
+
+Governance ensures long-term consistency.
+
+---
+
+# AI Pattern Review Engine
+
+Before publishing any pattern, answer:
+
+- Does this solve one user goal?
+- Does it reuse existing components?
+- Is accessibility complete?
+- Are design tokens used?
+- Is keyboard navigation supported?
+- Has testing been completed?
+- Does this scale across products?
+- Is the workflow predictable?
+
+If any answer is negative, revise the pattern.
+
+---
+
+# Pattern Principles Checklist
+
+Before publishing:
+
+□ User goal documented
+
+□ Workflow documented
+
+□ Entry and exit points documented
+
+□ Decision points documented
+
+□ Pattern states documented
+
+□ Accessibility completed
+
+□ Keyboard navigation verified
+
+□ Screen reader support completed
+
+□ Responsive behavior validated
+
+□ Design tokens integrated
+
+□ Testing completed
+
+□ QA approved
+
+□ Version history updated
+
+□ Documentation completed
+
+---
+
+# Key Takeaways
+
+Patterns define complete user journeys built from reusable components.
+
+The AI must:
+
+- Start with the user's goal.
+- Reuse existing components.
+- Keep workflows predictable.
+- Support keyboard navigation.
+- Support screen readers.
+- Use design tokens.
+- Test complete workflows.
+- Document every decision.
+- Design for scalability.
+
+Every pattern should improve usability, accessibility, consistency, and long-term maintainability across every product built with the design system.
