@@ -921,3 +921,337 @@ If any answer is negative, redesign the interaction.
 
 □ Responsive behavior validated
 
+
+---
+
+# Keyboard Interaction
+
+## Purpose
+
+Every table should be fully operable using a keyboard.
+
+Minimum requirements:
+
+- Tab moves focus
+- Shift + Tab moves focus backward
+- Arrow keys navigate cells when applicable
+- Enter activates editable cells
+- Space selects rows
+- Escape exits editing mode
+
+Keyboard interaction should remain predictable.
+
+---
+
+# Focus Management
+
+Focus should:
+
+- Always remain visible
+- Follow logical order
+- Never become trapped
+- Return predictably after dialogs or menus close
+
+Never remove focus indicators.
+
+---
+
+# Screen Reader Support
+
+Tables should expose meaningful structure.
+
+Requirements:
+
+- Table title
+- Header associations
+- Row information
+- Column information
+- Current sort direction
+- Selection state
+
+Users should understand the dataset without visual cues.
+
+---
+
+# Accessible Table Semantics
+
+Every table should define:
+
+- Header rows
+- Column headers
+- Row headers when appropriate
+- Data cells
+- Captions where useful
+
+Avoid using tables for layout.
+
+---
+
+# Sorting Accessibility
+
+Sorting should communicate:
+
+- Active column
+- Sort direction
+- Updated results
+
+Sorting should remain understandable for assistive technologies.
+
+---
+
+# Filtering Accessibility
+
+Filtering should communicate:
+
+- Active filters
+- Removed filters
+- Filter results
+
+Users should always understand the current dataset.
+
+---
+
+# Performance
+
+Large datasets require efficient rendering.
+
+Strategies include:
+
+- Pagination
+- Lazy loading
+- Virtualization
+- Incremental loading
+
+Performance should remain consistent as datasets grow.
+
+---
+
+# Virtualization
+
+Virtualization renders only visible rows.
+
+Recommended for:
+
+- Enterprise software
+- Analytics
+- Financial platforms
+- Large admin systems
+
+Users should not notice virtualization.
+
+---
+
+# Responsive Adaptation
+
+Tables should adapt across:
+
+- Mobile
+- Tablet
+- Desktop
+- Large displays
+
+Strategies:
+
+- Horizontal scrolling
+- Column priority
+- Responsive columns
+- Alternative layouts for narrow screens
+
+Preserve essential information.
+
+---
+
+# Design Token Integration
+
+Tables should reference design tokens.
+
+Examples:
+
+table.row.height
+
+table.padding
+
+table.border
+
+table.header.background
+
+table.hover.background
+
+table.selected.background
+
+table.focus.ring
+
+Avoid hardcoded values.
+
+---
+
+# Motion Guidelines
+
+Motion should improve understanding.
+
+Examples:
+
+- Row expansion
+- Sorting indicators
+- Loading transitions
+- Selection feedback
+
+Avoid decorative animation.
+
+---
+
+# Documentation
+
+Every table component should document:
+
+- Purpose
+- Anatomy
+- Variants
+- States
+- Accessibility
+- Responsive behavior
+- Usage guidelines
+- Do
+- Don't
+- Examples
+
+Documentation should remove implementation ambiguity.
+
+---
+
+# Testing
+
+Every table should be tested for:
+
+- Accessibility
+- Keyboard navigation
+- Screen readers
+- Sorting
+- Filtering
+- Pagination
+- Selection
+- Editing
+- Responsive layouts
+- Performance
+
+Testing should occur before release.
+
+---
+
+# Quality Assurance
+
+Review every table for:
+
+- Readability
+- Accessibility
+- Consistency
+- Responsive behavior
+- Performance
+- Design token usage
+- Documentation
+
+Only approved components belong in the design system.
+
+---
+
+# Versioning
+
+Track changes for:
+
+- New features
+- Accessibility improvements
+- Performance improvements
+- Bug fixes
+- Breaking changes
+
+Maintain complete version history.
+
+---
+
+# Governance
+
+Table updates should include:
+
+- UX review
+- Accessibility review
+- Engineering review
+- QA approval
+- Documentation update
+
+Governance maintains long-term consistency.
+
+---
+
+# AI Table Review Engine
+
+Before publishing any table, answer:
+
+- Is the data easy to scan?
+- Is keyboard support complete?
+- Is screen reader support complete?
+- Is responsiveness maintained?
+- Are design tokens used?
+- Has performance been evaluated?
+- Has testing been completed?
+- Can this table scale across products?
+
+If any answer is negative, revise the table.
+
+---
+
+# Tables & Data Grids Checklist
+
+Before publishing:
+
+□ Table anatomy documented
+
+□ Variants completed
+
+□ Sorting documented
+
+□ Filtering documented
+
+□ Selection documented
+
+□ Editing documented
+
+□ Keyboard interaction verified
+
+□ Screen reader support completed
+
+□ Responsive behavior validated
+
+□ Performance reviewed
+
+□ Virtualization documented
+
+□ Design tokens integrated
+
+□ Testing completed
+
+□ QA approved
+
+□ Version history updated
+
+□ Documentation completed
+
+---
+
+# Key Takeaways
+
+Tables organize structured information for analysis and decision making.
+
+The AI must:
+
+- Design reusable table systems.
+- Prioritize readability.
+- Support sorting and filtering.
+- Support keyboard and screen readers.
+- Scale to large datasets.
+- Use design tokens.
+- Maintain responsive layouts.
+- Optimize performance.
+- Test every interaction.
+- Document every behavior.
+
+Every table should improve efficiency, accessibility, consistency, and long-term maintainability.
