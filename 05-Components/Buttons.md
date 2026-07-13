@@ -992,3 +992,306 @@ If any answer is negative, redesign the interaction.
 □ Loading behavior documented
 
 □ Responsive behavior validated
+
+
+---
+
+# Keyboard Interaction
+
+## Purpose
+
+Buttons should be fully operable using a keyboard.
+
+Minimum requirements:
+
+- Tab moves focus
+- Shift + Tab moves focus backward
+- Enter activates the button
+- Space activates the button when appropriate
+
+Keyboard users should receive the same functionality as pointer users.
+
+---
+
+# Focus Management
+
+Focus should:
+
+- Always remain visible
+- Follow logical order
+- Never become trapped
+- Return predictably after dialogs close
+
+Focus indicators should never be removed.
+
+---
+
+# Touch Interaction
+
+Buttons should support comfortable touch interaction.
+
+Requirements:
+
+- Large touch target
+- Adequate spacing
+- Easy thumb reach
+- Clear feedback
+
+Touch interactions should prevent accidental activation.
+
+---
+
+# Minimum Touch Target
+
+Recommended minimum touch target:
+
+44 × 44 px
+
+Larger touch targets improve usability on touch devices.
+
+---
+
+# Button Groups
+
+Button groups organize related actions.
+
+Examples:
+
+- Yes / No
+- Save / Cancel
+- Grid / List
+
+Rules:
+
+- Maintain consistent spacing
+- Preserve hierarchy
+- Keep related actions together
+
+---
+
+# Overflow Behavior
+
+Buttons should adapt gracefully to limited space.
+
+Strategies include:
+
+- Text wrapping when appropriate
+- Label truncation only as a last resort
+- Responsive resizing
+- Moving secondary actions into menus
+
+Avoid clipping button content.
+
+---
+
+# Accessibility Requirements
+
+Every button should support:
+
+- Keyboard navigation
+- Screen readers
+- Focus visibility
+- Sufficient color contrast
+- Accessible names
+- Meaningful labels
+
+Accessibility is mandatory.
+
+---
+
+# Screen Reader Support
+
+Every button should expose an accessible name.
+
+Examples:
+
+Good:
+
+Save Changes
+
+Delete Project
+
+Download Report
+
+Avoid unnamed icon-only buttons.
+
+---
+
+# Design Token Integration
+
+Buttons should reference design tokens.
+
+Examples:
+
+button.height.md
+
+button.padding.md
+
+button.radius.md
+
+button.primary.background
+
+button.primary.text
+
+button.focus.ring
+
+Avoid hardcoded values.
+
+---
+
+# Motion Guidelines
+
+Motion should reinforce interaction.
+
+Appropriate uses:
+
+- Hover transition
+- Press feedback
+- Loading animation
+- Success confirmation
+
+Animation should remain subtle and purposeful.
+
+---
+
+# Documentation
+
+Every published button should document:
+
+- Purpose
+- Anatomy
+- Variants
+- Properties
+- States
+- Accessibility
+- Usage guidelines
+- Do
+- Don't
+- Code examples
+
+Documentation should remove implementation ambiguity.
+
+---
+
+# Testing
+
+Every button should be tested for:
+
+- Visual consistency
+- Accessibility
+- Keyboard support
+- Touch interaction
+- Responsive layouts
+- State transitions
+- Loading behavior
+- Content overflow
+
+Testing should occur before release.
+
+---
+
+# Quality Assurance
+
+Review every button for:
+
+- Correct hierarchy
+- Clear labels
+- Consistent spacing
+- Proper states
+- Accessibility
+- Token usage
+- Responsive behavior
+- Documentation
+
+Only approved buttons belong in the library.
+
+---
+
+# Versioning
+
+Track every change.
+
+Document:
+
+- New variants
+- Updated behavior
+- Bug fixes
+- Breaking changes
+- Deprecated variants
+
+Maintain a complete version history.
+
+---
+
+# AI Button Review Engine
+
+Before publishing any button, answer:
+
+- Is the action immediately clear?
+- Is the hierarchy correct?
+- Are all states documented?
+- Is accessibility complete?
+- Are design tokens used?
+- Is keyboard interaction supported?
+- Is touch interaction optimized?
+- Has testing been completed?
+- Can this button be reused across products?
+
+If any answer is negative, revise the button.
+
+---
+
+# Buttons Checklist
+
+Before publishing:
+
+□ Hierarchy documented
+
+□ Variants completed
+
+□ Sizes standardized
+
+□ States documented
+
+□ Labels reviewed
+
+□ Icon usage validated
+
+□ Keyboard support verified
+
+□ Touch targets validated
+
+□ Accessibility completed
+
+□ Design tokens integrated
+
+□ Motion documented
+
+□ Testing completed
+
+□ QA approved
+
+□ Version history updated
+
+□ Documentation completed
+
+---
+
+# Key Takeaways
+
+Buttons guide users through every product.
+
+The AI must:
+
+- Choose the correct button hierarchy.
+- Build one reusable button family.
+- Use semantic variants and properties.
+- Support keyboard and touch interaction.
+- Consume design tokens.
+- Meet accessibility requirements.
+- Keep labels clear and action-oriented.
+- Test every interaction state.
+- Document every behavior.
+- Maintain consistency across all platforms.
+
+Every button should communicate confidence, clarity, and a predictable outcome.
