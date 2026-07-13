@@ -860,3 +860,309 @@ If any answer is negative, redesign the interaction.
 □ Motion documented
 
 □ Responsive behavior validated
+
+
+---
+
+# Keyboard Interaction
+
+## Purpose
+
+Every interactive feedback component should be fully operable using a keyboard.
+
+Minimum requirements:
+
+- Tab moves focus
+- Shift + Tab moves focus backward
+- Enter activates actions
+- Space activates controls when appropriate
+- Escape dismisses temporary feedback when supported
+
+Keyboard interaction should remain predictable.
+
+---
+
+# Focus Management
+
+Focus should:
+
+- Remain visible
+- Follow logical order
+- Move to actionable feedback when appropriate
+- Return naturally after dismissal
+
+Never remove focus indicators.
+
+---
+
+# Screen Reader Support
+
+Feedback should be announced appropriately.
+
+Support:
+
+- Status updates
+- Validation messages
+- Progress changes
+- Error messages
+- Success confirmations
+
+Users should understand feedback without relying on visual cues.
+
+---
+
+# Live Regions
+
+Dynamic feedback should use appropriate live announcements.
+
+Recommended behavior:
+
+- Success messages use polite announcements.
+- Critical errors use assertive announcements only when immediate attention is required.
+- Progress updates avoid excessive announcements.
+
+Avoid repeatedly announcing identical information.
+
+---
+
+# Accessible Status Communication
+
+Status should never rely only on color.
+
+Combine:
+
+- Icon
+- Text
+- Label
+- Visual styling
+
+Every status should remain understandable.
+
+---
+
+# Color Accessibility
+
+Every feedback component should:
+
+- Meet contrast requirements
+- Remain distinguishable in grayscale
+- Support users with color vision deficiencies
+
+Status should remain identifiable without color.
+
+---
+
+# Responsive Adaptation
+
+Desktop
+
+- Toasts
+- Alerts
+- Banners
+
+Tablet
+
+- Snackbars
+- Alerts
+- Inline feedback
+
+Mobile
+
+- Snackbars
+- Bottom banners
+- Inline validation
+
+Feedback should remain readable across screen sizes.
+
+---
+
+# Design Token Integration
+
+Feedback components should reference design tokens.
+
+Examples:
+
+feedback.success.background
+
+feedback.warning.background
+
+feedback.error.background
+
+feedback.info.background
+
+feedback.padding
+
+feedback.radius
+
+feedback.icon.size
+
+feedback.focus.ring
+
+Avoid hardcoded values.
+
+---
+
+# Motion Guidelines
+
+Motion should communicate state changes.
+
+Examples:
+
+- Toast entrance
+- Snackbar exit
+- Progress updates
+- Banner expansion
+
+Motion should improve understanding.
+
+Avoid decorative animation.
+
+---
+
+# Documentation
+
+Every feedback component should document:
+
+- Purpose
+- Anatomy
+- Variants
+- States
+- Accessibility
+- Responsive behavior
+- Usage guidelines
+- Do
+- Don't
+- Examples
+
+Documentation should remove implementation ambiguity.
+
+---
+
+# Testing
+
+Every feedback component should be tested for:
+
+- Accessibility
+- Keyboard interaction
+- Screen readers
+- Responsive layouts
+- Status communication
+- Timing
+- Motion
+- Performance
+
+Testing should occur before release.
+
+---
+
+# Quality Assurance
+
+Review every feedback component for:
+
+- Clarity
+- Accessibility
+- Consistency
+- Responsive behavior
+- Design token usage
+- Documentation
+- Performance
+
+Only approved feedback components belong in the design system.
+
+---
+
+# Versioning
+
+Track changes for:
+
+- New feedback patterns
+- Accessibility improvements
+- Motion updates
+- Bug fixes
+- Breaking changes
+
+Maintain complete version history.
+
+---
+
+# Governance
+
+Feedback updates should include:
+
+- UX review
+- Accessibility review
+- Engineering review
+- QA approval
+- Documentation update
+
+Governance maintains long-term consistency.
+
+---
+
+# AI Feedback Review Engine
+
+Before publishing any feedback component, answer:
+
+- Is the message understandable?
+- Is the correct feedback pattern used?
+- Is recovery provided when necessary?
+- Is accessibility complete?
+- Are design tokens used?
+- Has testing been completed?
+- Does this scale across products?
+- Is timing appropriate?
+
+If any answer is negative, revise the component.
+
+---
+
+# Feedback Components Checklist
+
+Before publishing:
+
+□ Feedback anatomy documented
+
+□ Variants completed
+
+□ States documented
+
+□ Keyboard interaction verified
+
+□ Screen reader support completed
+
+□ Live regions documented
+
+□ Responsive behavior validated
+
+□ Design tokens integrated
+
+□ Motion documented
+
+□ Testing completed
+
+□ QA approved
+
+□ Version history updated
+
+□ Documentation completed
+
+---
+
+# Key Takeaways
+
+Feedback communicates system status, progress, validation, and outcomes.
+
+The AI must:
+
+- Choose the correct feedback pattern.
+- Communicate clearly.
+- Provide recovery when needed.
+- Support keyboard and screen readers.
+- Avoid relying only on color.
+- Use design tokens.
+- Keep motion meaningful.
+- Test every interaction.
+- Document every behavior.
+- Govern changes through structured review.
+
+Every feedback component should improve clarity, accessibility, confidence, and long-term maintainability.
