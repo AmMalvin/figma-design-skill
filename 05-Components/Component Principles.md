@@ -836,3 +836,349 @@ If any answer is negative, redesign the configuration.
 □ Component API documented
 
 □ Documentation updated
+
+
+---
+
+# Component Lifecycle
+
+## Definition
+
+Every component should follow a defined lifecycle.
+
+Lifecycle stages:
+
+- Proposed
+- Draft
+- In Review
+- Approved
+- Published
+- Deprecated
+- Archived
+
+Components should never bypass the review process.
+
+---
+
+# Component Accessibility
+
+Every component must satisfy accessibility requirements.
+
+Review:
+
+- Keyboard navigation
+- Focus visibility
+- Screen reader compatibility
+- Color contrast
+- Touch targets
+- Reading order
+
+Accessibility is a release requirement.
+
+---
+
+# Component Documentation
+
+Every published component must include documentation.
+
+Documentation should define:
+
+- Purpose
+- Usage
+- Anatomy
+- Properties
+- Variants
+- States
+- Accessibility
+- Do
+- Don't
+- Examples
+
+Documentation should answer common implementation questions.
+
+---
+
+# Design Token Integration
+
+Components should consume design tokens.
+
+Never hardcode:
+
+- Colors
+- Typography
+- Spacing
+- Radius
+- Shadows
+- Motion
+
+All visual decisions should originate from design tokens.
+
+---
+
+# Component Testing
+
+Every component should be tested.
+
+Testing includes:
+
+- Visual consistency
+- Interaction
+- Accessibility
+- Responsive behavior
+- Edge cases
+- Content overflow
+
+Testing should occur before publication.
+
+---
+
+# Component Quality Assurance
+
+Review every component for:
+
+- Purpose
+- Reusability
+- Accessibility
+- Scalability
+- Consistency
+- Documentation
+- Performance
+
+Only approved components should enter the library.
+
+---
+
+# Versioning
+
+Every published component should maintain version history.
+
+Track:
+
+- Major updates
+- Minor improvements
+- Bug fixes
+- Breaking changes
+
+Version history improves maintenance.
+
+---
+
+# Deprecation
+
+Deprecated components should remain available temporarily.
+
+Documentation should explain:
+
+- Why the component was deprecated
+- Recommended replacement
+- Migration guidance
+- Planned removal date
+
+Never remove components without a migration path.
+
+---
+
+# Component Ownership
+
+Every component should have an owner.
+
+Owners are responsible for:
+
+- Maintenance
+- Documentation
+- Reviews
+- Quality
+- Future improvements
+
+Ownership improves accountability.
+
+---
+
+# Governance
+
+Component governance defines how the library evolves.
+
+Governance should document:
+
+- Review process
+- Approval process
+- Publishing workflow
+- Versioning policy
+- Deprecation policy
+- Contribution rules
+
+Governance keeps the system consistent.
+
+---
+
+# Contribution Workflow
+
+Every contribution should follow the same process.
+
+Recommended workflow:
+
+Proposal
+
+↓
+
+Research
+
+↓
+
+Design
+
+↓
+
+Accessibility Review
+
+↓
+
+Developer Review
+
+↓
+
+Quality Assurance
+
+↓
+
+Approval
+
+↓
+
+Publication
+
+↓
+
+Documentation Update
+
+No component should skip review.
+
+---
+
+# Naming Standards
+
+Component names should remain semantic.
+
+Examples:
+
+Button
+
+Button Group
+
+Navigation Bar
+
+Input Field
+
+Checkbox
+
+Avoid:
+
+Button Final
+
+Button New
+
+Button Copy
+
+Names should describe purpose.
+
+---
+
+# Publishing Standards
+
+Publish only components that are:
+
+- Reviewed
+- Accessible
+- Documented
+- Tokenized
+- Tested
+- Approved
+
+Draft components should remain unpublished.
+
+---
+
+# Library Maintenance
+
+Review the component library regularly.
+
+Remove:
+
+- Duplicate components
+- Unused components
+- Deprecated variants
+- Obsolete documentation
+
+Maintenance keeps the library healthy.
+
+---
+
+# AI Component Review Engine
+
+Before approving a component, answer:
+
+- Is the component reusable?
+- Is accessibility complete?
+- Is documentation complete?
+- Are design tokens used?
+- Has testing been completed?
+- Is version history updated?
+- Is governance satisfied?
+- Can every team member understand and use this component?
+
+If any answer is negative, revise the component before publication.
+
+---
+
+# Component Principles Checklist
+
+Before publishing:
+
+□ Lifecycle documented
+
+□ Accessibility validated
+
+□ Documentation completed
+
+□ Design tokens integrated
+
+□ Testing completed
+
+□ Quality assurance approved
+
+□ Version history updated
+
+□ Deprecation policy documented
+
+□ Ownership assigned
+
+□ Governance documented
+
+□ Contribution workflow defined
+
+□ Naming standards reviewed
+
+□ Publishing requirements satisfied
+
+□ Library maintenance completed
+
+---
+
+# Key Takeaways
+
+Components are reusable products, not isolated designs.
+
+The AI must:
+
+- Build one reusable solution for one problem.
+- Follow a consistent architecture.
+- Use semantic properties and variants.
+- Consume design tokens.
+- Meet accessibility requirements.
+- Document every component.
+- Test before publishing.
+- Govern the library through structured reviews.
+- Maintain version history.
+- Keep the system scalable for future growth.
+
+Every component should improve consistency, usability, maintainability, and implementation quality.
