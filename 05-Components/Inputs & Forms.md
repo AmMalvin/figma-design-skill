@@ -239,3 +239,371 @@ If any answer is negative, redesign the form.
 □ Documentation updated
 
 
+---
+
+# Input Types
+
+## Philosophy
+
+Every input should belong to one reusable input family.
+
+Different input types collect different kinds of information while maintaining a consistent experience.
+
+Avoid creating unrelated input components when a variant is sufficient.
+
+---
+
+# Text Field
+
+## Purpose
+
+Text fields collect short text values.
+
+Examples:
+
+- First Name
+- Last Name
+- Company
+- City
+
+Rules:
+
+- Single line
+- Clear label
+- Visible cursor
+- Appropriate keyboard
+- Predictable validation
+
+---
+
+# Text Area
+
+## Purpose
+
+Text areas collect longer responses.
+
+Examples:
+
+- Description
+- Comments
+- Feedback
+- Biography
+
+Rules:
+
+- Multi-line
+- Resizable when appropriate
+- Preserve entered content
+- Support character limits when required
+
+---
+
+# Number Input
+
+## Purpose
+
+Collect numeric values.
+
+Examples:
+
+- Age
+- Quantity
+- Price
+- Score
+
+Rules:
+
+- Accept only numeric input
+- Support minimum and maximum values
+- Prevent invalid characters where appropriate
+
+---
+
+# Email Input
+
+## Purpose
+
+Collect email addresses.
+
+Rules:
+
+- Use email keyboard on mobile
+- Validate email format
+- Preserve capitalization rules
+- Support autofill
+
+---
+
+# Password Field
+
+## Purpose
+
+Secure sensitive information.
+
+Requirements:
+
+- Hidden by default
+- Show and Hide control
+- Password manager support
+- Autofill support
+
+Never expose passwords by default.
+
+---
+
+# Search Field
+
+## Purpose
+
+Allow users to search content.
+
+Requirements:
+
+- Search icon
+- Clear button
+- Fast response
+- Preserve search history only when appropriate
+
+Search should begin only when appropriate for performance.
+
+---
+
+# Phone Input
+
+## Purpose
+
+Collect telephone numbers.
+
+Requirements:
+
+- Country support
+- Formatting
+- Numeric keyboard
+- Validation
+
+Support international formats whenever applicable.
+
+---
+
+# Date Picker
+
+## Purpose
+
+Collect dates accurately.
+
+Use date pickers instead of manual typing whenever possible.
+
+Requirements:
+
+- Calendar interface
+- Keyboard support
+- Accessible navigation
+- Locale awareness
+
+---
+
+# Time Picker
+
+## Purpose
+
+Collect time values.
+
+Requirements:
+
+- 12-hour or 24-hour format
+- Keyboard support
+- Mobile-friendly controls
+
+Use consistent formatting throughout the product.
+
+---
+
+# Select Menu
+
+## Purpose
+
+Allow users to choose one option from a predefined list.
+
+Requirements:
+
+- Clear selected value
+- Keyboard navigation
+- Search when option count is large
+- Accessible announcements
+
+Avoid long unsearchable lists.
+
+---
+
+# Combobox
+
+## Purpose
+
+Allow users to type or select from suggestions.
+
+Recommended for:
+
+- Countries
+- Cities
+- Users
+- Products
+
+Suggestions should update as users type.
+
+---
+
+# Autocomplete
+
+Autocomplete predicts user input.
+
+Benefits:
+
+- Faster completion
+- Fewer typing errors
+- Better user experience
+
+Suggestions should remain relevant.
+
+---
+
+# Input Variants
+
+Represent input types as variants.
+
+Recommended properties:
+
+Type
+
+- Text
+- Email
+- Password
+- Search
+- Number
+- Phone
+- Date
+- Time
+- Select
+- Combobox
+- Text Area
+
+Avoid creating independent components for each type.
+
+---
+
+# Leading Elements
+
+Optional leading content includes:
+
+- Icons
+- Country selectors
+- Prefixes
+
+Leading elements should support the input purpose.
+
+---
+
+# Trailing Elements
+
+Optional trailing content includes:
+
+- Clear button
+- Password toggle
+- Status icon
+- Validation icon
+
+Trailing elements should not obstruct user input.
+
+---
+
+# Input Selection Guide
+
+Use:
+
+Text
+
+For general text.
+
+Email
+
+For email addresses.
+
+Password
+
+For credentials.
+
+Search
+
+For finding content.
+
+Number
+
+For numeric values.
+
+Phone
+
+For telephone numbers.
+
+Date
+
+For dates.
+
+Time
+
+For time values.
+
+Select
+
+For fixed options.
+
+Combobox
+
+For searchable options.
+
+Text Area
+
+For long responses.
+
+---
+
+# AI Input Selection Engine
+
+Before selecting an input type, answer:
+
+- Is this the simplest control?
+- Does it reduce typing?
+- Does it improve accuracy?
+- Is the input accessible?
+- Can this input scale across products?
+- Is this already part of the input family?
+
+If any answer is negative, select a more appropriate input.
+
+---
+
+# Validation Checklist
+
+□ Text field documented
+
+□ Text area documented
+
+□ Number input documented
+
+□ Email input documented
+
+□ Password field documented
+
+□ Search field documented
+
+□ Phone input documented
+
+□ Date picker documented
+
+□ Time picker documented
+
+□ Select menu documented
+
+□ Combobox documented
+
+□ Autocomplete documented
+
+□ Variant strategy documented
