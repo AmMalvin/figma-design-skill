@@ -247,3 +247,393 @@ If any answer is negative, redesign the button.
 □ Accessibility reviewed
 
 □ Documentation updated
+
+
+---
+
+# Button Types
+
+## Philosophy
+
+Every button should belong to one reusable component family.
+
+Different button types represent different levels of emphasis.
+
+Do not create separate button components when a variant is sufficient.
+
+---
+
+# Primary Button
+
+## Purpose
+
+Primary buttons represent the highest priority action.
+
+Examples:
+
+- Save
+- Continue
+- Sign In
+- Purchase
+- Submit
+
+Rules:
+
+- One primary action per decision area
+- Highest visual emphasis
+- Strongest contrast
+- Easy to discover
+
+Avoid multiple primary buttons competing for attention.
+
+---
+
+# Secondary Button
+
+## Purpose
+
+Secondary buttons support the primary action.
+
+Examples:
+
+- Cancel
+- Back
+- Learn More
+- View Details
+
+Rules:
+
+- Lower emphasis than Primary
+- Clearly distinguishable
+- Should not compete visually with Primary
+
+---
+
+# Tertiary Button
+
+## Purpose
+
+Tertiary buttons represent optional actions.
+
+Examples:
+
+- Skip
+- Maybe Later
+- More
+- Details
+
+Rules:
+
+- Low emphasis
+- Minimal visual weight
+- Still clearly interactive
+
+---
+
+# Ghost Button
+
+Ghost buttons have little or no background.
+
+Recommended for:
+
+- Toolbars
+- Cards
+- Inline actions
+- Secondary interfaces
+
+Ghost buttons should remain discoverable through hover and focus states.
+
+---
+
+# Link Button
+
+Link buttons appear similar to hyperlinks.
+
+Use for:
+
+- Secondary navigation
+- Inline actions
+- Read More
+- Documentation
+
+Do not use link buttons for destructive actions.
+
+---
+
+# Icon Button
+
+## Purpose
+
+Icon buttons communicate actions using icons.
+
+Examples:
+
+- Search
+- Settings
+- Close
+- Favorite
+- Share
+
+Rules:
+
+- Use universally recognized icons
+- Maintain minimum touch targets
+- Provide accessible labels
+- Include tooltips where meaning is unclear
+
+Icons should never replace text when the action is ambiguous.
+
+---
+
+# Floating Action Button
+
+Floating Action Buttons represent one high-priority action.
+
+Examples:
+
+- Create
+- Compose
+- Add
+
+Rules:
+
+- One FAB per screen
+- Fixed position
+- High visibility
+
+Avoid multiple FABs on the same screen.
+
+---
+
+# Split Button
+
+Split buttons combine:
+
+- Primary action
+- Secondary menu
+
+Use when one action is common but alternatives exist.
+
+Example:
+
+Export
+
+↓
+
+Export PDF
+
+Export PNG
+
+Export CSV
+
+The primary action should remain immediately accessible.
+
+---
+
+# Segmented Button
+
+Segmented buttons allow users to choose one option from a small group.
+
+Examples:
+
+- Grid / List
+- Monthly / Yearly
+- Light / Dark
+
+Rules:
+
+- Clearly indicate the selected option
+- Keep options mutually exclusive
+- Maintain equal visual weight
+
+---
+
+# Toggle Button
+
+Toggle buttons switch between two persistent states.
+
+Examples:
+
+- Bold
+- Italic
+- Favorite
+- Mute
+
+Rules:
+
+- Clearly display On and Off states
+- Preserve state after interaction
+- Do not use for temporary actions
+
+---
+
+# Loading Button
+
+Loading buttons communicate that an action is in progress.
+
+Requirements:
+
+- Replace or accompany the label with a loading indicator
+- Prevent duplicate submissions
+- Preserve button dimensions
+- Restore the previous state after completion
+
+Users should understand that processing is underway.
+
+---
+
+# Destructive Button
+
+Destructive buttons perform irreversible actions.
+
+Examples:
+
+- Delete
+- Remove
+- Reset
+- Archive Permanently
+
+Rules:
+
+- Use destructive styling
+- Require confirmation for high-risk actions
+- Separate from primary actions
+- Avoid accidental activation
+
+---
+
+# Disabled Button
+
+Disabled buttons indicate that an action is unavailable.
+
+Rules:
+
+- Remain visible
+- Clearly appear inactive
+- Never be the only explanation
+
+Whenever possible, explain why the action is unavailable.
+
+---
+
+# Button Selection Guide
+
+Use:
+
+Primary
+
+For the main task.
+
+Secondary
+
+For supporting tasks.
+
+Tertiary
+
+For optional actions.
+
+Ghost
+
+For low-emphasis interface actions.
+
+Link
+
+For inline navigation.
+
+Icon
+
+For compact actions.
+
+FAB
+
+For one dominant screen action.
+
+Split
+
+For primary action with alternatives.
+
+Segmented
+
+For mutually exclusive choices.
+
+Toggle
+
+For persistent states.
+
+Loading
+
+During processing.
+
+Destructive
+
+For irreversible actions.
+
+---
+
+# Variant Strategy
+
+Represent button types as variants.
+
+Recommended properties:
+
+Type
+
+- Primary
+- Secondary
+- Tertiary
+- Ghost
+- Link
+- Icon
+- FAB
+- Split
+- Segmented
+- Toggle
+- Loading
+- Destructive
+
+Avoid separate component files for each button type.
+
+---
+
+# AI Button Hierarchy Engine
+
+Before approving a button type, answer:
+
+- Is this the correct hierarchy?
+- Is another button type more appropriate?
+- Is the action reversible?
+- Is accessibility maintained?
+- Is the button reusable?
+- Does this remain part of one component family?
+
+If any answer is negative, redesign the button.
+
+---
+
+# Validation Checklist
+
+□ Primary button documented
+
+□ Secondary button documented
+
+□ Tertiary button documented
+
+□ Ghost button documented
+
+□ Link button documented
+
+□ Icon button documented
+
+□ Floating Action Button documented
+
+□ Split button documented
+
+□ Segmented button documented
+
+□ Toggle button documented
+
+□ Loading button documented
+
+□ Destructive button documented
+
+□ Variant strategy documented
