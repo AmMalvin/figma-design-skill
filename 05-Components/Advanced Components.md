@@ -848,3 +848,302 @@ If any answer is negative, redesign the interaction.
 □ Motion documented
 
 □ Responsive behavior validated
+
+
+---
+
+# Keyboard Interaction
+
+## Purpose
+
+Every advanced component should fully support keyboard navigation.
+
+Minimum requirements:
+
+- Tab moves focus
+- Shift + Tab moves focus backward
+- Arrow keys navigate items when applicable
+- Enter activates focused controls
+- Space activates supported controls
+- Escape closes temporary surfaces
+- Home moves to the beginning
+- End moves to the end
+
+Keyboard interaction should remain predictable.
+
+---
+
+# Focus Management
+
+Focus should:
+
+- Always remain visible
+- Follow logical navigation order
+- Move into newly opened interfaces
+- Return after dismissal
+- Never become trapped unless intentionally contained
+
+Never lose keyboard focus.
+
+---
+
+# Screen Reader Support
+
+Advanced components should expose:
+
+- Component role
+- Accessible name
+- Current state
+- Status updates
+- Available actions
+- Progress when applicable
+
+Users should understand complex workflows without relying on vision.
+
+---
+
+# Accessibility Semantics
+
+Every advanced component should communicate:
+
+- Purpose
+- Relationships
+- Hierarchy
+- Current context
+- Active selection
+
+Semantics should accurately describe behavior.
+
+---
+
+# Collaboration Accessibility
+
+Collaborative experiences should expose:
+
+- Active collaborators
+- Presence
+- Editing status
+- Notifications
+- Shared updates
+
+Collaboration should remain understandable for every user.
+
+---
+
+# Responsive Adaptation
+
+Desktop
+
+- Multi-panel layouts
+- Advanced editing
+- Rich workflows
+
+Tablet
+
+- Adaptive panels
+- Split layouts
+- Touch optimization
+
+Mobile
+
+- Progressive disclosure
+- Simplified workflows
+- Bottom sheets
+- Compact editing
+
+Complex workflows should remain usable across every device.
+
+---
+
+# Design Token Integration
+
+Advanced components should reference design tokens.
+
+Examples:
+
+advanced.spacing
+
+advanced.radius
+
+advanced.shadow
+
+advanced.surface
+
+advanced.focus.ring
+
+advanced.elevation
+
+advanced.motion.duration
+
+advanced.border
+
+Avoid hardcoded values.
+
+---
+
+# Motion Guidelines
+
+Motion should communicate workflow changes.
+
+Examples:
+
+- Panel transitions
+- Card movement
+- Calendar updates
+- AI response generation
+- Drag completion
+- Wizard progression
+
+Motion should reinforce understanding.
+
+Avoid decorative animation.
+
+---
+
+# Documentation
+
+Every advanced component should document:
+
+- Purpose
+- Anatomy
+- Component composition
+- Variants
+- States
+- Accessibility
+- Responsive behavior
+- Usage guidelines
+- Do
+- Don't
+- Examples
+
+Documentation should eliminate implementation ambiguity.
+
+---
+
+# Testing
+
+Every advanced component should be tested for:
+
+- Accessibility
+- Keyboard interaction
+- Screen reader compatibility
+- Collaboration
+- Drag and drop
+- Responsive layouts
+- Motion
+- Performance
+
+Testing should occur before release.
+
+---
+
+# Quality Assurance
+
+Review every advanced component for:
+
+- Accessibility
+- Workflow consistency
+- Responsive behavior
+- Design token usage
+- Documentation
+- Performance
+
+Only approved components belong in the design system.
+
+---
+
+# Versioning
+
+Track changes for:
+
+- New component patterns
+- Accessibility improvements
+- Motion updates
+- Bug fixes
+- Breaking changes
+
+Maintain complete version history.
+
+---
+
+# Governance
+
+Advanced component updates should include:
+
+- UX review
+- Accessibility review
+- Engineering review
+- QA approval
+- Documentation update
+
+Governance maintains consistency across products.
+
+---
+
+# AI Advanced Component Review Engine
+
+Before publishing any advanced component, answer:
+
+- Does this reuse existing components?
+- Is the workflow intuitive?
+- Is accessibility complete?
+- Are design tokens used?
+- Is keyboard interaction supported?
+- Has testing been completed?
+- Does this scale across products?
+- Is interaction predictable?
+
+If any answer is negative, revise the component.
+
+---
+
+# Advanced Components Checklist
+
+Before publishing:
+
+□ Anatomy documented
+
+□ Component composition documented
+
+□ Variants completed
+
+□ States documented
+
+□ Keyboard interaction verified
+
+□ Focus management documented
+
+□ Screen reader support completed
+
+□ Responsive behavior validated
+
+□ Design tokens integrated
+
+□ Motion documented
+
+□ Testing completed
+
+□ QA approved
+
+□ Version history updated
+
+□ Documentation completed
+
+---
+
+# Key Takeaways
+
+Advanced components combine reusable UI building blocks into complete workflow systems.
+
+The AI must:
+
+- Reuse existing components.
+- Preserve workflow consistency.
+- Support keyboard navigation.
+- Support screen readers.
+- Use design tokens.
+- Keep motion meaningful.
+- Test every interaction.
+- Document every behavior.
+
+Every advanced component should improve scalability, accessibility, consistency, and long-term maintainability.
