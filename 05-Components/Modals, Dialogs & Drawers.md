@@ -806,3 +806,309 @@ If any answer is negative, redesign the interaction.
 □ Responsive behavior documented
 
 □ Motion documented
+
+
+---
+
+# Keyboard Interaction
+
+## Purpose
+
+Every overlay should be fully operable using a keyboard.
+
+Minimum requirements:
+
+- Tab moves focus
+- Shift + Tab moves focus backward
+- Enter activates the primary action
+- Space activates controls when appropriate
+- Escape dismisses the overlay when permitted
+
+Keyboard behavior should remain consistent.
+
+---
+
+# Escape Key Behavior
+
+Escape should dismiss:
+
+- Modal dialogs
+- Popovers
+- Drawers
+- Bottom sheets
+
+Exceptions:
+
+- Critical confirmation dialogs
+- Blocking security workflows
+
+Never rely on Escape as the only dismissal method.
+
+---
+
+# Focus Management
+
+Focus should:
+
+- Move into the overlay when opened
+- Stay within the overlay while active
+- Return to the triggering element after closing
+
+Never lose keyboard focus.
+
+---
+
+# Accessible Dialog Semantics
+
+Every dialog should expose:
+
+- Dialog role
+- Accessible name
+- Accessible description when needed
+
+Users should immediately understand the purpose of the overlay.
+
+---
+
+# Screen Reader Support
+
+Screen readers should announce:
+
+- Dialog title
+- Current context
+- Important messages
+- Available actions
+
+Background content should not compete with the active dialog.
+
+---
+
+# Background Interaction
+
+When a modal overlay is active:
+
+- Prevent interaction with blocked content
+- Maintain visual separation
+- Restore interaction after dismissal
+
+Background content should never receive focus.
+
+---
+
+# Responsive Adaptation
+
+Overlays should adapt across devices.
+
+Desktop
+
+- Centered modal
+- Popover
+- Side drawer
+
+Tablet
+
+- Modal
+- Drawer
+- Bottom sheet
+
+Mobile
+
+- Bottom sheet
+- Full-screen dialog
+
+Maintain usability at every breakpoint.
+
+---
+
+# Design Token Integration
+
+Overlay components should reference design tokens.
+
+Examples:
+
+overlay.background
+
+overlay.scrim
+
+overlay.radius
+
+overlay.padding
+
+overlay.shadow
+
+overlay.maxWidth
+
+overlay.focus.ring
+
+Avoid hardcoded values.
+
+---
+
+# Motion Guidelines
+
+Motion should reinforce user understanding.
+
+Recommended uses:
+
+- Fade
+- Scale
+- Slide
+- Drawer transition
+- Bottom sheet transition
+
+Motion should communicate spatial relationships.
+
+Avoid decorative animation.
+
+---
+
+# Documentation
+
+Every overlay component should document:
+
+- Purpose
+- Anatomy
+- Variants
+- States
+- Accessibility
+- Responsive behavior
+- Usage guidelines
+- Do
+- Don't
+- Examples
+
+Documentation should eliminate implementation ambiguity.
+
+---
+
+# Testing
+
+Every overlay should be tested for:
+
+- Keyboard interaction
+- Focus trapping
+- Focus restoration
+- Screen readers
+- Responsive layouts
+- Motion
+- Loading states
+- Error recovery
+- Performance
+
+Testing should occur before release.
+
+---
+
+# Quality Assurance
+
+Review every overlay for:
+
+- Accessibility
+- Visual consistency
+- Responsive behavior
+- Motion
+- Design token usage
+- Documentation
+- Performance
+
+Only approved overlays belong in the design system.
+
+---
+
+# Versioning
+
+Track changes for:
+
+- New overlay variants
+- Accessibility improvements
+- Motion updates
+- Bug fixes
+- Breaking changes
+
+Maintain complete version history.
+
+---
+
+# Governance
+
+Overlay updates should include:
+
+- UX review
+- Accessibility review
+- Engineering review
+- QA approval
+- Documentation update
+
+Governance maintains consistency.
+
+---
+
+# AI Overlay Review Engine
+
+Before publishing any overlay, answer:
+
+- Is interruption necessary?
+- Is focus managed correctly?
+- Is dismissal obvious?
+- Is accessibility complete?
+- Are design tokens used?
+- Has testing been completed?
+- Does the overlay scale across products?
+- Is the interaction predictable?
+
+If any answer is negative, revise the overlay.
+
+---
+
+# Modals, Dialogs & Drawers Checklist
+
+Before publishing:
+
+□ Overlay anatomy documented
+
+□ Variants completed
+
+□ Opening behavior documented
+
+□ Closing behavior documented
+
+□ Focus management verified
+
+□ Keyboard interaction completed
+
+□ Screen reader support completed
+
+□ Responsive behavior validated
+
+□ Design tokens integrated
+
+□ Motion documented
+
+□ Testing completed
+
+□ QA approved
+
+□ Version history updated
+
+□ Documentation completed
+
+---
+
+# Key Takeaways
+
+Overlays temporarily interrupt workflows to help users complete focused tasks.
+
+The AI must:
+
+- Choose the correct overlay pattern.
+- Keep content focused.
+- Manage keyboard focus correctly.
+- Support screen readers.
+- Provide predictable dismissal.
+- Adapt overlays across devices.
+- Use design tokens.
+- Keep motion meaningful.
+- Test every interaction.
+- Document every behavior.
+
+Every overlay should improve clarity, accessibility, consistency, and long-term maintainability.
