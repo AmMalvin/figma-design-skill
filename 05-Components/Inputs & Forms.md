@@ -607,3 +607,372 @@ If any answer is negative, select a more appropriate input.
 □ Autocomplete documented
 
 □ Variant strategy documented
+
+
+---
+
+# Input Sizes
+
+## Philosophy
+
+Input sizes should remain consistent throughout the product.
+
+Every size should support readability, touch interaction, and accessibility.
+
+Never create arbitrary input dimensions.
+
+---
+
+# Standard Sizes
+
+Recommended semantic sizes:
+
+- Extra Small
+- Small
+- Medium
+- Large
+- Extra Large
+
+Every size should use design tokens.
+
+---
+
+# Height
+
+Each input size should have a defined height.
+
+Example:
+
+Extra Small
+
+28 px
+
+Small
+
+36 px
+
+Medium
+
+44 px
+
+Large
+
+52 px
+
+Extra Large
+
+60 px
+
+Maintain consistency across all input types.
+
+---
+
+# Width
+
+Inputs may use:
+
+- Intrinsic width
+- Fixed width
+- Full width
+
+Use full-width inputs when form readability improves.
+
+Avoid unnecessary fixed widths.
+
+---
+
+# Labels
+
+Every input should have a persistent label.
+
+Labels should:
+
+- Clearly describe the field
+- Remain visible
+- Use sentence case
+- Stay outside the input field
+
+Users should never lose context while typing.
+
+---
+
+# Floating Labels
+
+Floating labels move above the input after interaction.
+
+Requirements:
+
+- Smooth transition
+- Remain readable
+- Never replace accessibility labels
+
+Use consistently across the product.
+
+---
+
+# Prefixes
+
+Prefixes communicate information before user input.
+
+Examples:
+
+₦
+
+$
+
+€
+
+https://
+
++234
+
+Prefixes should remain visually distinct from entered values.
+
+---
+
+# Suffixes
+
+Suffixes communicate information after user input.
+
+Examples:
+
+kg
+
+km
+
+%
+
+GB
+
+Suffixes should never become part of the entered value.
+
+---
+
+# Character Counters
+
+Character counters help users understand limits.
+
+Display:
+
+Current Count / Maximum Count
+
+Example:
+
+85 / 250
+
+Show counters only when limits matter.
+
+---
+
+# Helper Text
+
+Helper text explains requirements before validation.
+
+Examples:
+
+Use at least 8 characters.
+
+We'll never share your email.
+
+Passwords are case-sensitive.
+
+Helper text should prevent errors.
+
+---
+
+# Validation Messages
+
+Validation should appear at the appropriate time.
+
+Messages should be:
+
+- Specific
+- Actionable
+- Concise
+
+Explain how users can resolve the issue.
+
+---
+
+# Success Messages
+
+Success confirms valid input.
+
+Examples:
+
+Email verified.
+
+Username available.
+
+Password accepted.
+
+Use success feedback only when valuable.
+
+---
+
+# Error Messages
+
+Error messages should explain:
+
+- What went wrong
+- Why
+- How to fix it
+
+Poor:
+
+Invalid input.
+
+Better:
+
+Enter a valid email address.
+
+Avoid technical language.
+
+---
+
+# Required Indicators
+
+Required fields should be clearly identified.
+
+Examples:
+
+*
+
+Required
+
+Maintain one consistent approach.
+
+---
+
+# Optional Indicators
+
+Optional fields should be labeled clearly.
+
+Examples:
+
+Optional
+
+(Optional)
+
+Avoid forcing users to guess.
+
+---
+
+# Input States
+
+Every input should define:
+
+- Default
+- Hover
+- Focus
+- Filled
+- Disabled
+- Read-only
+- Error
+- Success
+
+Every state should communicate meaningful feedback.
+
+---
+
+# Focus Behavior
+
+Focus should:
+
+- Remain highly visible
+- Meet accessibility contrast requirements
+- Follow keyboard navigation
+- Never rely only on color
+
+Users should always know which field is active.
+
+---
+
+# Filled State
+
+Filled inputs indicate completed data.
+
+The entered value should remain the highest visual priority.
+
+---
+
+# Disabled State
+
+Disabled inputs communicate temporary unavailability.
+
+Requirements:
+
+- Reduced emphasis
+- Non-editable
+- Still readable
+
+Avoid disabling fields without explanation.
+
+---
+
+# Read-only State
+
+Read-only fields display information that users cannot edit.
+
+Requirements:
+
+- Clearly distinguishable from editable fields
+- Text remains selectable when appropriate
+
+Read-only does not mean disabled.
+
+---
+
+# AI Validation Engine
+
+Before approving an input component, answer:
+
+- Is the label clear?
+- Is helper text necessary?
+- Are validation messages actionable?
+- Are all interaction states defined?
+- Is accessibility supported?
+- Can users recover from errors easily?
+- Can developers implement this consistently?
+
+If any answer is negative, redesign the component.
+
+---
+
+# Validation Checklist
+
+□ Input sizes documented
+
+□ Heights standardized
+
+□ Labels documented
+
+□ Floating labels reviewed
+
+□ Prefixes documented
+
+□ Suffixes documented
+
+□ Character counters documented
+
+□ Helper text documented
+
+□ Validation messages reviewed
+
+□ Success messages documented
+
+□ Error messages documented
+
+□ Required indicators documented
+
+□ Optional indicators documented
+
+□ Input states completed
+
+□ Focus behavior validated
+
+□ Disabled state documented
+
+□ Read-only state documented
+
+
