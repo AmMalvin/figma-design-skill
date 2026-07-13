@@ -854,3 +854,332 @@ If any answer is negative, redesign the interaction.
 □ Motion documented
 
 □ Responsive behavior validated
+
+
+---
+
+# Keyboard Interaction
+
+## Purpose
+
+Mobile devices increasingly support external keyboards.
+
+Interactive mobile components should provide predictable keyboard navigation.
+
+Minimum requirements:
+
+- Tab moves focus
+- Shift + Tab moves focus backward
+- Arrow keys navigate when appropriate
+- Enter activates focused controls
+- Space activates supported controls
+- Escape dismisses temporary surfaces
+
+Keyboard behavior should remain consistent.
+
+---
+
+# Focus Management
+
+Focus should:
+
+- Always remain visible
+- Follow logical navigation
+- Move into temporary surfaces
+- Return after dismissal
+
+Never lose keyboard focus.
+
+---
+
+# Screen Reader Support
+
+Every mobile component should expose:
+
+- Component role
+- Accessible name
+- Current state
+- Available actions
+- Progress when applicable
+
+Users should understand interactions without relying on vision.
+
+---
+
+# Platform Accessibility
+
+Support platform accessibility features.
+
+Examples:
+
+- Dynamic text
+- Screen readers
+- High contrast
+- Reduced motion
+- Display zoom
+
+Components should adapt without breaking layouts.
+
+---
+
+# Touch Target Standards
+
+Interactive controls should provide comfortable touch targets.
+
+Requirements:
+
+- Adequate size
+- Adequate spacing
+- Easy reach
+- Clear feedback
+
+Avoid crowded controls.
+
+---
+
+# Haptic Guidance
+
+Use haptic feedback for meaningful events.
+
+Examples:
+
+- Successful action
+- Selection
+- Confirmation
+- Warning
+- Error
+
+Avoid excessive haptic feedback.
+
+---
+
+# Safe Area Compliance
+
+Every mobile layout should respect:
+
+- Status bar
+- Camera cutout
+- Home indicator
+- Rounded corners
+- Foldable hinges
+
+Critical content should remain accessible.
+
+---
+
+# Responsive Adaptation
+
+Phone
+
+- Thumb-friendly layouts
+- Compact navigation
+- Gesture-first interaction
+
+Foldable
+
+- Multi-pane layouts
+- Adaptive spacing
+- Continuous interactions
+
+Tablet
+
+- Expanded navigation
+- Larger layouts
+- Multi-column experiences
+
+Components should adapt without changing interaction patterns.
+
+---
+
+# Design Token Integration
+
+Mobile components should reference design tokens.
+
+Examples:
+
+mobile.spacing
+
+mobile.radius
+
+mobile.shadow
+
+mobile.touch.target
+
+mobile.safe.area
+
+mobile.focus.ring
+
+mobile.elevation
+
+mobile.motion.duration
+
+Avoid hardcoded values.
+
+---
+
+# Motion Guidelines
+
+Motion should reinforce interaction.
+
+Examples:
+
+- Bottom sheet transition
+- FAB transformation
+- Drawer animation
+- Gesture transition
+- Pull-to-refresh
+
+Motion should communicate change.
+
+Avoid decorative animation.
+
+---
+
+# Documentation
+
+Every mobile component should document:
+
+- Purpose
+- Anatomy
+- Variants
+- States
+- Accessibility
+- Platform behavior
+- Responsive behavior
+- Usage guidelines
+- Do
+- Don't
+- Examples
+
+Documentation should eliminate implementation ambiguity.
+
+---
+
+# Testing
+
+Every mobile component should be tested for:
+
+- Accessibility
+- Keyboard support
+- Screen reader compatibility
+- Gesture interaction
+- Safe area compliance
+- Responsive layouts
+- Motion
+- Performance
+
+Testing should occur before release.
+
+---
+
+# Quality Assurance
+
+Review every mobile component for:
+
+- Accessibility
+- Platform consistency
+- Responsive behavior
+- Design token usage
+- Documentation
+- Performance
+
+Only approved components belong in the design system.
+
+---
+
+# Versioning
+
+Track changes for:
+
+- New mobile patterns
+- Accessibility improvements
+- Motion updates
+- Bug fixes
+- Breaking changes
+
+Maintain complete version history.
+
+---
+
+# Governance
+
+Mobile component updates should include:
+
+- UX review
+- Accessibility review
+- Engineering review
+- QA approval
+- Documentation update
+
+Governance maintains consistency.
+
+---
+
+# AI Mobile Review Engine
+
+Before publishing any mobile component, answer:
+
+- Is the interaction touch friendly?
+- Is accessibility complete?
+- Are platform conventions respected?
+- Are design tokens used?
+- Is keyboard support complete?
+- Has testing been completed?
+- Does this scale across products?
+- Is interaction predictable?
+
+If any answer is negative, revise the component.
+
+---
+
+# Mobile Components Checklist
+
+Before publishing:
+
+□ Anatomy documented
+
+□ Variants completed
+
+□ States documented
+
+□ Keyboard interaction verified
+
+□ Focus management documented
+
+□ Screen reader support completed
+
+□ Platform accessibility documented
+
+□ Safe areas validated
+
+□ Design tokens integrated
+
+□ Motion documented
+
+□ Testing completed
+
+□ QA approved
+
+□ Version history updated
+
+□ Documentation completed
+
+---
+
+# Key Takeaways
+
+Mobile components support touch-first experiences across phones, tablets, and foldable devices.
+
+The AI must:
+
+- Choose the correct mobile pattern.
+- Prioritize touch interaction.
+- Respect platform conventions.
+- Support keyboard navigation.
+- Support screen readers.
+- Use design tokens.
+- Keep motion meaningful.
+- Test every interaction.
+- Document every behavior.
+
+Every mobile component should improve usability, accessibility, consistency, and long-term maintainability.
