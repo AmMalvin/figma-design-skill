@@ -627,3 +627,354 @@ If any answer is negative, choose a better card variant.
 □ Variant strategy documented
 
 □ Responsive behavior documented
+
+
+---
+
+# Card Sizes
+
+## Philosophy
+
+Card sizes should support different content densities while maintaining consistency.
+
+Never create arbitrary dimensions.
+
+---
+
+# Standard Sizes
+
+Recommended semantic sizes:
+
+- Extra Small
+- Small
+- Medium
+- Large
+- Extra Large
+
+Every size should reference design tokens.
+
+---
+
+# Width
+
+Cards may use:
+
+- Fixed width
+- Flexible width
+- Fill container
+- Responsive width
+
+Choose the width based on layout requirements.
+
+Avoid unnecessary fixed dimensions.
+
+---
+
+# Height
+
+Cards should expand naturally with content.
+
+Use fixed heights only when consistency improves scanning.
+
+Avoid clipping content.
+
+---
+
+# Internal Padding
+
+Internal padding should remain consistent.
+
+Padding separates:
+
+- Header
+- Body
+- Footer
+- Actions
+- Media
+
+Never allow content to touch card edges.
+
+---
+
+# Spacing
+
+Maintain consistent spacing between:
+
+- Headings
+- Paragraphs
+- Images
+- Buttons
+- Metadata
+
+Spacing should establish visual hierarchy.
+
+---
+
+# Media
+
+Cards may contain:
+
+- Images
+- Videos
+- Illustrations
+- Charts
+- Maps
+
+Media should enhance understanding.
+
+Avoid decorative media without purpose.
+
+---
+
+# Images
+
+Images should:
+
+- Maintain aspect ratio
+- Scale responsively
+- Support lazy loading when implemented
+- Preserve quality
+
+Avoid image distortion.
+
+---
+
+# Avatars
+
+Avatar usage:
+
+- User profiles
+- Authors
+- Team members
+- Organizations
+
+Requirements:
+
+- Consistent sizing
+- Circular or documented shape
+- Accessible alternative text where applicable
+
+---
+
+# Icons
+
+Icons should:
+
+- Support meaning
+- Remain consistent
+- Follow icon tokens
+
+Avoid decorative icons that add no value.
+
+---
+
+# Card Actions
+
+Cards may include:
+
+- Primary button
+- Secondary button
+- Link
+- Menu
+- Icon button
+
+Actions should remain easy to identify.
+
+---
+
+# Clickable Cards
+
+Entire cards may be interactive.
+
+Requirements:
+
+- Visible hover state
+- Visible focus state
+- Clear affordance
+- Accessible interaction
+
+Users should immediately understand the card is clickable.
+
+---
+
+# Hover State
+
+Hover should communicate interactivity.
+
+Examples:
+
+- Elevation
+- Border
+- Background
+- Shadow
+
+Avoid dramatic visual changes.
+
+---
+
+# Focus State
+
+Focus should support keyboard users.
+
+Requirements:
+
+- Highly visible
+- High contrast
+- Consistent
+
+Never remove focus indicators.
+
+---
+
+# Pressed State
+
+Pressed confirms interaction.
+
+Examples:
+
+- Reduced elevation
+- Slight scale change
+- Background adjustment
+
+Pressed feedback should feel immediate.
+
+---
+
+# Selected State
+
+Selection should remain obvious.
+
+Visual cues may include:
+
+- Border
+- Background
+- Checkmark
+- Accent color
+
+Selection should not rely only on color.
+
+---
+
+# Disabled State
+
+Disabled cards communicate temporary unavailability.
+
+Requirements:
+
+- Reduced emphasis
+- No interaction
+- Clear readability
+
+Explain unavailable actions whenever possible.
+
+---
+
+# Loading State
+
+Loading cards communicate pending content.
+
+Requirements:
+
+- Skeleton layout
+- Placeholder content
+- Preserved dimensions
+
+Avoid large layout shifts.
+
+---
+
+# Skeleton Cards
+
+Skeleton cards improve perceived performance.
+
+Skeletons should:
+
+- Match final layout
+- Preserve spacing
+- Minimize layout movement
+
+Replace skeletons immediately after content loads.
+
+---
+
+# Overflow Behavior
+
+Cards should handle long content gracefully.
+
+Strategies include:
+
+- Text wrapping
+- Truncation
+- Expandable sections
+- Scroll only when necessary
+
+Avoid broken layouts.
+
+---
+
+# Responsive Behavior
+
+Cards should adapt across devices.
+
+Maintain:
+
+- Padding
+- Hierarchy
+- Readability
+- Touch targets
+- Media proportions
+
+Cards should remain usable at every breakpoint.
+
+---
+
+# AI Card Interaction Engine
+
+Before approving a card, answer:
+
+- Is spacing consistent?
+- Is content readable?
+- Is media responsive?
+- Are interaction states complete?
+- Is accessibility supported?
+- Can this scale across products?
+
+If any answer is negative, redesign the interaction.
+
+---
+
+# Validation Checklist
+
+□ Card sizes documented
+
+□ Width behavior documented
+
+□ Height behavior documented
+
+□ Padding documented
+
+□ Spacing reviewed
+
+□ Media behavior documented
+
+□ Images documented
+
+□ Avatars documented
+
+□ Actions documented
+
+□ Hover state completed
+
+□ Focus state completed
+
+□ Pressed state completed
+
+□ Selected state completed
+
+□ Disabled state documented
+
+□ Loading state documented
+
+□ Skeleton cards documented
+
+□ Responsive behavior validated
