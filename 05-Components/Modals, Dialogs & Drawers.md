@@ -507,3 +507,302 @@ If any answer is negative, choose a more appropriate overlay.
 □ Responsive behavior documented
 
 □ Variant strategy documented
+
+
+---
+
+# Overlay States
+
+## Philosophy
+
+Every overlay should communicate its current interaction state.
+
+Users should always understand:
+
+- What is happening
+- What action is expected
+- How to leave
+
+Every overlay should behave consistently.
+
+---
+
+# Default State
+
+The overlay is fully visible and ready for interaction.
+
+Requirements:
+
+- Visible title
+- Visible actions
+- Background blocked when modal
+- Initial focus assigned
+
+---
+
+# Opening Behavior
+
+Opening should feel immediate and predictable.
+
+Requirements:
+
+- Display overlay above content
+- Move focus into the overlay
+- Prevent interaction with blocked content
+- Preserve background state
+
+Avoid unexpected layout shifts.
+
+---
+
+# Closing Behavior
+
+Closing should return users safely to the previous context.
+
+Requirements:
+
+- Restore previous screen
+- Restore focus to the triggering element
+- Preserve unfinished work when appropriate
+
+Never leave users without orientation.
+
+---
+
+# Focus Trap
+
+Modal overlays should trap keyboard focus.
+
+Requirements:
+
+- Tab cycles within the overlay
+- Shift + Tab cycles backward
+- Focus never escapes into the background
+
+Focus trapping applies only while the modal is open.
+
+---
+
+# Focus Restoration
+
+After dismissal:
+
+- Return focus to the trigger
+- Restore previous keyboard position
+- Maintain workflow continuity
+
+Users should never lose their place.
+
+---
+
+# Stacked Overlays
+
+Avoid multiple stacked overlays.
+
+If stacking is unavoidable:
+
+- Clearly establish hierarchy
+- Allow predictable dismissal
+- Prevent focus conflicts
+
+Prefer replacing an existing overlay instead.
+
+---
+
+# Overlay Actions
+
+Every overlay should define:
+
+- Primary action
+- Secondary action
+- Cancel action when appropriate
+- Destructive action when necessary
+
+Primary actions should remain visually dominant.
+
+---
+
+# Loading State
+
+Loading overlays communicate ongoing work.
+
+Examples:
+
+- Saving
+- Uploading
+- Processing
+- Synchronizing
+
+Preserve layout during loading.
+
+---
+
+# Progress Indicators
+
+Long-running tasks should display progress.
+
+Supported patterns:
+
+- Progress bar
+- Circular indicator
+- Percentage
+- Step indicator
+
+Users should understand whether progress is occurring.
+
+---
+
+# Success State
+
+Success confirms task completion.
+
+Examples:
+
+- Changes saved
+- Payment completed
+- File uploaded
+
+Provide a clear next step when appropriate.
+
+---
+
+# Error State
+
+Errors should explain:
+
+- What failed
+- Why it failed
+- How to recover
+
+Avoid technical language.
+
+---
+
+# Empty State
+
+Empty overlays should explain why no content exists.
+
+Examples:
+
+- No results
+- No notifications
+- No available items
+
+Offer a useful action whenever possible.
+
+---
+
+# Destructive Actions
+
+Destructive actions require additional clarity.
+
+Examples:
+
+- Delete
+- Remove
+- Reset
+- Archive permanently
+
+Use confirmation dialogs when recovery is difficult.
+
+---
+
+# Scroll Behavior
+
+Scrolling should remain predictable.
+
+Requirements:
+
+- Body scrolls when necessary
+- Header remains visible when appropriate
+- Footer actions remain accessible
+
+Avoid nested scrolling whenever possible.
+
+---
+
+# Responsive Behavior
+
+Desktop
+
+- Centered modal
+- Side drawer
+- Popover
+
+Tablet
+
+- Large modal
+- Drawer
+- Bottom sheet
+
+Mobile
+
+- Bottom sheet
+- Full-screen dialog
+
+Choose the layout that best supports the task.
+
+---
+
+# Motion
+
+Motion should reinforce understanding.
+
+Examples:
+
+- Fade
+- Slide
+- Scale
+- Drawer transition
+- Bottom sheet movement
+
+Motion should communicate spatial relationships.
+
+Avoid decorative animation.
+
+---
+
+# AI Overlay Interaction Engine
+
+Before approving overlay behavior, answer:
+
+- Is focus managed correctly?
+- Is dismissal obvious?
+- Are loading states defined?
+- Can users recover from errors?
+- Is responsiveness supported?
+- Does motion improve understanding?
+
+If any answer is negative, redesign the interaction.
+
+---
+
+# Validation Checklist
+
+□ Opening behavior documented
+
+□ Closing behavior documented
+
+□ Focus trap documented
+
+□ Focus restoration documented
+
+□ Overlay actions documented
+
+□ Loading state documented
+
+□ Progress indicators documented
+
+□ Success state documented
+
+□ Error state documented
+
+□ Empty state documented
+
+□ Destructive actions documented
+
+□ Scroll behavior documented
+
+□ Responsive behavior documented
+
+□ Motion documented
