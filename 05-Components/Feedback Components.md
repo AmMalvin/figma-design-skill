@@ -537,3 +537,326 @@ If any answer is negative, choose a more appropriate feedback pattern.
 □ Responsive behavior documented
 
 
+---
+
+# Feedback States
+
+## Philosophy
+
+Every feedback component should clearly communicate its current state.
+
+Users should immediately understand:
+
+- What happened
+- What is happening
+- What they should do next
+
+Every feedback pattern should behave consistently.
+
+---
+
+# Default State
+
+The feedback component is visible and ready for interaction.
+
+Requirements:
+
+- Clear message
+- Appropriate status
+- Visible actions when applicable
+
+---
+
+# Dismissible Feedback
+
+Some feedback should allow manual dismissal.
+
+Supported methods:
+
+- Close button
+- Swipe on mobile
+- Keyboard dismissal when appropriate
+
+Users should remain in control.
+
+---
+
+# Auto-dismiss Behavior
+
+Temporary feedback should disappear automatically.
+
+Examples:
+
+- Toast
+- Snackbar
+
+Requirements:
+
+- Enough time to read
+- Pause on interaction when appropriate
+- Never disappear before users understand the message
+
+---
+
+# Persistent Feedback
+
+Persistent feedback remains visible until resolved.
+
+Examples:
+
+- Security warning
+- Billing issue
+- Failed synchronization
+
+Persistent messages should remain actionable.
+
+---
+
+# Success State
+
+Success confirms completed actions.
+
+Examples:
+
+- Changes saved
+- Profile updated
+- Payment completed
+
+Success should reinforce confidence.
+
+---
+
+# Information State
+
+Information provides additional context.
+
+Examples:
+
+- Feature available
+- Scheduled maintenance
+- Tips
+
+Information should not interrupt workflows.
+
+---
+
+# Warning State
+
+Warnings communicate potential problems.
+
+Examples:
+
+- Low storage
+- Unsaved changes
+- Subscription expiring
+
+Warnings should encourage preventive action.
+
+---
+
+# Error State
+
+Errors communicate failures.
+
+Every error should explain:
+
+- What happened
+- Why it happened when known
+- How to recover
+
+Avoid technical language.
+
+---
+
+# Recovery Actions
+
+Errors should provide recovery.
+
+Examples:
+
+- Retry
+- Edit
+- Contact support
+- Undo
+- Refresh
+
+Recovery should remain obvious.
+
+---
+
+# Loading State
+
+Loading feedback communicates ongoing work.
+
+Requirements:
+
+- Preserve layout
+- Prevent unnecessary movement
+- Clearly indicate progress
+
+Users should never wonder whether the system is working.
+
+---
+
+# Skeleton Loading
+
+Skeletons improve perceived performance.
+
+Requirements:
+
+- Match the final layout
+- Preserve spacing
+- Minimize layout shifts
+
+Replace skeletons immediately after content loads.
+
+---
+
+# Empty State
+
+Empty states explain why content is unavailable.
+
+Examples:
+
+- No notifications
+- No search results
+- No messages
+- No activity
+
+Provide a useful next step whenever possible.
+
+---
+
+# Hover State
+
+Hover should indicate interaction when applicable.
+
+Examples:
+
+- Dismiss button
+- Action button
+- Retry button
+
+Avoid unnecessary hover effects.
+
+---
+
+# Focus State
+
+Focus supports keyboard users.
+
+Requirements:
+
+- High visibility
+- Consistent appearance
+- High contrast
+
+Never remove focus indicators.
+
+---
+
+# Disabled State
+
+Disabled actions communicate temporary unavailability.
+
+Requirements:
+
+- Clearly inactive
+- Still readable
+- Explain why when appropriate
+
+Avoid confusing disabled and loading states.
+
+---
+
+# Motion
+
+Motion should reinforce understanding.
+
+Examples:
+
+- Toast entrance
+- Banner expansion
+- Progress updates
+- Snackbar dismissal
+
+Motion should communicate state changes.
+
+Avoid decorative animation.
+
+---
+
+# Responsive Behavior
+
+Desktop
+
+- Toast
+- Banner
+- Alert
+
+Tablet
+
+- Snackbar
+- Banner
+- Alert
+
+Mobile
+
+- Snackbar
+- Bottom banner
+- Inline feedback
+
+Feedback should remain readable across all devices.
+
+---
+
+# AI Feedback Interaction Engine
+
+Before approving feedback behavior, answer:
+
+- Is the message clear?
+- Is timing appropriate?
+- Is dismissal predictable?
+- Is recovery available?
+- Is accessibility supported?
+- Does motion improve understanding?
+
+If any answer is negative, redesign the interaction.
+
+---
+
+# Validation Checklist
+
+□ Feedback states documented
+
+□ Dismiss behavior documented
+
+□ Auto-dismiss documented
+
+□ Persistent feedback documented
+
+□ Success state documented
+
+□ Information state documented
+
+□ Warning state documented
+
+□ Error state documented
+
+□ Recovery actions documented
+
+□ Loading state documented
+
+□ Skeleton loading documented
+
+□ Empty state documented
+
+□ Hover state completed
+
+□ Focus state completed
+
+□ Disabled state documented
+
+□ Motion documented
+
+□ Responsive behavior validated
