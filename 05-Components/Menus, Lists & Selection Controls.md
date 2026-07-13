@@ -547,3 +547,284 @@ If any answer is negative, choose a more appropriate component.
 □ Variant strategy documented
 
 □ Responsive behavior documented
+
+
+---
+
+# Component States
+
+## Philosophy
+
+Every interactive component should clearly communicate its current state.
+
+Users should immediately understand:
+
+- Whether the component is interactive
+- Whether it is selected
+- Whether it is disabled
+- What will happen after interaction
+
+States should remain consistent across every component.
+
+---
+
+# Default State
+
+The component is available for interaction.
+
+Requirements:
+
+- Clear label
+- Visible boundaries when appropriate
+- Readable content
+
+Default should establish the baseline appearance.
+
+---
+
+# Hover State
+
+Hover communicates interactivity.
+
+Examples:
+
+- Background change
+- Border change
+- Elevation
+- Icon color update
+
+Hover should never hide important information.
+
+---
+
+# Focus State
+
+Focus supports keyboard users.
+
+Requirements:
+
+- High visibility
+- High contrast
+- Consistent appearance
+
+Never remove focus indicators.
+
+---
+
+# Pressed State
+
+Pressed confirms interaction.
+
+Examples:
+
+- Reduced elevation
+- Slight color change
+- Scale adjustment
+
+Pressed feedback should feel immediate.
+
+---
+
+# Selected State
+
+Selection should remain obvious.
+
+Visual indicators may include:
+
+- Checkmark
+- Filled radio indicator
+- Active background
+- Accent border
+
+Selection should never rely only on color.
+
+---
+
+# Disabled State
+
+Disabled components communicate temporary unavailability.
+
+Requirements:
+
+- Reduced emphasis
+- Readable labels
+- No interaction
+
+Explain unavailable actions whenever appropriate.
+
+---
+
+# Indeterminate Checkbox
+
+Indeterminate checkboxes communicate partial selection.
+
+Examples:
+
+- Parent folders
+- Group permissions
+- Multi-select lists
+
+Indeterminate is neither selected nor unselected.
+
+---
+
+# Nested Menus
+
+Nested menus organize related actions.
+
+Requirements:
+
+- Clear hierarchy
+- Visible parent item
+- Predictable expansion
+- Easy dismissal
+
+Avoid excessive nesting.
+
+---
+
+# Multi-select Lists
+
+Multi-select lists support selecting multiple records.
+
+Examples:
+
+- Users
+- Files
+- Products
+- Categories
+
+Selection should remain visible during scrolling.
+
+---
+
+# Searchable Lists
+
+Large lists should support searching.
+
+Requirements:
+
+- Fast filtering
+- Matching highlights when appropriate
+- Clear empty state
+
+Search should reduce scanning effort.
+
+---
+
+# Virtualized Lists
+
+Large datasets should use virtualization.
+
+Recommended for:
+
+- Thousands of records
+- Enterprise software
+- Admin dashboards
+
+Virtualization should remain invisible to users.
+
+---
+
+# Keyboard Navigation
+
+Menus and lists should support:
+
+- Arrow keys
+- Tab
+- Shift + Tab
+- Enter
+- Escape
+- Space where appropriate
+
+Navigation should remain predictable.
+
+---
+
+# Motion
+
+Motion should reinforce understanding.
+
+Examples:
+
+- Menu expansion
+- Menu collapse
+- Chip removal
+- Switch transition
+- List expansion
+
+Motion should communicate relationships.
+
+Avoid decorative animation.
+
+---
+
+# Responsive Behavior
+
+Desktop
+
+- Dropdown menus
+- Context menus
+- Navigation menus
+
+Tablet
+
+- Drawers
+- Lists
+- Segmented controls
+
+Mobile
+
+- Bottom sheets
+- Lists
+- Chips
+- Full-width selectors
+
+Components should remain easy to use across devices.
+
+---
+
+# AI Interaction Engine
+
+Before approving interaction behavior, answer:
+
+- Is selection obvious?
+- Is keyboard navigation complete?
+- Is hierarchy clear?
+- Is accessibility supported?
+- Does motion improve understanding?
+- Is responsiveness maintained?
+
+If any answer is negative, redesign the interaction.
+
+---
+
+# Validation Checklist
+
+□ Component states documented
+
+□ Hover state documented
+
+□ Focus state documented
+
+□ Pressed state documented
+
+□ Selected state documented
+
+□ Disabled state documented
+
+□ Indeterminate checkbox documented
+
+□ Nested menus documented
+
+□ Multi-select lists documented
+
+□ Searchable lists documented
+
+□ Virtualized lists documented
+
+□ Keyboard navigation documented
+
+□ Motion documented
+
+□ Responsive behavior validated
