@@ -749,3 +749,308 @@ Revise until every answer is positive.
 □ Corner radius scale completed
 
 □ Size tokens documented
+
+
+---
+
+# Density Modes
+
+## Definition
+
+Density defines how much space exists between interface elements.
+
+Every product should define supported density modes.
+
+Typical modes include:
+
+- Compact
+- Comfortable
+- Spacious
+
+Density should improve usability without changing the information architecture.
+
+---
+
+# Compact Density
+
+Compact density maximizes information visibility.
+
+Recommended for:
+
+- Data tables
+- Enterprise software
+- Dashboards
+- Power users
+
+Reduce spacing carefully.
+
+Never compromise readability or accessibility.
+
+---
+
+# Comfortable Density
+
+Comfortable density balances information density with readability.
+
+Recommended for:
+
+- SaaS products
+- Productivity tools
+- Admin panels
+- General web applications
+
+This should be the default density for most products.
+
+---
+
+# Spacious Density
+
+Spacious density increases whitespace and separation.
+
+Recommended for:
+
+- Marketing websites
+- Landing pages
+- Educational products
+- Touch-first experiences
+
+Use spacious layouts to improve focus and reduce cognitive load.
+
+---
+
+# Responsive Spacing
+
+Spacing should adapt across screen sizes.
+
+Desktop layouts may use larger spacing.
+
+Tablet layouts should reduce spacing where appropriate.
+
+Mobile layouts should prioritize efficient use of space while preserving readability.
+
+Hierarchy should remain consistent across every breakpoint.
+
+---
+
+# Adaptive Spacing
+
+Spacing should respond to content.
+
+Examples:
+
+- Dynamic card height
+- Expandable panels
+- Responsive navigation
+- Variable content blocks
+
+Spacing should adapt without breaking visual rhythm.
+
+---
+
+# Auto Layout Spacing
+
+Every reusable component should use Auto Layout.
+
+Configure:
+
+- Direction
+- Padding
+- Gap
+- Alignment
+- Distribution
+- Resizing behavior
+
+Avoid manual positioning whenever Auto Layout provides a suitable solution. :contentReference[oaicite:1]{index=1}
+
+---
+
+# Grid Spacing
+
+Grid spacing controls the distance between columns and rows.
+
+Maintain consistent spacing across:
+
+- Cards
+- Dashboards
+- Galleries
+- Tables
+- Content grids
+
+Grid spacing should align with the spacing scale.
+
+---
+
+# Elevation Spacing
+
+Elevation affects spatial perception.
+
+Higher elevation should include sufficient surrounding space to preserve visual separation.
+
+Examples:
+
+- Modals
+- Popovers
+- Drawers
+- Floating action buttons
+
+Elevation should improve clarity rather than increase clutter.
+
+---
+
+# Z-Axis Spacing
+
+Three-dimensional hierarchy should remain consistent.
+
+Account for spacing around:
+
+- Floating elements
+- Sticky navigation
+- Dialogs
+- Notifications
+- Tooltips
+
+Spacing should communicate stacking order.
+
+---
+
+# Spatial Tokens
+
+Every spacing value should use semantic tokens.
+
+Examples:
+
+space.page
+
+space.section
+
+space.container
+
+space.component
+
+space.inline
+
+space.stack.sm
+
+space.stack.md
+
+space.stack.lg
+
+space.inset.card
+
+space.inset.modal
+
+Semantic spacing tokens improve consistency across products.
+
+---
+
+# Auto Layout Tokens
+
+Standardize reusable Auto Layout settings.
+
+Examples:
+
+layout.stack.vertical
+
+layout.stack.horizontal
+
+layout.cluster
+
+layout.inline
+
+layout.grid
+
+Document:
+
+- Gap
+- Padding
+- Alignment
+- Direction
+- Wrapping
+- Resizing
+
+Reuse these patterns throughout the system.
+
+---
+
+# Responsive Token Strategy
+
+Spacing tokens should remain semantic rather than device-specific.
+
+Prefer:
+
+space.section
+
+Instead of:
+
+desktop.section.spacing
+
+Theme and breakpoint adjustments should occur through token values rather than new token names.
+
+---
+
+# AI Spatial Decision Engine
+
+Before approving any layout, answer:
+
+- Does every spacing value use the spacing scale?
+- Are spacing tokens reused?
+- Is density appropriate?
+- Does Auto Layout define spacing?
+- Is responsive spacing documented?
+- Is elevation supported?
+- Are grids consistent?
+- Can developers implement the spacing system directly?
+
+If any answer is negative, redesign the spatial system.
+
+---
+
+# Spacing & Sizing Checklist
+
+Before publishing:
+
+□ Spacing scale completed
+
+□ Size scale completed
+
+□ Density modes documented
+
+□ Responsive spacing validated
+
+□ Adaptive spacing reviewed
+
+□ Auto Layout standards documented
+
+□ Grid spacing reviewed
+
+□ Elevation spacing validated
+
+□ Z-axis spacing reviewed
+
+□ Spatial tokens completed
+
+□ Auto Layout tokens documented
+
+□ Documentation updated
+
+---
+
+# Key Takeaways
+
+Spacing defines structure.
+
+Sizing defines consistency.
+
+The AI must:
+
+- Build every interface from a unified spacing scale.
+- Standardize component dimensions.
+- Maintain consistent density.
+- Use semantic spacing tokens.
+- Design responsive spatial systems.
+- Apply Auto Layout wherever appropriate.
+- Preserve accessibility.
+- Reduce visual noise.
+- Optimize for implementation by developers.
+
+Every spacing decision should improve usability, hierarchy, scalability, and consistency.
