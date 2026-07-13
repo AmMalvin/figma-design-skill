@@ -226,3 +226,273 @@ If any answer is negative, redesign the component.
 □ Scalability validated
 
 □ Documentation updated
+
+
+---
+
+# Component Anatomy
+
+## Definition
+
+Component anatomy defines the structural parts of a component.
+
+Every component should have a predictable internal structure.
+
+Structure should remain consistent across the entire design system.
+
+---
+
+# Anatomy Principles
+
+Every component should define:
+
+- Container
+- Content
+- Slots
+- Actions
+- States
+- Properties
+
+Each part should have one clear responsibility.
+
+---
+
+# Container
+
+The container is the outer structure of a component.
+
+The container controls:
+
+- Size
+- Layout
+- Padding
+- Background
+- Border
+- Elevation
+
+The container should never contain business logic.
+
+---
+
+# Content Area
+
+The content area displays information.
+
+Examples include:
+
+- Text
+- Images
+- Icons
+- Media
+- Data
+- Lists
+
+Content should remain independent from layout.
+
+---
+
+# Primary Content
+
+Primary content communicates the main purpose.
+
+Examples:
+
+- Button label
+- Card title
+- Dialog heading
+- Input value
+
+Every component should have one primary focus.
+
+---
+
+# Supporting Content
+
+Supporting content adds context.
+
+Examples:
+
+- Description
+- Helper text
+- Metadata
+- Secondary labels
+- Badges
+
+Supporting content should never compete with primary content.
+
+---
+
+# Actions
+
+Actions define user interaction.
+
+Examples:
+
+- Button
+- Link
+- Menu
+- Toggle
+- Close control
+
+Actions should remain clearly identifiable.
+
+---
+
+# Slots
+
+## Definition
+
+Slots are predefined regions where content or nested components can be inserted.
+
+Slots improve flexibility while preserving component structure.
+
+Examples:
+
+- Leading icon
+- Trailing icon
+- Header
+- Footer
+- Media
+- Actions
+
+Slots should have documented constraints.
+
+---
+
+# Parent Components
+
+Parent components organize child components.
+
+Responsibilities include:
+
+- Layout
+- Spacing
+- Alignment
+- Relationships
+
+Parents should not duplicate child behavior.
+
+---
+
+# Child Components
+
+Child components perform individual responsibilities.
+
+Examples:
+
+- Avatar
+- Badge
+- Icon
+- Button
+- Checkbox
+
+Children should remain reusable outside the parent.
+
+---
+
+# Nested Components
+
+Components may contain other reusable components.
+
+Examples:
+
+Card
+
+- Avatar
+- Heading
+- Button
+- Badge
+
+Navigation
+
+- Logo
+- Menu item
+- Avatar
+- Notification
+
+Composition improves maintainability.
+
+---
+
+# Atomic Design
+
+Build interfaces from progressively larger building blocks.
+
+Levels include:
+
+- Tokens
+- Primitive Components
+- Composite Components
+- Patterns
+- Templates
+- Screens
+
+Avoid skipping levels without a documented reason.
+
+---
+
+# Component Relationships
+
+Relationships should be explicit.
+
+Examples:
+
+Button belongs to Form.
+
+Avatar belongs to User Profile.
+
+Menu Item belongs to Navigation.
+
+Relationships improve consistency.
+
+---
+
+# Separation of Responsibilities
+
+Visual styling should remain separate from:
+
+- Business logic
+- Data
+- Navigation
+- State management
+
+Components should remain presentation-focused whenever possible.
+
+---
+
+# AI Component Architecture Engine
+
+Before approving component architecture, answer:
+
+- Does every part have one responsibility?
+- Are slots clearly defined?
+- Can child components be reused?
+- Is composition used instead of duplication?
+- Is the hierarchy logical?
+- Can developers implement this consistently?
+
+If any answer is negative, redesign the component architecture.
+
+---
+
+# Validation Checklist
+
+□ Component anatomy documented
+
+□ Container defined
+
+□ Content areas documented
+
+□ Slots documented
+
+□ Parent-child relationships reviewed
+
+□ Nested components validated
+
+□ Atomic design structure defined
+
+□ Component relationships documented
+
+□ Responsibilities separated
+
+□ Documentation updated
