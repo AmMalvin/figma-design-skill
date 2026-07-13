@@ -976,3 +976,370 @@ If any answer is negative, redesign the component.
 □ Read-only state documented
 
 
+---
+
+# Selection Controls
+
+## Philosophy
+
+Selection controls allow users to choose one or more options.
+
+Every selection control should communicate:
+
+- Available options
+- Current selection
+- Interaction state
+
+Choose the simplest control for the task.
+
+---
+
+# Checkbox
+
+## Purpose
+
+Checkboxes allow multiple independent selections.
+
+Examples:
+
+- Accept Terms
+- Receive Updates
+- Select Products
+
+Rules:
+
+- Multiple options may be selected.
+- Each checkbox should have a visible label.
+- The entire row should be clickable when appropriate.
+
+---
+
+# Radio Button
+
+## Purpose
+
+Radio buttons allow users to select one option from a group.
+
+Rules:
+
+- Only one option may be selected.
+- Every option requires a visible label.
+- The selected option should remain obvious.
+
+Do not use radio buttons for multiple selections.
+
+---
+
+# Switch
+
+## Purpose
+
+Switches control immediate on and off settings.
+
+Examples:
+
+- Dark Mode
+- Notifications
+- Location Access
+
+Rules:
+
+- Changes should take effect immediately.
+- Clearly communicate On and Off states.
+- Avoid confirmation dialogs for simple settings.
+
+---
+
+# Slider
+
+## Purpose
+
+Sliders adjust values within a range.
+
+Examples:
+
+- Volume
+- Brightness
+- Price Range
+
+Requirements:
+
+- Display current value
+- Support keyboard interaction
+- Allow precise adjustment where needed
+
+Avoid sliders for exact values requiring high precision.
+
+---
+
+# File Upload
+
+## Purpose
+
+Allow users to upload files.
+
+Requirements:
+
+- Drag and drop when supported
+- Browse button
+- Upload progress
+- File validation
+- Error handling
+
+Display accepted file formats before upload.
+
+---
+
+# Form Layout
+
+Forms should follow a predictable structure.
+
+Recommended order:
+
+- Title
+- Description
+- Fields
+- Helper text
+- Validation
+- Primary action
+- Secondary action
+
+Avoid inconsistent spacing.
+
+---
+
+# Multi-Step Forms
+
+Use multi-step forms when:
+
+- Many fields are required
+- Information belongs to distinct groups
+- Progressive disclosure improves usability
+
+Always display progress.
+
+Users should know where they are in the process.
+
+---
+
+# Keyboard Interaction
+
+Every form should support:
+
+- Tab navigation
+- Shift + Tab
+- Enter when appropriate
+- Arrow keys for grouped controls
+- Escape where applicable
+
+Keyboard users should complete forms without a mouse.
+
+---
+
+# Autofill
+
+Support browser and platform autofill.
+
+Examples:
+
+- Name
+- Email
+- Address
+- Phone Number
+
+Autofill should never break the layout.
+
+---
+
+# Input Masks
+
+Input masks improve formatting.
+
+Examples:
+
+Phone
+
+(123) 456-7890
+
+Date
+
+DD/MM/YYYY
+
+Card Number
+
+1234 5678 9012 3456
+
+Masks should help users rather than restrict them unnecessarily.
+
+---
+
+# Accessibility Requirements
+
+Every form should support:
+
+- Visible labels
+- Keyboard navigation
+- Focus visibility
+- Screen readers
+- Color contrast
+- Clear error messages
+
+Accessibility is mandatory.
+
+---
+
+# Error Recovery
+
+Users should recover from errors easily.
+
+Requirements:
+
+- Preserve entered values
+- Explain the problem
+- Suggest a solution
+- Focus the first invalid field after submission
+
+Avoid forcing users to start over.
+
+---
+
+# Design Token Integration
+
+Inputs should reference design tokens.
+
+Examples:
+
+input.height.md
+
+input.padding.md
+
+input.radius.md
+
+input.border.default
+
+input.border.focus
+
+input.background.default
+
+Avoid hardcoded values.
+
+---
+
+# Testing
+
+Every form should be tested for:
+
+- Accessibility
+- Validation
+- Keyboard navigation
+- Responsive layouts
+- Autofill
+- Input masks
+- Error handling
+- Performance
+
+Testing should occur before release.
+
+---
+
+# Quality Assurance
+
+Review every form for:
+
+- Clarity
+- Accessibility
+- Validation
+- Consistency
+- Responsive behavior
+- Documentation
+- Token usage
+
+Only approved components belong in the design system.
+
+---
+
+# Versioning
+
+Track changes to:
+
+- Input types
+- Validation rules
+- States
+- Accessibility improvements
+- Bug fixes
+- Breaking changes
+
+Maintain version history.
+
+---
+
+# AI Form Review Engine
+
+Before publishing any form component, answer:
+
+- Is every field necessary?
+- Is the correct input type used?
+- Is validation helpful?
+- Is accessibility complete?
+- Is keyboard interaction supported?
+- Are design tokens used?
+- Can users recover from errors?
+- Has testing been completed?
+- Can this form scale across products?
+
+If any answer is negative, revise the form.
+
+---
+
+# Inputs & Forms Checklist
+
+Before publishing:
+
+□ Input types documented
+
+□ Selection controls documented
+
+□ Validation completed
+
+□ Helper text reviewed
+
+□ Error handling documented
+
+□ Keyboard interaction verified
+
+□ Autofill supported
+
+□ Input masks documented
+
+□ Accessibility validated
+
+□ Design tokens integrated
+
+□ Responsive behavior tested
+
+□ QA approved
+
+□ Version history updated
+
+□ Documentation completed
+
+---
+
+# Key Takeaways
+
+Forms should help users complete tasks with the least effort.
+
+The AI must:
+
+- Collect only necessary information.
+- Choose the correct input control.
+- Keep labels visible.
+- Validate clearly and early.
+- Support keyboard and screen readers.
+- Preserve user input during errors.
+- Use design tokens.
+- Maintain consistency across products.
+- Test every interaction.
+- Document every component.
+
+Every form should improve speed, accuracy, accessibility, and user confidence.
