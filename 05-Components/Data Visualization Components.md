@@ -885,3 +885,330 @@ If any answer is negative, redesign the interaction.
 □ Animation documented
 
 □ Responsive behavior validated
+
+---
+
+# Keyboard Interaction
+
+## Purpose
+
+Every interactive visualization should support keyboard navigation.
+
+Minimum requirements:
+
+- Tab moves focus
+- Shift + Tab moves focus backward
+- Arrow keys navigate data points when applicable
+- Enter selects a focused element
+- Escape closes temporary overlays
+- Home moves to the first data point
+- End moves to the last data point
+
+Keyboard interaction should remain predictable.
+
+---
+
+# Focus Management
+
+Focus should:
+
+- Always remain visible
+- Follow a logical order
+- Move into interactive visualizations
+- Return to the triggering control after closing overlays
+
+Never lose keyboard focus.
+
+---
+
+# Screen Reader Support
+
+Visualizations should expose:
+
+- Chart title
+- Chart type
+- Summary
+- Data labels
+- Units
+- Current selection
+
+Users should understand the visualization without relying on sight.
+
+---
+
+# Accessible Chart Semantics
+
+Every visualization should communicate:
+
+- Purpose
+- Data source when appropriate
+- Current state
+- Relationships
+- Important insights
+
+Semantics should accurately represent the visualization.
+
+---
+
+# Color Accessibility
+
+Visualizations should never rely only on color.
+
+Combine color with:
+
+- Labels
+- Patterns
+- Shapes
+- Icons
+- Line styles
+- Direct annotations
+
+Every dataset should remain distinguishable.
+
+---
+
+# Data Labels
+
+Labels should:
+
+- Display meaningful values
+- Avoid overlap
+- Include units when required
+- Support responsive layouts
+
+Hide labels only when readability is improved.
+
+---
+
+# Legends
+
+Legends should:
+
+- Match the visual encoding
+- Remain close to the visualization
+- Preserve reading order
+- Support keyboard navigation when interactive
+
+Avoid unnecessary legends.
+
+---
+
+# Responsive Adaptation
+
+Desktop
+
+- Multi-chart dashboards
+- Rich interaction
+- Expanded legends
+
+Tablet
+
+- Simplified layouts
+- Reduced labels
+- Medium-sized charts
+
+Mobile
+
+- KPI cards
+- Compact charts
+- Scrollable visualizations
+- Progressive disclosure
+
+Visualizations should remain understandable on every device.
+
+---
+
+# Design Token Integration
+
+Visualization components should reference design tokens.
+
+Examples:
+
+chart.background
+
+chart.grid.color
+
+chart.axis.color
+
+chart.label.color
+
+chart.tooltip.background
+
+chart.radius
+
+chart.spacing
+
+chart.focus.ring
+
+Avoid hardcoded values.
+
+---
+
+# Motion Guidelines
+
+Motion should reinforce understanding.
+
+Examples:
+
+- Data updates
+- Chart transitions
+- Tooltip appearance
+- Filter animation
+- Drill-down transition
+
+Motion should communicate change.
+
+Avoid decorative animation.
+
+---
+
+# Documentation
+
+Every visualization should document:
+
+- Purpose
+- Anatomy
+- Variants
+- States
+- Accessibility
+- Responsive behavior
+- Usage guidelines
+- Do
+- Don't
+- Examples
+
+Documentation should eliminate implementation ambiguity.
+
+---
+
+# Testing
+
+Every visualization should be tested for:
+
+- Accessibility
+- Keyboard interaction
+- Screen reader support
+- Responsive layouts
+- Tooltip behavior
+- Drill-down interaction
+- Filtering
+- Motion
+- Performance
+
+Testing should occur before release.
+
+---
+
+# Quality Assurance
+
+Review every visualization for:
+
+- Accuracy
+- Accessibility
+- Visual consistency
+- Responsive behavior
+- Design token usage
+- Documentation
+- Performance
+
+Only approved visualizations belong in the design system.
+
+---
+
+# Versioning
+
+Track changes for:
+
+- New visualization types
+- Accessibility improvements
+- Motion updates
+- Bug fixes
+- Breaking changes
+
+Maintain complete version history.
+
+---
+
+# Governance
+
+Visualization updates should include:
+
+- UX review
+- Accessibility review
+- Engineering review
+- QA approval
+- Documentation update
+
+Governance maintains long-term consistency.
+
+---
+
+# AI Visualization Review Engine
+
+Before publishing any visualization, answer:
+
+- Is the chosen visualization appropriate?
+- Is the primary insight obvious?
+- Is accessibility complete?
+- Are design tokens used?
+- Is keyboard navigation supported?
+- Has testing been completed?
+- Does this scale across products?
+- Is interaction predictable?
+
+If any answer is negative, revise the visualization.
+
+---
+
+# Data Visualization Components Checklist
+
+Before publishing:
+
+□ Visualization anatomy documented
+
+□ Variants completed
+
+□ States documented
+
+□ Keyboard interaction verified
+
+□ Focus management documented
+
+□ Screen reader support completed
+
+□ Color accessibility validated
+
+□ Responsive behavior validated
+
+□ Design tokens integrated
+
+□ Motion documented
+
+□ Testing completed
+
+□ QA approved
+
+□ Version history updated
+
+□ Documentation completed
+
+---
+
+# Key Takeaways
+
+Data visualization components transform complex information into understandable insights.
+
+The AI must:
+
+- Choose the correct visualization.
+- Preserve data accuracy.
+- Highlight meaningful insights.
+- Support keyboard navigation.
+- Support screen readers.
+- Avoid relying only on color.
+- Use design tokens.
+- Keep motion meaningful.
+- Test every interaction.
+- Document every behavior.
+
+Every visualization should improve comprehension, accessibility, consistency, and long-term maintainability.
