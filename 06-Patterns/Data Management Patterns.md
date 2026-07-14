@@ -564,3 +564,358 @@ If any answer is negative, redesign the workflow.
 □ Bulk operations documented
 
 □ Responsive behavior documented
+
+---
+
+# Data Integrity Workflows
+
+## Philosophy
+
+Users should never wonder whether their work is safe.
+
+Every editing workflow should communicate:
+
+- Current status
+- Save status
+- Synchronization status
+- Recovery options
+
+Users should remain confident throughout editing.
+
+---
+
+# Drafts
+
+## Purpose
+
+Allow users to work before publishing or finalizing.
+
+Drafts should:
+
+- Save progress
+- Remain editable
+- Support review
+- Support publishing
+
+Drafts reduce pressure during creation.
+
+---
+
+# Unsaved Changes
+
+## Purpose
+
+Protect users from accidental data loss.
+
+Requirements:
+
+- Detect modifications
+- Warn before leaving
+- Preserve entered information
+- Offer save or discard actions
+
+Never discard changes silently.
+
+---
+
+# Validation
+
+## Purpose
+
+Ensure submitted data is accurate.
+
+Validation should:
+
+- Prevent invalid submissions
+- Explain errors clearly
+- Preserve valid input
+- Support correction
+
+Validation should help rather than punish.
+
+---
+
+# Conflict Resolution
+
+## Purpose
+
+Handle simultaneous edits safely.
+
+Users should understand:
+
+- What changed
+- Who changed it
+- Available options
+
+Never overwrite data without warning.
+
+---
+
+# Version History
+
+## Purpose
+
+Allow users to review and restore previous versions.
+
+Version history should display:
+
+- Timestamp
+- Author
+- Summary of changes
+- Restore action
+
+Previous versions should remain recoverable.
+
+---
+
+# Audit Log
+
+## Purpose
+
+Record important system actions.
+
+Typical events:
+
+- Record created
+- Record updated
+- Record deleted
+- Permission changed
+- Status changed
+
+Audit logs improve accountability.
+
+---
+
+# Data Synchronization
+
+## Purpose
+
+Keep information consistent across devices.
+
+Synchronization should:
+
+- Preserve edits
+- Detect conflicts
+- Recover gracefully
+- Communicate status
+
+Synchronization should feel automatic.
+
+---
+
+# Offline Editing
+
+## Purpose
+
+Allow work without a network connection.
+
+Requirements:
+
+- Local storage
+- Queue pending changes
+- Synchronize when online
+- Resolve conflicts when needed
+
+Users should continue working whenever possible.
+
+---
+
+# Merge Conflicts
+
+## Purpose
+
+Resolve conflicting edits.
+
+Provide:
+
+- Side-by-side comparison
+- Difference highlighting
+- Manual selection
+- Final confirmation
+
+Users should control the final outcome.
+
+---
+
+# Record Locking
+
+## Purpose
+
+Prevent conflicting edits for sensitive records.
+
+Examples:
+
+- Financial transactions
+- Legal records
+- Administrative settings
+
+Communicate when a record is locked and why.
+
+---
+
+# Ownership Transfer
+
+## Purpose
+
+Move responsibility from one user to another.
+
+Examples:
+
+- Project reassignment
+- Customer ownership
+- Team transfer
+
+Transfers should preserve history and permissions.
+
+---
+
+# Data Integrity Selection Guide
+
+Use:
+
+Drafts
+
+For unfinished work.
+
+Unsaved Changes
+
+To prevent accidental loss.
+
+Validation
+
+For input accuracy.
+
+Conflict Resolution
+
+For collaborative editing.
+
+Version History
+
+For recovery.
+
+Audit Log
+
+For accountability.
+
+Data Synchronization
+
+For multi-device usage.
+
+Offline Editing
+
+For unreliable networks.
+
+Merge Conflicts
+
+For simultaneous edits.
+
+Record Locking
+
+For sensitive records.
+
+Ownership Transfer
+
+For reassignment workflows.
+
+---
+
+# Workflow Variants
+
+Represent integrity workflows as reusable patterns.
+
+Recommended properties:
+
+Workflow
+
+- Draft
+- Validation
+- Sync
+- Conflict
+- Version
+- Audit
+- Offline
+- Lock
+
+State
+
+- Default
+- Editing
+- Saving
+- Synced
+- Conflict
+- Offline
+- Error
+
+Platform
+
+- Web
+- Mobile
+- Desktop
+
+Avoid duplicate integrity workflows.
+
+---
+
+# Responsive Behavior
+
+Desktop
+
+- Side-by-side comparisons
+- Full version history
+- Rich audit tables
+
+Tablet
+
+- Adaptive layouts
+- Expandable history panels
+
+Mobile
+
+- Simplified comparisons
+- Timeline history
+- Compact synchronization indicators
+
+Workflow behavior should remain consistent across platforms.
+
+---
+
+# AI Data Integrity Engine
+
+Before approving a workflow, answer:
+
+- Can users recover lost work?
+- Are conflicts handled safely?
+- Is version history available?
+- Is accessibility supported?
+- Does this reuse existing components?
+- Can this scale across products?
+
+If any answer is negative, redesign the workflow.
+
+---
+
+# Validation Checklist
+
+□ Drafts documented
+
+□ Unsaved changes documented
+
+□ Validation documented
+
+□ Conflict resolution documented
+
+□ Version history documented
+
+□ Audit log documented
+
+□ Data synchronization documented
+
+□ Offline editing documented
+
+□ Merge conflicts documented
+
+□ Record locking documented
+
+□ Ownership transfer documented
+
+□ Responsive behavior documented
