@@ -862,3 +862,300 @@ If any answer is negative, redesign the workflow.
 □ Security notifications documented
 
 □ Responsive behavior documented
+
+---
+
+# Accessibility Across Authentication
+
+## Purpose
+
+Authentication should be accessible to every user.
+
+Users should be able to authenticate regardless of:
+
+- Device
+- Input method
+- Ability
+- Platform
+
+Accessibility should exist throughout the authentication journey.
+
+---
+
+# Keyboard Navigation
+
+Authentication workflows should fully support keyboard interaction.
+
+Requirements:
+
+- Logical tab order
+- Visible focus
+- Enter submits forms
+- Escape dismisses temporary interfaces
+- Keyboard shortcuts where appropriate
+
+Authentication should never require a mouse.
+
+---
+
+# Focus Management
+
+Focus should:
+
+- Move logically
+- Remain visible
+- Enter dialogs automatically
+- Return after dialogs close
+- Never become trapped unintentionally
+
+Focus should always indicate the current task.
+
+---
+
+# Screen Reader Support
+
+Authentication should expose:
+
+- Form labels
+- Field requirements
+- Validation errors
+- Authentication progress
+- Success messages
+- Recovery guidance
+
+Users should understand every authentication step.
+
+---
+
+# Password Manager Support
+
+Authentication should support password managers.
+
+Requirements:
+
+- Proper field labels
+- Username autocomplete
+- Password autocomplete
+- New password fields
+- Current password fields
+
+Avoid blocking password manager behavior.
+
+---
+
+# Passkey Experience
+
+When passkeys are available:
+
+- Explain what a passkey is
+- Explain why it is secure
+- Allow fallback authentication
+- Clearly communicate device prompts
+- Support passkey management
+
+Users should understand every passkey interaction.
+
+---
+
+# Responsive Authentication
+
+Desktop
+
+- Expanded authentication options
+- Multi-column layouts when appropriate
+
+Tablet
+
+- Adaptive layouts
+- Touch-friendly controls
+
+Mobile
+
+- Single-column forms
+- Biometric authentication
+- Passkeys
+- One-time code autofill
+
+Authentication should remain consistent across platforms.
+
+---
+
+# Design Token Integration
+
+Authentication should reference design tokens.
+
+Examples:
+
+auth.spacing
+
+auth.radius
+
+auth.focus.ring
+
+auth.motion.duration
+
+auth.success.color
+
+auth.warning.color
+
+auth.error.color
+
+Avoid hardcoded values.
+
+---
+
+# Documentation Standards
+
+Every authentication workflow should document:
+
+- Purpose
+- Entry point
+- Authentication method
+- Recovery options
+- States
+- Accessibility
+- Security considerations
+- Responsive behavior
+- Components used
+- Usage guidelines
+- Do
+- Don't
+- Examples
+
+Documentation should eliminate implementation ambiguity.
+
+---
+
+# Testing Strategy
+
+Every authentication workflow should be tested for:
+
+- Accessibility
+- Keyboard navigation
+- Screen reader compatibility
+- Password manager compatibility
+- Passkey support
+- Responsive layouts
+- Error recovery
+- Performance
+
+Testing should validate the complete authentication journey.
+
+---
+
+# Quality Assurance
+
+Review every authentication workflow for:
+
+- Security
+- Accessibility
+- Workflow consistency
+- Component reuse
+- Responsive behavior
+- Documentation
+- Performance
+
+Only approved authentication patterns belong in the design system.
+
+---
+
+# Versioning
+
+Track changes for:
+
+- Authentication methods
+- Accessibility improvements
+- Security updates
+- Recovery improvements
+- Bug fixes
+- Breaking changes
+
+Maintain complete version history.
+
+---
+
+# Governance
+
+Authentication updates should include:
+
+- UX review
+- Security review
+- Accessibility review
+- Engineering review
+- QA approval
+- Documentation update
+
+Governance protects consistency and security.
+
+---
+
+# AI Authentication Review Engine
+
+Before publishing any authentication workflow, answer:
+
+- Is security appropriate?
+- Is accessibility complete?
+- Is keyboard navigation supported?
+- Is password manager support verified?
+- Is passkey support documented?
+- Does this reuse existing components?
+- Has testing been completed?
+- Can this scale across products?
+
+If any answer is negative, revise the workflow.
+
+---
+
+# Authentication Checklist
+
+Before publishing:
+
+□ Authentication method documented
+
+□ Sign up documented
+
+□ Sign in documented
+
+□ Recovery documented
+
+□ Accessibility completed
+
+□ Keyboard navigation verified
+
+□ Screen reader support completed
+
+□ Password manager support verified
+
+□ Passkey support documented
+
+□ Responsive behavior validated
+
+□ Design tokens integrated
+
+□ Testing completed
+
+□ QA approved
+
+□ Version history updated
+
+□ Documentation completed
+
+---
+
+# Key Takeaways
+
+Authentication patterns establish secure user identity while minimizing friction.
+
+The AI must:
+
+- Choose the simplest secure authentication method.
+- Reuse existing components.
+- Support password managers.
+- Support passkeys.
+- Support keyboard navigation.
+- Support screen readers.
+- Use design tokens.
+- Test complete authentication journeys.
+- Document every authentication workflow.
+
+Every authentication pattern should improve security, accessibility, consistency, and long-term maintainability.
