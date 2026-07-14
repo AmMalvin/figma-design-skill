@@ -534,3 +534,235 @@ If any answer is negative, redesign the onboarding workflow.
 □ Contextual education documented
 
 □ Responsive behavior documented
+
+---
+
+# Onboarding States
+
+## Philosophy
+
+Every onboarding workflow should communicate its current state.
+
+Users should always understand:
+
+- Where they are
+- What is happening
+- What remains
+- How to continue
+
+Every state should encourage progress.
+
+---
+
+# Loading State
+
+Loading occurs while preparing onboarding resources.
+
+Examples:
+
+- Creating workspace
+- Loading templates
+- Loading recommendations
+- Verifying account
+
+Requirements:
+
+- Stable layout
+- Skeleton screens where appropriate
+- Progress indicator when duration is known
+
+Avoid blank screens.
+
+---
+
+# Empty State
+
+Empty onboarding states guide users toward their first action.
+
+Examples:
+
+- No projects
+- No teammates
+- No documents
+- No integrations
+
+Every empty state should encourage progress.
+
+---
+
+# Error State
+
+Errors should explain:
+
+- What happened
+- Why when known
+- How to recover
+
+Examples:
+
+- Retry
+- Continue later
+- Edit information
+- Contact support
+
+Never trap users in an error state.
+
+---
+
+# Skip Flow
+
+Optional onboarding should support skipping.
+
+Requirements:
+
+- Clearly labeled skip action
+- Preserve progress
+- Allow users to return later
+
+Never force optional education.
+
+---
+
+# Resume Flow
+
+Users should continue from their previous step.
+
+Examples:
+
+- Closed application
+- Browser refresh
+- Device interruption
+- Network interruption
+
+Resume should restore context immediately.
+
+---
+
+# Progress Persistence
+
+Onboarding should save progress continuously.
+
+Save:
+
+- Current step
+- User selections
+- Completed tasks
+- Personalization
+
+Avoid requiring users to restart onboarding.
+
+---
+
+# Feature Unlocks
+
+Introduce capabilities progressively.
+
+Examples:
+
+- Advanced settings
+- Team collaboration
+- Automation
+- Integrations
+
+Unlock features after users understand core functionality.
+
+---
+
+# Milestones
+
+Celebrate meaningful progress.
+
+Examples:
+
+- Profile completed
+- First project created
+- First teammate invited
+- First workflow completed
+
+Milestones reinforce success.
+
+---
+
+# Completion
+
+Completion should communicate:
+
+- Success
+- What was achieved
+- Recommended next action
+- Available resources
+
+Users should know where to go next.
+
+---
+
+# Activation Metrics
+
+Measure onboarding effectiveness using:
+
+- Time to first value
+- Completion rate
+- Activation rate
+- Drop-off rate
+- Feature adoption
+- Seven-day retention
+
+Measure outcomes rather than screen completion.
+
+---
+
+# Interruption Recovery
+
+Support unexpected interruptions.
+
+Examples:
+
+- Application restart
+- Connection loss
+- Authentication timeout
+- Device change
+
+Recovery should preserve user confidence.
+
+---
+
+# AI Onboarding Evaluation Engine
+
+Before approving an onboarding workflow, answer:
+
+- Is progress saved automatically?
+- Can users skip optional guidance?
+- Can users resume later?
+- Are milestones meaningful?
+- Is accessibility supported?
+- Does this reuse existing components?
+
+If any answer is negative, redesign the onboarding workflow.
+
+---
+
+# Validation Checklist
+
+□ Loading state documented
+
+□ Empty state documented
+
+□ Error state documented
+
+□ Skip flow documented
+
+□ Resume flow documented
+
+□ Progress persistence documented
+
+□ Feature unlocks documented
+
+□ Milestones documented
+
+□ Completion documented
+
+□ Activation metrics documented
+
+□ Interruption recovery documented
+
+□ Responsive behavior validated
