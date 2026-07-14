@@ -766,3 +766,274 @@ If any answer is negative, redesign the onboarding workflow.
 □ Interruption recovery documented
 
 □ Responsive behavior validated
+
+
+---
+
+# Accessibility Across Onboarding
+
+## Purpose
+
+Every onboarding experience should be accessible from beginning to completion.
+
+Users should be able to complete onboarding regardless of:
+
+- Device
+- Input method
+- Ability
+- Platform
+
+Accessibility should exist throughout the journey.
+
+---
+
+# Keyboard Navigation
+
+Onboarding should fully support keyboard interaction.
+
+Requirements:
+
+- Logical tab order
+- Visible focus
+- Enter activates primary actions
+- Escape closes temporary interfaces
+- Arrow keys navigate step indicators when appropriate
+
+Users should complete onboarding without a mouse.
+
+---
+
+# Focus Management
+
+Focus should:
+
+- Move logically between steps
+- Remain visible
+- Enter dialogs automatically
+- Return after dialogs close
+- Never become trapped unintentionally
+
+Focus should always reflect the user's current task.
+
+---
+
+# Screen Reader Support
+
+Onboarding should expose:
+
+- Current step
+- Total number of steps
+- Progress
+- Required fields
+- Validation errors
+- Completion messages
+
+Users should always understand their progress.
+
+---
+
+# Responsive Onboarding
+
+Desktop
+
+- Multi-column layouts
+- Rich illustrations
+- Context panels
+
+Tablet
+
+- Adaptive layouts
+- Touch-friendly controls
+
+Mobile
+
+- Single-column flow
+- Thumb-friendly controls
+- Progressive disclosure
+- Minimal typing
+
+Workflow logic should remain consistent across devices.
+
+---
+
+# Design Token Integration
+
+Onboarding should reference design tokens.
+
+Examples:
+
+onboarding.spacing
+
+onboarding.radius
+
+onboarding.elevation
+
+onboarding.focus.ring
+
+onboarding.motion.duration
+
+onboarding.success.color
+
+onboarding.warning.color
+
+onboarding.error.color
+
+Avoid hardcoded values.
+
+---
+
+# Documentation Standards
+
+Every onboarding workflow should document:
+
+- Purpose
+- Target users
+- User goal
+- Entry point
+- Workflow
+- States
+- Accessibility
+- Responsive behavior
+- Components used
+- Success metrics
+- Usage guidelines
+- Do
+- Don't
+- Examples
+
+Documentation should remove implementation ambiguity.
+
+---
+
+# Testing Strategy
+
+Every onboarding workflow should be tested for:
+
+- Accessibility
+- Keyboard navigation
+- Screen reader compatibility
+- Responsive layouts
+- Progress persistence
+- Resume flow
+- Error recovery
+- Performance
+
+Testing should validate the complete onboarding experience.
+
+---
+
+# Quality Assurance
+
+Review every onboarding workflow for:
+
+- User goal alignment
+- Accessibility
+- Workflow consistency
+- Component reuse
+- Responsive behavior
+- Documentation
+- Performance
+
+Only approved onboarding patterns belong in the design system.
+
+---
+
+# Versioning
+
+Track changes for:
+
+- New onboarding flows
+- Accessibility improvements
+- Activation improvements
+- Feature education updates
+- Bug fixes
+- Breaking changes
+
+Maintain complete version history.
+
+---
+
+# Governance
+
+Onboarding updates should include:
+
+- UX review
+- Accessibility review
+- Product review
+- Engineering review
+- QA approval
+- Documentation update
+
+Governance maintains long-term consistency.
+
+---
+
+# AI Onboarding Review Engine
+
+Before publishing any onboarding workflow, answer:
+
+- Does this reduce time to first value?
+- Is accessibility complete?
+- Is progress saved automatically?
+- Can users skip optional guidance?
+- Are design tokens used?
+- Has testing been completed?
+- Does this reuse existing components?
+- Can this scale across products?
+
+If any answer is negative, revise the workflow.
+
+---
+
+# Onboarding Checklist
+
+Before publishing:
+
+□ User types documented
+
+□ Workflow documented
+
+□ Personalization documented
+
+□ Accessibility completed
+
+□ Keyboard navigation verified
+
+□ Screen reader support completed
+
+□ Progress persistence verified
+
+□ Responsive behavior validated
+
+□ Design tokens integrated
+
+□ Success metrics documented
+
+□ Testing completed
+
+□ QA approved
+
+□ Version history updated
+
+□ Documentation completed
+
+---
+
+# Key Takeaways
+
+Onboarding should help users reach value as quickly as possible.
+
+The AI must:
+
+- Teach through interaction.
+- Reduce setup effort.
+- Support progressive disclosure.
+- Preserve user progress.
+- Support keyboard navigation.
+- Support screen readers.
+- Use design tokens.
+- Measure activation.
+- Test complete onboarding journeys.
+- Document every workflow.
+
+Every onboarding pattern should improve activation, accessibility, consistency, and long-term maintainability.
