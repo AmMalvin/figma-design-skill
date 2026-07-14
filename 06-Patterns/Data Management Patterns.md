@@ -186,3 +186,381 @@ If any answer is negative, redesign the workflow.
 □ Accessibility reviewed
 
 □ Documentation updated
+
+---
+
+# Data Management Workflows
+
+## Philosophy
+
+Every data management workflow should preserve user confidence.
+
+Users should always understand:
+
+- What action they are performing
+- What data will change
+- Whether the action can be reversed
+- What happens next
+
+Data should never disappear unexpectedly.
+
+---
+
+# Create
+
+## Purpose
+
+Create a new record.
+
+Typical flow:
+
+- Start creation
+- Enter required information
+- Validate input
+- Save
+- Confirm success
+- Open created record when appropriate
+
+Only request required information.
+
+---
+
+# View
+
+## Purpose
+
+Display information clearly.
+
+Views should:
+
+- Prioritize important information
+- Support scanning
+- Provide related actions
+- Preserve context
+
+Reading data should require minimal effort.
+
+---
+
+# Edit
+
+## Purpose
+
+Modify existing information.
+
+Requirements:
+
+- Prefilled values
+- Clear editable fields
+- Validation
+- Save or cancel actions
+
+Users should never lose existing information unintentionally.
+
+---
+
+# Save
+
+## Purpose
+
+Persist user changes.
+
+Requirements:
+
+- Clear save action
+- Immediate feedback
+- Preserve user input on failure
+- Prevent duplicate submissions
+
+Every save should communicate its outcome.
+
+---
+
+# Autosave
+
+## Purpose
+
+Reduce accidental data loss.
+
+Use autosave when:
+
+- Editing long content
+- Creating documents
+- Drafting messages
+- Writing notes
+
+Avoid mixing explicit save and autosave within the same form.
+
+---
+
+# Duplicate
+
+## Purpose
+
+Create a copy of an existing record.
+
+Duplicate:
+
+- Content
+- Structure
+- Configuration
+
+Do not duplicate unique identifiers.
+
+---
+
+# Delete
+
+## Purpose
+
+Remove information.
+
+Requirements:
+
+- Confirmation for destructive actions
+- Explain consequences
+- Undo when supported
+- Permanent deletion only when necessary
+
+Delete should never be accidental.
+
+---
+
+# Archive
+
+## Purpose
+
+Hide inactive information without deleting it.
+
+Archived records should:
+
+- Remain recoverable
+- Be clearly identified
+- Be excluded from active views by default
+
+Archive instead of deleting whenever practical.
+
+---
+
+# Restore
+
+## Purpose
+
+Return archived information to active use.
+
+Restore should:
+
+- Preserve original data
+- Return to the appropriate location
+- Confirm completion
+
+Recovery should be simple.
+
+---
+
+# Import
+
+## Purpose
+
+Bring external data into the product.
+
+Requirements:
+
+- Supported formats
+- Validation
+- Error reporting
+- Import preview when appropriate
+
+Prevent duplicate imports when possible.
+
+---
+
+# Export
+
+## Purpose
+
+Allow users to retrieve their data.
+
+Examples:
+
+- CSV
+- Excel
+- PDF
+- JSON
+
+Exports should preserve important information.
+
+---
+
+# Bulk Operations
+
+## Purpose
+
+Perform actions on multiple records.
+
+Examples:
+
+- Delete
+- Archive
+- Restore
+- Update status
+- Assign ownership
+
+Always communicate the number of affected records.
+
+---
+
+# Data Management Selection Guide
+
+Use:
+
+Create
+
+For new records.
+
+View
+
+For reading information.
+
+Edit
+
+For modifying existing information.
+
+Save
+
+For explicit persistence.
+
+Autosave
+
+For long-form editing.
+
+Duplicate
+
+For reusable records.
+
+Archive
+
+For reversible removal.
+
+Delete
+
+For permanent removal.
+
+Import
+
+For external data.
+
+Export
+
+For sharing or backup.
+
+Bulk Operations
+
+For repeated actions across multiple records.
+
+---
+
+# Workflow Variants
+
+Represent workflows as reusable patterns.
+
+Recommended properties:
+
+Operation
+
+- Create
+- View
+- Edit
+- Save
+- Duplicate
+- Delete
+- Archive
+- Restore
+- Import
+- Export
+- Bulk
+
+State
+
+- Default
+- Editing
+- Saving
+- Success
+- Error
+- Archived
+
+Platform
+
+- Web
+- Mobile
+- Desktop
+
+Avoid duplicate CRUD workflows.
+
+---
+
+# Responsive Behavior
+
+Desktop
+
+- Multi-panel layouts
+- Side-by-side editing
+- Large tables
+
+Tablet
+
+- Adaptive forms
+- Expandable panels
+
+Mobile
+
+- Single-column forms
+- Bottom sheets
+- Progressive editing
+
+Workflow logic should remain consistent across platforms.
+
+---
+
+# AI Data Management Selection Engine
+
+Before selecting a workflow, answer:
+
+- Does this protect user data?
+- Is recovery available?
+- Are destructive actions confirmed?
+- Is accessibility supported?
+- Does this reuse existing components?
+- Can this scale across products?
+
+If any answer is negative, redesign the workflow.
+
+---
+
+# Validation Checklist
+
+□ Create documented
+
+□ View documented
+
+□ Edit documented
+
+□ Save documented
+
+□ Autosave documented
+
+□ Duplicate documented
+
+□ Delete documented
+
+□ Archive documented
+
+□ Restore documented
+
+□ Import documented
+
+□ Export documented
+
+□ Bulk operations documented
+
+□ Responsive behavior documented
