@@ -791,3 +791,293 @@ If any answer is negative, redesign the workflow.
 □ Search persistence documented
 
 □ Search analytics documented
+
+
+---
+
+# Accessibility Across Search
+
+## Purpose
+
+Every search experience should be accessible from beginning to completion.
+
+Users should be able to search regardless of:
+
+- Device
+- Input method
+- Ability
+- Platform
+
+Accessibility should exist throughout the search journey.
+
+---
+
+# Keyboard Navigation
+
+Search should fully support keyboard interaction.
+
+Requirements:
+
+- Logical tab order
+- Visible focus
+- Arrow key navigation for suggestions
+- Enter selects highlighted suggestions
+- Escape closes suggestions
+- Tab moves naturally between controls
+
+Users should complete search without a mouse.
+
+---
+
+# Focus Management
+
+Focus should:
+
+- Move to the search field when appropriate
+- Remain visible
+- Enter suggestion lists
+- Return after temporary interfaces close
+- Never become trapped unintentionally
+
+Focus should always reflect the current task.
+
+---
+
+# Screen Reader Support
+
+Search should expose:
+
+- Search field label
+- Placeholder guidance
+- Number of search results
+- Active filters
+- Suggested queries
+- Loading status
+- Empty results
+- Error messages
+
+Users should always understand the current search state.
+
+---
+
+# Responsive Search
+
+Desktop
+
+- Persistent search field
+- Advanced filtering
+- Multi-column results
+- Keyboard shortcuts
+
+Tablet
+
+- Adaptive layouts
+- Expandable filters
+- Responsive result grids
+
+Mobile
+
+- Full-screen search
+- Bottom sheet filters
+- Voice search
+- Thumb-friendly interactions
+
+Search behavior should remain consistent across devices.
+
+---
+
+# Search Performance
+
+Search should:
+
+- Respond quickly
+- Preserve user input
+- Minimize unnecessary loading
+- Avoid blocking interactions
+- Load additional results efficiently
+
+Performance should support continuous searching.
+
+---
+
+# Design Token Integration
+
+Search should reference design tokens.
+
+Examples:
+
+search.spacing
+
+search.radius
+
+search.focus.ring
+
+search.motion.duration
+
+search.highlight.color
+
+search.border.color
+
+search.background.color
+
+Avoid hardcoded values.
+
+---
+
+# Documentation Standards
+
+Every search workflow should document:
+
+- Purpose
+- User goal
+- Search scope
+- Workflow
+- States
+- Filters
+- Sorting
+- Accessibility
+- Responsive behavior
+- Components used
+- Usage guidelines
+- Do
+- Don't
+- Examples
+
+Documentation should remove implementation ambiguity.
+
+---
+
+# Testing Strategy
+
+Every search workflow should be tested for:
+
+- Accessibility
+- Keyboard navigation
+- Screen reader compatibility
+- Responsive layouts
+- Loading performance
+- Empty results
+- Error recovery
+- Filter behavior
+- Sorting
+- Search persistence
+
+Testing should validate the complete search experience.
+
+---
+
+# Quality Assurance
+
+Review every search workflow for:
+
+- Result relevance
+- Accessibility
+- Workflow consistency
+- Component reuse
+- Responsive behavior
+- Documentation
+- Performance
+
+Only approved search patterns belong in the design system.
+
+---
+
+# Versioning
+
+Track changes for:
+
+- Search improvements
+- Ranking updates
+- Accessibility improvements
+- Performance optimizations
+- Bug fixes
+- Breaking changes
+
+Maintain complete version history.
+
+---
+
+# Governance
+
+Search updates should include:
+
+- UX review
+- Accessibility review
+- Product review
+- Engineering review
+- QA approval
+- Documentation update
+
+Governance ensures long-term consistency.
+
+---
+
+# AI Search Review Engine
+
+Before publishing any search workflow, answer:
+
+- Are results relevant?
+- Is accessibility complete?
+- Is keyboard navigation supported?
+- Are filters intuitive?
+- Is search context preserved?
+- Are design tokens used?
+- Has testing been completed?
+- Does this reuse existing components?
+
+If any answer is negative, revise the workflow.
+
+---
+
+# Search Checklist
+
+Before publishing:
+
+□ Search workflow documented
+
+□ Search states documented
+
+□ Filters documented
+
+□ Sorting documented
+
+□ Accessibility completed
+
+□ Keyboard navigation verified
+
+□ Screen reader support completed
+
+□ Responsive behavior validated
+
+□ Search performance validated
+
+□ Design tokens integrated
+
+□ Testing completed
+
+□ QA approved
+
+□ Version history updated
+
+□ Documentation completed
+
+---
+
+# Key Takeaways
+
+Search should help users find information with the least possible effort.
+
+The AI must:
+
+- Prioritize relevant results.
+- Reduce typing.
+- Preserve search context.
+- Support progressive refinement.
+- Support keyboard navigation.
+- Support screen readers.
+- Use design tokens.
+- Optimize performance.
+- Test complete search workflows.
+- Document every search experience.
+
+Every search pattern should improve discoverability, accessibility, consistency, performance, and long-term maintainability.
