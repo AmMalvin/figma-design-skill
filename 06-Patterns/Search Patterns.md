@@ -536,3 +536,258 @@ If any answer is negative, redesign the search workflow.
 □ Saved searches documented
 
 □ Responsive behavior documented
+
+---
+
+# Search States
+
+## Philosophy
+
+Every search workflow should clearly communicate its current state.
+
+Users should always understand:
+
+- What is happening
+- Whether search is working
+- How many results are available
+- What they should do next
+
+Search should never leave users uncertain.
+
+---
+
+# Loading Results
+
+## Purpose
+
+Communicate that search is processing.
+
+Requirements:
+
+- Skeleton results when appropriate
+- Loading indicator
+- Preserve search query
+- Avoid layout shifts
+
+Loading should feel responsive.
+
+---
+
+# Search Results
+
+## Purpose
+
+Present relevant information clearly.
+
+Results should:
+
+- Prioritize relevance
+- Be easy to scan
+- Highlight useful metadata
+- Support quick actions
+
+Show the best matches first.
+
+---
+
+# Empty Results
+
+## Purpose
+
+Explain when no matches are found.
+
+Requirements:
+
+- Explain no results
+- Preserve the user's query
+- Suggest refinements
+- Offer alternative actions
+
+Never present a blank screen.
+
+---
+
+# Error State
+
+Errors should communicate:
+
+- What happened
+- Why when known
+- How users recover
+
+Examples:
+
+- Retry search
+- Check connection
+- Modify query
+
+Errors should not erase the search query.
+
+---
+
+# No Match Guidance
+
+Help users improve unsuccessful searches.
+
+Examples:
+
+- Check spelling
+- Use fewer keywords
+- Remove filters
+- Search broader categories
+
+Guidance should reduce repeated failures.
+
+---
+
+# Query Correction
+
+Suggest corrections when appropriate.
+
+Examples:
+
+- Spelling corrections
+- Similar terms
+- Singular or plural variations
+- Common aliases
+
+Never replace the original query automatically.
+
+---
+
+# Search Highlighting
+
+Highlight matching content.
+
+Examples:
+
+- Matching keywords
+- Matching names
+- Matching descriptions
+
+Highlighting should improve scanning.
+
+---
+
+# Search Result Grouping
+
+Group related results when appropriate.
+
+Examples:
+
+- Products
+- Documents
+- Users
+- Projects
+- Commands
+
+Grouping should improve navigation.
+
+---
+
+# Pagination
+
+Use pagination when:
+
+- Result sets are large
+- Users frequently revisit previous pages
+- Stable navigation is required
+
+Display:
+
+- Current page
+- Total pages when known
+- Previous
+- Next
+
+Pagination should preserve filters and sorting.
+
+---
+
+# Infinite Scrolling
+
+Use infinite scrolling when:
+
+- Users are browsing
+- Discovery is the primary goal
+- Content loads continuously
+
+Requirements:
+
+- Visible loading feedback
+- Preserve scroll position
+- Prevent duplicate loading
+
+Avoid infinite scrolling when users need precise navigation.
+
+---
+
+# Search Persistence
+
+Preserve:
+
+- Search query
+- Active filters
+- Sorting
+- Scroll position
+- Selected scope
+
+Users should not lose search context.
+
+---
+
+# Search Analytics
+
+Measure:
+
+- Query success
+- Zero-result searches
+- Refinement rate
+- Result selection rate
+- Average search time
+- Search abandonment
+
+Analytics should improve future search quality.
+
+---
+
+# AI Search Evaluation Engine
+
+Before approving a search workflow, answer:
+
+- Are results relevant?
+- Is loading communicated?
+- Can users recover from failed searches?
+- Are queries preserved?
+- Is accessibility supported?
+- Does this reuse existing components?
+
+If any answer is negative, redesign the workflow.
+
+---
+
+# Validation Checklist
+
+□ Loading results documented
+
+□ Search results documented
+
+□ Empty results documented
+
+□ Error state documented
+
+□ No match guidance documented
+
+□ Query correction documented
+
+□ Search highlighting documented
+
+□ Result grouping documented
+
+□ Pagination documented
+
+□ Infinite scrolling documented
+
+□ Search persistence documented
+
+□ Search analytics documented
