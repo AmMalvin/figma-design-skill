@@ -535,3 +535,330 @@ If any answer is negative, choose a more appropriate authentication workflow.
 □ Variant strategy documented
 
 □ Responsive behavior documented
+
+---
+
+# Recovery & Verification Workflows
+
+## Philosophy
+
+Recovery workflows should restore account access without weakening security.
+
+Users should always understand:
+
+- Why verification is required
+- What recovery options are available
+- What happens next
+- How long recovery remains valid
+
+Recovery should protect legitimate users.
+
+---
+
+# Password Reset
+
+## Purpose
+
+Allow users to securely create a new password.
+
+Typical flow:
+
+- Select Forgot Password
+- Enter verified email or username
+- Receive recovery link or code
+- Verify identity
+- Create new password
+- Sign in
+
+Never reveal whether an account exists.
+
+---
+
+# Account Recovery
+
+## Purpose
+
+Restore account access when normal authentication fails.
+
+Examples:
+
+- Lost password
+- Lost device
+- Lost passkey
+- Lost authenticator application
+
+Recovery should verify identity before restoring access.
+
+---
+
+# Email Verification
+
+## Purpose
+
+Verify ownership of an email address.
+
+Typical flow:
+
+- Register account
+- Send verification email
+- Select verification link
+- Confirm ownership
+- Activate account
+
+Verification links should expire.
+
+---
+
+# Phone Verification
+
+## Purpose
+
+Verify ownership of a phone number.
+
+Examples:
+
+- SMS code
+- Voice verification
+
+Phone verification should support secure recovery.
+
+---
+
+# Account Lockout
+
+## Purpose
+
+Protect accounts from repeated failed authentication.
+
+Requirements:
+
+- Temporary lock
+- Clear explanation
+- Recovery guidance
+
+Users should understand how access is restored.
+
+---
+
+# Rate Limiting
+
+Authentication endpoints should prevent abuse.
+
+Examples:
+
+- Login attempts
+- Password reset requests
+- Verification requests
+
+Protection should reduce automated attacks.
+
+---
+
+# Session Expiration
+
+Sessions should expire according to product security requirements.
+
+Examples:
+
+- Inactivity timeout
+- Maximum session duration
+- Forced reauthentication
+
+Users should receive appropriate notice when possible.
+
+---
+
+# Device Management
+
+Allow users to review trusted devices.
+
+Typical capabilities:
+
+- Current device
+- Previous devices
+- Active sessions
+- Remove device
+- Rename device
+
+Users should remain in control of account access.
+
+---
+
+# Trusted Devices
+
+Trusted devices reduce unnecessary authentication prompts.
+
+Requirements:
+
+- Explicit user consent
+- Secure storage
+- Easy removal
+
+Never trust devices automatically.
+
+---
+
+# Authentication Errors
+
+Authentication errors should explain:
+
+- What happened
+- What users should do next
+
+Avoid exposing sensitive security information.
+
+Examples:
+
+- Incorrect credentials
+- Expired verification
+- Invalid recovery code
+- Session expired
+
+Messages should remain understandable.
+
+---
+
+# Security Notifications
+
+Notify users of important security events.
+
+Examples:
+
+- Password changed
+- New device
+- New location
+- Recovery completed
+- Multi-factor authentication updated
+
+Notifications should build trust.
+
+---
+
+# Recovery Selection Guide
+
+Use:
+
+Password Reset
+
+For forgotten passwords.
+
+Account Recovery
+
+When users lose authentication methods.
+
+Email Verification
+
+For new accounts.
+
+Phone Verification
+
+When phone ownership is required.
+
+Account Lockout
+
+To reduce repeated failed authentication attempts.
+
+Trusted Devices
+
+To reduce repeated verification on known devices.
+
+---
+
+# Recovery Variants
+
+Represent recovery workflows as reusable patterns.
+
+Recommended properties:
+
+Recovery Type
+
+- Password
+- Email
+- Phone
+- Passkey
+- Device
+- Multi-Factor
+
+State
+
+- Default
+- Verification
+- Loading
+- Success
+- Error
+- Expired
+- Locked
+
+Platform
+
+- Web
+- Mobile
+- Desktop
+
+Avoid duplicate recovery workflows.
+
+---
+
+# Responsive Behavior
+
+Desktop
+
+- Expanded forms
+- Device management dashboard
+
+Tablet
+
+- Adaptive layouts
+- Touch-friendly verification
+
+Mobile
+
+- One-time code autofill
+- Passkey support
+- Biometric recovery
+- Simplified verification
+
+Recovery should remain consistent across platforms.
+
+---
+
+# AI Authentication Recovery Engine
+
+Before approving a recovery workflow, answer:
+
+- Is identity verified?
+- Is account enumeration prevented?
+- Is recovery understandable?
+- Is accessibility supported?
+- Does this reuse existing components?
+- Can developers implement this consistently?
+
+If any answer is negative, redesign the workflow.
+
+---
+
+# Validation Checklist
+
+□ Password reset documented
+
+□ Account recovery documented
+
+□ Email verification documented
+
+□ Phone verification documented
+
+□ Account lockout documented
+
+□ Rate limiting documented
+
+□ Session expiration documented
+
+□ Device management documented
+
+□ Trusted devices documented
+
+□ Authentication errors documented
+
+□ Security notifications documented
+
+□ Responsive behavior documented
