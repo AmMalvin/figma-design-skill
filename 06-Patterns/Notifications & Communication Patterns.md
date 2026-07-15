@@ -542,3 +542,363 @@ If any answer is negative, redesign the workflow.
 □ Reminders documented
 
 □ Responsive behavior documented
+
+
+---
+
+# Notification Management
+
+## Philosophy
+
+Users should control how, when, and where they receive communication.
+
+Users should always understand:
+
+- Which notifications are new
+- Which notifications require action
+- Which notifications can wait
+- How to change notification preferences
+
+Notification management should reduce interruption.
+
+---
+
+# Notification Inbox
+
+## Purpose
+
+Provide a persistent list of all user notifications.
+
+Requirements:
+
+- Chronological order
+- Read and unread states
+- Search when appropriate
+- Filtering
+- Bulk actions
+
+The inbox should become the single source of notification history.
+
+---
+
+# Activity Feed
+
+## Purpose
+
+Display a chronological history of important events.
+
+Examples:
+
+- Comments
+- Mentions
+- File updates
+- Team activity
+- System events
+
+Activity feeds support awareness rather than urgency.
+
+---
+
+# Communication Preferences
+
+## Purpose
+
+Allow users to control communication channels.
+
+Examples:
+
+- Email
+- Push
+- SMS
+- Browser
+- In-app
+
+Users should manage preferences independently for each channel.
+
+---
+
+# Notification Grouping
+
+## Purpose
+
+Reduce notification clutter.
+
+Requirements:
+
+- Group similar events
+- Collapse repeated updates
+- Expand when requested
+- Preserve important notifications
+
+Grouping should reduce notification fatigue.
+
+---
+
+# Notification Priority
+
+## Purpose
+
+Determine the urgency of communication.
+
+Priority levels may include:
+
+- Critical
+- High
+- Normal
+- Low
+
+Priority should influence delivery, not message content.
+
+---
+
+# Quiet Hours
+
+## Purpose
+
+Allow users to suppress non-critical notifications during selected periods.
+
+Requirements:
+
+- User-defined schedule
+- Exceptions for critical notifications
+- Easy editing
+- Clear status indication
+
+Quiet hours should respect user focus.
+
+---
+
+# Scheduled Notifications
+
+## Purpose
+
+Deliver notifications at an appropriate time.
+
+Examples:
+
+- Daily summary
+- Weekly reminder
+- Scheduled report
+- Calendar reminder
+
+Scheduling should improve relevance.
+
+---
+
+# Digest Notifications
+
+## Purpose
+
+Combine multiple updates into a single message.
+
+Examples:
+
+- Daily digest
+- Weekly digest
+- Team summary
+- Project summary
+
+Digests should reduce notification volume.
+
+---
+
+# Read and Unread States
+
+## Purpose
+
+Help users identify unseen communication.
+
+Requirements:
+
+- Clear visual distinction
+- Automatic updates
+- Manual marking
+- Bulk actions
+
+Read status should remain synchronized across supported devices.
+
+---
+
+# Snooze Notifications
+
+## Purpose
+
+Allow users to postpone attention.
+
+Requirements:
+
+- Multiple snooze durations
+- Resume automatically
+- Easy cancellation
+- Visible snooze status
+
+Snoozing should defer attention, not remove the notification.
+
+---
+
+# Archive Notifications
+
+## Purpose
+
+Allow users to remove notifications from the active list while preserving history.
+
+Requirements:
+
+- Restore option
+- Searchable archive
+- Bulk archive
+- Permanent deletion only when appropriate
+
+Archive should support long-term organization.
+
+---
+
+# Notification Management Selection Guide
+
+Use:
+
+Notification Inbox
+
+For complete notification history.
+
+Activity Feed
+
+For chronological events.
+
+Communication Preferences
+
+For channel management.
+
+Notification Grouping
+
+For reducing clutter.
+
+Notification Priority
+
+For urgency management.
+
+Quiet Hours
+
+For minimizing interruptions.
+
+Scheduled Notifications
+
+For planned delivery.
+
+Digest Notifications
+
+For batching updates.
+
+Read and Unread States
+
+For tracking attention.
+
+Snooze Notifications
+
+For temporary postponement.
+
+Archive Notifications
+
+For long-term organization.
+
+---
+
+# Workflow Variants
+
+Represent notification management as reusable patterns.
+
+Recommended properties:
+
+Workflow
+
+- Inbox
+- Feed
+- Preference
+- Digest
+- Schedule
+- Snooze
+- Archive
+
+State
+
+- Unread
+- Read
+- Archived
+- Snoozed
+- Scheduled
+- Delivered
+
+Platform
+
+- Web
+- Mobile
+- Desktop
+
+Avoid duplicate notification management workflows.
+
+---
+
+# Responsive Behavior
+
+Desktop
+
+- Persistent notification panel
+- Multi-column inbox
+- Advanced filtering
+
+Tablet
+
+- Adaptive layouts
+- Collapsible filters
+
+Mobile
+
+- Bottom sheet inbox
+- Swipe actions
+- Compact notification cards
+- Touch-friendly controls
+
+Notification management should remain consistent across platforms.
+
+---
+
+# AI Notification Optimization Engine
+
+Before selecting a notification management pattern, answer:
+
+- Does this reduce notification fatigue?
+- Can users control communication?
+- Is accessibility supported?
+- Does this reuse existing components?
+- Is urgency communicated clearly?
+- Can this scale across products?
+
+If any answer is negative, redesign the workflow.
+
+---
+
+# Validation Checklist
+
+□ Notification inbox documented
+
+□ Activity feed documented
+
+□ Communication preferences documented
+
+□ Notification grouping documented
+
+□ Notification priority documented
+
+□ Quiet hours documented
+
+□ Scheduled notifications documented
+
+□ Digest notifications documented
+
+□ Read and unread states documented
+
+□ Snooze notifications documented
+
+□ Archive notifications documented
+
+□ Responsive behavior documented
