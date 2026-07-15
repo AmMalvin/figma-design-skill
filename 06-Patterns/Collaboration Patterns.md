@@ -897,3 +897,288 @@ If any answer is negative, redesign the workflow.
 □ Offline collaboration documented
 
 □ Responsive behavior documented
+
+
+---
+
+# Accessibility Across Collaboration
+
+## Purpose
+
+Every collaboration workflow should be accessible.
+
+Users should collaborate regardless of:
+
+- Device
+- Input method
+- Ability
+- Platform
+
+Accessibility should exist throughout every collaborative experience.
+
+---
+
+# Keyboard Navigation
+
+Collaboration should fully support keyboard interaction.
+
+Requirements:
+
+- Logical tab order
+- Visible focus
+- Keyboard shortcuts where appropriate
+- Enter submits actions when appropriate
+- Escape closes temporary interfaces
+
+Users should never require a mouse.
+
+---
+
+# Focus Management
+
+Focus should:
+
+- Move logically
+- Remain visible
+- Enter dialogs automatically
+- Return after dialogs close
+- Never become trapped unintentionally
+
+Focus should always indicate the current task.
+
+---
+
+# Screen Reader Support
+
+Collaboration should expose:
+
+- Comment authors
+- Timestamps
+- Assignment status
+- Review status
+- Approval status
+- Notification updates
+- Presence information
+- Activity summaries
+
+Users should understand collaborative activity without visual cues.
+
+---
+
+# Responsive Collaboration
+
+Desktop
+
+- Persistent activity panels
+- Multi-column discussions
+- Rich review interfaces
+
+Tablet
+
+- Expandable collaboration panels
+- Adaptive layouts
+- Touch-friendly controls
+
+Mobile
+
+- Bottom sheet discussions
+- Compact activity feeds
+- Simplified review workflows
+- Optimized notifications
+
+Workflow behavior should remain consistent across devices.
+
+---
+
+# Performance
+
+Collaboration should:
+
+- Update efficiently
+- Synchronize quickly
+- Preserve user work
+- Minimize unnecessary refreshes
+- Handle concurrent activity smoothly
+
+Performance should support uninterrupted teamwork.
+
+---
+
+# Design Token Integration
+
+Collaboration should reference design tokens.
+
+Examples:
+
+collaboration.spacing
+
+collaboration.radius
+
+collaboration.focus.ring
+
+collaboration.motion.duration
+
+collaboration.success.color
+
+collaboration.warning.color
+
+collaboration.error.color
+
+collaboration.presence.color
+
+Avoid hardcoded values.
+
+---
+
+# Documentation Standards
+
+Every collaboration workflow should document:
+
+- Purpose
+- User goal
+- Participants
+- Workflow
+- States
+- Notifications
+- Permissions
+- Accessibility
+- Responsive behavior
+- Components used
+- Usage guidelines
+- Do
+- Don't
+- Examples
+
+Documentation should eliminate implementation ambiguity.
+
+---
+
+# Testing Strategy
+
+Every collaboration workflow should be tested for:
+
+- Accessibility
+- Keyboard navigation
+- Screen reader compatibility
+- Shared editing
+- Notification delivery
+- Permission handling
+- Conflict resolution
+- Responsive layouts
+- Performance
+
+Testing should validate the complete collaboration experience.
+
+---
+
+# Quality Assurance
+
+Review every workflow for:
+
+- Collaboration clarity
+- Accessibility
+- Workflow consistency
+- Component reuse
+- Responsive behavior
+- Documentation
+- Performance
+
+Only approved workflows belong in the design system.
+
+---
+
+# Versioning
+
+Track changes for:
+
+- Workflow improvements
+- Accessibility improvements
+- Notification updates
+- Permission updates
+- Bug fixes
+- Breaking changes
+
+Maintain complete version history.
+
+---
+
+# Governance
+
+Collaboration updates should include:
+
+- UX review
+- Accessibility review
+- Product review
+- Engineering review
+- QA approval
+- Documentation update
+
+Governance protects long-term consistency.
+
+---
+
+# AI Collaboration Review Engine
+
+Before publishing any workflow, answer:
+
+- Is collaboration transparent?
+- Is accessibility complete?
+- Are permissions understandable?
+- Are notifications relevant?
+- Are design tokens used?
+- Has testing been completed?
+- Does this reuse existing components?
+- Can this scale across products?
+
+If any answer is negative, revise the workflow.
+
+---
+
+# Collaboration Checklist
+
+Before publishing:
+
+□ Collaboration workflows documented
+
+□ Collaboration management documented
+
+□ Accessibility completed
+
+□ Keyboard navigation verified
+
+□ Screen reader support completed
+
+□ Notification behavior verified
+
+□ Responsive behavior validated
+
+□ Design tokens integrated
+
+□ Testing completed
+
+□ QA approved
+
+□ Version history updated
+
+□ Documentation completed
+
+---
+
+# Key Takeaways
+
+Collaboration should help people work together without creating confusion.
+
+The AI must:
+
+- Make shared work visible.
+- Preserve user work.
+- Support keyboard navigation.
+- Support screen readers.
+- Use design tokens.
+- Handle permissions clearly.
+- Test complete workflows.
+- Document every workflow.
+- Reuse existing components.
+- Scale across products.
+
+Every collaboration pattern should improve teamwork, accessibility, consistency, transparency, and long-term maintainability.
