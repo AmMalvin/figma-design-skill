@@ -912,3 +912,412 @@ If any answer is negative, redesign the workflow.
 □ Security notifications documented
 
 □ Responsive behavior documented
+
+---
+
+# Account Management
+
+## Philosophy
+
+Account management should give users control over their identity, preferences, and privacy.
+
+Users should always understand:
+
+- What information is stored
+- What information is shared
+- What security settings are active
+- How to manage their account
+
+Account ownership should remain transparent.
+
+---
+
+# Profile Management
+
+## Purpose
+
+Allow users to manage personal information.
+
+Examples:
+
+- Name
+- Avatar
+- Email
+- Phone number
+- Address
+- Organization
+- Job title
+
+Only collect information required by the product.
+
+---
+
+# Account Preferences
+
+## Purpose
+
+Allow users to customize their experience.
+
+Examples:
+
+- Language
+- Time zone
+- Theme
+- Date format
+- Notification preferences
+- Accessibility preferences
+
+Preferences should synchronize across supported devices.
+
+---
+
+# Privacy Controls
+
+## Purpose
+
+Allow users to control personal information.
+
+Examples:
+
+- Profile visibility
+- Activity visibility
+- Search visibility
+- Data sharing
+- Marketing preferences
+
+Privacy settings should use clear language.
+
+---
+
+# Consent Management
+
+## Purpose
+
+Collect and manage user consent.
+
+Examples:
+
+- Marketing consent
+- Analytics consent
+- Cookie preferences
+- Data processing consent
+
+Users should be able to withdraw consent when appropriate.
+
+---
+
+# Connected Accounts
+
+## Purpose
+
+Manage linked authentication providers.
+
+Examples:
+
+- Google
+- Apple
+- Microsoft
+- GitHub
+- Enterprise identity provider
+
+Users should be able to connect and disconnect providers safely.
+
+---
+
+# Account Deletion
+
+## Purpose
+
+Allow users to permanently remove their account.
+
+Requirements:
+
+- Identity verification
+- Clear consequences
+- Confirmation
+- Recovery period when supported
+
+Deletion should never happen accidentally.
+
+---
+
+# Accessibility Across Authentication
+
+## Purpose
+
+Authentication should remain accessible.
+
+Support:
+
+- Keyboard navigation
+- Screen readers
+- High contrast
+- Zoom
+- Reduced motion
+- Voice input
+
+Accessibility should exist throughout every authentication workflow.
+
+---
+
+# Keyboard Navigation
+
+Authentication should support:
+
+- Logical tab order
+- Visible focus
+- Keyboard shortcuts when appropriate
+- Enter to submit
+- Escape to dismiss temporary interfaces
+
+Authentication should not require a mouse.
+
+---
+
+# Focus Management
+
+Focus should:
+
+- Move logically
+- Enter dialogs automatically
+- Return after dialogs close
+- Remain visible
+- Never become trapped
+
+Focus should always indicate the active task.
+
+---
+
+# Screen Reader Support
+
+Authentication should expose:
+
+- Labels
+- Required fields
+- Validation errors
+- Password requirements
+- Authentication status
+- Recovery guidance
+- Security notifications
+
+Users should understand authentication without relying on visual cues.
+
+---
+
+# Responsive Authentication
+
+Desktop
+
+- Full account settings
+- Multi-panel layouts
+- Security dashboard
+
+Tablet
+
+- Adaptive layouts
+- Touch-friendly controls
+
+Mobile
+
+- Single-column workflows
+- Biometric authentication
+- Simplified recovery
+- Device-first interactions
+
+Behavior should remain consistent across platforms.
+
+---
+
+# Performance
+
+Authentication should:
+
+- Respond quickly
+- Minimize unnecessary requests
+- Preserve entered information
+- Recover gracefully from failures
+- Synchronize account updates efficiently
+
+Performance should reduce user friction.
+
+---
+
+# Design Token Integration
+
+Authentication should reference design tokens.
+
+Examples:
+
+authentication.spacing
+
+authentication.radius
+
+authentication.focus.ring
+
+authentication.motion.duration
+
+authentication.success.color
+
+authentication.warning.color
+
+authentication.error.color
+
+Avoid hardcoded values.
+
+---
+
+# Documentation Standards
+
+Every authentication workflow should document:
+
+- Purpose
+- User goal
+- Security requirements
+- Workflow
+- States
+- Recovery options
+- Accessibility
+- Responsive behavior
+- Components used
+- Usage guidelines
+- Do
+- Don't
+- Examples
+
+Documentation should remove implementation ambiguity.
+
+---
+
+# Testing Strategy
+
+Every authentication workflow should be tested for:
+
+- Accessibility
+- Keyboard navigation
+- Screen reader compatibility
+- Registration
+- Sign in
+- Recovery
+- MFA
+- Session handling
+- Responsive layouts
+- Performance
+
+Testing should validate the complete authentication experience.
+
+---
+
+# Quality Assurance
+
+Review every workflow for:
+
+- Security
+- Accessibility
+- Workflow consistency
+- Component reuse
+- Responsive behavior
+- Documentation
+- Performance
+
+Only approved authentication workflows belong in the design system.
+
+---
+
+# Versioning
+
+Track changes for:
+
+- Security improvements
+- Authentication updates
+- Accessibility improvements
+- Privacy updates
+- Bug fixes
+- Breaking changes
+
+Maintain complete version history.
+
+---
+
+# Governance
+
+Authentication updates should include:
+
+- UX review
+- Accessibility review
+- Security review
+- Product review
+- Engineering review
+- QA approval
+- Documentation update
+
+Governance protects long-term consistency.
+
+---
+
+# AI Authentication Review Engine
+
+Before publishing any authentication workflow, answer:
+
+- Is user identity protected?
+- Is authentication friction minimized?
+- Are recovery options available?
+- Is accessibility complete?
+- Are design tokens used?
+- Has testing been completed?
+- Does this reuse existing components?
+- Can this scale across products?
+
+If any answer is negative, revise the workflow.
+
+---
+
+# Authentication Checklist
+
+Before publishing:
+
+□ Authentication workflows documented
+
+□ Authentication security documented
+
+□ Account management documented
+
+□ Accessibility completed
+
+□ Keyboard navigation verified
+
+□ Screen reader support completed
+
+□ Recovery workflows validated
+
+□ Responsive behavior validated
+
+□ Design tokens integrated
+
+□ Testing completed
+
+□ QA approved
+
+□ Version history updated
+
+□ Documentation completed
+
+---
+
+# Key Takeaways
+
+Authentication should protect users while keeping access simple.
+
+The AI must:
+
+- Protect user identity.
+- Reduce authentication friction.
+- Support secure recovery.
+- Support keyboard navigation.
+- Support screen readers.
+- Use design tokens.
+- Test complete authentication workflows.
+- Document every workflow.
+- Reuse existing components.
+- Scale across products.
+
+Every authentication pattern should improve security, accessibility, consistency, privacy, and long-term maintainability.
