@@ -552,3 +552,363 @@ If any answer is negative, redesign the workflow.
 □ Enterprise SSO documented
 
 □ Responsive behavior documented
+
+---
+
+# Authentication Security
+
+## Philosophy
+
+Security should protect users without interrupting normal work.
+
+Users should always understand:
+
+- Why additional verification is required
+- What action is expected
+- Whether their account remains secure
+- How to recover access
+
+Security should increase trust.
+
+---
+
+# Multi-Factor Authentication
+
+## Purpose
+
+Require additional verification beyond the primary authentication method.
+
+Common factors:
+
+- Authenticator application
+- Passkey
+- Security key
+- SMS verification
+- Email verification
+
+Prefer phishing-resistant authentication when supported.
+
+---
+
+# One-Time Passwords
+
+## Purpose
+
+Verify user identity using temporary codes.
+
+Requirements:
+
+- Limited validity
+- Single use
+- Resend option
+- Expiration countdown
+- Secure verification
+
+Never reuse OTP codes.
+
+---
+
+# Biometric Authentication
+
+## Purpose
+
+Authenticate using trusted device capabilities.
+
+Examples:
+
+- Fingerprint
+- Face recognition
+- Device PIN when biometrics are unavailable
+
+Biometrics should verify identity without exposing biometric data.
+
+---
+
+# Session Management
+
+## Purpose
+
+Manage authenticated user sessions securely.
+
+Requirements:
+
+- Session timeout
+- Session renewal
+- Secure sign out
+- Session expiration notification
+
+Users should understand when sessions expire.
+
+---
+
+# Device Management
+
+## Purpose
+
+Allow users to manage trusted devices.
+
+Users should be able to:
+
+- View registered devices
+- Rename devices
+- Remove devices
+- Review recent activity
+
+Device history improves account visibility.
+
+---
+
+# Trusted Devices
+
+## Purpose
+
+Reduce repeated authentication on verified devices.
+
+Requirements:
+
+- User consent
+- Revocable trust
+- Expiration period
+- Device identification
+
+Trusted devices should never bypass high-risk verification.
+
+---
+
+# Account Lockout
+
+## Purpose
+
+Protect accounts from repeated authentication failures.
+
+Requirements:
+
+- Temporary lockout
+- Clear explanation
+- Recovery options
+- Unlock after verification
+
+Avoid permanent lockouts.
+
+---
+
+# Suspicious Activity Detection
+
+## Purpose
+
+Identify potentially risky authentication events.
+
+Examples:
+
+- New device
+- New location
+- Unusual sign-in time
+- Multiple failed attempts
+- Impossible travel
+
+Request additional verification when risk increases.
+
+---
+
+# Account Recovery
+
+## Purpose
+
+Restore access when authentication fails.
+
+Recovery options may include:
+
+- Verified email
+- Verified phone
+- Recovery codes
+- Trusted devices
+- Identity verification
+
+Recovery should remain secure and understandable.
+
+---
+
+# Reauthentication
+
+## Purpose
+
+Verify identity before sensitive actions.
+
+Examples:
+
+- Password change
+- Email change
+- Payment confirmation
+- Permission changes
+- Account deletion
+
+Use reauthentication for high-risk actions.
+
+---
+
+# Security Notifications
+
+## Purpose
+
+Keep users informed about important security events.
+
+Examples:
+
+- New sign in
+- Password changed
+- MFA enabled
+- Device added
+- Recovery completed
+
+Notifications should explain what happened and what to do if the activity was unexpected.
+
+---
+
+# Authentication Security Selection Guide
+
+Use:
+
+Multi-Factor Authentication
+
+For stronger authentication.
+
+One-Time Passwords
+
+For temporary verification.
+
+Biometric Authentication
+
+For device-based authentication.
+
+Session Management
+
+For active sessions.
+
+Device Management
+
+For trusted device control.
+
+Trusted Devices
+
+For reducing repeated verification.
+
+Account Lockout
+
+For repeated authentication failures.
+
+Suspicious Activity Detection
+
+For risk-based protection.
+
+Account Recovery
+
+For restoring access.
+
+Reauthentication
+
+For sensitive actions.
+
+Security Notifications
+
+For account awareness.
+
+---
+
+# Workflow Variants
+
+Represent authentication security as reusable patterns.
+
+Recommended properties:
+
+Workflow
+
+- MFA
+- OTP
+- Biometric
+- Session
+- Recovery
+- Reauthentication
+- Device
+
+State
+
+- Default
+- Pending
+- Verified
+- Expired
+- Locked
+- Failed
+
+Platform
+
+- Web
+- Mobile
+- Desktop
+
+Avoid duplicate authentication security workflows.
+
+---
+
+# Responsive Behavior
+
+Desktop
+
+- Full security dashboard
+- Device management
+- Session history
+
+Tablet
+
+- Adaptive layouts
+- Touch-friendly controls
+
+Mobile
+
+- Biometric authentication
+- Compact security settings
+- Device-first verification
+
+Security behavior should remain consistent across platforms.
+
+---
+
+# AI Authentication Security Engine
+
+Before selecting a security workflow, answer:
+
+- Is user identity protected?
+- Is additional verification justified?
+- Are recovery options available?
+- Is accessibility supported?
+- Does this reuse existing components?
+- Can this scale across products?
+
+If any answer is negative, redesign the workflow.
+
+---
+
+# Validation Checklist
+
+□ Multi-factor authentication documented
+
+□ One-time passwords documented
+
+□ Biometric authentication documented
+
+□ Session management documented
+
+□ Device management documented
+
+□ Trusted devices documented
+
+□ Account lockout documented
+
+□ Suspicious activity detection documented
+
+□ Account recovery documented
+
+□ Reauthentication documented
+
+□ Security notifications documented
+
+□ Responsive behavior documented
