@@ -540,3 +540,365 @@ If any answer is negative, redesign the workflow.
 □ Search scopes documented
 
 □ Responsive behavior documented
+
+
+---
+
+# Search Results & Refinement
+
+## Philosophy
+
+Search results should help users evaluate and refine information quickly.
+
+Users should always understand:
+
+- What was searched
+- How many results were found
+- Why results appear
+- How to refine results
+
+Results should reduce decision effort.
+
+---
+
+# Search Results
+
+## Purpose
+
+Display matching information clearly.
+
+Requirements:
+
+- Preserve search query
+- Display result count
+- Prioritize relevance
+- Support refinement
+- Highlight matching terms when appropriate
+
+Results should remain easy to scan.
+
+---
+
+# Result Ranking
+
+## Purpose
+
+Present the most useful results first.
+
+Ranking factors may include:
+
+- Relevance
+- Popularity
+- Recency
+- User preferences
+- Permissions
+
+Ranking should remain predictable.
+
+---
+
+# Filters
+
+## Purpose
+
+Help users narrow results.
+
+Examples:
+
+- Category
+- Status
+- Owner
+- Date
+- Price
+- File type
+
+Only provide meaningful filters.
+
+---
+
+# Faceted Navigation
+
+## Purpose
+
+Allow users to refine results using multiple attributes.
+
+Requirements:
+
+- Multiple selections
+- Visible active filters
+- Easy removal
+- Logical grouping
+
+Facets should simplify large result sets.
+
+---
+
+# Sorting
+
+## Purpose
+
+Allow users to change result order.
+
+Examples:
+
+- Relevance
+- Newest
+- Oldest
+- Alphabetical
+- Most popular
+
+Sorting should not change the applied filters.
+
+---
+
+# Pagination
+
+## Purpose
+
+Divide large result sets into manageable pages.
+
+Requirements:
+
+- Current page indicator
+- Next and previous controls
+- Direct page navigation when appropriate
+- Preserve filters and sorting
+
+Pagination should maintain context.
+
+---
+
+# Infinite Scrolling
+
+## Purpose
+
+Allow continuous browsing.
+
+Requirements:
+
+- Smooth loading
+- Loading indicator
+- Preserved scroll position
+- Accessible navigation
+
+Use only when continuous exploration benefits users.
+
+---
+
+# Zero Results
+
+## Purpose
+
+Help users recover when nothing matches.
+
+Requirements:
+
+- Explain that no matches were found
+- Preserve the query
+- Suggest refinements
+- Offer related searches
+- Clear filters easily
+
+Zero-result states should encourage recovery.
+
+---
+
+# No Connection
+
+## Purpose
+
+Handle network interruptions gracefully.
+
+Requirements:
+
+- Explain the issue
+- Retry action
+- Preserve search query
+- Preserve filters
+
+Users should not lose progress.
+
+---
+
+# Search History
+
+## Purpose
+
+Allow users to revisit previous searches.
+
+Requirements:
+
+- Chronological order
+- Easy removal
+- Clear history option
+- Privacy controls
+
+History should remain user-controlled.
+
+---
+
+# Recommendations
+
+## Purpose
+
+Support discovery beyond direct search.
+
+Examples:
+
+- Related content
+- Similar items
+- Recently viewed
+- Trending content
+- Personalized suggestions
+
+Recommendations should complement search results.
+
+---
+
+# Search Refinement Selection Guide
+
+Use:
+
+Search Results
+
+For presenting matches.
+
+Result Ranking
+
+For ordering results.
+
+Filters
+
+For narrowing results.
+
+Faceted Navigation
+
+For multi-dimensional refinement.
+
+Sorting
+
+For changing order.
+
+Pagination
+
+For bounded result sets.
+
+Infinite Scrolling
+
+For exploratory browsing.
+
+Zero Results
+
+For failed searches.
+
+No Connection
+
+For offline recovery.
+
+Search History
+
+For repeated queries.
+
+Recommendations
+
+For continued discovery.
+
+---
+
+# Workflow Variants
+
+Represent search refinement as reusable patterns.
+
+Recommended properties:
+
+Workflow
+
+- Results
+- Filter
+- Sort
+- Facet
+- Pagination
+- Recommendation
+
+State
+
+- Loading
+- Results
+- Empty
+- Error
+- Offline
+
+Platform
+
+- Web
+- Mobile
+- Desktop
+
+Avoid duplicate search refinement workflows.
+
+---
+
+# Responsive Behavior
+
+Desktop
+
+- Persistent filter sidebar
+- Multi-column results
+- Rich faceted navigation
+
+Tablet
+
+- Collapsible filters
+- Adaptive layouts
+
+Mobile
+
+- Bottom sheet filters
+- Sticky sort controls
+- Compact result cards
+- Full-screen refinement
+
+Search refinement should remain consistent across platforms.
+
+---
+
+# AI Search Optimization Engine
+
+Before selecting a search refinement pattern, answer:
+
+- Are the most relevant results shown first?
+- Can users refine results easily?
+- Is accessibility supported?
+- Does this reuse existing components?
+- Is recovery available for failed searches?
+- Can this scale across products?
+
+If any answer is negative, redesign the workflow.
+
+---
+
+# Validation Checklist
+
+□ Search results documented
+
+□ Result ranking documented
+
+□ Filters documented
+
+□ Faceted navigation documented
+
+□ Sorting documented
+
+□ Pagination documented
+
+□ Infinite scrolling documented
+
+□ Zero results documented
+
+□ No connection documented
+
+□ Search history documented
+
+□ Recommendations documented
+
+□ Responsive behavior documented
