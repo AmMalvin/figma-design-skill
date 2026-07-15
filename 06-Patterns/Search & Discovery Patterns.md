@@ -184,3 +184,359 @@ If any answer is negative, redesign the workflow.
 □ Accessibility reviewed
 
 □ Documentation updated
+
+---
+
+# Search Entry Workflows
+
+## Philosophy
+
+Every search workflow should reduce effort while improving findability.
+
+Users should always understand:
+
+- What can be searched
+- Where they are searching
+- How to refine results
+- What happens after submitting a query
+
+Search should feel immediate.
+
+---
+
+# Global Search
+
+## Purpose
+
+Allow users to search across the entire product.
+
+Requirements:
+
+- Always accessible
+- Consistent location
+- Broad search scope
+- Fast response
+- Preserve entered query
+
+Global search should search everything users expect.
+
+---
+
+# Local Search
+
+## Purpose
+
+Search within the current section.
+
+Examples:
+
+- Projects
+- Messages
+- Files
+- Customers
+- Reports
+
+Clearly communicate the current search scope.
+
+---
+
+# Search Bar
+
+## Purpose
+
+Provide a clear search entry point.
+
+Requirements:
+
+- Visible search field
+- Search icon
+- Accessible label
+- Clear placeholder
+- Clear button
+
+Search fields should remain easy to locate.
+
+---
+
+# Autocomplete
+
+## Purpose
+
+Reduce typing effort.
+
+Requirements:
+
+- Relevant suggestions
+- Keyboard navigation
+- Mouse selection
+- Highlight matching text
+- Maximum of 5 to 10 suggestions
+
+Only show high-quality suggestions.
+
+---
+
+# Search Suggestions
+
+## Purpose
+
+Help users form better queries.
+
+Examples:
+
+- Popular searches
+- Predicted queries
+- Categories
+- Related topics
+
+Suggestions should remain relevant.
+
+---
+
+# Recent Searches
+
+## Purpose
+
+Allow users to repeat previous searches.
+
+Requirements:
+
+- Most recent first
+- Easy removal
+- Privacy controls
+- Optional clearing
+
+Users should control search history.
+
+---
+
+# Saved Searches
+
+## Purpose
+
+Allow users to reuse complex searches.
+
+Requirements:
+
+- Custom name
+- Editable
+- Deletable
+- Shareable when appropriate
+
+Saved searches should reduce repetitive work.
+
+---
+
+# Voice Search
+
+## Purpose
+
+Allow spoken search input.
+
+Requirements:
+
+- Clear activation
+- Permission handling
+- Visible listening state
+- Editable transcript
+
+Voice search should always allow manual editing.
+
+---
+
+# Image Search
+
+## Purpose
+
+Allow users to search using images.
+
+Examples:
+
+- Product lookup
+- Visual similarity
+- Document recognition
+
+Provide clear upload guidance.
+
+---
+
+# Advanced Search
+
+## Purpose
+
+Support complex search requirements.
+
+Examples:
+
+- Multiple fields
+- Date ranges
+- Boolean logic
+- Metadata filters
+
+Advanced search should remain optional.
+
+---
+
+# Search Scopes
+
+## Purpose
+
+Allow users to limit where search applies.
+
+Examples:
+
+- Entire workspace
+- Current project
+- Files only
+- Messages only
+- Users only
+
+Scopes should always remain visible.
+
+---
+
+# Search Selection Guide
+
+Use:
+
+Global Search
+
+For searching the entire product.
+
+Local Search
+
+For searching the current section.
+
+Autocomplete
+
+For reducing typing.
+
+Search Suggestions
+
+For improving queries.
+
+Recent Searches
+
+For repeated searches.
+
+Saved Searches
+
+For recurring workflows.
+
+Voice Search
+
+For hands-free interaction.
+
+Image Search
+
+For visual lookup.
+
+Advanced Search
+
+For complex filtering.
+
+Search Scopes
+
+For narrowing results.
+
+---
+
+# Workflow Variants
+
+Represent search entry as reusable patterns.
+
+Recommended properties:
+
+Workflow
+
+- Global
+- Local
+- Suggestion
+- Autocomplete
+- Voice
+- Image
+- Advanced
+
+State
+
+- Idle
+- Typing
+- Loading
+- Results
+- Empty
+- Error
+
+Platform
+
+- Web
+- Mobile
+- Desktop
+
+Avoid duplicate search workflows.
+
+---
+
+# Responsive Behavior
+
+Desktop
+
+- Persistent search bar
+- Expanded suggestions
+- Advanced search panel
+
+Tablet
+
+- Adaptive layouts
+- Touch-friendly suggestions
+
+Mobile
+
+- Full-screen search
+- Bottom sheet filters
+- Compact autocomplete
+- Voice search when available
+
+Search behavior should remain consistent across platforms.
+
+---
+
+# AI Search Selection Engine
+
+Before selecting a search workflow, answer:
+
+- Does this reduce search effort?
+- Are suggestions relevant?
+- Is accessibility supported?
+- Does this reuse existing components?
+- Is the workflow predictable?
+- Can this scale across products?
+
+If any answer is negative, redesign the workflow.
+
+---
+
+# Validation Checklist
+
+□ Global search documented
+
+□ Local search documented
+
+□ Search bar documented
+
+□ Autocomplete documented
+
+□ Search suggestions documented
+
+□ Recent searches documented
+
+□ Saved searches documented
+
+□ Voice search documented
+
+□ Image search documented
+
+□ Advanced search documented
+
+□ Search scopes documented
+
+□ Responsive behavior documented
