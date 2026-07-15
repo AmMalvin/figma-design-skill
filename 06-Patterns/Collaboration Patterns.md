@@ -536,3 +536,364 @@ If any answer is negative, redesign the workflow.
 □ Activity feed documented
 
 □ Responsive behavior documented
+
+---
+
+# Collaboration Management
+
+## Philosophy
+
+Collaboration should remain transparent throughout every workflow.
+
+Users should always understand:
+
+- What changed
+- Who made the change
+- Who has access
+- What requires attention
+
+Every collaborative action should remain visible.
+
+---
+
+# Notifications
+
+## Purpose
+
+Keep collaborators informed.
+
+Notifications may communicate:
+
+- New comments
+- Mentions
+- Assignments
+- Reviews
+- Approvals
+- Status updates
+
+Only notify users when the information is relevant.
+
+---
+
+# Conflict Resolution
+
+## Purpose
+
+Resolve competing actions safely.
+
+Conflict resolution should:
+
+- Explain the conflict
+- Identify contributors
+- Present available options
+- Preserve user work
+
+Never discard changes automatically.
+
+---
+
+# Concurrent Editing
+
+## Purpose
+
+Support multiple users editing simultaneously.
+
+Requirements:
+
+- Real-time updates
+- Save indicators
+- User attribution
+- Conflict detection
+
+Concurrent editing should feel predictable.
+
+---
+
+# Permission Changes
+
+## Purpose
+
+Manage access safely.
+
+Permission updates should communicate:
+
+- Previous permission
+- New permission
+- Effective date
+- Person making the change
+
+Users should understand why access changed.
+
+---
+
+# Role Management
+
+## Purpose
+
+Assign responsibilities.
+
+Examples:
+
+- Owner
+- Administrator
+- Editor
+- Reviewer
+- Viewer
+- Guest
+
+Roles should communicate capabilities clearly.
+
+---
+
+# Sharing
+
+## Purpose
+
+Allow secure access to resources.
+
+Sharing options may include:
+
+- Individual users
+- Teams
+- Public access
+- Restricted access
+- Link sharing
+
+Sharing should follow product security rules.
+
+---
+
+# Invitations
+
+## Purpose
+
+Invite collaborators into a workspace.
+
+Invitations should include:
+
+- Resource name
+- Inviter
+- Assigned role
+- Expiration when applicable
+
+Pending invitations should remain visible.
+
+---
+
+# Guest Access
+
+## Purpose
+
+Provide temporary collaboration.
+
+Guest users should receive:
+
+- Limited permissions
+- Clear restrictions
+- Expiration when appropriate
+
+Guest access should minimize unnecessary risk.
+
+---
+
+# Audit History
+
+## Purpose
+
+Track collaboration activity.
+
+Events may include:
+
+- Comments
+- Reviews
+- Permission updates
+- Assignments
+- Status changes
+- Shared access
+
+Audit history improves accountability.
+
+---
+
+# Collaboration Analytics
+
+## Purpose
+
+Measure collaboration effectiveness.
+
+Examples:
+
+- Review completion time
+- Response time
+- Collaboration frequency
+- Active contributors
+- Resolution time
+
+Measure outcomes rather than message volume.
+
+---
+
+# Offline Collaboration
+
+## Purpose
+
+Support collaboration during connectivity loss.
+
+Requirements:
+
+- Local changes
+- Synchronization queue
+- Conflict recovery
+- Save indicators
+
+Users should understand synchronization status.
+
+---
+
+# Collaboration Selection Guide
+
+Use:
+
+Notifications
+
+For awareness.
+
+Conflict Resolution
+
+For competing changes.
+
+Concurrent Editing
+
+For real-time collaboration.
+
+Permission Changes
+
+For access updates.
+
+Role Management
+
+For responsibility assignment.
+
+Sharing
+
+For resource access.
+
+Invitations
+
+For onboarding collaborators.
+
+Guest Access
+
+For temporary participation.
+
+Audit History
+
+For accountability.
+
+Collaboration Analytics
+
+For performance insights.
+
+Offline Collaboration
+
+For interrupted connectivity.
+
+---
+
+# Workflow Variants
+
+Represent collaboration management as reusable patterns.
+
+Recommended properties:
+
+Workflow
+
+- Notification
+- Permission
+- Sharing
+- Invitation
+- Conflict
+- Audit
+
+State
+
+- Pending
+- Active
+- Synced
+- Conflict
+- Expired
+- Completed
+
+Platform
+
+- Web
+- Mobile
+- Desktop
+
+Avoid duplicate collaboration workflows.
+
+---
+
+# Responsive Behavior
+
+Desktop
+
+- Persistent activity panels
+- Rich audit history
+- Advanced permission management
+
+Tablet
+
+- Expandable collaboration panels
+- Adaptive permission dialogs
+
+Mobile
+
+- Simplified notifications
+- Compact activity timeline
+- Bottom sheet sharing
+
+Workflow behavior should remain consistent across devices.
+
+---
+
+# AI Collaboration Evaluation Engine
+
+Before approving a workflow, answer:
+
+- Is collaboration transparent?
+- Are permissions understandable?
+- Are notifications relevant?
+- Is accessibility supported?
+- Does this reuse existing components?
+- Can this scale across products?
+
+If any answer is negative, redesign the workflow.
+
+---
+
+# Validation Checklist
+
+□ Notifications documented
+
+□ Conflict resolution documented
+
+□ Concurrent editing documented
+
+□ Permission changes documented
+
+□ Role management documented
+
+□ Sharing documented
+
+□ Invitations documented
+
+□ Guest access documented
+
+□ Audit history documented
+
+□ Collaboration analytics documented
+
+□ Offline collaboration documented
+
+□ Responsive behavior documented
