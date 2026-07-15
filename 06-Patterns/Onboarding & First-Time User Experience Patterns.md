@@ -563,6 +563,362 @@ If any answer is negative, redesign the workflow.
 
 □ Responsive behavior documented
 
+
+
+---
+
+# Continuous Onboarding
+
+## Philosophy
+
+Learning should continue after the first session.
+
+Users should always understand:
+
+- What feature is available
+- Why it matters
+- When to use it
+- What value it provides
+
+Education should happen when it is most useful.
+
+---
+
+# Feature Discovery
+
+## Purpose
+
+Introduce useful features when users are ready.
+
+Requirements:
+
+- Contextual timing
+- Clear benefit
+- Easy dismissal
+- One feature at a time
+
+Avoid introducing every feature at once.
+
+---
+
+# Contextual Education
+
+## Purpose
+
+Teach users while they complete real work.
+
+Requirements:
+
+- Relevant timing
+- Clear explanation
+- Immediate application
+- Minimal interruption
+
+Learning should happen through action.
+
+---
+
+# Tooltips
+
+## Purpose
+
+Explain individual interface elements.
+
+Requirements:
+
+- Short message
+- Positioned near the target
+- Easy dismissal
+- Non-blocking when possible
+
+Tooltips should explain, not teach entire workflows.
+
+---
+
+# Coach Marks
+
+## Purpose
+
+Highlight new or important features.
+
+Requirements:
+
+- Spotlight the target element
+- One message per coach mark
+- Skip or dismiss option
+- Do not repeat after dismissal unless appropriate
+
+Coach marks should focus attention without interrupting productivity.
+
+---
+
+# Hotspots
+
+## Purpose
+
+Draw attention to newly available features.
+
+Requirements:
+
+- Subtle visual indicator
+- Disappear after interaction
+- Avoid distracting animation
+- Clearly connected to the feature
+
+Hotspots should encourage discovery.
+
+---
+
+# Permission Requests
+
+## Purpose
+
+Request permissions when users understand their value.
+
+Examples:
+
+- Camera
+- Location
+- Notifications
+- Microphone
+- Contacts
+
+Explain why permission is needed before requesting it.
+
+---
+
+# Notification Opt-In
+
+## Purpose
+
+Allow users to enable notifications.
+
+Requirements:
+
+- Explain benefits
+- Request at the appropriate moment
+- Respect declined choices
+- Allow later activation
+
+Avoid requesting notification permission immediately after installation.
+
+---
+
+# Onboarding Checklist
+
+## Purpose
+
+Guide users through key setup tasks.
+
+Requirements:
+
+- Visible progress
+- Clear priorities
+- Completion indicators
+- Optional tasks identified
+
+Checklists should motivate progress.
+
+---
+
+# Milestones
+
+## Purpose
+
+Recognize meaningful progress.
+
+Examples:
+
+- First project
+- First customer
+- First payment
+- First published document
+
+Celebrate progress without interrupting work.
+
+---
+
+# Progress Tracking
+
+## Purpose
+
+Show onboarding completion.
+
+Requirements:
+
+- Current progress
+- Remaining steps
+- Completed tasks
+- Resume capability
+
+Progress should reduce uncertainty.
+
+---
+
+# Returning User Onboarding
+
+## Purpose
+
+Introduce changes after users return.
+
+Examples:
+
+- New features
+- Updated workflows
+- Interface changes
+
+Only introduce information that is new or relevant.
+
+---
+
+# Onboarding Selection Guide
+
+Use:
+
+Feature Discovery
+
+For introducing capabilities.
+
+Contextual Education
+
+For learning during tasks.
+
+Tooltips
+
+For explaining interface elements.
+
+Coach Marks
+
+For highlighting important features.
+
+Hotspots
+
+For attracting attention.
+
+Permission Requests
+
+For device access.
+
+Notification Opt-In
+
+For communication preferences.
+
+Onboarding Checklist
+
+For guided setup.
+
+Milestones
+
+For celebrating progress.
+
+Progress Tracking
+
+For onboarding visibility.
+
+Returning User Onboarding
+
+For feature updates.
+
+---
+
+# Workflow Variants
+
+Represent continuous onboarding as reusable patterns.
+
+Recommended properties:
+
+Workflow
+
+- Discovery
+- Education
+- Checklist
+- Milestone
+- Permission
+- Progress
+
+State
+
+- Hidden
+- Visible
+- Active
+- Completed
+- Dismissed
+
+Platform
+
+- Web
+- Mobile
+- Desktop
+
+Avoid duplicate onboarding workflows.
+
+---
+
+# Responsive Behavior
+
+Desktop
+
+- Persistent checklists
+- Rich contextual guidance
+- Side-panel education
+
+Tablet
+
+- Adaptive guidance panels
+- Touch-friendly interactions
+
+Mobile
+
+- Bottom sheets
+- Compact tooltips
+- Progressive guidance
+- Simplified checklists
+
+Behavior should remain consistent across platforms.
+
+---
+
+# AI Onboarding Optimization Engine
+
+Before selecting an onboarding pattern, answer:
+
+- Does this help users at the right moment?
+- Is unnecessary guidance removed?
+- Is accessibility supported?
+- Does this reuse existing components?
+- Will users understand the benefit?
+- Can this scale across products?
+
+If any answer is negative, redesign the workflow.
+
+---
+
+# Validation Checklist
+
+□ Feature discovery documented
+
+□ Contextual education documented
+
+□ Tooltips documented
+
+□ Coach marks documented
+
+□ Hotspots documented
+
+□ Permission requests documented
+
+□ Notification opt-in documented
+
+□ Onboarding checklist documented
+
+□ Milestones documented
+
+□ Progress tracking documented
+
+□ Returning user onboarding documented
+
+□ Responsive behavior documented
+
 ---
 
 # Accessibility Across Onboarding
