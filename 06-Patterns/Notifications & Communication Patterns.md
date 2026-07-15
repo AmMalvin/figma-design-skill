@@ -902,3 +902,283 @@ If any answer is negative, redesign the workflow.
 □ Archive notifications documented
 
 □ Responsive behavior documented
+
+
+---
+
+# Accessibility Across Communication
+
+## Purpose
+
+Every communication workflow should be accessible.
+
+Users should successfully receive and understand communication regardless of:
+
+- Device
+- Input method
+- Ability
+- Platform
+
+Accessibility should exist throughout every communication experience.
+
+---
+
+# Keyboard Navigation
+
+Communication workflows should fully support keyboard interaction.
+
+Requirements:
+
+- Logical tab order
+- Visible focus
+- Keyboard shortcuts when appropriate
+- Enter activates actions
+- Escape dismisses dismissible notifications
+
+Users should never require a mouse.
+
+---
+
+# Focus Management
+
+Focus should:
+
+- Move logically
+- Never jump unexpectedly
+- Remain visible
+- Return after dialogs close
+- Never become trapped unintentionally
+
+Notifications should not steal focus unless immediate action is required.
+
+---
+
+# Screen Reader Support
+
+Communication should expose:
+
+- Notification title
+- Notification content
+- Priority
+- Read status
+- Unread status
+- Actions
+- Delivery status
+- Error messages
+
+Status updates should be announced appropriately.
+
+---
+
+# Responsive Communication
+
+Desktop
+
+- Persistent notification center
+- Rich inbox layouts
+- Multi-column communication history
+
+Tablet
+
+- Adaptive layouts
+- Touch-friendly interactions
+
+Mobile
+
+- Native notifications
+- Bottom sheet inbox
+- Compact message cards
+- Swipe actions
+
+Behavior should remain consistent across devices.
+
+---
+
+# Performance
+
+Communication should:
+
+- Deliver messages promptly
+- Prevent duplicate notifications
+- Synchronize read status
+- Preserve notification history
+- Minimize unnecessary updates
+
+Performance should improve trust.
+
+---
+
+# Design Token Integration
+
+Communication should reference design tokens.
+
+Examples:
+
+communication.spacing
+
+communication.radius
+
+communication.focus.ring
+
+communication.motion.duration
+
+communication.success.color
+
+communication.warning.color
+
+communication.error.color
+
+Avoid hardcoded values.
+
+---
+
+# Documentation Standards
+
+Every communication workflow should document:
+
+- Purpose
+- User goal
+- Trigger
+- Channel
+- Workflow
+- States
+- Components used
+- Accessibility
+- Responsive behavior
+- Usage guidelines
+- Do
+- Don't
+- Examples
+
+Documentation should eliminate implementation ambiguity.
+
+---
+
+# Testing Strategy
+
+Every communication workflow should be tested for:
+
+- Accessibility
+- Keyboard navigation
+- Screen reader compatibility
+- Notification delivery
+- Notification preferences
+- Read and unread states
+- Grouping
+- Responsive layouts
+- Performance
+
+Test communication with real users whenever possible.
+
+---
+
+# Quality Assurance
+
+Review every communication workflow for:
+
+- Message relevance
+- Accessibility
+- Workflow consistency
+- Component reuse
+- Responsive behavior
+- Documentation
+- Performance
+
+Only approved communication workflows belong in the design system.
+
+---
+
+# Versioning
+
+Track changes for:
+
+- Communication improvements
+- Accessibility improvements
+- Performance improvements
+- Delivery improvements
+- Bug fixes
+- Breaking changes
+
+Maintain complete version history.
+
+---
+
+# Governance
+
+Communication updates should include:
+
+- UX review
+- Accessibility review
+- Product review
+- Engineering review
+- QA approval
+- Documentation update
+
+Governance protects long-term consistency.
+
+---
+
+# AI Communication Review Engine
+
+Before publishing any communication workflow, answer:
+
+- Is the communication valuable?
+- Is the correct channel selected?
+- Is accessibility complete?
+- Are design tokens used?
+- Has testing been completed?
+- Does this reuse existing components?
+- Can this scale across products?
+
+If any answer is negative, revise the workflow.
+
+---
+
+# Communication Checklist
+
+Before publishing:
+
+□ Notification channels documented
+
+□ Notification management documented
+
+□ Accessibility completed
+
+□ Keyboard navigation verified
+
+□ Screen reader support completed
+
+□ User preferences validated
+
+□ Responsive behavior validated
+
+□ Design tokens integrated
+
+□ Testing completed
+
+□ QA approved
+
+□ Version history updated
+
+□ Documentation completed
+
+---
+
+# Key Takeaways
+
+Communication should deliver the right message through the right channel at the right time.
+
+The AI must:
+
+- Respect user attention.
+- Prioritize relevance.
+- Reduce notification fatigue.
+- Support keyboard navigation.
+- Support screen readers.
+- Use design tokens.
+- Test complete communication workflows.
+- Document every workflow.
+- Reuse existing components.
+- Scale across products.
+
+Every communication pattern should improve clarity, accessibility, consistency, trust, and long-term maintainability.
