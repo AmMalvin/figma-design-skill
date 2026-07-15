@@ -919,3 +919,284 @@ If any answer is negative, redesign the workflow.
 □ Ownership transfer documented
 
 □ Responsive behavior documented
+
+---
+
+# Accessibility Across Data Management
+
+## Purpose
+
+Every data management workflow should be accessible.
+
+Users should manage information regardless of:
+
+- Device
+- Input method
+- Ability
+- Platform
+
+Accessibility should exist throughout every workflow.
+
+---
+
+# Keyboard Navigation
+
+Data management should fully support keyboard interaction.
+
+Requirements:
+
+- Logical tab order
+- Visible focus
+- Enter submits when appropriate
+- Escape cancels temporary interfaces
+- Keyboard shortcuts for productivity where appropriate
+
+Users should never require a mouse.
+
+---
+
+# Focus Management
+
+Focus should:
+
+- Move logically
+- Remain visible
+- Enter dialogs automatically
+- Return after dialogs close
+- Never become trapped unintentionally
+
+Focus should always indicate the current task.
+
+---
+
+# Screen Reader Support
+
+Data management should expose:
+
+- Form labels
+- Required fields
+- Validation errors
+- Save status
+- Synchronization status
+- Success messages
+- Recovery guidance
+
+Users should always understand what changed.
+
+---
+
+# Responsive Data Management
+
+Desktop
+
+- Large editing workspace
+- Multi-panel layouts
+- Bulk management
+
+Tablet
+
+- Adaptive forms
+- Expandable panels
+- Touch-friendly controls
+
+Mobile
+
+- Single-column editing
+- Progressive disclosure
+- Bottom sheets
+- Simplified bulk actions
+
+Workflow behavior should remain consistent across devices.
+
+---
+
+# Performance
+
+Data management should:
+
+- Save efficiently
+- Preserve user input
+- Minimize unnecessary loading
+- Avoid duplicate submissions
+- Synchronize efficiently
+
+Performance should support uninterrupted work.
+
+---
+
+# Design Token Integration
+
+Data management should reference design tokens.
+
+Examples:
+
+data.spacing
+
+data.radius
+
+data.focus.ring
+
+data.motion.duration
+
+data.success.color
+
+data.warning.color
+
+data.error.color
+
+Avoid hardcoded values.
+
+---
+
+# Documentation Standards
+
+Every workflow should document:
+
+- Purpose
+- User goal
+- Entry point
+- Workflow
+- States
+- Recovery options
+- Accessibility
+- Responsive behavior
+- Components used
+- Usage guidelines
+- Do
+- Don't
+- Examples
+
+Documentation should eliminate implementation ambiguity.
+
+---
+
+# Testing Strategy
+
+Every workflow should be tested for:
+
+- Accessibility
+- Keyboard navigation
+- Screen reader compatibility
+- Save behavior
+- Autosave behavior
+- Error recovery
+- Synchronization
+- Conflict resolution
+- Responsive layouts
+- Performance
+
+Testing should validate the complete workflow.
+
+---
+
+# Quality Assurance
+
+Review every workflow for:
+
+- Data integrity
+- Accessibility
+- Workflow consistency
+- Component reuse
+- Responsive behavior
+- Documentation
+- Performance
+
+Only approved workflows belong in the design system.
+
+---
+
+# Versioning
+
+Track changes for:
+
+- Workflow improvements
+- Accessibility improvements
+- Save behavior updates
+- Synchronization improvements
+- Bug fixes
+- Breaking changes
+
+Maintain complete version history.
+
+---
+
+# Governance
+
+Data management updates should include:
+
+- UX review
+- Accessibility review
+- Product review
+- Engineering review
+- QA approval
+- Documentation update
+
+Governance protects long-term consistency.
+
+---
+
+# AI Data Management Review Engine
+
+Before publishing any workflow, answer:
+
+- Is user data protected?
+- Is recovery available?
+- Is accessibility complete?
+- Is save behavior consistent?
+- Are design tokens used?
+- Has testing been completed?
+- Does this reuse existing components?
+- Can this scale across products?
+
+If any answer is negative, revise the workflow.
+
+---
+
+# Data Management Checklist
+
+Before publishing:
+
+□ CRUD workflows documented
+
+□ Data integrity documented
+
+□ Accessibility completed
+
+□ Keyboard navigation verified
+
+□ Screen reader support completed
+
+□ Recovery workflows verified
+
+□ Responsive behavior validated
+
+□ Design tokens integrated
+
+□ Testing completed
+
+□ QA approved
+
+□ Version history updated
+
+□ Documentation completed
+
+---
+
+# Key Takeaways
+
+Data management should protect user information while keeping workflows predictable.
+
+The AI must:
+
+- Preserve user work.
+- Prevent accidental data loss.
+- Support recovery.
+- Support keyboard navigation.
+- Support screen readers.
+- Use design tokens.
+- Test complete workflows.
+- Document every workflow.
+- Reuse existing components.
+- Scale across products.
+
+Every data management pattern should improve reliability, accessibility, consistency, and long-term maintainability.
