@@ -1,0 +1,252 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Design reference registry",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "source_name",
+      "product_studio",
+      "screen_flow",
+      "pattern_category",
+      "why_reference_matters",
+      "adaptation_to_current_system",
+      "evidence_limits",
+      "platform",
+      "qualities_to_study",
+      "interaction_principles",
+      "visual_principles",
+      "ux_principles",
+      "do_not_copy",
+      "categories",
+      "authority_class",
+      "status",
+      "reviewed_date",
+      "checked_date"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "source_name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "product_studio": {
+        "type": "string",
+        "minLength": 1
+      },
+      "screen_flow": {
+        "type": "string",
+        "minLength": 1
+      },
+      "pattern_category": {
+        "type": "string",
+        "minLength": 1
+      },
+      "why_reference_matters": {
+        "type": "string",
+        "minLength": 1
+      },
+      "adaptation_to_current_system": {
+        "type": "string",
+        "minLength": 1
+      },
+      "evidence_limits": {
+        "type": "string",
+        "minLength": 1
+      },
+      "url": {
+        "type": "string"
+      },
+      "local_source": {
+        "type": "string"
+      },
+      "question": {
+        "type": "string"
+      },
+      "platform": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "qualities_to_study": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "interaction_principles": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "visual_principles": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "ux_principles": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "do_not_copy": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "categories": {
+        "type": "array",
+        "minItems": 1,
+        "uniqueItems": true,
+        "items": {
+          "enum": [
+            "standards",
+            "product-benchmarks",
+            "visual-inspiration",
+            "interaction-patterns",
+            "mobile-patterns",
+            "web-patterns",
+            "dashboard-patterns",
+            "motion-patterns",
+            "design-system-references",
+            "reference-evaluation"
+          ]
+        }
+      },
+      "authority_class": {
+        "enum": [
+          "standard",
+          "platform-guidance",
+          "design-system-documentation",
+          "interaction-documentation",
+          "usability-heuristic",
+          "production-pattern",
+          "visual-inspiration",
+          "project-evidence"
+        ]
+      },
+      "status": {
+        "enum": [
+          "pending",
+          "reviewed",
+          "registered-uninspected",
+          "unavailable",
+          "rejected"
+        ]
+      },
+      "reviewed_date": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "format": "date"
+      },
+      "checked_date": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "format": "date"
+      },
+      "kind": {
+        "enum": [
+          "url",
+          "figma",
+          "screenshot",
+          "video",
+          "article",
+          "internal",
+          "website"
+        ]
+      }
+    },
+    "anyOf": [
+      {
+        "required": [
+          "url"
+        ],
+        "properties": {
+          "url": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      {
+        "required": [
+          "local_source"
+        ],
+        "properties": {
+          "local_source": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    ],
+    "allOf": [
+      {
+        "if": {
+          "properties": {
+            "status": {
+              "const": "reviewed"
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "reviewed_date": {
+              "type": "string",
+              "format": "date"
+            }
+          }
+        }
+      },
+      {
+        "if": {
+          "properties": {
+            "status": {
+              "enum": [
+                "pending",
+                "registered-uninspected",
+                "unavailable"
+              ]
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "reviewed_date": {
+              "type": "null"
+            },
+            "interaction_principles": {
+              "maxItems": 0
+            },
+            "visual_principles": {
+              "maxItems": 0
+            },
+            "ux_principles": {
+              "maxItems": 0
+            }
+          }
+        }
+      }
+    ]
+  }
+}

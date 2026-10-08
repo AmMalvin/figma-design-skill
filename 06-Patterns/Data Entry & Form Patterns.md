@@ -545,3 +545,282 @@ If any answer is negative, redesign the workflow.
 □ Bulk editing documented
 
 □ Responsive behavior documented
+
+
+---
+
+# Accessibility Across Forms
+
+## Purpose
+
+Every form workflow should be accessible.
+
+Users should successfully complete forms regardless of:
+
+- Device
+- Input method
+- Ability
+- Platform
+
+Accessibility should exist throughout every form experience.
+
+---
+
+# Keyboard Navigation
+
+Forms should fully support keyboard interaction.
+
+Requirements:
+
+- Logical tab order
+- Visible focus
+- Enter submits when appropriate
+- Escape closes temporary interfaces
+- Arrow keys support applicable controls
+
+Users should never require a mouse.
+
+---
+
+# Focus Management
+
+Focus should:
+
+- Move logically
+- Enter dialogs automatically
+- Return after dialogs close
+- Move to the first validation error after failed submission
+- Never become trapped unintentionally
+
+Focus should always indicate the current task.
+
+---
+
+# Screen Reader Support
+
+Forms should expose:
+
+- Labels
+- Instructions
+- Required fields
+- Optional fields
+- Validation errors
+- Success messages
+- Progress indicators
+- Submission status
+
+All controls should use semantic HTML whenever possible.
+
+---
+
+# Responsive Forms
+
+Desktop
+
+- Multi-column layouts when appropriate
+- Sticky action bar
+- Rich review screens
+
+Tablet
+
+- Adaptive layouts
+- Touch-friendly controls
+
+Mobile
+
+- Single-column layout
+- Large touch targets
+- Progressive steps
+- Sticky primary action
+
+Behavior should remain consistent across devices.
+
+---
+
+# Performance
+
+Forms should:
+
+- Load quickly
+- Preserve entered values
+- Autosave when appropriate
+- Resume interrupted sessions
+- Minimize unnecessary validation requests
+
+Performance should reduce user effort.
+
+---
+
+# Design Token Integration
+
+Forms should reference design tokens.
+
+Examples:
+
+form.spacing
+
+form.radius
+
+form.focus.ring
+
+form.motion.duration
+
+form.success.color
+
+form.warning.color
+
+form.error.color
+
+Avoid hardcoded values.
+
+---
+
+# Documentation Standards
+
+Every form workflow should document:
+
+- Purpose
+- User goal
+- Workflow
+- States
+- Components used
+- Validation rules
+- Accessibility
+- Responsive behavior
+- Usage guidelines
+- Do
+- Don't
+- Examples
+
+Documentation should eliminate implementation ambiguity.
+
+---
+
+# Testing Strategy
+
+Every form workflow should be tested for:
+
+- Accessibility
+- Keyboard navigation
+- Screen reader compatibility
+- Validation behavior
+- Autosave
+- Draft recovery
+- File uploads
+- Responsive layouts
+- Performance
+
+Test forms with real users whenever possible.
+
+---
+
+# Quality Assurance
+
+Review every form workflow for:
+
+- Completion efficiency
+- Accessibility
+- Validation quality
+- Component reuse
+- Responsive behavior
+- Documentation
+- Performance
+
+Only approved form workflows belong in the design system.
+
+---
+
+# Versioning
+
+Track changes for:
+
+- Workflow improvements
+- Accessibility improvements
+- Validation improvements
+- Performance improvements
+- Bug fixes
+- Breaking changes
+
+Maintain complete version history.
+
+---
+
+# Governance
+
+Form updates should include:
+
+- UX review
+- Accessibility review
+- Product review
+- Engineering review
+- QA approval
+- Documentation update
+
+Governance protects long-term consistency.
+
+---
+
+# AI Form Review Engine
+
+Before publishing any form workflow, answer:
+
+- Does this reduce user effort?
+- Is only necessary information collected?
+- Is accessibility complete?
+- Are design tokens used?
+- Has testing been completed?
+- Does this reuse existing components?
+- Can this scale across products?
+
+If any answer is negative, revise the workflow.
+
+---
+
+# Form Checklist
+
+Before publishing:
+
+□ Form workflows documented
+
+□ Completion workflows documented
+
+□ Accessibility completed
+
+□ Keyboard navigation verified
+
+□ Screen reader support completed
+
+□ Validation reviewed
+
+□ Responsive behavior validated
+
+□ Design tokens integrated
+
+□ Testing completed
+
+□ QA approved
+
+□ Version history updated
+
+□ Documentation completed
+
+---
+
+# Key Takeaways
+
+Forms should help users complete tasks accurately with the least possible effort.
+
+The AI must:
+
+- Minimize data entry.
+- Preserve user progress.
+- Prevent errors early.
+- Support keyboard navigation.
+- Support screen readers.
+- Use design tokens.
+- Test complete form workflows.
+- Document every workflow.
+- Reuse existing components.
+- Scale across products.
+
+Every form pattern should improve completion rate, accessibility, accuracy, consistency, and long-term maintainability.

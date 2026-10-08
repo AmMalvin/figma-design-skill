@@ -1,0 +1,1864 @@
+{
+  "review_date": "2026-10-08",
+  "commit": "7896494ec96157c5b0536f8d7d1a83588f9413bf",
+  "file_count": 61,
+  "bytes": 762761,
+  "empty_files": [
+    "00-Core/Glossary.md",
+    "01-Foundation/Accessibility.md",
+    "01-Foundation/Content Design.md",
+    "01-Foundation/Design Research.md",
+    "01-Foundation/Jobs To Be Done.md",
+    "01-Foundation/UX Heuristics.md",
+    "01-Foundation/User Journey Mapping.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "README.md",
+    "SKILL.md"
+  ],
+  "dependency_count": 322,
+  "broken_dependency_count": 53,
+  "empty_directories": [
+    "03-Design-Tokens",
+    "04-Figma",
+    "07-Documentation",
+    "08-Handoff",
+    "09-QA",
+    "10-Governance",
+    "Assets"
+  ],
+  "original_user_edits": [
+    "02-Visual-System/Iconography.md",
+    "06-Patterns/Data Entry & Form Patterns.md",
+    "06-Patterns/Search & Discovery Patterns.md"
+  ],
+  "files": [
+    {
+      "path": "00-Core/AI Identity.md",
+      "bytes": 2722,
+      "lines": 127,
+      "sha256": "5a5478b6ab5e798d878facb56e8a7916526c31bf24bc22e5316081ab039c05ee",
+      "kind": "instruction",
+      "dependencies": []
+    },
+    {
+      "path": "00-Core/AI Operating Rules.md",
+      "bytes": 3951,
+      "lines": 230,
+      "sha256": "213347efb4491562b39035270ff1bc2bbb04d7d69f9947869463572288aed525",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "AI Identity.md",
+          "exists": true
+        },
+        {
+          "target": "Design Philosophy.md",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "00-Core/Design Decision Engine.md",
+      "bytes": 3733,
+      "lines": 224,
+      "sha256": "d8743d9775876e8803e76d2c55c33904051f7a0169b893104472124fb76af086",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "AI Identity.md",
+          "exists": true
+        },
+        {
+          "target": "AI Operating Rules.md",
+          "exists": true
+        },
+        {
+          "target": "Design Philosophy.md",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "00-Core/Glossary.md",
+      "bytes": 0,
+      "lines": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "instruction",
+      "dependencies": []
+    },
+    {
+      "path": "00-Core/Knowledge Graph.md",
+      "bytes": 3149,
+      "lines": 245,
+      "sha256": "1f5dce2220367f68449a3fe6c4ba27fd97d9c2ee00fd6847bd083a9c9e8c7510",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "AI Identity.md",
+          "exists": true
+        },
+        {
+          "target": "AI Operating Rules.md",
+          "exists": true
+        },
+        {
+          "target": "Design Decision Engine.md",
+          "exists": true
+        },
+        {
+          "target": "Workflow Engine.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "00-Core/Universal Design Principles.md",
+      "bytes": 36178,
+      "lines": 2060,
+      "sha256": "dd6955e06206fd9c831af3d0c2d1bc8e956935ac5bf586df762450b40c53221a",
+      "kind": "instruction",
+      "dependencies": []
+    },
+    {
+      "path": "00-Core/Validation Engine.md",
+      "bytes": 4228,
+      "lines": 265,
+      "sha256": "5890bff000f0ee5c6be87f4c43593602b1fbf6f4bf9b08561b44c96f796b25a8",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "AI Identity.md",
+          "exists": true
+        },
+        {
+          "target": "AI Operating Rules.md",
+          "exists": true
+        },
+        {
+          "target": "Design Decision Engine.md",
+          "exists": true
+        },
+        {
+          "target": "Workflow Engine.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "00-Core/Workflow Engine.md",
+      "bytes": 3752,
+      "lines": 285,
+      "sha256": "ca383eff6b38e91054a96a016867a4e525ad09850c13459c7e767547bb2fef9d",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "AI Identity.md",
+          "exists": true
+        },
+        {
+          "target": "AI Operating Rules.md",
+          "exists": true
+        },
+        {
+          "target": "Design Decision Engine.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "01-Foundation/Accessibility.md",
+      "bytes": 0,
+      "lines": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "instruction",
+      "dependencies": []
+    },
+    {
+      "path": "01-Foundation/Cognitive Psychology.md",
+      "bytes": 16667,
+      "lines": 950,
+      "sha256": "a924392b16140d01046e3840515f9120a76f968978a45562d2d1622ceabe45d8",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Systems Thinking.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Product Thinking.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Human-Centered Design.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Design Thinking.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "01-Foundation/Content Design.md",
+      "bytes": 0,
+      "lines": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "instruction",
+      "dependencies": []
+    },
+    {
+      "path": "01-Foundation/Design Philosophy.md",
+      "bytes": 10189,
+      "lines": 546,
+      "sha256": "125012ee57e4766716eab6643c74bd69abc8a06c178188518993089713233971",
+      "kind": "instruction",
+      "dependencies": []
+    },
+    {
+      "path": "01-Foundation/Design Research.md",
+      "bytes": 0,
+      "lines": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "instruction",
+      "dependencies": []
+    },
+    {
+      "path": "01-Foundation/Design Thinking.md",
+      "bytes": 14972,
+      "lines": 947,
+      "sha256": "fe38a8ef085adeda8791ac906818af119df5394d18e071e0d4b58f03643cffa9",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Systems Thinking.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Product Thinking.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Human-Centered Design.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "01-Foundation/Human-Centered Design.md",
+      "bytes": 17518,
+      "lines": 1044,
+      "sha256": "807bec1e137d80c64c6d0a951ac560675ad062c0e0a70d2c48223cdd8906650c",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../00-Core/Workflow Engine.md",
+          "exists": true
+        },
+        {
+          "target": "../00-Core/Validation Engine.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Systems Thinking.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Product Thinking.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "01-Foundation/Information Architecture.md",
+      "bytes": 16008,
+      "lines": 984,
+      "sha256": "b2db5e30f0ed59e2cbc6d560b233d7c64ff0c9a22252c9c10cd7cbbf92227833",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Systems Thinking.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Product Thinking.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Human-Centered Design.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Design Thinking.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Cognitive Psychology.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Mental Models.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Interaction Design.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "01-Foundation/Interaction Design.md",
+      "bytes": 15780,
+      "lines": 953,
+      "sha256": "5447b2531176965732efd489d5ad4ca6baf37a52737987f2f7721c82da6524af",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Systems Thinking.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Product Thinking.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Human-Centered Design.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Design Thinking.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Cognitive Psychology.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Mental Models.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "01-Foundation/Jobs To Be Done.md",
+      "bytes": 0,
+      "lines": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "instruction",
+      "dependencies": []
+    },
+    {
+      "path": "01-Foundation/Layout System.md",
+      "bytes": 19069,
+      "lines": 1214,
+      "sha256": "519032872ca124582e3ad493a0fe071e5cd880fb0034e6720a688b329bc42a00",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Systems Thinking.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Product Thinking.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Human-Centered Design.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Design Thinking.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Cognitive Psychology.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Mental Models.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Interaction Design.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Information Architecture.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Visual Hierarchy.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "01-Foundation/Mental Models.md",
+      "bytes": 11861,
+      "lines": 640,
+      "sha256": "ce928724578fd050d67604335bb83b6918501777a6c65deab51697cf3d9ba9cb",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Systems Thinking.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Product Thinking.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Human-Centered Design.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Design Thinking.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Cognitive Psychology.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "01-Foundation/Product Thinking.md",
+      "bytes": 15596,
+      "lines": 957,
+      "sha256": "3af3c270b6b532b420220ba52ed7c236743c18de8b767d51c7ed35ccb1bceb10",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../00-Core/Workflow Engine.md",
+          "exists": true
+        },
+        {
+          "target": "../00-Core/Validation Engine.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "01-Foundation/Systems Thinking.md",
+      "bytes": 11425,
+      "lines": 685,
+      "sha256": "b0c5fffd8325030b00addae8b946df2976bc8de82b82eb2fea10585ed4734bd6",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../00-Core/AI Identity.md",
+          "exists": true
+        },
+        {
+          "target": "../00-Core/Workflow Engine.md",
+          "exists": true
+        },
+        {
+          "target": "../00-Core/Validation Engine.md",
+          "exists": true
+        },
+        {
+          "target": "../00-Core/Knowledge Graph.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "01-Foundation/UX Heuristics.md",
+      "bytes": 0,
+      "lines": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "instruction",
+      "dependencies": []
+    },
+    {
+      "path": "01-Foundation/User Journey Mapping.md",
+      "bytes": 0,
+      "lines": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "instruction",
+      "dependencies": []
+    },
+    {
+      "path": "01-Foundation/Visual Hierarchy.md",
+      "bytes": 17233,
+      "lines": 1066,
+      "sha256": "3171f7f244fbbd4d0aac3983f0f34b355459ce361514b649b0b6198395d86715",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Systems Thinking.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Product Thinking.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Human-Centered Design.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Design Thinking.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Cognitive Psychology.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Mental Models.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Interaction Design.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Information Architecture.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "02-Visual-System/Color Theory.md",
+      "bytes": 17916,
+      "lines": 1189,
+      "sha256": "7bd1b350bccc77724d207c9c2498257452572b0a63fa56ab3ab706e6849a121f",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Cognitive Psychology.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Visual Hierarchy.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Layout Systems.md",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "02-Visual-System/Iconography.md",
+      "bytes": 15628,
+      "lines": 995,
+      "sha256": "95e71cf3c329a67ce9595bff622bdcab8d4809f81ee0c4ecf182e43b20ba79d3",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Layout Systems.md",
+          "exists": false
+        },
+        {
+          "target": "../02-Visual-System/Color Theory.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Typography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Spacing & Sizing.md",
+          "exists": true
+        }
+      ],
+      "sha256_lf": "8a32fcf762ad85471e8de01bd7538c9810bf9be49b60e0830f49d670f3bc795b"
+    },
+    {
+      "path": "02-Visual-System/Imagery & Illustration.md",
+      "bytes": 18013,
+      "lines": 1128,
+      "sha256": "fdc5f6515882cb3e7316ed7672eaa32aa106644b6e28ef4d4804ac7982613a40",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Layout Systems.md",
+          "exists": false
+        },
+        {
+          "target": "../02-Visual-System/Color Theory.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Typography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Spacing & Sizing.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Iconography.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "02-Visual-System/Spacing & Sizing.md",
+      "bytes": 16397,
+      "lines": 1056,
+      "sha256": "f496397c31715c8ffad461536205d8f9b1829010ca4e578b5b7afc7ce7c90324",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Layout Systems.md",
+          "exists": false
+        },
+        {
+          "target": "../01-Foundation/Visual Hierarchy.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Typography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Color Theory.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "02-Visual-System/Typography.md",
+      "bytes": 20711,
+      "lines": 1323,
+      "sha256": "6e8d43eceda1fe9243f03a5666e75b8143e3c9d4261581755f66740478f08619",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Cognitive Psychology.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Visual Hierarchy.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Layout Systems.md",
+          "exists": false
+        },
+        {
+          "target": "../02-Visual-System/Color Theory.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "05-Components/Advanced Components.md",
+      "bytes": 17725,
+      "lines": 1149,
+      "sha256": "a10efd1cf9a7b22d2528211d8317fc1eae6cacb70b0194ae3f76360eae28d888",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Layout Systems.md",
+          "exists": false
+        },
+        {
+          "target": "../01-Foundation/Responsive Design.md",
+          "exists": false
+        },
+        {
+          "target": "../02-Visual-System/Typography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Iconography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Spacing & Sizing.md",
+          "exists": true
+        },
+        {
+          "target": "./Component Principles.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "05-Components/Buttons.md",
+      "bytes": 19107,
+      "lines": 1297,
+      "sha256": "ae05b6a467bd9368c31575f6b37bebc9da0583115ddd12e4886ed85b30647bd8",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Layout Systems.md",
+          "exists": false
+        },
+        {
+          "target": "../02-Visual-System/Color Theory.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Typography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Spacing & Sizing.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Iconography.md",
+          "exists": true
+        },
+        {
+          "target": "./Component Principles.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "05-Components/Cards.md",
+      "bytes": 18304,
+      "lines": 1300,
+      "sha256": "f15bcdfc0895843a06f6c17f1a7ea56fbfc26afc79631104e025e56d60a39b2a",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Layout Systems.md",
+          "exists": false
+        },
+        {
+          "target": "../02-Visual-System/Color Theory.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Typography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Spacing & Sizing.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Iconography.md",
+          "exists": true
+        },
+        {
+          "target": "./Component Principles.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "05-Components/Component Principles.md",
+      "bytes": 17408,
+      "lines": 1184,
+      "sha256": "0087d2b892dada376afa9d926b0fd26c5cbb2965b6bb495c7a74c5e3fb4addd0",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Layout Systems.md",
+          "exists": false
+        },
+        {
+          "target": "../01-Foundation/Visual Hierarchy.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Color Theory.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Typography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Spacing & Sizing.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Iconography.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "05-Components/Data Visualization Components.md",
+      "bytes": 18280,
+      "lines": 1214,
+      "sha256": "b456c155afe593e6bc07f09588d1c4af0a4ee5cb20001afa4f0591343fd63acd",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Layout Systems.md",
+          "exists": false
+        },
+        {
+          "target": "../01-Foundation/Visual Hierarchy.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Color Theory.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Typography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Iconography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Spacing & Sizing.md",
+          "exists": true
+        },
+        {
+          "target": "./Component Principles.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "05-Components/Feedback Components.md",
+      "bytes": 17697,
+      "lines": 1168,
+      "sha256": "c853044b10b889e983b07cf27791712c18df25f353924add1bd514ea4b101f23",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Layout Systems.md",
+          "exists": false
+        },
+        {
+          "target": "../02-Visual-System/Color Theory.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Typography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Iconography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Spacing & Sizing.md",
+          "exists": true
+        },
+        {
+          "target": "./Component Principles.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "05-Components/Inputs & Forms.md",
+      "bytes": 19305,
+      "lines": 1345,
+      "sha256": "64380ac6f623f4d1c3e62e31e818748b052654228335d62e1ea705277ebaed77",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Layout Systems.md",
+          "exists": false
+        },
+        {
+          "target": "../02-Visual-System/Color Theory.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Typography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Spacing & Sizing.md",
+          "exists": true
+        },
+        {
+          "target": "../03-Components/Component Principles.md",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "05-Components/Media Components.md",
+      "bytes": 17755,
+      "lines": 1199,
+      "sha256": "9380cb61d96d14d2e9ec3d12bd72684ca20dc9eea94f43c150cebd8268e2c6f0",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Layout Systems.md",
+          "exists": false
+        },
+        {
+          "target": "../02-Visual-System/Color Theory.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Typography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Iconography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Spacing & Sizing.md",
+          "exists": true
+        },
+        {
+          "target": "./Component Principles.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "05-Components/Menus, Lists & Selection Controls.md",
+      "bytes": 17061,
+      "lines": 1140,
+      "sha256": "58b601d73c6d46149cb77610c426fb25e2cd672fe28105faaad8b60ecb01d527",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Layout Systems.md",
+          "exists": false
+        },
+        {
+          "target": "../02-Visual-System/Typography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Spacing & Sizing.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Iconography.md",
+          "exists": true
+        },
+        {
+          "target": "./Component Principles.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "05-Components/Mobile Components.md",
+      "bytes": 18039,
+      "lines": 1185,
+      "sha256": "d1c50c10ac28576cf9cb0b0e0399e0bb0363ae0ab646d9d25df39ee785c15e1a",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Layout Systems.md",
+          "exists": false
+        },
+        {
+          "target": "../01-Foundation/Responsive Design.md",
+          "exists": false
+        },
+        {
+          "target": "../02-Visual-System/Typography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Iconography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Spacing & Sizing.md",
+          "exists": true
+        },
+        {
+          "target": "./Component Principles.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "05-Components/Modals, Dialogs & Drawers.md",
+      "bytes": 17061,
+      "lines": 1114,
+      "sha256": "7ceafbd45ceacc525a87068d3695e9a3b909c2242dc10acb0925197e73bdfbfe",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Layout Systems.md",
+          "exists": false
+        },
+        {
+          "target": "../02-Visual-System/Color Theory.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Typography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Spacing & Sizing.md",
+          "exists": true
+        },
+        {
+          "target": "./Component Principles.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "05-Components/Navigation Components.md",
+      "bytes": 16808,
+      "lines": 1115,
+      "sha256": "9c53f78069ba3e84553e0d17fdde78f97ebed0369359a74432a4cdc6537975a6",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Layout Systems.md",
+          "exists": false
+        },
+        {
+          "target": "../02-Visual-System/Typography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Iconography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Spacing & Sizing.md",
+          "exists": true
+        },
+        {
+          "target": "./Component Principles.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "05-Components/Navigation.md",
+      "bytes": 18644,
+      "lines": 1177,
+      "sha256": "a573c8c1447d9ba691cb3f11f585a5b3b08fb1b57d82f6a5153cc322035a9a3f",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Layout Systems.md",
+          "exists": false
+        },
+        {
+          "target": "../02-Visual-System/Color Theory.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Typography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Iconography.md",
+          "exists": true
+        },
+        {
+          "target": "./Component Principles.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "05-Components/Tables & Data Grids.md",
+      "bytes": 18497,
+      "lines": 1257,
+      "sha256": "4255fb7ec105362e2d1dcdeb7bcf02a4aad87a5aff49507e088e77ea3daf10ca",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Layout Systems.md",
+          "exists": false
+        },
+        {
+          "target": "../02-Visual-System/Typography.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Spacing & Sizing.md",
+          "exists": true
+        },
+        {
+          "target": "../02-Visual-System/Iconography.md",
+          "exists": true
+        },
+        {
+          "target": "./Component Principles.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "06-Patterns/Authentication & Account Patterns.md",
+      "bytes": 21376,
+      "lines": 1323,
+      "sha256": "1d95109ef3b2aab636be5af7897861521dcc1efc4a14d5cd5681ff174048ec18",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "./Pattern Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/User Flows.md",
+          "exists": false
+        },
+        {
+          "target": "../01-Foundation/Information Architecture.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Responsive Design.md",
+          "exists": false
+        },
+        {
+          "target": "../05-Components/Inputs & Forms.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Buttons.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Feedback Components.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Navigation Components.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Modals, Dialogs & Drawers.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "06-Patterns/Authentication Patterns.md",
+      "bytes": 19052,
+      "lines": 1161,
+      "sha256": "709174e9f6ed6f37349d25828c5330d4c217ee91551279188be283f48b42fd6e",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "./Pattern Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/User Flows.md",
+          "exists": false
+        },
+        {
+          "target": "../01-Foundation/Responsive Design.md",
+          "exists": false
+        },
+        {
+          "target": "../05-Components/Inputs & Forms.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Feedback Components.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Modals, Dialogs & Drawers.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "06-Patterns/Collaboration Patterns.md",
+      "bytes": 18290,
+      "lines": 1184,
+      "sha256": "fbdf0c1f94e02ac3facd1cee205d5e19ba081bdd936ff72f83551b95a196aee8",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "./Pattern Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/User Flows.md",
+          "exists": false
+        },
+        {
+          "target": "../01-Foundation/Information Architecture.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Responsive Design.md",
+          "exists": false
+        },
+        {
+          "target": "../05-Components/Buttons.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Inputs & Forms.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Feedback Components.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Data Display.md",
+          "exists": false
+        },
+        {
+          "target": "../05-Components/Navigation Components.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Modals, Dialogs & Drawers.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "06-Patterns/Data Entry & Form Patterns.md",
+      "bytes": 13384,
+      "lines": 826,
+      "sha256": "c833980fc2a65efea7d67148ae68960423dd49ad886eb0c9d9bcaf8746f84349",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "./Pattern Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/User Flows.md",
+          "exists": false
+        },
+        {
+          "target": "../01-Foundation/Information Architecture.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Responsive Design.md",
+          "exists": false
+        },
+        {
+          "target": "../05-Components/Inputs & Forms.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Buttons.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Feedback Components.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Data Display.md",
+          "exists": false
+        },
+        {
+          "target": "../05-Components/Modals, Dialogs & Drawers.md",
+          "exists": true
+        }
+      ],
+      "sha256_lf": "ce9e611743bcba47df605544c9df4ee16e3df0a65e54bba2f96088985b91e089"
+    },
+    {
+      "path": "06-Patterns/Data Management Patterns.md",
+      "bytes": 18013,
+      "lines": 1202,
+      "sha256": "8cf64c7a00d151cc9f76832a48a22c32b36c96c057ca677437895bb56e5661a0",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "./Pattern Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/User Flows.md",
+          "exists": false
+        },
+        {
+          "target": "../01-Foundation/Information Architecture.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Responsive Design.md",
+          "exists": false
+        },
+        {
+          "target": "../05-Components/Inputs & Forms.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Buttons.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Data Visualization Components.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Feedback Components.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Navigation Components.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Modals, Dialogs & Drawers.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "06-Patterns/Notifications & Communication Patterns.md",
+      "bytes": 19356,
+      "lines": 1184,
+      "sha256": "0dc3c8c7133efd864ca553051a6e21c1eba9cec05650bd41a9899a46c2f6d1a0",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "./Pattern Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/User Flows.md",
+          "exists": false
+        },
+        {
+          "target": "../01-Foundation/Information Architecture.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Responsive Design.md",
+          "exists": false
+        },
+        {
+          "target": "../05-Components/Feedback Components.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Buttons.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Badges.md",
+          "exists": false
+        },
+        {
+          "target": "../05-Components/Navigation Components.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Modals, Dialogs & Drawers.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Data Display.md",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "path": "06-Patterns/Onboarding & First-Time User Experience Patterns.md",
+      "bytes": 18919,
+      "lines": 1198,
+      "sha256": "3e1d3ead72cab742d9781a63654c544c9d6b3b45de9357366682749428001bfa",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "./Pattern Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/User Flows.md",
+          "exists": false
+        },
+        {
+          "target": "../01-Foundation/Information Architecture.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Responsive Design.md",
+          "exists": false
+        },
+        {
+          "target": "../05-Components/Buttons.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Inputs & Forms.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Navigation Components.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Feedback Components.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Data Display.md",
+          "exists": false
+        },
+        {
+          "target": "../05-Components/Modals, Dialogs & Drawers.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "06-Patterns/Onboarding Patterns.md",
+      "bytes": 16568,
+      "lines": 1039,
+      "sha256": "80715c1d0b4050633dac728213884ec5cdd6c32cf808d6d88ae2f1247614bcf4",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "./Pattern Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/User Flows.md",
+          "exists": false
+        },
+        {
+          "target": "../01-Foundation/Information Architecture.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Responsive Design.md",
+          "exists": false
+        },
+        {
+          "target": "../05-Components/Inputs & Forms.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Buttons.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Feedback Components.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Navigation Components.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Modals, Dialogs & Drawers.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "06-Patterns/Pattern Principles.md",
+      "bytes": 15213,
+      "lines": 950,
+      "sha256": "11ac522f9495225700d0ef4144ba4476243ec96960ba304af546b6f0e64e42a6",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "../00-Core/Universal Design Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/User Flows.md",
+          "exists": false
+        },
+        {
+          "target": "../01-Foundation/Information Architecture.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Responsive Design.md",
+          "exists": false
+        },
+        {
+          "target": "../05-Components/Component Principles.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "06-Patterns/Search & Discovery Patterns.md",
+      "bytes": 17905,
+      "lines": 1185,
+      "sha256": "eb4131c570013b910c848870159f743b41a61387043339ffafff69151e4348e8",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "./Pattern Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/User Flows.md",
+          "exists": false
+        },
+        {
+          "target": "../01-Foundation/Information Architecture.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Responsive Design.md",
+          "exists": false
+        },
+        {
+          "target": "../05-Components/Search.md",
+          "exists": false
+        },
+        {
+          "target": "../05-Components/Inputs & Forms.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Data Display.md",
+          "exists": false
+        },
+        {
+          "target": "../05-Components/Navigation Components.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Feedback Components.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Buttons.md",
+          "exists": true
+        }
+      ],
+      "sha256_lf": "674fdf02f50f38af8e573d533e0ed17f804576442fb77b7774ef79e5f11512bc"
+    },
+    {
+      "path": "06-Patterns/Search Patterns.md",
+      "bytes": 16717,
+      "lines": 1083,
+      "sha256": "2589b6f3744ddd262bbe3c5879cbfd5fd86168427e0300eb78e8fab639e63a98",
+      "kind": "instruction",
+      "dependencies": [
+        {
+          "target": "./Pattern Principles.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Accessibility.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/User Flows.md",
+          "exists": false
+        },
+        {
+          "target": "../01-Foundation/Information Architecture.md",
+          "exists": true
+        },
+        {
+          "target": "../01-Foundation/Responsive Design.md",
+          "exists": false
+        },
+        {
+          "target": "../05-Components/Inputs & Forms.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Navigation Components.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Feedback Components.md",
+          "exists": true
+        },
+        {
+          "target": "../05-Components/Data Visualization Components.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 0,
+      "lines": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "support",
+      "dependencies": []
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 0,
+      "lines": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "support",
+      "dependencies": []
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1092,
+      "lines": 21,
+      "sha256": "9b6335e112d843177ad23895291c78d16855b838d5d0c2761cb3642d70b71518",
+      "kind": "license",
+      "dependencies": []
+    },
+    {
+      "path": "README.md",
+      "bytes": 0,
+      "lines": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "support",
+      "dependencies": []
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 0,
+      "lines": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "skill",
+      "dependencies": []
+    },
+    {
+      "path": "Templates/Module Blueprint.md",
+      "bytes": 2489,
+      "lines": 236,
+      "sha256": "cc837cfbb594c57186893606dcbba83439a730fc8e70433ed1878981fe9150d1",
+      "kind": "template",
+      "dependencies": []
+    }
+  ],
+  "status_at_capture": " M 02-Visual-System/Iconography.md\n M \"06-Patterns/Data Entry & Form Patterns.md\"\n M \"06-Patterns/Search & Discovery Patterns.md\"\n?? 09-QA/\n",
+  "capture_note": "First new artifact Architecture Audit.md exists; all original tracked files are unchanged from the read-only pass.",
+  "publication_note": "LF hashes derived from unchanged captured user files to accept only Git checkout line-ending conversion; original raw hashes retained."
+}

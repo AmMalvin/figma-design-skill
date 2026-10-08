@@ -1,224 +1,31 @@
----
-title: Design Decision Engine
-version: 1.0.0
-status: Stable
-owner: Design System Skill
-category: Core
-priority: Critical
-last_updated: 2026-07-12
-depends_on:
-  - AI Identity.md
-  - AI Operating Rules.md
-  - Design Philosophy.md
----
+# Design decision engine
 
-# Design Decision Engine
+Use for substantial recommendations. Small known corrections need only the affected rationale and check.
 
-## Purpose
+## Before visual styling
 
-The Design Decision Engine defines the mandatory reasoning process the AI must follow before producing any design output.
+Answer the questions that affect this task:
 
-No UI, component, token, documentation, or recommendation may be created without completing this framework.
+- Who uses the interface, in what context, and what outcome are they trying to achieve?
+- What information matters first, what decision follows, what deserves emphasis and what remains secondary?
+- Which interaction model matches frequency, expertise, risk, data and input method?
+- What errors are likely? What happens while waiting, with no data, large datasets, long text or missing permission?
+- How does the flow behave on narrow screens, with keyboard and with touch?
+- What happens after failure, after success and after interruption?
+- Which parts belong in the core system, a reusable product pattern or only this feature?
 
----
+Write unknowns as assumptions with their consequence. Research the assumption most likely to invalidate the solution. Do not invent users, policies, backend guarantees or reference findings.
 
-# Decision Hierarchy
+## Choose a model, then a composition
 
-Always resolve decisions in this order.
+Compare meaningful alternatives when the interaction or structure is uncertain. Two genuinely different models are more useful than three cosmetic versions. Explain why the selected model suits the task and when a rejected alternative would be better.
 
-1. User Needs
-2. Accessibility
-3. Business Goals
-4. Product Goals
-5. Existing Design System
-6. Engineering Constraints
-7. Visual Design
+Resolve conflicts with [source precedence](AI%20Operating%20Rules.md). Hard requirements cannot be averaged away by a score. Consider effort and feasibility alongside task completion, accessibility, product fit and visual quality.
 
-Higher levels always override lower levels.
+Record consequential decisions with [Design Decision](../Templates/Design%20Decision.md): evidence, options, choice, drawback, failure condition and validation. A claim such as ?clean? or ?modern? needs replacement with an observable outcome, such as faster comparison, clearer grouping or visible recovery.
 
----
+## Example
 
-# Phase 1. Understand
+A payments review screen needs recipient identity, amount, fees and finality before the committing action. A compact review summary preserves context; an extra confirmation dialog only earns its cost when it reveals a new consequence or materially prevents a high-cost error. Optimistic success fails when transfer status is unknown.
 
-Collect information before making decisions.
-
-Required information:
-
-- Product type
-- Business objective
-- User objective
-- User task
-- User pain points
-- Platform
-- Device
-- Accessibility requirements
-- Technical limitations
-- Success metrics
-
-Missing information must trigger clarification.
-
----
-
-# Phase 2. Analyze
-
-Evaluate the request.
-
-Identify:
-
-- Primary workflow
-- Secondary workflows
-- Dependencies
-- Edge cases
-- Failure scenarios
-- Empty states
-- Loading states
-- Error states
-
-Never optimize only the happy path.
-
----
-
-# Phase 3. Audit
-
-Inspect the existing system.
-
-Review:
-
-- Components
-- Patterns
-- Variables
-- Tokens
-- Typography
-- Icons
-- Documentation
-- Naming conventions
-
-Prefer reuse before creation.
-
----
-
-# Phase 4. Generate Options
-
-Produce at least three candidate solutions.
-
-Evaluate each using:
-
-- Simplicity
-- Accessibility
-- Scalability
-- Maintainability
-- Consistency
-- Engineering effort
-- Long-term flexibility
-
-Do not accept the first solution without comparison.
-
----
-
-# Phase 5. Select
-
-Choose the strongest solution.
-
-Document:
-
-- Why it was selected
-- Trade-offs
-- Alternatives rejected
-- Risks
-- Assumptions
-
-Every major decision must have written justification.
-
----
-
-# Phase 6. Validate
-
-Review the selected solution against:
-
-- WCAG compliance
-- Platform conventions
-- Existing components
-- Semantic tokens
-- Naming standards
-- Responsive behavior
-- Performance
-- Developer implementation effort
-
-Failure in any area requires revision.
-
----
-
-# Phase 7. Document
-
-Every approved decision must include:
-
-- Purpose
-- Context
-- Rationale
-- Usage
-- Accessibility notes
-- Engineering notes
-- Related assets
-- Future considerations
-
-Documentation is part of the deliverable.
-
----
-
-# Decision Matrix
-
-Every solution should receive a score from 1 to 5 in each category.
-
-| Category | Score |
-|----------|------:|
-| User Value | |
-| Accessibility | |
-| Consistency | |
-| Scalability | |
-| Maintainability | |
-| Developer Experience | |
-| Performance | |
-| Documentation | |
-
-Prefer the highest overall score rather than subjective preference.
-
----
-
-# Validation Checklist
-
-Before producing output verify:
-
-□ Problem understood
-
-□ User identified
-
-□ Business objective confirmed
-
-□ Existing assets reviewed
-
-□ Accessibility evaluated
-
-□ Three solutions explored
-
-□ Decision documented
-
-□ Trade-offs recorded
-
-□ Documentation prepared
-
-Only after every check passes may design begin.
-
----
-
-# Failure Conditions
-
-Stop immediately if:
-
-- Requirements conflict
-- Product goals are unclear
-- Accessibility requirements are missing
-- Existing design system is unavailable
-- Technical constraints are unknown
-- Success metrics are undefined
-
-Request clarification before proceeding.
+A creative workspace can expose several simultaneous tools because experts compare and manipulate content continuously. A single oversized CTA or universal card dashboard would weaken the task. Test tool discovery, editing continuity and reversible operations instead.

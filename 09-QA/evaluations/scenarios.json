@@ -1,0 +1,545 @@
+{
+  "version": 1,
+  "scenarios": [
+    {
+      "id": "mobile-transfer",
+      "title": "Consumer mobile banking transfer",
+      "platform": "mobile",
+      "prompt": "Design a repeat transfer to a saved beneficiary. Show amount, fees, debit account, recipient verification, review and a timeout after submission. History can query transfer status but a timeout does not tell whether money moved.",
+      "fixture": {
+        "existing_system": "Existing native controls, ledger typography, semantic status colors and small control radii; no restyling.",
+        "constraints": [
+          "320 CSS equivalent narrow web fallback",
+          "Large text",
+          "Long beneficiary name",
+          "Offline then reconnect"
+        ]
+      },
+      "required_routes": [
+        "06-Patterns/Checkout & Payments.md",
+        "05-Components/Mobile Components.md",
+        "01-Foundation/Accessibility.md"
+      ],
+      "evaluator": {
+        "criteria": [
+          "Recipient and total are explicit before commitment.",
+          "Unknown result leads to status reconciliation before retry.",
+          "Touch, native keyboard and focus intent are specified.",
+          "Receipt reflects actual result and supports return to history."
+        ],
+        "anti_patterns": [
+          "Dashboard hero cards",
+          "Optimistic paid state",
+          "Disabled button claimed as idempotency"
+        ]
+      },
+      "deliverable": "Task and information model; system mapping; interaction/state contract; responsive and input behavior; rationale, critique and evidence limits."
+    },
+    {
+      "id": "enterprise-dashboard",
+      "title": "Enterprise incident analytics",
+      "platform": "web desktop",
+      "prompt": "Operations analysts compare incident rate by service and investigate a sudden change. Data arrives from multiple sources with different freshness. Build an analytical workspace.",
+      "fixture": {
+        "existing_system": "Existing compact table, chart roles, severity badges and rectangular panel boundaries.",
+        "constraints": [
+          "100000 rows",
+          "Missing observations",
+          "Multiple time zones",
+          "Narrow viewport"
+        ]
+      },
+      "required_routes": [
+        "06-Patterns/Data-Dense Interfaces.md",
+        "05-Components/Data Visualization Components.md",
+        "05-Components/Tables & Data Grids.md"
+      ],
+      "evaluator": {
+        "criteria": [
+          "Analytical question determines visualization.",
+          "Comparison and drill-down preserve filter context.",
+          "Stale and partial data remain distinguishable from zero.",
+          "Density and keyboard/accessible chart alternatives are explicit."
+        ],
+        "anti_patterns": [
+          "Decorative charts",
+          "Uniform KPI card grid",
+          "One focal point hides concurrent monitoring"
+        ]
+      },
+      "deliverable": "Task and information model; system mapping; interaction/state contract; responsive and input behavior; rationale, critique and evidence limits."
+    },
+    {
+      "id": "saas-responsive",
+      "title": "Responsive SaaS scheduling feature",
+      "platform": "web",
+      "prompt": "Plan a team booking flow with available slots, attendee details, conflict handling and confirmation. Availability may change after selection.",
+      "fixture": {
+        "existing_system": "Existing calendar primitives, form controls, page grid and semantic action styles.",
+        "constraints": [
+          "DST boundary",
+          "Long attendee names",
+          "Keyboard-only input",
+          "Network conflict"
+        ]
+      },
+      "required_routes": [
+        "01-Foundation/Responsive Design.md",
+        "05-Components/Advanced Components.md",
+        "06-Patterns/Form Workflows.md"
+      ],
+      "evaluator": {
+        "criteria": [
+          "Time zone and daylight-saving context are explicit.",
+          "Changed availability preserves input and offers alternatives.",
+          "Narrow layout preserves core booking capability.",
+          "Typed/keyboard alternatives accompany spatial date selection."
+        ],
+        "anti_patterns": [
+          "Shrink desktop calendar",
+          "Always modal wizard",
+          "Assume cached slot remains available"
+        ]
+      },
+      "deliverable": "Task and information model; system mapping; interaction/state contract; responsive and input behavior; rationale, critique and evidence limits."
+    },
+    {
+      "id": "financial-reconcile",
+      "title": "Financial reconciliation",
+      "platform": "web desktop",
+      "prompt": "An accountant matches statement entries to invoices, sees unmatched totals and resolves discrepancies. Some records are restricted; confirmations must use actual posted status.",
+      "fixture": {
+        "existing_system": "Existing financial table, tabular numerals, money formatting and matched/unmatched semantic roles.",
+        "constraints": [
+          "Multi-currency",
+          "10000 records",
+          "Permission loss",
+          "Long invoice identifiers"
+        ]
+      },
+      "required_routes": [
+        "05-Components/Tables & Data Grids.md",
+        "06-Patterns/Data Management Patterns.md",
+        "06-Patterns/Data-Dense Interfaces.md"
+      ],
+      "evaluator": {
+        "criteria": [
+          "Paired comparisons and monetary totals remain visible.",
+          "Matching is distinct from posting.",
+          "Restricted records do not leak details.",
+          "Batch partial failures preserve unaffected progress."
+        ],
+        "anti_patterns": [
+          "Success-colored decorative totals",
+          "Hide comparison in stacked cards",
+          "Single all-or-nothing bulk toast"
+        ]
+      },
+      "deliverable": "Task and information model; system mapping; interaction/state contract; responsive and input behavior; rationale, critique and evidence limits."
+    },
+    {
+      "id": "content-library",
+      "title": "Content-heavy knowledge library",
+      "platform": "web",
+      "prompt": "Readers find a policy, distinguish the current version from archived guidance and read long sections with related documents.",
+      "fixture": {
+        "existing_system": "Existing editorial type styles, article measure, link roles and document metadata.",
+        "constraints": [
+          "RTL and translated titles",
+          "Text zoom",
+          "Long headings",
+          "Stale bookmarked version"
+        ]
+      },
+      "required_routes": [
+        "01-Foundation/Information Architecture.md",
+        "01-Foundation/Content Design.md",
+        "06-Patterns/Search Patterns.md"
+      ],
+      "evaluator": {
+        "criteria": [
+          "Findability and version trust drive structure.",
+          "Reading hierarchy works with long text.",
+          "Related content remains secondary to the article.",
+          "Search and browse support distinct retrieval paths."
+        ],
+        "anti_patterns": [
+          "Dashboard cards for every paragraph",
+          "Oversized decorative hero",
+          "Hide dates and ownership"
+        ]
+      },
+      "deliverable": "Task and information model; system mapping; interaction/state contract; responsive and input behavior; rationale, critique and evidence limits."
+    },
+    {
+      "id": "settings-permissions",
+      "title": "B2B settings and permissions",
+      "platform": "web",
+      "prompt": "An organization admin changes a member's access to a workspace with inherited roles. Removing access can strand active tasks; server decisions override client assumptions.",
+      "fixture": {
+        "existing_system": "Existing role selector, semantic warning panel, audit list and explicit Save pattern.",
+        "constraints": [
+          "Last admin",
+          "Concurrent role update",
+          "Long role descriptions",
+          "Insufficient permission"
+        ]
+      },
+      "required_routes": [
+        "06-Patterns/Settings & Permissions.md",
+        "06-Patterns/Authentication & Account Patterns.md"
+      ],
+      "evaluator": {
+        "criteria": [
+          "Effective and inherited access are distinguishable.",
+          "Scope and consequences precede risky changes.",
+          "Denied/stale writes preserve choices for review.",
+          "Server enforcement and ownership limits are documented."
+        ],
+        "anti_patterns": [
+          "Toggle grants role instantly",
+          "Ambiguous destructive Save",
+          "Hide inherited access"
+        ]
+      },
+      "deliverable": "Task and information model; system mapping; interaction/state contract; responsive and input behavior; rationale, critique and evidence limits."
+    },
+    {
+      "id": "large-form",
+      "title": "Large application form",
+      "platform": "web",
+      "prompt": "Applicants complete a 40-field benefits application over several sessions with dependent sections and document upload. Draft save exists, final submission is separately reviewed.",
+      "fixture": {
+        "existing_system": "Existing field groups, validation styles, summary page and draft status text.",
+        "constraints": [
+          "Interrupted upload",
+          "Async validation race",
+          "Long answers",
+          "Keyboard and screen reader intent"
+        ]
+      },
+      "required_routes": [
+        "06-Patterns/Form Workflows.md",
+        "05-Components/Inputs & Forms.md",
+        "01-Foundation/Content Design.md"
+      ],
+      "evaluator": {
+        "criteria": [
+          "Grouping and conditional disclosure follow task meaning.",
+          "Draft save and final commitment differ.",
+          "Errors identify fields and preserve prior values/uploads.",
+          "Resume, expiration and changed answers have recovery."
+        ],
+        "anti_patterns": [
+          "Wizard solely because fields are numerous",
+          "Validation on every keystroke",
+          "Autosave claimed as submission"
+        ]
+      },
+      "deliverable": "Task and information model; system mapping; interaction/state contract; responsive and input behavior; rationale, critique and evidence limits."
+    },
+    {
+      "id": "responsive-table",
+      "title": "Responsive procurement table",
+      "platform": "web",
+      "prompt": "Buyers compare 12 columns across selected vendor bids and open details. Narrow screens must still support monetary comparison and selection.",
+      "fixture": {
+        "existing_system": "Existing table headers, selection controls, comparison view and compact spacing.",
+        "constraints": [
+          "50000 rows",
+          "Long vendor names",
+          "Mixed currencies",
+          "Keyboard navigation"
+        ]
+      },
+      "required_routes": [
+        "05-Components/Tables & Data Grids.md",
+        "01-Foundation/Responsive Design.md"
+      ],
+      "evaluator": {
+        "criteria": [
+          "Native table versus interactive grid choice is justified.",
+          "Important comparisons survive narrow layout.",
+          "Selection scope and sorting are explicit.",
+          "Loading, empty, stale and partial failures differ."
+        ],
+        "anti_patterns": [
+          "Convert every row to a card",
+          "Focus every noninteractive cell",
+          "All means current page and entire query interchangeably"
+        ]
+      },
+      "deliverable": "Task and information model; system mapping; interaction/state contract; responsive and input behavior; rationale, critique and evidence limits."
+    },
+    {
+      "id": "search-discovery",
+      "title": "Search and refinement",
+      "platform": "web mobile",
+      "prompt": "Search internal documents by phrase, owner and date; results are permission filtered. Users must return from a document without losing query and scroll.",
+      "fixture": {
+        "existing_system": "Existing search field, filter controls, document results and URL query model.",
+        "constraints": [
+          "Slow response order",
+          "Very long query",
+          "No results",
+          "Navigation back"
+        ]
+      },
+      "required_routes": [
+        "06-Patterns/Search Patterns.md",
+        "05-Components/Menus, Lists & Selection Controls.md"
+      ],
+      "evaluator": {
+        "criteria": [
+          "Ranking and query scope match retrieval task.",
+          "Combobox model is specified only if suggestions exist.",
+          "Stale responses cannot replace newer queries.",
+          "No results, access denial and network failure have distinct recovery."
+        ],
+        "anti_patterns": [
+          "Single universal debounce number",
+          "Permission leaks in suggestions",
+          "Keyboard-focus jump on every result update"
+        ]
+      },
+      "deliverable": "Task and information model; system mapping; interaction/state contract; responsive and input behavior; rationale, critique and evidence limits."
+    },
+    {
+      "id": "onboarding",
+      "title": "First value onboarding",
+      "platform": "mobile web",
+      "prompt": "A new project manager imports one project and assigns a task. Notifications are optional and permissions may be declined. A returning user has already completed half the setup.",
+      "fixture": {
+        "existing_system": "Existing project list, task editor, progress text and inline education.",
+        "constraints": [
+          "Declined permission",
+          "Partial import",
+          "Returning user",
+          "Long project title"
+        ]
+      },
+      "required_routes": [
+        "06-Patterns/Onboarding & First-Time User Experience Patterns.md",
+        "06-Patterns/State Patterns.md"
+      ],
+      "evaluator": {
+        "criteria": [
+          "First useful task drives education.",
+          "Optional permissions do not block value.",
+          "Resume uses actual completion state.",
+          "Examples cannot be confused with real account data."
+        ],
+        "anti_patterns": [
+          "Mandatory carousel before work",
+          "Fake completed progress",
+          "Confetti replaces next useful action"
+        ]
+      },
+      "deliverable": "Task and information model; system mapping; interaction/state contract; responsive and input behavior; rationale, critique and evidence limits."
+    },
+    {
+      "id": "component-combobox",
+      "title": "Design-system combobox",
+      "platform": "Figma web",
+      "prompt": "Specify a reusable searchable single-value selection component for an existing code library. It supports async suggestions and custom text is prohibited. Figma properties should match actual APIs.",
+      "fixture": {
+        "existing_system": "Existing semantic text/border roles, input density variants, focus style and coded combobox.",
+        "constraints": [
+          "Long labels",
+          "IME composition",
+          "Stale suggestions",
+          "Disabled selected option"
+        ]
+      },
+      "required_routes": [
+        "05-Components/Component Principles.md",
+        "05-Components/Menus, Lists & Selection Controls.md",
+        "03-Design-Tokens/Token Architecture.md",
+        "04-Figma/Figma Production.md"
+      ],
+      "evaluator": {
+        "criteria": [
+          "Reusable need and invalid configurations are explicit.",
+          "Keyboard, focus, name and selection-versus-input states are specified.",
+          "Async, no-match and invalid selection behavior are defined.",
+          "Meaningful properties reuse semantic bindings without Cartesian variant explosion."
+        ],
+        "anti_patterns": [
+          "One variant per possible prop combination",
+          "Same menu/listbox/combobox behavior",
+          "New arbitrary radius"
+        ]
+      },
+      "deliverable": "Task and information model; system mapping; interaction/state contract; responsive and input behavior; rationale, critique and evidence limits."
+    },
+    {
+      "id": "checkout-flow",
+      "title": "Complete checkout feature",
+      "platform": "web mobile",
+      "prompt": "Buy a physical item with delivery choices, a price change at review and a payment challenge. The backend can reconcile a payment request and supports stable idempotency keys.",
+      "fixture": {
+        "existing_system": "Existing commerce controls, price typography, address fields and receipt pattern.",
+        "constraints": [
+          "Network timeout",
+          "Shipping unavailable",
+          "Long address",
+          "Back after challenge"
+        ]
+      },
+      "required_routes": [
+        "06-Patterns/Checkout & Payments.md",
+        "06-Patterns/Form Workflows.md",
+        "06-Patterns/State Patterns.md"
+      ],
+      "evaluator": {
+        "criteria": [
+          "Final total, currency, delivery and consent precede commit.",
+          "Price changes require understandable review.",
+          "Challenge, failure and unknown status preserve cart and input.",
+          "Receipt and retry rely on actual service status."
+        ],
+        "anti_patterns": [
+          "Optimistic payment success",
+          "Double submission with fresh keys",
+          "Mandatory sign-up without requirement"
+        ]
+      },
+      "deliverable": "Task and information model; system mapping; interaction/state contract; responsive and input behavior; rationale, critique and evidence limits."
+    },
+    {
+      "id": "empty-state",
+      "title": "Task-specific empty state",
+      "platform": "web",
+      "prompt": "Design the first-use state of a saved-report workspace, a zero-result filter state and a permission-restricted state.",
+      "fixture": {
+        "existing_system": "Existing report list, text link, button and subdued status role.",
+        "constraints": [
+          "No create permission",
+          "Filters from URL",
+          "Slow initial request",
+          "Long translated copy"
+        ]
+      },
+      "required_routes": [
+        "06-Patterns/State Patterns.md",
+        "05-Components/Feedback Components.md"
+      ],
+      "evaluator": {
+        "criteria": [
+          "Three causes are not collapsed into one message.",
+          "Next action fits cause and authority.",
+          "Data absence is distinguished from loading.",
+          "No unnecessary illustration is mandated."
+        ],
+        "anti_patterns": [
+          "Same create action when access is denied",
+          "Illustration hides recovery",
+          "Zero results shown as error"
+        ]
+      },
+      "deliverable": "Task and information model; system mapping; interaction/state contract; responsive and input behavior; rationale, critique and evidence limits."
+    },
+    {
+      "id": "creative-workspace",
+      "title": "Creative spatial editor",
+      "platform": "desktop tablet",
+      "prompt": "Design a vector editor with an artboard, layers, properties, history and direct manipulation. Preserve working context during selection and undo.",
+      "fixture": {
+        "existing_system": "Existing canvas chrome, selection bounds, compact panels and command library.",
+        "constraints": [
+          "Thousands of layers",
+          "Touch input",
+          "Accidental destructive operation",
+          "Reduced motion"
+        ]
+      },
+      "required_routes": [
+        "05-Components/Advanced Components.md",
+        "01-Foundation/Interaction Design.md",
+        "02-Visual-System/Art Direction.md"
+      ],
+      "evaluator": {
+        "criteria": [
+          "Canvas, layers and properties reflect current selection.",
+          "Keyboard and non-drag alternatives cover key operations.",
+          "Undo and tool switching preserve user control.",
+          "Responsive constraints preserve task context or explain supported scope."
+        ],
+        "anti_patterns": [
+          "Canvas replaced by generic cards",
+          "Drag-only key task",
+          "Marketing hero in workspace"
+        ]
+      },
+      "deliverable": "Task and information model; system mapping; interaction/state contract; responsive and input behavior; rationale, critique and evidence limits."
+    },
+    {
+      "id": "healthcare-workflow",
+      "title": "Healthcare record review",
+      "platform": "web desktop",
+      "prompt": "A clinician reviews a patient timeline and confirms a medication list. The repository must not invent clinical rules; supplied policy determines reconciliation and consent.",
+      "fixture": {
+        "existing_system": "Existing patient header, timeline, status notation and review actions.",
+        "constraints": [
+          "Similar patient names",
+          "Partial source outage",
+          "Restricted record",
+          "Long medication names"
+        ]
+      },
+      "required_routes": [
+        "01-Foundation/Product Thinking.md",
+        "06-Patterns/Data Management Patterns.md",
+        "01-Foundation/Content Design.md"
+      ],
+      "evaluator": {
+        "criteria": [
+          "Patient identity and record provenance remain clear.",
+          "Unknown and stale data are explicit.",
+          "Clinical policy dependencies are surfaced without invention.",
+          "Accidental commitment and recovery match supplied authority."
+        ],
+        "anti_patterns": [
+          "Invent clinical recommendations",
+          "Stale data displayed as verified",
+          "Decorative generic dashboard"
+        ]
+      },
+      "deliverable": "Task and information model; system mapping; interaction/state contract; responsive and input behavior; rationale, critique and evidence limits."
+    },
+    {
+      "id": "messaging",
+      "title": "Messaging continuity",
+      "platform": "mobile desktop",
+      "prompt": "Design threaded support messaging with attachments, send failure, unread position and draft persistence. Offline messages may be queued but are not delivered.",
+      "fixture": {
+        "existing_system": "Existing conversation rows, message typography, composer and delivery markers.",
+        "constraints": [
+          "Long thread",
+          "Upload failure",
+          "Reconnect",
+          "Keyboard and large text"
+        ]
+      },
+      "required_routes": [
+        "06-Patterns/Collaboration Patterns.md",
+        "05-Components/Media Components.md",
+        "06-Patterns/Notifications & Communication Patterns.md"
+      ],
+      "evaluator": {
+        "criteria": [
+          "Conversation continuity and unread context drive layout.",
+          "Queued, sent, delivered and failed differ.",
+          "Draft/attachment recovery survives interruptions.",
+          "Focus and announcements avoid interrupting reading."
+        ],
+        "anti_patterns": [
+          "Dashboard template around conversation",
+          "Queued means delivered",
+          "Auto-scroll steals reading position"
+        ]
+      },
+      "deliverable": "Task and information model; system mapping; interaction/state contract; responsive and input behavior; rationale, critique and evidence limits."
+    }
+  ]
+}

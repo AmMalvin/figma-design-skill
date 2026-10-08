@@ -1,0 +1,564 @@
+[
+  {
+    "id": "wcag22",
+    "source_name": "WCAG 2.2",
+    "url": "https://www.w3.org/TR/WCAG22/",
+    "product_studio": "W3C",
+    "platform": [
+      "web"
+    ],
+    "screen_flow": "Success criteria and conformance",
+    "pattern_category": "accessibility",
+    "categories": [
+      "standards",
+      "web-patterns"
+    ],
+    "authority_class": "standard",
+    "why_reference_matters": "Normative baseline for web accessibility decisions.",
+    "qualities_to_study": [
+      "Keyboard, focus, target sizing, contrast and reflow criteria"
+    ],
+    "interaction_principles": [
+      "Interaction must satisfy applicable keyboard and focus criteria."
+    ],
+    "visual_principles": [
+      "Text and meaningful non-text content need the applicable contrast."
+    ],
+    "ux_principles": [
+      "Conformance requires evaluating the complete scope, not judging aesthetics."
+    ],
+    "do_not_copy": [
+      "Do not replace criteria with a generic accessibility score."
+    ],
+    "adaptation_to_current_system": "Evaluate existing system roles and interactions against applicable AA criteria; repair conflicts through approved semantic roles.",
+    "reviewed_date": "2026-10-08",
+    "checked_date": "2026-10-08",
+    "status": "reviewed",
+    "evidence_limits": "Specification inspected; no product or runtime conformance tested."
+  },
+  {
+    "id": "apg-combobox",
+    "source_name": "ARIA APG Combobox",
+    "url": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/",
+    "product_studio": "W3C WAI",
+    "platform": [
+      "web"
+    ],
+    "screen_flow": "Combobox semantics and keyboard model",
+    "pattern_category": "selection",
+    "categories": [
+      "interaction-patterns",
+      "web-patterns"
+    ],
+    "authority_class": "interaction-documentation",
+    "why_reference_matters": "Clarifies behavior beyond drawing a dropdown.",
+    "qualities_to_study": [
+      "Editable versus select-only models"
+    ],
+    "interaction_principles": [
+      "Specify keyboard and focus behavior for the chosen model."
+    ],
+    "visual_principles": [],
+    "ux_principles": [
+      "An accessible interaction contract includes semantics and naming."
+    ],
+    "do_not_copy": [
+      "Do not add ARIA to replace suitable native controls without need."
+    ],
+    "adaptation_to_current_system": "Map the selected model onto the existing control API; validate its real implementation.",
+    "reviewed_date": "2026-10-08",
+    "checked_date": "2026-10-08",
+    "status": "reviewed",
+    "evidence_limits": "Pattern document inspected; examples do not prove custom implementation accessibility."
+  },
+  {
+    "id": "apg-dialog",
+    "source_name": "ARIA APG Modal Dialog",
+    "url": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/",
+    "product_studio": "W3C WAI",
+    "platform": [
+      "web"
+    ],
+    "screen_flow": "Modal dialog focus and dismissal",
+    "pattern_category": "overlays",
+    "categories": [
+      "interaction-patterns",
+      "web-patterns"
+    ],
+    "authority_class": "interaction-documentation",
+    "why_reference_matters": "Separates modality from overlay position.",
+    "qualities_to_study": [
+      "Focus entry, containment and restoration"
+    ],
+    "interaction_principles": [
+      "Modal behavior includes managed focus and an exit path."
+    ],
+    "visual_principles": [],
+    "ux_principles": [
+      "Preserve task continuity after dismissal."
+    ],
+    "do_not_copy": [
+      "Do not apply modal semantics to a nonmodal comparison panel."
+    ],
+    "adaptation_to_current_system": "Specify focus entry/return and escape behavior using the existing dialog component.",
+    "reviewed_date": "2026-10-08",
+    "checked_date": "2026-10-08",
+    "status": "reviewed",
+    "evidence_limits": "Pattern document inspected; focus behavior needs browser and assistive-technology testing."
+  },
+  {
+    "id": "figma-components",
+    "source_name": "Figma components",
+    "url": "https://help.figma.com/hc/en-us/articles/360038662654-Guide-to-components-in-Figma",
+    "product_studio": "Figma",
+    "platform": [
+      "Figma"
+    ],
+    "screen_flow": "Reusable main components and instances",
+    "pattern_category": "component architecture",
+    "categories": [
+      "design-system-references"
+    ],
+    "authority_class": "design-system-documentation",
+    "why_reference_matters": "Grounds reuse in actual Figma mechanisms.",
+    "qualities_to_study": [
+      "Reusable components and instances"
+    ],
+    "interaction_principles": [],
+    "visual_principles": [
+      "Reuse the appropriate component rather than recreating its appearance."
+    ],
+    "ux_principles": [],
+    "do_not_copy": [
+      "Do not detach instances just to restyle them."
+    ],
+    "adaptation_to_current_system": "Inspect existing library assets and preserve component references before extending them.",
+    "reviewed_date": "2026-10-08",
+    "checked_date": "2026-10-08",
+    "status": "reviewed",
+    "evidence_limits": "Documentation inspected; no user's Figma file was provided or mutated."
+  },
+  {
+    "id": "figma-properties",
+    "source_name": "Figma component properties",
+    "url": "https://help.figma.com/hc/en-us/articles/5579474826519-Explore-component-properties",
+    "product_studio": "Figma",
+    "platform": [
+      "Figma"
+    ],
+    "screen_flow": "Property types and controls",
+    "pattern_category": "component API",
+    "categories": [
+      "design-system-references"
+    ],
+    "authority_class": "design-system-documentation",
+    "why_reference_matters": "Provides configuration mechanisms beyond multiplying variants.",
+    "qualities_to_study": [
+      "Text, visibility, instance swap, variant and slot properties"
+    ],
+    "interaction_principles": [
+      "Boolean layer visibility can affect prototype structure; inspect behavior."
+    ],
+    "visual_principles": [
+      "Use properties matching editable content and configuration."
+    ],
+    "ux_principles": [
+      "Expose meaningful controls to component consumers."
+    ],
+    "do_not_copy": [
+      "Do not assume every tool or file supports every documented property."
+    ],
+    "adaptation_to_current_system": "Align properties with implementation concepts and confirm supported capabilities.",
+    "reviewed_date": "2026-10-08",
+    "checked_date": "2026-10-08",
+    "status": "reviewed",
+    "evidence_limits": "Documentation inspected including current property table; tool support and actual component bindings untested."
+  },
+  {
+    "id": "figma-variables",
+    "source_name": "Figma variables",
+    "url": "https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma",
+    "product_studio": "Figma",
+    "platform": [
+      "Figma"
+    ],
+    "screen_flow": "Variables, collections and modes",
+    "pattern_category": "tokens",
+    "categories": [
+      "design-system-references"
+    ],
+    "authority_class": "design-system-documentation",
+    "why_reference_matters": "Clarifies typed values and scalable configuration.",
+    "qualities_to_study": [
+      "Collections, modes and aliases"
+    ],
+    "interaction_principles": [],
+    "visual_principles": [
+      "Bind supported properties to existing semantic variables."
+    ],
+    "ux_principles": [],
+    "do_not_copy": [
+      "Do not force composite styles into a single unsupported variable."
+    ],
+    "adaptation_to_current_system": "Keep stable variable IDs; map semantic roles and inspect mode values.",
+    "reviewed_date": "2026-10-08",
+    "checked_date": "2026-10-08",
+    "status": "reviewed",
+    "evidence_limits": "Documentation inspected; project bindings and library publishing are untested."
+  },
+  {
+    "id": "apple-hig",
+    "source_name": "Apple HIG accessibility",
+    "url": "https://developer.apple.com/tutorials/data/design/human-interface-guidelines/accessibility.json",
+    "product_studio": "Apple",
+    "platform": [
+      "iOS",
+      "iPadOS",
+      "macOS"
+    ],
+    "screen_flow": "Accessibility: text scaling, input alternatives, labeling and motion",
+    "pattern_category": "platform behavior",
+    "categories": [
+      "mobile-patterns",
+      "interaction-patterns"
+    ],
+    "authority_class": "platform-guidance",
+    "why_reference_matters": "First-party accessibility guidance for Apple platform design.",
+    "qualities_to_study": [
+      "Dynamic Type and input alternatives",
+      "Labels, control geometry and motion preferences"
+    ],
+    "interaction_principles": [
+      "Offer alternatives to gestures and test platform assistive input.",
+      "Preserve system keyboard behavior and reduce unwanted motion."
+    ],
+    "visual_principles": [
+      "Support larger text and meaningful non-color cues."
+    ],
+    "ux_principles": [
+      "Allow user preferences and avoid timed dismissal of necessary information."
+    ],
+    "do_not_copy": [
+      "Do not apply a single platform metric to every OS or interpret guidance as a complete app test."
+    ],
+    "adaptation_to_current_system": "Use existing native components and project roles, then verify the target platform's accessibility settings and current controls.",
+    "reviewed_date": "2026-10-08",
+    "checked_date": "2026-10-08",
+    "status": "reviewed",
+    "evidence_limits": "Landing page was a JavaScript shell. Substantive first-party DocC accessibility JSON was inspected; other HIG topics, rendered examples and an app were not tested."
+  },
+  {
+    "id": "carbon-table",
+    "source_name": "Carbon data table guidelines",
+    "url": "https://www.carbondesignsystem.com/building-blocks/core/components/data-table/guidelines",
+    "product_studio": "IBM Carbon",
+    "platform": [
+      "web"
+    ],
+    "screen_flow": "Table anatomy, selection and batch actions",
+    "pattern_category": "enterprise data",
+    "categories": [
+      "dashboard-patterns",
+      "interaction-patterns",
+      "design-system-references"
+    ],
+    "authority_class": "design-system-documentation",
+    "why_reference_matters": "A mature enterprise table contract with task-specific limits.",
+    "qualities_to_study": [
+      "Selection, batch context, expansion and toolbar anatomy"
+    ],
+    "interaction_principles": [
+      "Batch operations require explicit selected-item context."
+    ],
+    "visual_principles": [
+      "Allocate useful width for comparison."
+    ],
+    "ux_principles": [
+      "Use tables for structured data tasks; do not assume spreadsheet editing."
+    ],
+    "do_not_copy": [
+      "Do not import Carbon row sizes, brand, or every modifier."
+    ],
+    "adaptation_to_current_system": "Use local density tokens and table primitives; choose only features required by the task.",
+    "reviewed_date": "2026-10-08",
+    "checked_date": "2026-10-08",
+    "status": "reviewed",
+    "evidence_limits": "Guidelines inspected; Carbon-specific examples are not a universal table mandate."
+  },
+  {
+    "id": "atlassian-tokens",
+    "source_name": "Atlassian design tokens explained",
+    "url": "https://atlassian.design/foundations/tokens/design-tokens",
+    "product_studio": "Atlassian",
+    "platform": [
+      "web",
+      "Figma"
+    ],
+    "screen_flow": "Token naming, themes and usage",
+    "pattern_category": "semantic tokens",
+    "categories": [
+      "design-system-references"
+    ],
+    "authority_class": "design-system-documentation",
+    "why_reference_matters": "Explains meaning-based token selection.",
+    "qualities_to_study": [
+      "Names reflect usage, themes change values"
+    ],
+    "interaction_principles": [],
+    "visual_principles": [
+      "Choose tokens for their semantic purpose, not matching current colors."
+    ],
+    "ux_principles": [
+      "Stable roles enable coherent theme changes."
+    ],
+    "do_not_copy": [
+      "Do not copy Atlassian values or merge distinct meanings because values match."
+    ],
+    "adaptation_to_current_system": "Map roles to existing local tokens and inspect every supported mode.",
+    "reviewed_date": "2026-10-08",
+    "checked_date": "2026-10-08",
+    "status": "reviewed",
+    "evidence_limits": "Specific token document inspected; no local token library tested."
+  },
+  {
+    "id": "fluent-design",
+    "source_name": "Fluent 2 start designing",
+    "url": "https://fluent2.microsoft.design/get-started/design",
+    "product_studio": "Microsoft",
+    "platform": [
+      "web",
+      "iOS",
+      "Android",
+      "Figma"
+    ],
+    "screen_flow": "UI kit tiers, properties and styling variables",
+    "pattern_category": "cross-platform systems",
+    "categories": [
+      "design-system-references",
+      "mobile-patterns",
+      "web-patterns"
+    ],
+    "authority_class": "design-system-documentation",
+    "why_reference_matters": "Connects platform assets, component APIs and code.",
+    "qualities_to_study": [
+      "Core kits versus extensions; global and alias variables"
+    ],
+    "interaction_principles": [
+      "Component properties map to meaningful code concepts."
+    ],
+    "visual_principles": [
+      "Shared variables support styling across platform assets."
+    ],
+    "ux_principles": [],
+    "do_not_copy": [
+      "Do not import Microsoft styling into an unrelated product."
+    ],
+    "adaptation_to_current_system": "Preserve project foundations while aligning platform components with actual code contracts.",
+    "reviewed_date": "2026-10-08",
+    "checked_date": "2026-10-08",
+    "status": "reviewed",
+    "evidence_limits": "Design overview inspected; individual platform components and code libraries not tested."
+  },
+  {
+    "id": "radix-accessibility",
+    "source_name": "Radix accessibility overview",
+    "url": "https://www.radix-ui.com/primitives/docs/overview/accessibility",
+    "product_studio": "Radix",
+    "platform": [
+      "web"
+    ],
+    "screen_flow": "Labels, keyboard and focus management",
+    "pattern_category": "accessible primitives",
+    "categories": [
+      "interaction-patterns",
+      "web-patterns",
+      "design-system-references"
+    ],
+    "authority_class": "interaction-documentation",
+    "why_reference_matters": "Illustrates behavioral responsibilities of reusable primitives.",
+    "qualities_to_study": [
+      "Accessible labels, expected keys and focus"
+    ],
+    "interaction_principles": [
+      "Define naming and focus along with keyboard behavior."
+    ],
+    "visual_principles": [],
+    "ux_principles": [
+      "Component authors still supply contextual labels."
+    ],
+    "do_not_copy": [
+      "Do not assume a composed product passes accessibility because its primitive library is tested."
+    ],
+    "adaptation_to_current_system": "Use the project's implementation library and test the composed behavior.",
+    "reviewed_date": "2026-10-08",
+    "checked_date": "2026-10-08",
+    "status": "reviewed",
+    "evidence_limits": "Overview inspected; no package version, custom composition or runtime verified."
+  },
+  {
+    "id": "nn-heuristics",
+    "source_name": "Nielsen's ten usability heuristics",
+    "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+    "product_studio": "Nielsen Norman Group",
+    "platform": [
+      "cross-platform"
+    ],
+    "screen_flow": "Heuristic evaluation",
+    "pattern_category": "critique",
+    "categories": [
+      "reference-evaluation",
+      "interaction-patterns"
+    ],
+    "authority_class": "usability-heuristic",
+    "why_reference_matters": "A diagnostic lens for task failures.",
+    "qualities_to_study": [
+      "Status, user control, error prevention and recovery"
+    ],
+    "interaction_principles": [
+      "Feedback and exits should match the actual system state."
+    ],
+    "visual_principles": [],
+    "ux_principles": [
+      "Recognition and understandable recovery reduce avoidable effort."
+    ],
+    "do_not_copy": [
+      "Do not treat a heuristic checklist as usability-test results."
+    ],
+    "adaptation_to_current_system": "Apply to concrete task evidence, with severity and a proposed repair.",
+    "reviewed_date": "2026-10-08",
+    "checked_date": "2026-10-08",
+    "status": "reviewed",
+    "evidence_limits": "Article inspected; heuristics are broad guidance rather than observed user success."
+  },
+  {
+    "id": "mobbin-catalog",
+    "source_name": "Mobbin",
+    "url": "https://mobbin.com/",
+    "product_studio": "Mobbin",
+    "platform": [
+      "mobile",
+      "web"
+    ],
+    "screen_flow": "Catalog overview; select a specific shipped flow before extraction",
+    "pattern_category": "production-flow discovery",
+    "categories": [
+      "product-benchmarks",
+      "mobile-patterns",
+      "web-patterns"
+    ],
+    "authority_class": "production-pattern",
+    "why_reference_matters": "Discovery route for shipped screens, flows and interaction references.",
+    "qualities_to_study": [
+      "Task-matched complete flows rather than isolated attractive screenshots"
+    ],
+    "interaction_principles": [],
+    "visual_principles": [],
+    "ux_principles": [],
+    "do_not_copy": [
+      "Do not infer performance, conversion, focus or recovery from catalog listings."
+    ],
+    "adaptation_to_current_system": "Inspect a specific accessible flow and map its logic through the current system.",
+    "reviewed_date": "2026-10-08",
+    "checked_date": "2026-10-08",
+    "status": "reviewed",
+    "evidence_limits": "Catalog overview inspected; no particular listed product flow was inspected or tested."
+  },
+  {
+    "id": "awwwards",
+    "source_name": "Awwwards",
+    "url": "https://www.awwwards.com/",
+    "product_studio": "Awwwards",
+    "platform": [
+      "web"
+    ],
+    "screen_flow": "Award catalog; specific site to select",
+    "pattern_category": "art direction",
+    "categories": [
+      "visual-inspiration",
+      "motion-patterns"
+    ],
+    "authority_class": "visual-inspiration",
+    "why_reference_matters": "Discovery route for visual and motion exploration.",
+    "qualities_to_study": [
+      "Composition, typography and task-appropriate transitions"
+    ],
+    "interaction_principles": [],
+    "visual_principles": [],
+    "ux_principles": [],
+    "do_not_copy": [
+      "Do not copy brand, inaccessible motion or treat awards as usability evidence."
+    ],
+    "adaptation_to_current_system": "Inspect a selected running site and extract only compatible composition or motion logic.",
+    "reviewed_date": null,
+    "checked_date": "2026-10-08",
+    "status": "unavailable",
+    "evidence_limits": "Retrieval failed; no site, screenshot or motion sequence inspected."
+  },
+  {
+    "id": "css-awards",
+    "source_name": "CSS Design Awards",
+    "url": "https://www.cssdesignawards.com/",
+    "product_studio": "CSS Design Awards",
+    "platform": [
+      "web"
+    ],
+    "screen_flow": "Award catalog overview; specific site to select",
+    "pattern_category": "art direction",
+    "categories": [
+      "visual-inspiration",
+      "motion-patterns"
+    ],
+    "authority_class": "visual-inspiration",
+    "why_reference_matters": "Discovery route for high-fidelity web execution.",
+    "qualities_to_study": [
+      "Composition and expressive execution to investigate"
+    ],
+    "interaction_principles": [],
+    "visual_principles": [],
+    "ux_principles": [],
+    "do_not_copy": [
+      "Do not copy award scores as product evidence or assume listed websites are accessible."
+    ],
+    "adaptation_to_current_system": "Inspect the actual site, test relevant behavior, then translate useful principles through project tokens.",
+    "reviewed_date": "2026-10-08",
+    "checked_date": "2026-10-08",
+    "status": "reviewed",
+    "evidence_limits": "Catalog descriptions inspected; no running awarded site or rendered motion was inspected."
+  },
+  {
+    "id": "govuk-payment-entry",
+    "source_name": "GOV.UK payment service entry",
+    "url": "https://www.gov.uk/pay-self-assessment-tax-bill",
+    "product_studio": "GOV.UK / HMRC",
+    "platform": [
+      "web"
+    ],
+    "screen_flow": "Public payment entry and method-information page",
+    "pattern_category": "service entry and content architecture",
+    "categories": [
+      "product-benchmarks",
+      "web-patterns"
+    ],
+    "authority_class": "production-pattern",
+    "why_reference_matters": "A shipped public-service entry integrates action, method choice, timing and recovery information.",
+    "qualities_to_study": [
+      "Task title and contents structure",
+      "Action and support context"
+    ],
+    "interaction_principles": [
+      "Entry offers an actionable service route and separate method information; this is a content observation."
+    ],
+    "visual_principles": [],
+    "ux_principles": [
+      "Place prerequisites and consequential context near the task entry; inferred adaptation from observed content organization."
+    ],
+    "do_not_copy": [
+      "Do not copy government branding, tax policy, timing rules or assume downstream payment behavior."
+    ],
+    "adaptation_to_current_system": "Apply task-led information order through local headings, links and service-entry components; use the current product's actual policy.",
+    "reviewed_date": "2026-10-08",
+    "checked_date": "2026-10-08",
+    "status": "reviewed",
+    "evidence_limits": "Public page text and links inspected. No downstream payment, login, rendered layout, keyboard behavior or transaction was executed."
+  }
+]
